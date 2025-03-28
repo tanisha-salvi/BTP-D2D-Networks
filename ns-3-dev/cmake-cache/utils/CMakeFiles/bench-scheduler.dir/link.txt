@@ -1,0 +1,1 @@
+/usr/bin/c++ -Os -g -DNDEBUG CMakeFiles/bench-scheduler.dir/bench-scheduler.cc.o -o ../../build/utils/ns3.42-bench-scheduler-default   -L/mnt/d/Downloads/ns-3-dev/build/lib  -Wl,-rpath,/mnt/d/Downloads/ns-3-dev/build/lib -Wl,--no-as-needed ../../build/lib/libns3.42-core-default.so -Wl,--as-needed -Wl,--no-as-needed 
