@@ -113,8 +113,12 @@ void
 LteRlcUm::DoTransmitPdcpPdu(Ptr<Packet> p)
 {
     NS_LOG_FUNCTION(this << m_rnti << (uint32_t)m_lcid << p->GetSize());
+    std::cout << "lte-rlc-um.cc\n";
     if (m_txBufferSize + p->GetSize() <= m_maxTxBufferSize)
     {
+        std::cout << "IF LOOP RNTI = " << (int)m_rnti << ", ";
+        std::cout << "NumOfBuffers = " << (int)m_txBuffer.size();
+        std::cout << "txBufferSize = " << (int)m_txBufferSize << "\n";
         if (m_enablePdcpDiscarding)
         {
             // discart the packet
@@ -151,6 +155,13 @@ LteRlcUm::DoTransmitPdcpPdu(Ptr<Packet> p)
     else
     {
         // Discard full RLC SDU
+
+        std::cout << "RNTI = " << (int)m_rnti << ": ";
+        std::cout << "Tx Buffer is full. RLC SDU discarded\n";
+        std::cout << "MaxTxBufferSize = " << (int)m_maxTxBufferSize << ", ";
+        std::cout << "txBufferSize    = " << (int)m_txBufferSize << ", ";
+        std::cout << "packet size     = " << (int)p->GetSize() << "\n";
+
         NS_LOG_INFO("Tx Buffer is full. RLC SDU discarded");
         NS_LOG_LOGIC("MaxTxBufferSize = " << m_maxTxBufferSize);
         NS_LOG_LOGIC("txBufferSize    = " << m_txBufferSize);

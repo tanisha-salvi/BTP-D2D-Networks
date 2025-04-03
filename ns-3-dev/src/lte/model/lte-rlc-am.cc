@@ -160,6 +160,7 @@ LteRlcAm::DoDispose()
 void
 LteRlcAm::DoTransmitPdcpPdu(Ptr<Packet> p)
 {
+    std::cout << "lte-rlc-am.cc\n";
     NS_LOG_FUNCTION(this << m_rnti << (uint32_t)m_lcid << p->GetSize());
 
     if (m_txonBufferSize + p->GetSize() <= m_maxTxBufferSize || (m_maxTxBufferSize == 0))

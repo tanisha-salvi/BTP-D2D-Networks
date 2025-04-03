@@ -288,6 +288,7 @@ LteRlcSm::DoDispose()
 void
 LteRlcSm::DoTransmitPdcpPdu(Ptr<Packet> p)
 {
+    std::cout << "lte-rlc.cc\n";
     NS_LOG_FUNCTION(this << p);
 }
 
