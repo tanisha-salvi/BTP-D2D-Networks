@@ -1,8 +1,8 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/vht/vht-configuration.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/vht/vht-configuration.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/vht/vht-configuration.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/vht/vht-configuration.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -109,16 +109,16 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/boolean.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/boolean.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/tuple.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/tuple.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/tuple.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
  /usr/include/c++/11/algorithm

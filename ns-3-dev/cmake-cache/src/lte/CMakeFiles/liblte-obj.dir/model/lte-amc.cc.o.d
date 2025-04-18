@@ -1,8 +1,8 @@
 src/lte/CMakeFiles/liblte-obj.dir/model/lte-amc.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-amc.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-amc.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-amc.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-amc.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -108,32 +108,32 @@ src/lte/CMakeFiles/liblte-obj.dir/model/lte-amc.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-mi-error-model.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-harq-phy.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-mi-error-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-harq-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /usr/include/c++/11/map /usr/include/c++/11/math.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
  /usr/include/c++/11/cstddef \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/enum.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/enum.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_iterator_base_types.h \
  /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/math.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/math.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/math.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/examples
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/channel-models/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/energy/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/error-model/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/ipv6/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/matrix-topology/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/realtime/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/stats/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tcp/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/traffic-control/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/udp/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/udp-client-server/cmake_install.cmake")
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/examples/wireless/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/channel-models/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/energy/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/error-model/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/ipv6/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/matrix-topology/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/realtime/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/stats/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tcp/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/traffic-control/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/udp/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/udp-client-server/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/wireless/cmake_install.cmake")
 
 endif()
 

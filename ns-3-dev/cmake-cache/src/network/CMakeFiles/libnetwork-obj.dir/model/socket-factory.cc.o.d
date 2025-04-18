@@ -1,8 +1,8 @@
 src/network/CMakeFiles/libnetwork-obj.dir/model/socket-factory.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/network/model/socket-factory.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/network/model/socket-factory.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/network/model/socket-factory.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/network/model/socket-factory.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -108,7 +108,7 @@ src/network/CMakeFiles/libnetwork-obj.dir/model/socket-factory.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h

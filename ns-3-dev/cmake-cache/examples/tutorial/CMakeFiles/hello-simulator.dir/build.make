@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include examples/tutorial/CMakeFiles/hello-simulator.dir/depend.make
@@ -74,16 +74,16 @@ examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o: ../exampl
 examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o: examples/tutorial/CMakeFiles/hello-simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o -MF CMakeFiles/hello-simulator.dir/hello-simulator.cc.o.d -o CMakeFiles/hello-simulator.dir/hello-simulator.cc.o -c /mnt/d/Downloads/ns-3-dev/examples/tutorial/hello-simulator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o -MF CMakeFiles/hello-simulator.dir/hello-simulator.cc.o.d -o CMakeFiles/hello-simulator.dir/hello-simulator.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial/hello-simulator.cc
 
 examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello-simulator.dir/hello-simulator.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/examples/tutorial/hello-simulator.cc > CMakeFiles/hello-simulator.dir/hello-simulator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial/hello-simulator.cc > CMakeFiles/hello-simulator.dir/hello-simulator.cc.i
 
 examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello-simulator.dir/hello-simulator.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/examples/tutorial/hello-simulator.cc -o CMakeFiles/hello-simulator.dir/hello-simulator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial/hello-simulator.cc -o CMakeFiles/hello-simulator.dir/hello-simulator.cc.s
 
 # Object files for target hello-simulator
 hello__simulator_OBJECTS = \
@@ -95,18 +95,18 @@ hello__simulator_EXTERNAL_OBJECTS =
 ../build/examples/tutorial/ns3.42-hello-simulator-default: examples/tutorial/CMakeFiles/hello-simulator.dir/hello-simulator.cc.o
 ../build/examples/tutorial/ns3.42-hello-simulator-default: examples/tutorial/CMakeFiles/hello-simulator.dir/build.make
 ../build/examples/tutorial/ns3.42-hello-simulator-default: examples/tutorial/CMakeFiles/hello-simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/tutorial/ns3.42-hello-simulator-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello-simulator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/tutorial/ns3.42-hello-simulator-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello-simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/tutorial/CMakeFiles/hello-simulator.dir/build: ../build/examples/tutorial/ns3.42-hello-simulator-default
 .PHONY : examples/tutorial/CMakeFiles/hello-simulator.dir/build
 
 examples/tutorial/CMakeFiles/hello-simulator.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/hello-simulator.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/hello-simulator.dir/cmake_clean.cmake
 .PHONY : examples/tutorial/CMakeFiles/hello-simulator.dir/clean
 
 examples/tutorial/CMakeFiles/hello-simulator.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/examples/tutorial /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial/CMakeFiles/hello-simulator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial/CMakeFiles/hello-simulator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/tutorial/CMakeFiles/hello-simulator.dir/depend
 

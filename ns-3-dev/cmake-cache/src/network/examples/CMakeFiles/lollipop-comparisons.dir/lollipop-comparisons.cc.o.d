@@ -1,9 +1,9 @@
 src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/network/examples/lollipop-comparisons.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/network/examples/lollipop-comparisons.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lollipop-counter.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lollipop-counter.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/lollipop-counter.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \

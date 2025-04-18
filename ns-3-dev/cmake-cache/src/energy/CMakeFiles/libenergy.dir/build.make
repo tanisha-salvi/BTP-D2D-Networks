@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/energy/CMakeFiles/libenergy.dir/depend.make
@@ -74,25 +74,25 @@ libenergy_OBJECTS =
 
 # External object files for target libenergy
 libenergy_EXTERNAL_OBJECTS = \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-harvester-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-source-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-container.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-model-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-source-container.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/generic-battery-model-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/li-ion-energy-source-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-harvester.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-source.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model-container.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/energy-harvester.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/energy-source.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/generic-battery-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/li-ion-energy-source.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/rv-battery-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/simple-device-energy-model.cc.o"
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-harvester-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-source-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-container.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-model-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-source-container.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/generic-battery-model-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/li-ion-energy-source-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-harvester.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-source.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model-container.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/energy-harvester.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/energy-source.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/generic-battery-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/li-ion-energy-source.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/rv-battery-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/simple-device-energy-model.cc.o"
 
 ../build/lib/libns3.42-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-harvester-helper.cc.o
 ../build/lib/libns3.42-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-source-helper.cc.o
@@ -116,18 +116,18 @@ libenergy_EXTERNAL_OBJECTS = \
 ../build/lib/libns3.42-energy-default.so: src/energy/CMakeFiles/libenergy.dir/build.make
 ../build/lib/libns3.42-energy-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/lib/libns3.42-energy-default.so: src/energy/CMakeFiles/libenergy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.42-energy-default.so"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libenergy.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.42-energy-default.so"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libenergy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/energy/CMakeFiles/libenergy.dir/build: ../build/lib/libns3.42-energy-default.so
 .PHONY : src/energy/CMakeFiles/libenergy.dir/build
 
 src/energy/CMakeFiles/libenergy.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy && $(CMAKE_COMMAND) -P CMakeFiles/libenergy.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy && $(CMAKE_COMMAND) -P CMakeFiles/libenergy.dir/cmake_clean.cmake
 .PHONY : src/energy/CMakeFiles/libenergy.dir/clean
 
 src/energy/CMakeFiles/libenergy.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/energy /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/CMakeFiles/libenergy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/energy/CMakeFiles/libenergy.dir/depend
 

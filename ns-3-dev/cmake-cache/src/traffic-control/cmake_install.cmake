@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/traffic-control
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-traffic-control-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-traffic-control-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-traffic-control-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-traffic-control-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-traffic-control-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-traffic-control-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-traffic-control-default.so")
@@ -67,30 +67,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/helper/queue-disc-container.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/helper/traffic-control-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/cobalt-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/codel-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/fifo-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/fq-cobalt-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/fq-codel-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/fq-pie-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/mq-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/packet-filter.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/pfifo-fast-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/pie-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/prio-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/red-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/tbf-queue-disc.h"
-    "/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/traffic-control-layer.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/traffic-control-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/helper/queue-disc-container.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/helper/traffic-control-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/cobalt-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/codel-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/fifo-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/fq-cobalt-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/fq-codel-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/fq-pie-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/mq-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/packet-filter.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/pfifo-fast-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/pie-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/prio-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/red-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/tbf-queue-disc.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/traffic-control/model/traffic-control-layer.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traffic-control-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/traffic-control/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/traffic-control/examples/cmake_install.cmake")
 
 endif()
 

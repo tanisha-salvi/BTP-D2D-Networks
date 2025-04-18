@@ -1,7 +1,7 @@
 src/core/examples/CMakeFiles/main-ptr.dir/main-ptr.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/examples/main-ptr.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/examples/main-ptr.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/command-line.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
@@ -102,7 +102,7 @@ src/core/examples/CMakeFiles/main-ptr.dir/main-ptr.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
@@ -115,11 +115,11 @@ src/core/examples/CMakeFiles/main-ptr.dir/main-ptr.cc.o: \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /usr/include/c++/11/list \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h

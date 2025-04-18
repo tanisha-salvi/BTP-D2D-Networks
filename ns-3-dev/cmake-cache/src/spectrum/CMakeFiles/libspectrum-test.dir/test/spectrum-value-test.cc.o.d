@@ -1,11 +1,11 @@
 src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/spectrum/test/spectrum-value-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/spectrum/test/spectrum-value-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/spectrum/test/spectrum-test.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/spectrum/test/spectrum-test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -26,17 +26,17 @@ src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
  /usr/include/c++/11/limits /usr/include/c++/11/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/list \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -123,7 +123,7 @@ src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-converter.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-converter.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-converter.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /usr/include/c++/11/cmath /usr/include/math.h \

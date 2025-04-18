@@ -1,8 +1,8 @@
 src/uan/CMakeFiles/libuan-obj.dir/model/uan-tx-mode.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/uan/model/uan-tx-mode.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/uan/model/uan-tx-mode.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/uan/model/uan-tx-mode.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/uan/model/uan-tx-mode.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -109,5 +109,5 @@ src/uan/CMakeFiles/libuan-obj.dir/model/uan-tx-mode.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h

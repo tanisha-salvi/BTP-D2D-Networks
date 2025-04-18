@@ -1,7 +1,7 @@
 contrib/nr/CMakeFiles/libnr-test.dir/test/nr-sl-simple-multi-lc-example-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/test/nr-sl-simple-multi-lc-example-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/test/nr-sl-simple-multi-lc-example-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/example-as-test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/example-as-test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/example-as-test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \

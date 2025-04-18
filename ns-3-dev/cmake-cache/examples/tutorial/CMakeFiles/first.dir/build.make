@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include examples/tutorial/CMakeFiles/first.dir/depend.make
@@ -74,16 +74,16 @@ examples/tutorial/CMakeFiles/first.dir/first.cc.o: ../examples/tutorial/first.cc
 examples/tutorial/CMakeFiles/first.dir/first.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 examples/tutorial/CMakeFiles/first.dir/first.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 examples/tutorial/CMakeFiles/first.dir/first.cc.o: examples/tutorial/CMakeFiles/first.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/tutorial/CMakeFiles/first.dir/first.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/tutorial/CMakeFiles/first.dir/first.cc.o -MF CMakeFiles/first.dir/first.cc.o.d -o CMakeFiles/first.dir/first.cc.o -c /mnt/d/Downloads/ns-3-dev/examples/tutorial/first.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/tutorial/CMakeFiles/first.dir/first.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/tutorial/CMakeFiles/first.dir/first.cc.o -MF CMakeFiles/first.dir/first.cc.o.d -o CMakeFiles/first.dir/first.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial/first.cc
 
 examples/tutorial/CMakeFiles/first.dir/first.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/first.dir/first.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/examples/tutorial/first.cc > CMakeFiles/first.dir/first.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial/first.cc > CMakeFiles/first.dir/first.cc.i
 
 examples/tutorial/CMakeFiles/first.dir/first.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/first.dir/first.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/examples/tutorial/first.cc -o CMakeFiles/first.dir/first.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial/first.cc -o CMakeFiles/first.dir/first.cc.s
 
 # Object files for target first
 first_OBJECTS = \
@@ -96,18 +96,18 @@ first_EXTERNAL_OBJECTS =
 ../build/examples/tutorial/ns3.42-first-default: examples/tutorial/CMakeFiles/first.dir/build.make
 ../build/examples/tutorial/ns3.42-first-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/examples/tutorial/ns3.42-first-default: examples/tutorial/CMakeFiles/first.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/tutorial/ns3.42-first-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/tutorial/ns3.42-first-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/tutorial/CMakeFiles/first.dir/build: ../build/examples/tutorial/ns3.42-first-default
 .PHONY : examples/tutorial/CMakeFiles/first.dir/build
 
 examples/tutorial/CMakeFiles/first.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/first.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial && $(CMAKE_COMMAND) -P CMakeFiles/first.dir/cmake_clean.cmake
 .PHONY : examples/tutorial/CMakeFiles/first.dir/clean
 
 examples/tutorial/CMakeFiles/first.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/examples/tutorial /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/tutorial/CMakeFiles/first.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/tutorial /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/tutorial/CMakeFiles/first.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/tutorial/CMakeFiles/first.dir/depend
 

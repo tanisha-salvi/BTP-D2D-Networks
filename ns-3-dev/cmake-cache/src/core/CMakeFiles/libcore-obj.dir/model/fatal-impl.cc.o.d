@@ -1,13 +1,13 @@
 src/core/CMakeFiles/libcore-obj.dir/model/fatal-impl.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/fatal-impl.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/fatal-impl.h \
  /usr/include/c++/11/ostream \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log-macros-disabled.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log-macros-enabled.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/node-printer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/time-printer.h \
  /usr/include/c++/11/iostream \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/c++/11/string /usr/include/c++/11/type_traits \

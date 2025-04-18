@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/scratch
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/scratch/nested-subdir/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch/nested-subdir/cmake_install.cmake")
 
 endif()
 

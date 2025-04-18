@@ -1,10 +1,10 @@
 contrib/nr-prose/CMakeFiles/libnr-prose-obj.dir/helper/nr-sl-relay-trace.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr-prose/helper/nr-sl-relay-trace.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/helper/nr-sl-relay-trace.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr-prose/helper/nr-sl-relay-trace.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lte-stats-calculator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/helper/nr-sl-relay-trace.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-stats-calculator.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/helper/lte-stats-calculator.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -110,12 +110,12 @@ contrib/nr-prose/CMakeFiles/libnr-prose-obj.dir/helper/nr-sl-relay-trace.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
  /usr/include/c++/11/map /usr/include/c++/11/fstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
@@ -123,7 +123,7 @@ contrib/nr-prose/CMakeFiles/libnr-prose-obj.dir/helper/nr-sl-relay-trace.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \

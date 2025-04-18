@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Utility rule file for run_test_py.
 
@@ -67,7 +67,7 @@ include CMakeFiles/run_test_py.dir/compiler_depend.make
 include CMakeFiles/run_test_py.dir/progress.make
 
 CMakeFiles/run_test_py:
-	cd /mnt/d/Downloads/ns-3-dev && /usr/bin/python3 test.py --no-build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev && /usr/bin/python3 test.py --no-build
 
 run_test_py: CMakeFiles/run_test_py
 run_test_py: CMakeFiles/run_test_py.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/run_test_py.dir/clean:
 .PHONY : CMakeFiles/run_test_py.dir/clean
 
 CMakeFiles/run_test_py.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/run_test_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/run_test_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_test_py.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/depend.make
@@ -74,16 +74,16 @@ src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-bat
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o: src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o -MF CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o.d -o CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o -c /mnt/d/Downloads/ns-3-dev/src/energy/examples/generic-battery-discharge-example.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o -MF CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o.d -o CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples/generic-battery-discharge-example.cc
 
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/energy/examples/generic-battery-discharge-example.cc > CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples/generic-battery-discharge-example.cc > CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.i
 
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/energy/examples/generic-battery-discharge-example.cc -o CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples/generic-battery-discharge-example.cc -o CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.s
 
 # Object files for target generic-battery-discharge-example
 generic__battery__discharge__example_OBJECTS = \
@@ -96,18 +96,18 @@ generic__battery__discharge__example_EXTERNAL_OBJECTS =
 ../build/src/energy/examples/ns3.42-generic-battery-discharge-example-default: src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make
 ../build/src/energy/examples/ns3.42-generic-battery-discharge-example-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/energy/examples/ns3.42-generic-battery-discharge-example-default: src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/energy/examples/ns3.42-generic-battery-discharge-example-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generic-battery-discharge-example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/energy/examples/ns3.42-generic-battery-discharge-example-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generic-battery-discharge-example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build: ../build/src/energy/examples/ns3.42-generic-battery-discharge-example-default
 .PHONY : src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build
 
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -P CMakeFiles/generic-battery-discharge-example.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -P CMakeFiles/generic-battery-discharge-example.dir/cmake_clean.cmake
 .PHONY : src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/clean
 
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/energy/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/depend
 

@@ -1,8 +1,8 @@
 # CMake generated Testfile for 
-# Source directory: /mnt/d/Downloads/ns-3-dev/src/applications/examples
-# Build directory: /mnt/d/Downloads/ns-3-dev/cmake-cache/src/applications/examples
+# Source directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/applications/examples
+# Build directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/applications/examples
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(ctest-three-gpp-http-example "ns3.42-three-gpp-http-example-default")
-set_tests_properties(ctest-three-gpp-http-example PROPERTIES  WORKING_DIRECTORY "/mnt/d/Downloads/ns-3-dev/build/src/applications/examples/" _BACKTRACE_TRIPLES "/mnt/d/Downloads/ns-3-dev/build-support/custom-modules/ns3-executables.cmake;47;add_test;/mnt/d/Downloads/ns-3-dev/build-support/custom-modules/ns3-executables.cmake;140;set_runtime_outputdirectory;/mnt/d/Downloads/ns-3-dev/build-support/custom-modules/ns3-module-macros.cmake;538;build_exec;/mnt/d/Downloads/ns-3-dev/src/applications/examples/CMakeLists.txt;1;build_lib_example;/mnt/d/Downloads/ns-3-dev/src/applications/examples/CMakeLists.txt;0;")
+set_tests_properties(ctest-three-gpp-http-example PROPERTIES  WORKING_DIRECTORY "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/src/applications/examples/" _BACKTRACE_TRIPLES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build-support/custom-modules/ns3-executables.cmake;47;add_test;/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build-support/custom-modules/ns3-executables.cmake;140;set_runtime_outputdirectory;/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build-support/custom-modules/ns3-module-macros.cmake;538;build_exec;/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/applications/examples/CMakeLists.txt;1;build_lib_example;/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/applications/examples/CMakeLists.txt;0;")

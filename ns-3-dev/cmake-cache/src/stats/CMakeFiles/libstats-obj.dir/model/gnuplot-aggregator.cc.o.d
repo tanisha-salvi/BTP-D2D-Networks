@@ -1,9 +1,9 @@
 src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot-aggregator.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/gnuplot-aggregator.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/gnuplot-aggregator.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/gnuplot-aggregator.h \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/data-collection-object.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/gnuplot-aggregator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/data-collection-object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -109,10 +109,10 @@ src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot-aggregator.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/gnuplot.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/gnuplot.h \
  /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
  /usr/include/c++/11/fstream

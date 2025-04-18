@@ -1,7 +1,7 @@
 src/fd-net-device/CMakeFiles/raw-sock-creator.dir/helper/creator-utils.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/fd-net-device/helper/creator-utils.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device/helper/creator-utils.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/fd-net-device/helper/creator-utils.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device/helper/creator-utils.h \
  /usr/include/c++/11/cstring \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/string.h /usr/include/errno.h /usr/include/c++/11/iomanip \
@@ -57,7 +57,7 @@ src/fd-net-device/CMakeFiles/raw-sock-creator.dir/helper/creator-utils.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /mnt/d/Downloads/ns-3-dev/src/fd-net-device/helper/encode-decode.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device/helper/encode-decode.h \
  /usr/include/c++/11/cstdint /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

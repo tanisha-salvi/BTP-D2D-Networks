@@ -1,8 +1,8 @@
 src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/mobility/model/waypoint.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/mobility/model/waypoint.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/mobility/model/waypoint.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/mobility/model/waypoint.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -29,21 +29,21 @@ src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint.cc.o: \
  /usr/include/c++/11/limits \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h

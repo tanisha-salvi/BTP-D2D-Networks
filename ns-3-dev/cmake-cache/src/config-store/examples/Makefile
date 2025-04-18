@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/config-store/examples//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/config-store/examples//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/config-store/examples/CMakeFiles/config-store-save.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/CMakeFiles/config-store-save.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/config-store/examples/CMakeFiles/config-store-save.dir/rule
 .PHONY : src/config-store/examples/CMakeFiles/config-store-save.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ config-store-save: src/config-store/examples/CMakeFiles/config-store-save.dir/ru
 
 # fast build rule for target.
 config-store-save/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/build
 .PHONY : config-store-save/fast
 
 config-store-save.o: config-store-save.cc.o
@@ -191,7 +191,7 @@ config-store-save.o: config-store-save.cc.o
 
 # target to build an object file
 config-store-save.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/config-store-save.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/config-store-save.cc.o
 .PHONY : config-store-save.cc.o
 
 config-store-save.i: config-store-save.cc.i
@@ -199,7 +199,7 @@ config-store-save.i: config-store-save.cc.i
 
 # target to preprocess a source file
 config-store-save.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/config-store-save.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/config-store-save.cc.i
 .PHONY : config-store-save.cc.i
 
 config-store-save.s: config-store-save.cc.s
@@ -207,7 +207,7 @@ config-store-save.s: config-store-save.cc.s
 
 # target to generate assembly for a file
 config-store-save.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/config-store-save.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/config-store/examples/CMakeFiles/config-store-save.dir/build.make src/config-store/examples/CMakeFiles/config-store-save.dir/config-store-save.cc.s
 .PHONY : config-store-save.cc.s
 
 # Help Target
@@ -238,7 +238,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

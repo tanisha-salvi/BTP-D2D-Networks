@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,79 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/rule
-.PHONY : scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/rule
-
-# Convenience name for target.
-scratch_nr-prose-unicast-single-link-modified-1: scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/rule
-.PHONY : scratch_nr-prose-unicast-single-link-modified-1
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link-modified-1/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link-modified-1/fast
-
-# Convenience name for target.
-scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/rule
-.PHONY : scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/rule
-
-# Convenience name for target.
-scratch_nr-prose-unicast-single-link-modified-org: scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/rule
-.PHONY : scratch_nr-prose-unicast-single-link-modified-org
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link-modified-org/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link-modified-org/fast
-
-# Convenience name for target.
-scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/rule
-.PHONY : scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/rule
-
-# Convenience name for target.
-scratch_nr-prose-unicast-single-link-modified: scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/rule
-.PHONY : scratch_nr-prose-unicast-single-link-modified
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link-modified/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link-modified/fast
-
-# Convenience name for target.
-scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/rule
-.PHONY : scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/rule
-
-# Convenience name for target.
-scratch_nr-prose-unicast-single-link: scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/rule
-.PHONY : scratch_nr-prose-unicast-single-link
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link/fast
-
-# Convenience name for target.
 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
 
 # Convenience name for target.
@@ -239,12 +183,12 @@ scratch_scratch-simulator: scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
 
 # fast build rule for target.
 scratch_scratch-simulator/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/build
 .PHONY : scratch_scratch-simulator/fast
 
 # Convenience name for target.
 scratch/CMakeFiles/scratch_ues.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_ues.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_ues.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_ues.dir/rule
 
 # Convenience name for target.
@@ -253,12 +197,12 @@ scratch_ues: scratch/CMakeFiles/scratch_ues.dir/rule
 
 # fast build rule for target.
 scratch_ues/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/build
 .PHONY : scratch_ues/fast
 
 # Convenience name for target.
 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
 
 # Convenience name for target.
@@ -267,111 +211,15 @@ scratch_subdir_scratch-subdir: scratch/CMakeFiles/scratch_subdir_scratch-subdir.
 
 # fast build rule for target.
 scratch_subdir_scratch-subdir/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build
 .PHONY : scratch_subdir_scratch-subdir/fast
-
-nr-prose-unicast-single-link-modified-1.o: nr-prose-unicast-single-link-modified-1.cc.o
-.PHONY : nr-prose-unicast-single-link-modified-1.o
-
-# target to build an object file
-nr-prose-unicast-single-link-modified-1.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/nr-prose-unicast-single-link-modified-1.cc.o
-.PHONY : nr-prose-unicast-single-link-modified-1.cc.o
-
-nr-prose-unicast-single-link-modified-1.i: nr-prose-unicast-single-link-modified-1.cc.i
-.PHONY : nr-prose-unicast-single-link-modified-1.i
-
-# target to preprocess a source file
-nr-prose-unicast-single-link-modified-1.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/nr-prose-unicast-single-link-modified-1.cc.i
-.PHONY : nr-prose-unicast-single-link-modified-1.cc.i
-
-nr-prose-unicast-single-link-modified-1.s: nr-prose-unicast-single-link-modified-1.cc.s
-.PHONY : nr-prose-unicast-single-link-modified-1.s
-
-# target to generate assembly for a file
-nr-prose-unicast-single-link-modified-1.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/nr-prose-unicast-single-link-modified-1.cc.s
-.PHONY : nr-prose-unicast-single-link-modified-1.cc.s
-
-nr-prose-unicast-single-link-modified-org.o: nr-prose-unicast-single-link-modified-org.cc.o
-.PHONY : nr-prose-unicast-single-link-modified-org.o
-
-# target to build an object file
-nr-prose-unicast-single-link-modified-org.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/nr-prose-unicast-single-link-modified-org.cc.o
-.PHONY : nr-prose-unicast-single-link-modified-org.cc.o
-
-nr-prose-unicast-single-link-modified-org.i: nr-prose-unicast-single-link-modified-org.cc.i
-.PHONY : nr-prose-unicast-single-link-modified-org.i
-
-# target to preprocess a source file
-nr-prose-unicast-single-link-modified-org.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/nr-prose-unicast-single-link-modified-org.cc.i
-.PHONY : nr-prose-unicast-single-link-modified-org.cc.i
-
-nr-prose-unicast-single-link-modified-org.s: nr-prose-unicast-single-link-modified-org.cc.s
-.PHONY : nr-prose-unicast-single-link-modified-org.s
-
-# target to generate assembly for a file
-nr-prose-unicast-single-link-modified-org.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/nr-prose-unicast-single-link-modified-org.cc.s
-.PHONY : nr-prose-unicast-single-link-modified-org.cc.s
-
-nr-prose-unicast-single-link-modified.o: nr-prose-unicast-single-link-modified.cc.o
-.PHONY : nr-prose-unicast-single-link-modified.o
-
-# target to build an object file
-nr-prose-unicast-single-link-modified.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/nr-prose-unicast-single-link-modified.cc.o
-.PHONY : nr-prose-unicast-single-link-modified.cc.o
-
-nr-prose-unicast-single-link-modified.i: nr-prose-unicast-single-link-modified.cc.i
-.PHONY : nr-prose-unicast-single-link-modified.i
-
-# target to preprocess a source file
-nr-prose-unicast-single-link-modified.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/nr-prose-unicast-single-link-modified.cc.i
-.PHONY : nr-prose-unicast-single-link-modified.cc.i
-
-nr-prose-unicast-single-link-modified.s: nr-prose-unicast-single-link-modified.cc.s
-.PHONY : nr-prose-unicast-single-link-modified.s
-
-# target to generate assembly for a file
-nr-prose-unicast-single-link-modified.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/nr-prose-unicast-single-link-modified.cc.s
-.PHONY : nr-prose-unicast-single-link-modified.cc.s
-
-nr-prose-unicast-single-link.o: nr-prose-unicast-single-link.cc.o
-.PHONY : nr-prose-unicast-single-link.o
-
-# target to build an object file
-nr-prose-unicast-single-link.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/nr-prose-unicast-single-link.cc.o
-.PHONY : nr-prose-unicast-single-link.cc.o
-
-nr-prose-unicast-single-link.i: nr-prose-unicast-single-link.cc.i
-.PHONY : nr-prose-unicast-single-link.i
-
-# target to preprocess a source file
-nr-prose-unicast-single-link.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/nr-prose-unicast-single-link.cc.i
-.PHONY : nr-prose-unicast-single-link.cc.i
-
-nr-prose-unicast-single-link.s: nr-prose-unicast-single-link.cc.s
-.PHONY : nr-prose-unicast-single-link.s
-
-# target to generate assembly for a file
-nr-prose-unicast-single-link.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/nr-prose-unicast-single-link.cc.s
-.PHONY : nr-prose-unicast-single-link.cc.s
 
 scratch-simulator.o: scratch-simulator.cc.o
 .PHONY : scratch-simulator.o
 
 # target to build an object file
 scratch-simulator.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o
 .PHONY : scratch-simulator.cc.o
 
 scratch-simulator.i: scratch-simulator.cc.i
@@ -379,7 +227,7 @@ scratch-simulator.i: scratch-simulator.cc.i
 
 # target to preprocess a source file
 scratch-simulator.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.i
 .PHONY : scratch-simulator.cc.i
 
 scratch-simulator.s: scratch-simulator.cc.s
@@ -387,7 +235,7 @@ scratch-simulator.s: scratch-simulator.cc.s
 
 # target to generate assembly for a file
 scratch-simulator.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.s
 .PHONY : scratch-simulator.cc.s
 
 subdir/scratch-subdir-additional-header.o: subdir/scratch-subdir-additional-header.cc.o
@@ -395,7 +243,7 @@ subdir/scratch-subdir-additional-header.o: subdir/scratch-subdir-additional-head
 
 # target to build an object file
 subdir/scratch-subdir-additional-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir-additional-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir-additional-header.cc.o
 .PHONY : subdir/scratch-subdir-additional-header.cc.o
 
 subdir/scratch-subdir-additional-header.i: subdir/scratch-subdir-additional-header.cc.i
@@ -403,7 +251,7 @@ subdir/scratch-subdir-additional-header.i: subdir/scratch-subdir-additional-head
 
 # target to preprocess a source file
 subdir/scratch-subdir-additional-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir-additional-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir-additional-header.cc.i
 .PHONY : subdir/scratch-subdir-additional-header.cc.i
 
 subdir/scratch-subdir-additional-header.s: subdir/scratch-subdir-additional-header.cc.s
@@ -411,7 +259,7 @@ subdir/scratch-subdir-additional-header.s: subdir/scratch-subdir-additional-head
 
 # target to generate assembly for a file
 subdir/scratch-subdir-additional-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir-additional-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir-additional-header.cc.s
 .PHONY : subdir/scratch-subdir-additional-header.cc.s
 
 subdir/scratch-subdir.o: subdir/scratch-subdir.cc.o
@@ -419,7 +267,7 @@ subdir/scratch-subdir.o: subdir/scratch-subdir.cc.o
 
 # target to build an object file
 subdir/scratch-subdir.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.o
 .PHONY : subdir/scratch-subdir.cc.o
 
 subdir/scratch-subdir.i: subdir/scratch-subdir.cc.i
@@ -427,7 +275,7 @@ subdir/scratch-subdir.i: subdir/scratch-subdir.cc.i
 
 # target to preprocess a source file
 subdir/scratch-subdir.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.i
 .PHONY : subdir/scratch-subdir.cc.i
 
 subdir/scratch-subdir.s: subdir/scratch-subdir.cc.s
@@ -435,7 +283,7 @@ subdir/scratch-subdir.s: subdir/scratch-subdir.cc.s
 
 # target to generate assembly for a file
 subdir/scratch-subdir.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.s
 .PHONY : subdir/scratch-subdir.cc.s
 
 ues.o: ues.cc.o
@@ -443,7 +291,7 @@ ues.o: ues.cc.o
 
 # target to build an object file
 ues.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/ues.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/ues.cc.o
 .PHONY : ues.cc.o
 
 ues.i: ues.cc.i
@@ -451,7 +299,7 @@ ues.i: ues.cc.i
 
 # target to preprocess a source file
 ues.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/ues.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/ues.cc.i
 .PHONY : ues.cc.i
 
 ues.s: ues.cc.s
@@ -459,7 +307,7 @@ ues.s: ues.cc.s
 
 # target to generate assembly for a file
 ues.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/ues.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_ues.dir/build.make scratch/CMakeFiles/scratch_ues.dir/ues.cc.s
 .PHONY : ues.cc.s
 
 # Help Target
@@ -475,25 +323,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... scratch_nr-prose-unicast-single-link"
-	@echo "... scratch_nr-prose-unicast-single-link-modified"
-	@echo "... scratch_nr-prose-unicast-single-link-modified-1"
-	@echo "... scratch_nr-prose-unicast-single-link-modified-org"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
 	@echo "... scratch_ues"
-	@echo "... nr-prose-unicast-single-link-modified-1.o"
-	@echo "... nr-prose-unicast-single-link-modified-1.i"
-	@echo "... nr-prose-unicast-single-link-modified-1.s"
-	@echo "... nr-prose-unicast-single-link-modified-org.o"
-	@echo "... nr-prose-unicast-single-link-modified-org.i"
-	@echo "... nr-prose-unicast-single-link-modified-org.s"
-	@echo "... nr-prose-unicast-single-link-modified.o"
-	@echo "... nr-prose-unicast-single-link-modified.i"
-	@echo "... nr-prose-unicast-single-link-modified.s"
-	@echo "... nr-prose-unicast-single-link.o"
-	@echo "... nr-prose-unicast-single-link.i"
-	@echo "... nr-prose-unicast-single-link.s"
 	@echo "... scratch-simulator.o"
 	@echo "... scratch-simulator.i"
 	@echo "... scratch-simulator.s"
@@ -517,7 +349,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

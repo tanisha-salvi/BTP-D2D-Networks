@@ -1,7 +1,7 @@
 src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/propagation/examples/main-propagation-loss.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/examples/main-propagation-loss.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/boolean.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/boolean.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
@@ -29,7 +29,7 @@ src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-l
  /usr/include/c++/11/limits \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/command-line.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /usr/include/c++/11/functional /usr/include/c++/11/memory \
@@ -105,7 +105,7 @@ src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-l
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
@@ -118,45 +118,45 @@ src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-l
  /usr/include/c++/11/cstring /usr/include/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/constant-position-mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/constant-position-mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/constant-position-mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /usr/include/c++/11/list \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/traced-callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traced-callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/gnuplot.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/gnuplot.h \
  /mnt/d/Downloads/ns-3-dev/src/stats/model/gnuplot.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/jakes-propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/jakes-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/jakes-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/jakes-process.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/random-variable-stream.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /usr/include/c++/11/map /usr/include/c++/11/complex \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-cache.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/pointer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/pointer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h

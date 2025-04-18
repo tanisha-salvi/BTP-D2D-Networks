@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/wifi/CMakeFiles/libwifi-obj.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/CMakeFiles/libwifi-obj.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/CMakeFiles/libwifi-obj.dir/rule
 .PHONY : src/wifi/CMakeFiles/libwifi-obj.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ libwifi-obj: src/wifi/CMakeFiles/libwifi-obj.dir/rule
 
 # fast build rule for target.
 libwifi-obj/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/build
 .PHONY : libwifi-obj/fast
 
 # Convenience name for target.
 src/wifi/CMakeFiles/libwifi.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/CMakeFiles/libwifi.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/CMakeFiles/libwifi.dir/rule
 .PHONY : src/wifi/CMakeFiles/libwifi.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ libwifi: src/wifi/CMakeFiles/libwifi.dir/rule
 
 # fast build rule for target.
 libwifi/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi.dir/build.make src/wifi/CMakeFiles/libwifi.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi.dir/build.make src/wifi/CMakeFiles/libwifi.dir/build
 .PHONY : libwifi/fast
 
 # Convenience name for target.
 src/wifi/CMakeFiles/libwifi-test.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/CMakeFiles/libwifi-test.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wifi/CMakeFiles/libwifi-test.dir/rule
 .PHONY : src/wifi/CMakeFiles/libwifi-test.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ libwifi-test: src/wifi/CMakeFiles/libwifi-test.dir/rule
 
 # fast build rule for target.
 libwifi-test/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/build
 .PHONY : libwifi-test/fast
 
 helper/athstats-helper.o: helper/athstats-helper.cc.o
@@ -219,7 +219,7 @@ helper/athstats-helper.o: helper/athstats-helper.cc.o
 
 # target to build an object file
 helper/athstats-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.o
 .PHONY : helper/athstats-helper.cc.o
 
 helper/athstats-helper.i: helper/athstats-helper.cc.i
@@ -227,7 +227,7 @@ helper/athstats-helper.i: helper/athstats-helper.cc.i
 
 # target to preprocess a source file
 helper/athstats-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.i
 .PHONY : helper/athstats-helper.cc.i
 
 helper/athstats-helper.s: helper/athstats-helper.cc.s
@@ -235,7 +235,7 @@ helper/athstats-helper.s: helper/athstats-helper.cc.s
 
 # target to generate assembly for a file
 helper/athstats-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/athstats-helper.cc.s
 .PHONY : helper/athstats-helper.cc.s
 
 helper/spectrum-wifi-helper.o: helper/spectrum-wifi-helper.cc.o
@@ -243,7 +243,7 @@ helper/spectrum-wifi-helper.o: helper/spectrum-wifi-helper.cc.o
 
 # target to build an object file
 helper/spectrum-wifi-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.o
 .PHONY : helper/spectrum-wifi-helper.cc.o
 
 helper/spectrum-wifi-helper.i: helper/spectrum-wifi-helper.cc.i
@@ -251,7 +251,7 @@ helper/spectrum-wifi-helper.i: helper/spectrum-wifi-helper.cc.i
 
 # target to preprocess a source file
 helper/spectrum-wifi-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.i
 .PHONY : helper/spectrum-wifi-helper.cc.i
 
 helper/spectrum-wifi-helper.s: helper/spectrum-wifi-helper.cc.s
@@ -259,7 +259,7 @@ helper/spectrum-wifi-helper.s: helper/spectrum-wifi-helper.cc.s
 
 # target to generate assembly for a file
 helper/spectrum-wifi-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/spectrum-wifi-helper.cc.s
 .PHONY : helper/spectrum-wifi-helper.cc.s
 
 helper/wifi-helper.o: helper/wifi-helper.cc.o
@@ -267,7 +267,7 @@ helper/wifi-helper.o: helper/wifi-helper.cc.o
 
 # target to build an object file
 helper/wifi-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.o
 .PHONY : helper/wifi-helper.cc.o
 
 helper/wifi-helper.i: helper/wifi-helper.cc.i
@@ -275,7 +275,7 @@ helper/wifi-helper.i: helper/wifi-helper.cc.i
 
 # target to preprocess a source file
 helper/wifi-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.i
 .PHONY : helper/wifi-helper.cc.i
 
 helper/wifi-helper.s: helper/wifi-helper.cc.s
@@ -283,7 +283,7 @@ helper/wifi-helper.s: helper/wifi-helper.cc.s
 
 # target to generate assembly for a file
 helper/wifi-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-helper.cc.s
 .PHONY : helper/wifi-helper.cc.s
 
 helper/wifi-mac-helper.o: helper/wifi-mac-helper.cc.o
@@ -291,7 +291,7 @@ helper/wifi-mac-helper.o: helper/wifi-mac-helper.cc.o
 
 # target to build an object file
 helper/wifi-mac-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.o
 .PHONY : helper/wifi-mac-helper.cc.o
 
 helper/wifi-mac-helper.i: helper/wifi-mac-helper.cc.i
@@ -299,7 +299,7 @@ helper/wifi-mac-helper.i: helper/wifi-mac-helper.cc.i
 
 # target to preprocess a source file
 helper/wifi-mac-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.i
 .PHONY : helper/wifi-mac-helper.cc.i
 
 helper/wifi-mac-helper.s: helper/wifi-mac-helper.cc.s
@@ -307,7 +307,7 @@ helper/wifi-mac-helper.s: helper/wifi-mac-helper.cc.s
 
 # target to generate assembly for a file
 helper/wifi-mac-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-mac-helper.cc.s
 .PHONY : helper/wifi-mac-helper.cc.s
 
 helper/wifi-phy-rx-trace-helper.o: helper/wifi-phy-rx-trace-helper.cc.o
@@ -315,7 +315,7 @@ helper/wifi-phy-rx-trace-helper.o: helper/wifi-phy-rx-trace-helper.cc.o
 
 # target to build an object file
 helper/wifi-phy-rx-trace-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-phy-rx-trace-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-phy-rx-trace-helper.cc.o
 .PHONY : helper/wifi-phy-rx-trace-helper.cc.o
 
 helper/wifi-phy-rx-trace-helper.i: helper/wifi-phy-rx-trace-helper.cc.i
@@ -323,7 +323,7 @@ helper/wifi-phy-rx-trace-helper.i: helper/wifi-phy-rx-trace-helper.cc.i
 
 # target to preprocess a source file
 helper/wifi-phy-rx-trace-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-phy-rx-trace-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-phy-rx-trace-helper.cc.i
 .PHONY : helper/wifi-phy-rx-trace-helper.cc.i
 
 helper/wifi-phy-rx-trace-helper.s: helper/wifi-phy-rx-trace-helper.cc.s
@@ -331,7 +331,7 @@ helper/wifi-phy-rx-trace-helper.s: helper/wifi-phy-rx-trace-helper.cc.s
 
 # target to generate assembly for a file
 helper/wifi-phy-rx-trace-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-phy-rx-trace-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-phy-rx-trace-helper.cc.s
 .PHONY : helper/wifi-phy-rx-trace-helper.cc.s
 
 helper/wifi-radio-energy-model-helper.o: helper/wifi-radio-energy-model-helper.cc.o
@@ -339,7 +339,7 @@ helper/wifi-radio-energy-model-helper.o: helper/wifi-radio-energy-model-helper.c
 
 # target to build an object file
 helper/wifi-radio-energy-model-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.o
 .PHONY : helper/wifi-radio-energy-model-helper.cc.o
 
 helper/wifi-radio-energy-model-helper.i: helper/wifi-radio-energy-model-helper.cc.i
@@ -347,7 +347,7 @@ helper/wifi-radio-energy-model-helper.i: helper/wifi-radio-energy-model-helper.c
 
 # target to preprocess a source file
 helper/wifi-radio-energy-model-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.i
 .PHONY : helper/wifi-radio-energy-model-helper.cc.i
 
 helper/wifi-radio-energy-model-helper.s: helper/wifi-radio-energy-model-helper.cc.s
@@ -355,7 +355,7 @@ helper/wifi-radio-energy-model-helper.s: helper/wifi-radio-energy-model-helper.c
 
 # target to generate assembly for a file
 helper/wifi-radio-energy-model-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/wifi-radio-energy-model-helper.cc.s
 .PHONY : helper/wifi-radio-energy-model-helper.cc.s
 
 helper/yans-wifi-helper.o: helper/yans-wifi-helper.cc.o
@@ -363,7 +363,7 @@ helper/yans-wifi-helper.o: helper/yans-wifi-helper.cc.o
 
 # target to build an object file
 helper/yans-wifi-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.o
 .PHONY : helper/yans-wifi-helper.cc.o
 
 helper/yans-wifi-helper.i: helper/yans-wifi-helper.cc.i
@@ -371,7 +371,7 @@ helper/yans-wifi-helper.i: helper/yans-wifi-helper.cc.i
 
 # target to preprocess a source file
 helper/yans-wifi-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.i
 .PHONY : helper/yans-wifi-helper.cc.i
 
 helper/yans-wifi-helper.s: helper/yans-wifi-helper.cc.s
@@ -379,7 +379,7 @@ helper/yans-wifi-helper.s: helper/yans-wifi-helper.cc.s
 
 # target to generate assembly for a file
 helper/yans-wifi-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/helper/yans-wifi-helper.cc.s
 .PHONY : helper/yans-wifi-helper.cc.s
 
 model/addba-extension.o: model/addba-extension.cc.o
@@ -387,7 +387,7 @@ model/addba-extension.o: model/addba-extension.cc.o
 
 # target to build an object file
 model/addba-extension.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/addba-extension.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/addba-extension.cc.o
 .PHONY : model/addba-extension.cc.o
 
 model/addba-extension.i: model/addba-extension.cc.i
@@ -395,7 +395,7 @@ model/addba-extension.i: model/addba-extension.cc.i
 
 # target to preprocess a source file
 model/addba-extension.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/addba-extension.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/addba-extension.cc.i
 .PHONY : model/addba-extension.cc.i
 
 model/addba-extension.s: model/addba-extension.cc.s
@@ -403,7 +403,7 @@ model/addba-extension.s: model/addba-extension.cc.s
 
 # target to generate assembly for a file
 model/addba-extension.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/addba-extension.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/addba-extension.cc.s
 .PHONY : model/addba-extension.cc.s
 
 model/adhoc-wifi-mac.o: model/adhoc-wifi-mac.cc.o
@@ -411,7 +411,7 @@ model/adhoc-wifi-mac.o: model/adhoc-wifi-mac.cc.o
 
 # target to build an object file
 model/adhoc-wifi-mac.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/adhoc-wifi-mac.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/adhoc-wifi-mac.cc.o
 .PHONY : model/adhoc-wifi-mac.cc.o
 
 model/adhoc-wifi-mac.i: model/adhoc-wifi-mac.cc.i
@@ -419,7 +419,7 @@ model/adhoc-wifi-mac.i: model/adhoc-wifi-mac.cc.i
 
 # target to preprocess a source file
 model/adhoc-wifi-mac.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/adhoc-wifi-mac.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/adhoc-wifi-mac.cc.i
 .PHONY : model/adhoc-wifi-mac.cc.i
 
 model/adhoc-wifi-mac.s: model/adhoc-wifi-mac.cc.s
@@ -427,7 +427,7 @@ model/adhoc-wifi-mac.s: model/adhoc-wifi-mac.cc.s
 
 # target to generate assembly for a file
 model/adhoc-wifi-mac.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/adhoc-wifi-mac.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/adhoc-wifi-mac.cc.s
 .PHONY : model/adhoc-wifi-mac.cc.s
 
 model/ampdu-subframe-header.o: model/ampdu-subframe-header.cc.o
@@ -435,7 +435,7 @@ model/ampdu-subframe-header.o: model/ampdu-subframe-header.cc.o
 
 # target to build an object file
 model/ampdu-subframe-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-subframe-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-subframe-header.cc.o
 .PHONY : model/ampdu-subframe-header.cc.o
 
 model/ampdu-subframe-header.i: model/ampdu-subframe-header.cc.i
@@ -443,7 +443,7 @@ model/ampdu-subframe-header.i: model/ampdu-subframe-header.cc.i
 
 # target to preprocess a source file
 model/ampdu-subframe-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-subframe-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-subframe-header.cc.i
 .PHONY : model/ampdu-subframe-header.cc.i
 
 model/ampdu-subframe-header.s: model/ampdu-subframe-header.cc.s
@@ -451,7 +451,7 @@ model/ampdu-subframe-header.s: model/ampdu-subframe-header.cc.s
 
 # target to generate assembly for a file
 model/ampdu-subframe-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-subframe-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-subframe-header.cc.s
 .PHONY : model/ampdu-subframe-header.cc.s
 
 model/ampdu-tag.o: model/ampdu-tag.cc.o
@@ -459,7 +459,7 @@ model/ampdu-tag.o: model/ampdu-tag.cc.o
 
 # target to build an object file
 model/ampdu-tag.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-tag.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-tag.cc.o
 .PHONY : model/ampdu-tag.cc.o
 
 model/ampdu-tag.i: model/ampdu-tag.cc.i
@@ -467,7 +467,7 @@ model/ampdu-tag.i: model/ampdu-tag.cc.i
 
 # target to preprocess a source file
 model/ampdu-tag.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-tag.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-tag.cc.i
 .PHONY : model/ampdu-tag.cc.i
 
 model/ampdu-tag.s: model/ampdu-tag.cc.s
@@ -475,7 +475,7 @@ model/ampdu-tag.s: model/ampdu-tag.cc.s
 
 # target to generate assembly for a file
 model/ampdu-tag.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-tag.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ampdu-tag.cc.s
 .PHONY : model/ampdu-tag.cc.s
 
 model/amsdu-subframe-header.o: model/amsdu-subframe-header.cc.o
@@ -483,7 +483,7 @@ model/amsdu-subframe-header.o: model/amsdu-subframe-header.cc.o
 
 # target to build an object file
 model/amsdu-subframe-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/amsdu-subframe-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/amsdu-subframe-header.cc.o
 .PHONY : model/amsdu-subframe-header.cc.o
 
 model/amsdu-subframe-header.i: model/amsdu-subframe-header.cc.i
@@ -491,7 +491,7 @@ model/amsdu-subframe-header.i: model/amsdu-subframe-header.cc.i
 
 # target to preprocess a source file
 model/amsdu-subframe-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/amsdu-subframe-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/amsdu-subframe-header.cc.i
 .PHONY : model/amsdu-subframe-header.cc.i
 
 model/amsdu-subframe-header.s: model/amsdu-subframe-header.cc.s
@@ -499,7 +499,7 @@ model/amsdu-subframe-header.s: model/amsdu-subframe-header.cc.s
 
 # target to generate assembly for a file
 model/amsdu-subframe-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/amsdu-subframe-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/amsdu-subframe-header.cc.s
 .PHONY : model/amsdu-subframe-header.cc.s
 
 model/ap-wifi-mac.o: model/ap-wifi-mac.cc.o
@@ -507,7 +507,7 @@ model/ap-wifi-mac.o: model/ap-wifi-mac.cc.o
 
 # target to build an object file
 model/ap-wifi-mac.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.o
 .PHONY : model/ap-wifi-mac.cc.o
 
 model/ap-wifi-mac.i: model/ap-wifi-mac.cc.i
@@ -515,7 +515,7 @@ model/ap-wifi-mac.i: model/ap-wifi-mac.cc.i
 
 # target to preprocess a source file
 model/ap-wifi-mac.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.i
 .PHONY : model/ap-wifi-mac.cc.i
 
 model/ap-wifi-mac.s: model/ap-wifi-mac.cc.s
@@ -523,7 +523,7 @@ model/ap-wifi-mac.s: model/ap-wifi-mac.cc.s
 
 # target to generate assembly for a file
 model/ap-wifi-mac.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ap-wifi-mac.cc.s
 .PHONY : model/ap-wifi-mac.cc.s
 
 model/block-ack-agreement.o: model/block-ack-agreement.cc.o
@@ -531,7 +531,7 @@ model/block-ack-agreement.o: model/block-ack-agreement.cc.o
 
 # target to build an object file
 model/block-ack-agreement.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-agreement.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-agreement.cc.o
 .PHONY : model/block-ack-agreement.cc.o
 
 model/block-ack-agreement.i: model/block-ack-agreement.cc.i
@@ -539,7 +539,7 @@ model/block-ack-agreement.i: model/block-ack-agreement.cc.i
 
 # target to preprocess a source file
 model/block-ack-agreement.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-agreement.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-agreement.cc.i
 .PHONY : model/block-ack-agreement.cc.i
 
 model/block-ack-agreement.s: model/block-ack-agreement.cc.s
@@ -547,7 +547,7 @@ model/block-ack-agreement.s: model/block-ack-agreement.cc.s
 
 # target to generate assembly for a file
 model/block-ack-agreement.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-agreement.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-agreement.cc.s
 .PHONY : model/block-ack-agreement.cc.s
 
 model/block-ack-manager.o: model/block-ack-manager.cc.o
@@ -555,7 +555,7 @@ model/block-ack-manager.o: model/block-ack-manager.cc.o
 
 # target to build an object file
 model/block-ack-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-manager.cc.o
 .PHONY : model/block-ack-manager.cc.o
 
 model/block-ack-manager.i: model/block-ack-manager.cc.i
@@ -563,7 +563,7 @@ model/block-ack-manager.i: model/block-ack-manager.cc.i
 
 # target to preprocess a source file
 model/block-ack-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-manager.cc.i
 .PHONY : model/block-ack-manager.cc.i
 
 model/block-ack-manager.s: model/block-ack-manager.cc.s
@@ -571,7 +571,7 @@ model/block-ack-manager.s: model/block-ack-manager.cc.s
 
 # target to generate assembly for a file
 model/block-ack-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-manager.cc.s
 .PHONY : model/block-ack-manager.cc.s
 
 model/block-ack-type.o: model/block-ack-type.cc.o
@@ -579,7 +579,7 @@ model/block-ack-type.o: model/block-ack-type.cc.o
 
 # target to build an object file
 model/block-ack-type.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-type.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-type.cc.o
 .PHONY : model/block-ack-type.cc.o
 
 model/block-ack-type.i: model/block-ack-type.cc.i
@@ -587,7 +587,7 @@ model/block-ack-type.i: model/block-ack-type.cc.i
 
 # target to preprocess a source file
 model/block-ack-type.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-type.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-type.cc.i
 .PHONY : model/block-ack-type.cc.i
 
 model/block-ack-type.s: model/block-ack-type.cc.s
@@ -595,7 +595,7 @@ model/block-ack-type.s: model/block-ack-type.cc.s
 
 # target to generate assembly for a file
 model/block-ack-type.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-type.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-type.cc.s
 .PHONY : model/block-ack-type.cc.s
 
 model/block-ack-window.o: model/block-ack-window.cc.o
@@ -603,7 +603,7 @@ model/block-ack-window.o: model/block-ack-window.cc.o
 
 # target to build an object file
 model/block-ack-window.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.o
 .PHONY : model/block-ack-window.cc.o
 
 model/block-ack-window.i: model/block-ack-window.cc.i
@@ -611,7 +611,7 @@ model/block-ack-window.i: model/block-ack-window.cc.i
 
 # target to preprocess a source file
 model/block-ack-window.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.i
 .PHONY : model/block-ack-window.cc.i
 
 model/block-ack-window.s: model/block-ack-window.cc.s
@@ -619,7 +619,7 @@ model/block-ack-window.s: model/block-ack-window.cc.s
 
 # target to generate assembly for a file
 model/block-ack-window.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.s
 .PHONY : model/block-ack-window.cc.s
 
 model/capability-information.o: model/capability-information.cc.o
@@ -627,7 +627,7 @@ model/capability-information.o: model/capability-information.cc.o
 
 # target to build an object file
 model/capability-information.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.o
 .PHONY : model/capability-information.cc.o
 
 model/capability-information.i: model/capability-information.cc.i
@@ -635,7 +635,7 @@ model/capability-information.i: model/capability-information.cc.i
 
 # target to preprocess a source file
 model/capability-information.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.i
 .PHONY : model/capability-information.cc.i
 
 model/capability-information.s: model/capability-information.cc.s
@@ -643,7 +643,7 @@ model/capability-information.s: model/capability-information.cc.s
 
 # target to generate assembly for a file
 model/capability-information.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.s
 .PHONY : model/capability-information.cc.s
 
 model/channel-access-manager.o: model/channel-access-manager.cc.o
@@ -651,7 +651,7 @@ model/channel-access-manager.o: model/channel-access-manager.cc.o
 
 # target to build an object file
 model/channel-access-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/channel-access-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/channel-access-manager.cc.o
 .PHONY : model/channel-access-manager.cc.o
 
 model/channel-access-manager.i: model/channel-access-manager.cc.i
@@ -659,7 +659,7 @@ model/channel-access-manager.i: model/channel-access-manager.cc.i
 
 # target to preprocess a source file
 model/channel-access-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/channel-access-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/channel-access-manager.cc.i
 .PHONY : model/channel-access-manager.cc.i
 
 model/channel-access-manager.s: model/channel-access-manager.cc.s
@@ -667,7 +667,7 @@ model/channel-access-manager.s: model/channel-access-manager.cc.s
 
 # target to generate assembly for a file
 model/channel-access-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/channel-access-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/channel-access-manager.cc.s
 .PHONY : model/channel-access-manager.cc.s
 
 model/ctrl-headers.o: model/ctrl-headers.cc.o
@@ -675,7 +675,7 @@ model/ctrl-headers.o: model/ctrl-headers.cc.o
 
 # target to build an object file
 model/ctrl-headers.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ctrl-headers.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ctrl-headers.cc.o
 .PHONY : model/ctrl-headers.cc.o
 
 model/ctrl-headers.i: model/ctrl-headers.cc.i
@@ -683,7 +683,7 @@ model/ctrl-headers.i: model/ctrl-headers.cc.i
 
 # target to preprocess a source file
 model/ctrl-headers.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ctrl-headers.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ctrl-headers.cc.i
 .PHONY : model/ctrl-headers.cc.i
 
 model/ctrl-headers.s: model/ctrl-headers.cc.s
@@ -691,7 +691,7 @@ model/ctrl-headers.s: model/ctrl-headers.cc.s
 
 # target to generate assembly for a file
 model/ctrl-headers.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ctrl-headers.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ctrl-headers.cc.s
 .PHONY : model/ctrl-headers.cc.s
 
 model/edca-parameter-set.o: model/edca-parameter-set.cc.o
@@ -699,7 +699,7 @@ model/edca-parameter-set.o: model/edca-parameter-set.cc.o
 
 # target to build an object file
 model/edca-parameter-set.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/edca-parameter-set.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/edca-parameter-set.cc.o
 .PHONY : model/edca-parameter-set.cc.o
 
 model/edca-parameter-set.i: model/edca-parameter-set.cc.i
@@ -707,7 +707,7 @@ model/edca-parameter-set.i: model/edca-parameter-set.cc.i
 
 # target to preprocess a source file
 model/edca-parameter-set.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/edca-parameter-set.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/edca-parameter-set.cc.i
 .PHONY : model/edca-parameter-set.cc.i
 
 model/edca-parameter-set.s: model/edca-parameter-set.cc.s
@@ -715,7 +715,7 @@ model/edca-parameter-set.s: model/edca-parameter-set.cc.s
 
 # target to generate assembly for a file
 model/edca-parameter-set.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/edca-parameter-set.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/edca-parameter-set.cc.s
 .PHONY : model/edca-parameter-set.cc.s
 
 model/eht/default-emlsr-manager.o: model/eht/default-emlsr-manager.cc.o
@@ -723,7 +723,7 @@ model/eht/default-emlsr-manager.o: model/eht/default-emlsr-manager.cc.o
 
 # target to build an object file
 model/eht/default-emlsr-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/default-emlsr-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/default-emlsr-manager.cc.o
 .PHONY : model/eht/default-emlsr-manager.cc.o
 
 model/eht/default-emlsr-manager.i: model/eht/default-emlsr-manager.cc.i
@@ -731,7 +731,7 @@ model/eht/default-emlsr-manager.i: model/eht/default-emlsr-manager.cc.i
 
 # target to preprocess a source file
 model/eht/default-emlsr-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/default-emlsr-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/default-emlsr-manager.cc.i
 .PHONY : model/eht/default-emlsr-manager.cc.i
 
 model/eht/default-emlsr-manager.s: model/eht/default-emlsr-manager.cc.s
@@ -739,7 +739,7 @@ model/eht/default-emlsr-manager.s: model/eht/default-emlsr-manager.cc.s
 
 # target to generate assembly for a file
 model/eht/default-emlsr-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/default-emlsr-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/default-emlsr-manager.cc.s
 .PHONY : model/eht/default-emlsr-manager.cc.s
 
 model/eht/eht-capabilities.o: model/eht/eht-capabilities.cc.o
@@ -747,7 +747,7 @@ model/eht/eht-capabilities.o: model/eht/eht-capabilities.cc.o
 
 # target to build an object file
 model/eht/eht-capabilities.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-capabilities.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-capabilities.cc.o
 .PHONY : model/eht/eht-capabilities.cc.o
 
 model/eht/eht-capabilities.i: model/eht/eht-capabilities.cc.i
@@ -755,7 +755,7 @@ model/eht/eht-capabilities.i: model/eht/eht-capabilities.cc.i
 
 # target to preprocess a source file
 model/eht/eht-capabilities.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-capabilities.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-capabilities.cc.i
 .PHONY : model/eht/eht-capabilities.cc.i
 
 model/eht/eht-capabilities.s: model/eht/eht-capabilities.cc.s
@@ -763,7 +763,7 @@ model/eht/eht-capabilities.s: model/eht/eht-capabilities.cc.s
 
 # target to generate assembly for a file
 model/eht/eht-capabilities.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-capabilities.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-capabilities.cc.s
 .PHONY : model/eht/eht-capabilities.cc.s
 
 model/eht/eht-configuration.o: model/eht/eht-configuration.cc.o
@@ -771,7 +771,7 @@ model/eht/eht-configuration.o: model/eht/eht-configuration.cc.o
 
 # target to build an object file
 model/eht/eht-configuration.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-configuration.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-configuration.cc.o
 .PHONY : model/eht/eht-configuration.cc.o
 
 model/eht/eht-configuration.i: model/eht/eht-configuration.cc.i
@@ -779,7 +779,7 @@ model/eht/eht-configuration.i: model/eht/eht-configuration.cc.i
 
 # target to preprocess a source file
 model/eht/eht-configuration.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-configuration.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-configuration.cc.i
 .PHONY : model/eht/eht-configuration.cc.i
 
 model/eht/eht-configuration.s: model/eht/eht-configuration.cc.s
@@ -787,7 +787,7 @@ model/eht/eht-configuration.s: model/eht/eht-configuration.cc.s
 
 # target to generate assembly for a file
 model/eht/eht-configuration.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-configuration.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-configuration.cc.s
 .PHONY : model/eht/eht-configuration.cc.s
 
 model/eht/eht-frame-exchange-manager.o: model/eht/eht-frame-exchange-manager.cc.o
@@ -795,7 +795,7 @@ model/eht/eht-frame-exchange-manager.o: model/eht/eht-frame-exchange-manager.cc.
 
 # target to build an object file
 model/eht/eht-frame-exchange-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-frame-exchange-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-frame-exchange-manager.cc.o
 .PHONY : model/eht/eht-frame-exchange-manager.cc.o
 
 model/eht/eht-frame-exchange-manager.i: model/eht/eht-frame-exchange-manager.cc.i
@@ -803,7 +803,7 @@ model/eht/eht-frame-exchange-manager.i: model/eht/eht-frame-exchange-manager.cc.
 
 # target to preprocess a source file
 model/eht/eht-frame-exchange-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-frame-exchange-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-frame-exchange-manager.cc.i
 .PHONY : model/eht/eht-frame-exchange-manager.cc.i
 
 model/eht/eht-frame-exchange-manager.s: model/eht/eht-frame-exchange-manager.cc.s
@@ -811,7 +811,7 @@ model/eht/eht-frame-exchange-manager.s: model/eht/eht-frame-exchange-manager.cc.
 
 # target to generate assembly for a file
 model/eht/eht-frame-exchange-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-frame-exchange-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-frame-exchange-manager.cc.s
 .PHONY : model/eht/eht-frame-exchange-manager.cc.s
 
 model/eht/eht-operation.o: model/eht/eht-operation.cc.o
@@ -819,7 +819,7 @@ model/eht/eht-operation.o: model/eht/eht-operation.cc.o
 
 # target to build an object file
 model/eht/eht-operation.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-operation.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-operation.cc.o
 .PHONY : model/eht/eht-operation.cc.o
 
 model/eht/eht-operation.i: model/eht/eht-operation.cc.i
@@ -827,7 +827,7 @@ model/eht/eht-operation.i: model/eht/eht-operation.cc.i
 
 # target to preprocess a source file
 model/eht/eht-operation.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-operation.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-operation.cc.i
 .PHONY : model/eht/eht-operation.cc.i
 
 model/eht/eht-operation.s: model/eht/eht-operation.cc.s
@@ -835,7 +835,7 @@ model/eht/eht-operation.s: model/eht/eht-operation.cc.s
 
 # target to generate assembly for a file
 model/eht/eht-operation.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-operation.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-operation.cc.s
 .PHONY : model/eht/eht-operation.cc.s
 
 model/eht/eht-phy.o: model/eht/eht-phy.cc.o
@@ -843,7 +843,7 @@ model/eht/eht-phy.o: model/eht/eht-phy.cc.o
 
 # target to build an object file
 model/eht/eht-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-phy.cc.o
 .PHONY : model/eht/eht-phy.cc.o
 
 model/eht/eht-phy.i: model/eht/eht-phy.cc.i
@@ -851,7 +851,7 @@ model/eht/eht-phy.i: model/eht/eht-phy.cc.i
 
 # target to preprocess a source file
 model/eht/eht-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-phy.cc.i
 .PHONY : model/eht/eht-phy.cc.i
 
 model/eht/eht-phy.s: model/eht/eht-phy.cc.s
@@ -859,7 +859,7 @@ model/eht/eht-phy.s: model/eht/eht-phy.cc.s
 
 # target to generate assembly for a file
 model/eht/eht-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-phy.cc.s
 .PHONY : model/eht/eht-phy.cc.s
 
 model/eht/eht-ppdu.o: model/eht/eht-ppdu.cc.o
@@ -867,7 +867,7 @@ model/eht/eht-ppdu.o: model/eht/eht-ppdu.cc.o
 
 # target to build an object file
 model/eht/eht-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-ppdu.cc.o
 .PHONY : model/eht/eht-ppdu.cc.o
 
 model/eht/eht-ppdu.i: model/eht/eht-ppdu.cc.i
@@ -875,7 +875,7 @@ model/eht/eht-ppdu.i: model/eht/eht-ppdu.cc.i
 
 # target to preprocess a source file
 model/eht/eht-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-ppdu.cc.i
 .PHONY : model/eht/eht-ppdu.cc.i
 
 model/eht/eht-ppdu.s: model/eht/eht-ppdu.cc.s
@@ -883,7 +883,7 @@ model/eht/eht-ppdu.s: model/eht/eht-ppdu.cc.s
 
 # target to generate assembly for a file
 model/eht/eht-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/eht-ppdu.cc.s
 .PHONY : model/eht/eht-ppdu.cc.s
 
 model/eht/emlsr-manager.o: model/eht/emlsr-manager.cc.o
@@ -891,7 +891,7 @@ model/eht/emlsr-manager.o: model/eht/emlsr-manager.cc.o
 
 # target to build an object file
 model/eht/emlsr-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/emlsr-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/emlsr-manager.cc.o
 .PHONY : model/eht/emlsr-manager.cc.o
 
 model/eht/emlsr-manager.i: model/eht/emlsr-manager.cc.i
@@ -899,7 +899,7 @@ model/eht/emlsr-manager.i: model/eht/emlsr-manager.cc.i
 
 # target to preprocess a source file
 model/eht/emlsr-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/emlsr-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/emlsr-manager.cc.i
 .PHONY : model/eht/emlsr-manager.cc.i
 
 model/eht/emlsr-manager.s: model/eht/emlsr-manager.cc.s
@@ -907,7 +907,7 @@ model/eht/emlsr-manager.s: model/eht/emlsr-manager.cc.s
 
 # target to generate assembly for a file
 model/eht/emlsr-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/emlsr-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/emlsr-manager.cc.s
 .PHONY : model/eht/emlsr-manager.cc.s
 
 model/eht/multi-link-element.o: model/eht/multi-link-element.cc.o
@@ -915,7 +915,7 @@ model/eht/multi-link-element.o: model/eht/multi-link-element.cc.o
 
 # target to build an object file
 model/eht/multi-link-element.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/multi-link-element.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/multi-link-element.cc.o
 .PHONY : model/eht/multi-link-element.cc.o
 
 model/eht/multi-link-element.i: model/eht/multi-link-element.cc.i
@@ -923,7 +923,7 @@ model/eht/multi-link-element.i: model/eht/multi-link-element.cc.i
 
 # target to preprocess a source file
 model/eht/multi-link-element.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/multi-link-element.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/multi-link-element.cc.i
 .PHONY : model/eht/multi-link-element.cc.i
 
 model/eht/multi-link-element.s: model/eht/multi-link-element.cc.s
@@ -931,7 +931,7 @@ model/eht/multi-link-element.s: model/eht/multi-link-element.cc.s
 
 # target to generate assembly for a file
 model/eht/multi-link-element.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/multi-link-element.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/multi-link-element.cc.s
 .PHONY : model/eht/multi-link-element.cc.s
 
 model/eht/tid-to-link-mapping-element.o: model/eht/tid-to-link-mapping-element.cc.o
@@ -939,7 +939,7 @@ model/eht/tid-to-link-mapping-element.o: model/eht/tid-to-link-mapping-element.c
 
 # target to build an object file
 model/eht/tid-to-link-mapping-element.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/tid-to-link-mapping-element.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/tid-to-link-mapping-element.cc.o
 .PHONY : model/eht/tid-to-link-mapping-element.cc.o
 
 model/eht/tid-to-link-mapping-element.i: model/eht/tid-to-link-mapping-element.cc.i
@@ -947,7 +947,7 @@ model/eht/tid-to-link-mapping-element.i: model/eht/tid-to-link-mapping-element.c
 
 # target to preprocess a source file
 model/eht/tid-to-link-mapping-element.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/tid-to-link-mapping-element.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/tid-to-link-mapping-element.cc.i
 .PHONY : model/eht/tid-to-link-mapping-element.cc.i
 
 model/eht/tid-to-link-mapping-element.s: model/eht/tid-to-link-mapping-element.cc.s
@@ -955,7 +955,7 @@ model/eht/tid-to-link-mapping-element.s: model/eht/tid-to-link-mapping-element.c
 
 # target to generate assembly for a file
 model/eht/tid-to-link-mapping-element.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/tid-to-link-mapping-element.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/eht/tid-to-link-mapping-element.cc.s
 .PHONY : model/eht/tid-to-link-mapping-element.cc.s
 
 model/error-rate-model.o: model/error-rate-model.cc.o
@@ -963,7 +963,7 @@ model/error-rate-model.o: model/error-rate-model.cc.o
 
 # target to build an object file
 model/error-rate-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/error-rate-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/error-rate-model.cc.o
 .PHONY : model/error-rate-model.cc.o
 
 model/error-rate-model.i: model/error-rate-model.cc.i
@@ -971,7 +971,7 @@ model/error-rate-model.i: model/error-rate-model.cc.i
 
 # target to preprocess a source file
 model/error-rate-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/error-rate-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/error-rate-model.cc.i
 .PHONY : model/error-rate-model.cc.i
 
 model/error-rate-model.s: model/error-rate-model.cc.s
@@ -979,7 +979,7 @@ model/error-rate-model.s: model/error-rate-model.cc.s
 
 # target to generate assembly for a file
 model/error-rate-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/error-rate-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/error-rate-model.cc.s
 .PHONY : model/error-rate-model.cc.s
 
 model/extended-capabilities.o: model/extended-capabilities.cc.o
@@ -987,7 +987,7 @@ model/extended-capabilities.o: model/extended-capabilities.cc.o
 
 # target to build an object file
 model/extended-capabilities.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/extended-capabilities.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/extended-capabilities.cc.o
 .PHONY : model/extended-capabilities.cc.o
 
 model/extended-capabilities.i: model/extended-capabilities.cc.i
@@ -995,7 +995,7 @@ model/extended-capabilities.i: model/extended-capabilities.cc.i
 
 # target to preprocess a source file
 model/extended-capabilities.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/extended-capabilities.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/extended-capabilities.cc.i
 .PHONY : model/extended-capabilities.cc.i
 
 model/extended-capabilities.s: model/extended-capabilities.cc.s
@@ -1003,7 +1003,7 @@ model/extended-capabilities.s: model/extended-capabilities.cc.s
 
 # target to generate assembly for a file
 model/extended-capabilities.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/extended-capabilities.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/extended-capabilities.cc.s
 .PHONY : model/extended-capabilities.cc.s
 
 model/fcfs-wifi-queue-scheduler.o: model/fcfs-wifi-queue-scheduler.cc.o
@@ -1011,7 +1011,7 @@ model/fcfs-wifi-queue-scheduler.o: model/fcfs-wifi-queue-scheduler.cc.o
 
 # target to build an object file
 model/fcfs-wifi-queue-scheduler.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/fcfs-wifi-queue-scheduler.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/fcfs-wifi-queue-scheduler.cc.o
 .PHONY : model/fcfs-wifi-queue-scheduler.cc.o
 
 model/fcfs-wifi-queue-scheduler.i: model/fcfs-wifi-queue-scheduler.cc.i
@@ -1019,7 +1019,7 @@ model/fcfs-wifi-queue-scheduler.i: model/fcfs-wifi-queue-scheduler.cc.i
 
 # target to preprocess a source file
 model/fcfs-wifi-queue-scheduler.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/fcfs-wifi-queue-scheduler.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/fcfs-wifi-queue-scheduler.cc.i
 .PHONY : model/fcfs-wifi-queue-scheduler.cc.i
 
 model/fcfs-wifi-queue-scheduler.s: model/fcfs-wifi-queue-scheduler.cc.s
@@ -1027,7 +1027,7 @@ model/fcfs-wifi-queue-scheduler.s: model/fcfs-wifi-queue-scheduler.cc.s
 
 # target to generate assembly for a file
 model/fcfs-wifi-queue-scheduler.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/fcfs-wifi-queue-scheduler.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/fcfs-wifi-queue-scheduler.cc.s
 .PHONY : model/fcfs-wifi-queue-scheduler.cc.s
 
 model/frame-capture-model.o: model/frame-capture-model.cc.o
@@ -1035,7 +1035,7 @@ model/frame-capture-model.o: model/frame-capture-model.cc.o
 
 # target to build an object file
 model/frame-capture-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.o
 .PHONY : model/frame-capture-model.cc.o
 
 model/frame-capture-model.i: model/frame-capture-model.cc.i
@@ -1043,7 +1043,7 @@ model/frame-capture-model.i: model/frame-capture-model.cc.i
 
 # target to preprocess a source file
 model/frame-capture-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.i
 .PHONY : model/frame-capture-model.cc.i
 
 model/frame-capture-model.s: model/frame-capture-model.cc.s
@@ -1051,7 +1051,7 @@ model/frame-capture-model.s: model/frame-capture-model.cc.s
 
 # target to generate assembly for a file
 model/frame-capture-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.s
 .PHONY : model/frame-capture-model.cc.s
 
 model/frame-exchange-manager.o: model/frame-exchange-manager.cc.o
@@ -1059,7 +1059,7 @@ model/frame-exchange-manager.o: model/frame-exchange-manager.cc.o
 
 # target to build an object file
 model/frame-exchange-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-exchange-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-exchange-manager.cc.o
 .PHONY : model/frame-exchange-manager.cc.o
 
 model/frame-exchange-manager.i: model/frame-exchange-manager.cc.i
@@ -1067,7 +1067,7 @@ model/frame-exchange-manager.i: model/frame-exchange-manager.cc.i
 
 # target to preprocess a source file
 model/frame-exchange-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-exchange-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-exchange-manager.cc.i
 .PHONY : model/frame-exchange-manager.cc.i
 
 model/frame-exchange-manager.s: model/frame-exchange-manager.cc.s
@@ -1075,7 +1075,7 @@ model/frame-exchange-manager.s: model/frame-exchange-manager.cc.s
 
 # target to generate assembly for a file
 model/frame-exchange-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-exchange-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-exchange-manager.cc.s
 .PHONY : model/frame-exchange-manager.cc.s
 
 model/he/constant-obss-pd-algorithm.o: model/he/constant-obss-pd-algorithm.cc.o
@@ -1083,7 +1083,7 @@ model/he/constant-obss-pd-algorithm.o: model/he/constant-obss-pd-algorithm.cc.o
 
 # target to build an object file
 model/he/constant-obss-pd-algorithm.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.o
 .PHONY : model/he/constant-obss-pd-algorithm.cc.o
 
 model/he/constant-obss-pd-algorithm.i: model/he/constant-obss-pd-algorithm.cc.i
@@ -1091,7 +1091,7 @@ model/he/constant-obss-pd-algorithm.i: model/he/constant-obss-pd-algorithm.cc.i
 
 # target to preprocess a source file
 model/he/constant-obss-pd-algorithm.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.i
 .PHONY : model/he/constant-obss-pd-algorithm.cc.i
 
 model/he/constant-obss-pd-algorithm.s: model/he/constant-obss-pd-algorithm.cc.s
@@ -1099,7 +1099,7 @@ model/he/constant-obss-pd-algorithm.s: model/he/constant-obss-pd-algorithm.cc.s
 
 # target to generate assembly for a file
 model/he/constant-obss-pd-algorithm.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/constant-obss-pd-algorithm.cc.s
 .PHONY : model/he/constant-obss-pd-algorithm.cc.s
 
 model/he/he-6ghz-band-capabilities.o: model/he/he-6ghz-band-capabilities.cc.o
@@ -1107,7 +1107,7 @@ model/he/he-6ghz-band-capabilities.o: model/he/he-6ghz-band-capabilities.cc.o
 
 # target to build an object file
 model/he/he-6ghz-band-capabilities.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-6ghz-band-capabilities.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-6ghz-band-capabilities.cc.o
 .PHONY : model/he/he-6ghz-band-capabilities.cc.o
 
 model/he/he-6ghz-band-capabilities.i: model/he/he-6ghz-band-capabilities.cc.i
@@ -1115,7 +1115,7 @@ model/he/he-6ghz-band-capabilities.i: model/he/he-6ghz-band-capabilities.cc.i
 
 # target to preprocess a source file
 model/he/he-6ghz-band-capabilities.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-6ghz-band-capabilities.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-6ghz-band-capabilities.cc.i
 .PHONY : model/he/he-6ghz-band-capabilities.cc.i
 
 model/he/he-6ghz-band-capabilities.s: model/he/he-6ghz-band-capabilities.cc.s
@@ -1123,7 +1123,7 @@ model/he/he-6ghz-band-capabilities.s: model/he/he-6ghz-band-capabilities.cc.s
 
 # target to generate assembly for a file
 model/he/he-6ghz-band-capabilities.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-6ghz-band-capabilities.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-6ghz-band-capabilities.cc.s
 .PHONY : model/he/he-6ghz-band-capabilities.cc.s
 
 model/he/he-capabilities.o: model/he/he-capabilities.cc.o
@@ -1131,7 +1131,7 @@ model/he/he-capabilities.o: model/he/he-capabilities.cc.o
 
 # target to build an object file
 model/he/he-capabilities.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-capabilities.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-capabilities.cc.o
 .PHONY : model/he/he-capabilities.cc.o
 
 model/he/he-capabilities.i: model/he/he-capabilities.cc.i
@@ -1139,7 +1139,7 @@ model/he/he-capabilities.i: model/he/he-capabilities.cc.i
 
 # target to preprocess a source file
 model/he/he-capabilities.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-capabilities.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-capabilities.cc.i
 .PHONY : model/he/he-capabilities.cc.i
 
 model/he/he-capabilities.s: model/he/he-capabilities.cc.s
@@ -1147,7 +1147,7 @@ model/he/he-capabilities.s: model/he/he-capabilities.cc.s
 
 # target to generate assembly for a file
 model/he/he-capabilities.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-capabilities.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-capabilities.cc.s
 .PHONY : model/he/he-capabilities.cc.s
 
 model/he/he-configuration.o: model/he/he-configuration.cc.o
@@ -1155,7 +1155,7 @@ model/he/he-configuration.o: model/he/he-configuration.cc.o
 
 # target to build an object file
 model/he/he-configuration.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-configuration.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-configuration.cc.o
 .PHONY : model/he/he-configuration.cc.o
 
 model/he/he-configuration.i: model/he/he-configuration.cc.i
@@ -1163,7 +1163,7 @@ model/he/he-configuration.i: model/he/he-configuration.cc.i
 
 # target to preprocess a source file
 model/he/he-configuration.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-configuration.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-configuration.cc.i
 .PHONY : model/he/he-configuration.cc.i
 
 model/he/he-configuration.s: model/he/he-configuration.cc.s
@@ -1171,7 +1171,7 @@ model/he/he-configuration.s: model/he/he-configuration.cc.s
 
 # target to generate assembly for a file
 model/he/he-configuration.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-configuration.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-configuration.cc.s
 .PHONY : model/he/he-configuration.cc.s
 
 model/he/he-frame-exchange-manager.o: model/he/he-frame-exchange-manager.cc.o
@@ -1179,7 +1179,7 @@ model/he/he-frame-exchange-manager.o: model/he/he-frame-exchange-manager.cc.o
 
 # target to build an object file
 model/he/he-frame-exchange-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-frame-exchange-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-frame-exchange-manager.cc.o
 .PHONY : model/he/he-frame-exchange-manager.cc.o
 
 model/he/he-frame-exchange-manager.i: model/he/he-frame-exchange-manager.cc.i
@@ -1187,7 +1187,7 @@ model/he/he-frame-exchange-manager.i: model/he/he-frame-exchange-manager.cc.i
 
 # target to preprocess a source file
 model/he/he-frame-exchange-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-frame-exchange-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-frame-exchange-manager.cc.i
 .PHONY : model/he/he-frame-exchange-manager.cc.i
 
 model/he/he-frame-exchange-manager.s: model/he/he-frame-exchange-manager.cc.s
@@ -1195,7 +1195,7 @@ model/he/he-frame-exchange-manager.s: model/he/he-frame-exchange-manager.cc.s
 
 # target to generate assembly for a file
 model/he/he-frame-exchange-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-frame-exchange-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-frame-exchange-manager.cc.s
 .PHONY : model/he/he-frame-exchange-manager.cc.s
 
 model/he/he-operation.o: model/he/he-operation.cc.o
@@ -1203,7 +1203,7 @@ model/he/he-operation.o: model/he/he-operation.cc.o
 
 # target to build an object file
 model/he/he-operation.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-operation.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-operation.cc.o
 .PHONY : model/he/he-operation.cc.o
 
 model/he/he-operation.i: model/he/he-operation.cc.i
@@ -1211,7 +1211,7 @@ model/he/he-operation.i: model/he/he-operation.cc.i
 
 # target to preprocess a source file
 model/he/he-operation.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-operation.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-operation.cc.i
 .PHONY : model/he/he-operation.cc.i
 
 model/he/he-operation.s: model/he/he-operation.cc.s
@@ -1219,7 +1219,7 @@ model/he/he-operation.s: model/he/he-operation.cc.s
 
 # target to generate assembly for a file
 model/he/he-operation.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-operation.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-operation.cc.s
 .PHONY : model/he/he-operation.cc.s
 
 model/he/he-phy.o: model/he/he-phy.cc.o
@@ -1227,7 +1227,7 @@ model/he/he-phy.o: model/he/he-phy.cc.o
 
 # target to build an object file
 model/he/he-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.o
 .PHONY : model/he/he-phy.cc.o
 
 model/he/he-phy.i: model/he/he-phy.cc.i
@@ -1235,7 +1235,7 @@ model/he/he-phy.i: model/he/he-phy.cc.i
 
 # target to preprocess a source file
 model/he/he-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.i
 .PHONY : model/he/he-phy.cc.i
 
 model/he/he-phy.s: model/he/he-phy.cc.s
@@ -1243,7 +1243,7 @@ model/he/he-phy.s: model/he/he-phy.cc.s
 
 # target to generate assembly for a file
 model/he/he-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-phy.cc.s
 .PHONY : model/he/he-phy.cc.s
 
 model/he/he-ppdu.o: model/he/he-ppdu.cc.o
@@ -1251,7 +1251,7 @@ model/he/he-ppdu.o: model/he/he-ppdu.cc.o
 
 # target to build an object file
 model/he/he-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ppdu.cc.o
 .PHONY : model/he/he-ppdu.cc.o
 
 model/he/he-ppdu.i: model/he/he-ppdu.cc.i
@@ -1259,7 +1259,7 @@ model/he/he-ppdu.i: model/he/he-ppdu.cc.i
 
 # target to preprocess a source file
 model/he/he-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ppdu.cc.i
 .PHONY : model/he/he-ppdu.cc.i
 
 model/he/he-ppdu.s: model/he/he-ppdu.cc.s
@@ -1267,7 +1267,7 @@ model/he/he-ppdu.s: model/he/he-ppdu.cc.s
 
 # target to generate assembly for a file
 model/he/he-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ppdu.cc.s
 .PHONY : model/he/he-ppdu.cc.s
 
 model/he/he-ru.o: model/he/he-ru.cc.o
@@ -1275,7 +1275,7 @@ model/he/he-ru.o: model/he/he-ru.cc.o
 
 # target to build an object file
 model/he/he-ru.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ru.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ru.cc.o
 .PHONY : model/he/he-ru.cc.o
 
 model/he/he-ru.i: model/he/he-ru.cc.i
@@ -1283,7 +1283,7 @@ model/he/he-ru.i: model/he/he-ru.cc.i
 
 # target to preprocess a source file
 model/he/he-ru.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ru.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ru.cc.i
 .PHONY : model/he/he-ru.cc.i
 
 model/he/he-ru.s: model/he/he-ru.cc.s
@@ -1291,7 +1291,7 @@ model/he/he-ru.s: model/he/he-ru.cc.s
 
 # target to generate assembly for a file
 model/he/he-ru.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ru.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/he-ru.cc.s
 .PHONY : model/he/he-ru.cc.s
 
 model/he/mu-edca-parameter-set.o: model/he/mu-edca-parameter-set.cc.o
@@ -1299,7 +1299,7 @@ model/he/mu-edca-parameter-set.o: model/he/mu-edca-parameter-set.cc.o
 
 # target to build an object file
 model/he/mu-edca-parameter-set.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-edca-parameter-set.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-edca-parameter-set.cc.o
 .PHONY : model/he/mu-edca-parameter-set.cc.o
 
 model/he/mu-edca-parameter-set.i: model/he/mu-edca-parameter-set.cc.i
@@ -1307,7 +1307,7 @@ model/he/mu-edca-parameter-set.i: model/he/mu-edca-parameter-set.cc.i
 
 # target to preprocess a source file
 model/he/mu-edca-parameter-set.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-edca-parameter-set.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-edca-parameter-set.cc.i
 .PHONY : model/he/mu-edca-parameter-set.cc.i
 
 model/he/mu-edca-parameter-set.s: model/he/mu-edca-parameter-set.cc.s
@@ -1315,7 +1315,7 @@ model/he/mu-edca-parameter-set.s: model/he/mu-edca-parameter-set.cc.s
 
 # target to generate assembly for a file
 model/he/mu-edca-parameter-set.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-edca-parameter-set.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-edca-parameter-set.cc.s
 .PHONY : model/he/mu-edca-parameter-set.cc.s
 
 model/he/mu-snr-tag.o: model/he/mu-snr-tag.cc.o
@@ -1323,7 +1323,7 @@ model/he/mu-snr-tag.o: model/he/mu-snr-tag.cc.o
 
 # target to build an object file
 model/he/mu-snr-tag.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-snr-tag.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-snr-tag.cc.o
 .PHONY : model/he/mu-snr-tag.cc.o
 
 model/he/mu-snr-tag.i: model/he/mu-snr-tag.cc.i
@@ -1331,7 +1331,7 @@ model/he/mu-snr-tag.i: model/he/mu-snr-tag.cc.i
 
 # target to preprocess a source file
 model/he/mu-snr-tag.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-snr-tag.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-snr-tag.cc.i
 .PHONY : model/he/mu-snr-tag.cc.i
 
 model/he/mu-snr-tag.s: model/he/mu-snr-tag.cc.s
@@ -1339,7 +1339,7 @@ model/he/mu-snr-tag.s: model/he/mu-snr-tag.cc.s
 
 # target to generate assembly for a file
 model/he/mu-snr-tag.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-snr-tag.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/mu-snr-tag.cc.s
 .PHONY : model/he/mu-snr-tag.cc.s
 
 model/he/multi-user-scheduler.o: model/he/multi-user-scheduler.cc.o
@@ -1347,7 +1347,7 @@ model/he/multi-user-scheduler.o: model/he/multi-user-scheduler.cc.o
 
 # target to build an object file
 model/he/multi-user-scheduler.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/multi-user-scheduler.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/multi-user-scheduler.cc.o
 .PHONY : model/he/multi-user-scheduler.cc.o
 
 model/he/multi-user-scheduler.i: model/he/multi-user-scheduler.cc.i
@@ -1355,7 +1355,7 @@ model/he/multi-user-scheduler.i: model/he/multi-user-scheduler.cc.i
 
 # target to preprocess a source file
 model/he/multi-user-scheduler.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/multi-user-scheduler.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/multi-user-scheduler.cc.i
 .PHONY : model/he/multi-user-scheduler.cc.i
 
 model/he/multi-user-scheduler.s: model/he/multi-user-scheduler.cc.s
@@ -1363,7 +1363,7 @@ model/he/multi-user-scheduler.s: model/he/multi-user-scheduler.cc.s
 
 # target to generate assembly for a file
 model/he/multi-user-scheduler.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/multi-user-scheduler.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/multi-user-scheduler.cc.s
 .PHONY : model/he/multi-user-scheduler.cc.s
 
 model/he/obss-pd-algorithm.o: model/he/obss-pd-algorithm.cc.o
@@ -1371,7 +1371,7 @@ model/he/obss-pd-algorithm.o: model/he/obss-pd-algorithm.cc.o
 
 # target to build an object file
 model/he/obss-pd-algorithm.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.o
 .PHONY : model/he/obss-pd-algorithm.cc.o
 
 model/he/obss-pd-algorithm.i: model/he/obss-pd-algorithm.cc.i
@@ -1379,7 +1379,7 @@ model/he/obss-pd-algorithm.i: model/he/obss-pd-algorithm.cc.i
 
 # target to preprocess a source file
 model/he/obss-pd-algorithm.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.i
 .PHONY : model/he/obss-pd-algorithm.cc.i
 
 model/he/obss-pd-algorithm.s: model/he/obss-pd-algorithm.cc.s
@@ -1387,7 +1387,7 @@ model/he/obss-pd-algorithm.s: model/he/obss-pd-algorithm.cc.s
 
 # target to generate assembly for a file
 model/he/obss-pd-algorithm.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/obss-pd-algorithm.cc.s
 .PHONY : model/he/obss-pd-algorithm.cc.s
 
 model/he/rr-multi-user-scheduler.o: model/he/rr-multi-user-scheduler.cc.o
@@ -1395,7 +1395,7 @@ model/he/rr-multi-user-scheduler.o: model/he/rr-multi-user-scheduler.cc.o
 
 # target to build an object file
 model/he/rr-multi-user-scheduler.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/rr-multi-user-scheduler.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/rr-multi-user-scheduler.cc.o
 .PHONY : model/he/rr-multi-user-scheduler.cc.o
 
 model/he/rr-multi-user-scheduler.i: model/he/rr-multi-user-scheduler.cc.i
@@ -1403,7 +1403,7 @@ model/he/rr-multi-user-scheduler.i: model/he/rr-multi-user-scheduler.cc.i
 
 # target to preprocess a source file
 model/he/rr-multi-user-scheduler.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/rr-multi-user-scheduler.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/rr-multi-user-scheduler.cc.i
 .PHONY : model/he/rr-multi-user-scheduler.cc.i
 
 model/he/rr-multi-user-scheduler.s: model/he/rr-multi-user-scheduler.cc.s
@@ -1411,7 +1411,7 @@ model/he/rr-multi-user-scheduler.s: model/he/rr-multi-user-scheduler.cc.s
 
 # target to generate assembly for a file
 model/he/rr-multi-user-scheduler.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/rr-multi-user-scheduler.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/he/rr-multi-user-scheduler.cc.s
 .PHONY : model/he/rr-multi-user-scheduler.cc.s
 
 model/ht/ht-capabilities.o: model/ht/ht-capabilities.cc.o
@@ -1419,7 +1419,7 @@ model/ht/ht-capabilities.o: model/ht/ht-capabilities.cc.o
 
 # target to build an object file
 model/ht/ht-capabilities.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-capabilities.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-capabilities.cc.o
 .PHONY : model/ht/ht-capabilities.cc.o
 
 model/ht/ht-capabilities.i: model/ht/ht-capabilities.cc.i
@@ -1427,7 +1427,7 @@ model/ht/ht-capabilities.i: model/ht/ht-capabilities.cc.i
 
 # target to preprocess a source file
 model/ht/ht-capabilities.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-capabilities.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-capabilities.cc.i
 .PHONY : model/ht/ht-capabilities.cc.i
 
 model/ht/ht-capabilities.s: model/ht/ht-capabilities.cc.s
@@ -1435,7 +1435,7 @@ model/ht/ht-capabilities.s: model/ht/ht-capabilities.cc.s
 
 # target to generate assembly for a file
 model/ht/ht-capabilities.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-capabilities.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-capabilities.cc.s
 .PHONY : model/ht/ht-capabilities.cc.s
 
 model/ht/ht-configuration.o: model/ht/ht-configuration.cc.o
@@ -1443,7 +1443,7 @@ model/ht/ht-configuration.o: model/ht/ht-configuration.cc.o
 
 # target to build an object file
 model/ht/ht-configuration.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-configuration.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-configuration.cc.o
 .PHONY : model/ht/ht-configuration.cc.o
 
 model/ht/ht-configuration.i: model/ht/ht-configuration.cc.i
@@ -1451,7 +1451,7 @@ model/ht/ht-configuration.i: model/ht/ht-configuration.cc.i
 
 # target to preprocess a source file
 model/ht/ht-configuration.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-configuration.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-configuration.cc.i
 .PHONY : model/ht/ht-configuration.cc.i
 
 model/ht/ht-configuration.s: model/ht/ht-configuration.cc.s
@@ -1459,7 +1459,7 @@ model/ht/ht-configuration.s: model/ht/ht-configuration.cc.s
 
 # target to generate assembly for a file
 model/ht/ht-configuration.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-configuration.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-configuration.cc.s
 .PHONY : model/ht/ht-configuration.cc.s
 
 model/ht/ht-frame-exchange-manager.o: model/ht/ht-frame-exchange-manager.cc.o
@@ -1467,7 +1467,7 @@ model/ht/ht-frame-exchange-manager.o: model/ht/ht-frame-exchange-manager.cc.o
 
 # target to build an object file
 model/ht/ht-frame-exchange-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-frame-exchange-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-frame-exchange-manager.cc.o
 .PHONY : model/ht/ht-frame-exchange-manager.cc.o
 
 model/ht/ht-frame-exchange-manager.i: model/ht/ht-frame-exchange-manager.cc.i
@@ -1475,7 +1475,7 @@ model/ht/ht-frame-exchange-manager.i: model/ht/ht-frame-exchange-manager.cc.i
 
 # target to preprocess a source file
 model/ht/ht-frame-exchange-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-frame-exchange-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-frame-exchange-manager.cc.i
 .PHONY : model/ht/ht-frame-exchange-manager.cc.i
 
 model/ht/ht-frame-exchange-manager.s: model/ht/ht-frame-exchange-manager.cc.s
@@ -1483,7 +1483,7 @@ model/ht/ht-frame-exchange-manager.s: model/ht/ht-frame-exchange-manager.cc.s
 
 # target to generate assembly for a file
 model/ht/ht-frame-exchange-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-frame-exchange-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-frame-exchange-manager.cc.s
 .PHONY : model/ht/ht-frame-exchange-manager.cc.s
 
 model/ht/ht-operation.o: model/ht/ht-operation.cc.o
@@ -1491,7 +1491,7 @@ model/ht/ht-operation.o: model/ht/ht-operation.cc.o
 
 # target to build an object file
 model/ht/ht-operation.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-operation.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-operation.cc.o
 .PHONY : model/ht/ht-operation.cc.o
 
 model/ht/ht-operation.i: model/ht/ht-operation.cc.i
@@ -1499,7 +1499,7 @@ model/ht/ht-operation.i: model/ht/ht-operation.cc.i
 
 # target to preprocess a source file
 model/ht/ht-operation.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-operation.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-operation.cc.i
 .PHONY : model/ht/ht-operation.cc.i
 
 model/ht/ht-operation.s: model/ht/ht-operation.cc.s
@@ -1507,7 +1507,7 @@ model/ht/ht-operation.s: model/ht/ht-operation.cc.s
 
 # target to generate assembly for a file
 model/ht/ht-operation.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-operation.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-operation.cc.s
 .PHONY : model/ht/ht-operation.cc.s
 
 model/ht/ht-phy.o: model/ht/ht-phy.cc.o
@@ -1515,7 +1515,7 @@ model/ht/ht-phy.o: model/ht/ht-phy.cc.o
 
 # target to build an object file
 model/ht/ht-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-phy.cc.o
 .PHONY : model/ht/ht-phy.cc.o
 
 model/ht/ht-phy.i: model/ht/ht-phy.cc.i
@@ -1523,7 +1523,7 @@ model/ht/ht-phy.i: model/ht/ht-phy.cc.i
 
 # target to preprocess a source file
 model/ht/ht-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-phy.cc.i
 .PHONY : model/ht/ht-phy.cc.i
 
 model/ht/ht-phy.s: model/ht/ht-phy.cc.s
@@ -1531,7 +1531,7 @@ model/ht/ht-phy.s: model/ht/ht-phy.cc.s
 
 # target to generate assembly for a file
 model/ht/ht-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-phy.cc.s
 .PHONY : model/ht/ht-phy.cc.s
 
 model/ht/ht-ppdu.o: model/ht/ht-ppdu.cc.o
@@ -1539,7 +1539,7 @@ model/ht/ht-ppdu.o: model/ht/ht-ppdu.cc.o
 
 # target to build an object file
 model/ht/ht-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-ppdu.cc.o
 .PHONY : model/ht/ht-ppdu.cc.o
 
 model/ht/ht-ppdu.i: model/ht/ht-ppdu.cc.i
@@ -1547,7 +1547,7 @@ model/ht/ht-ppdu.i: model/ht/ht-ppdu.cc.i
 
 # target to preprocess a source file
 model/ht/ht-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-ppdu.cc.i
 .PHONY : model/ht/ht-ppdu.cc.i
 
 model/ht/ht-ppdu.s: model/ht/ht-ppdu.cc.s
@@ -1555,7 +1555,7 @@ model/ht/ht-ppdu.s: model/ht/ht-ppdu.cc.s
 
 # target to generate assembly for a file
 model/ht/ht-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ht/ht-ppdu.cc.s
 .PHONY : model/ht/ht-ppdu.cc.s
 
 model/interference-helper.o: model/interference-helper.cc.o
@@ -1563,7 +1563,7 @@ model/interference-helper.o: model/interference-helper.cc.o
 
 # target to build an object file
 model/interference-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/interference-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/interference-helper.cc.o
 .PHONY : model/interference-helper.cc.o
 
 model/interference-helper.i: model/interference-helper.cc.i
@@ -1571,7 +1571,7 @@ model/interference-helper.i: model/interference-helper.cc.i
 
 # target to preprocess a source file
 model/interference-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/interference-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/interference-helper.cc.i
 .PHONY : model/interference-helper.cc.i
 
 model/interference-helper.s: model/interference-helper.cc.s
@@ -1579,7 +1579,7 @@ model/interference-helper.s: model/interference-helper.cc.s
 
 # target to generate assembly for a file
 model/interference-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/interference-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/interference-helper.cc.s
 .PHONY : model/interference-helper.cc.s
 
 model/mac-rx-middle.o: model/mac-rx-middle.cc.o
@@ -1587,7 +1587,7 @@ model/mac-rx-middle.o: model/mac-rx-middle.cc.o
 
 # target to build an object file
 model/mac-rx-middle.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-rx-middle.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-rx-middle.cc.o
 .PHONY : model/mac-rx-middle.cc.o
 
 model/mac-rx-middle.i: model/mac-rx-middle.cc.i
@@ -1595,7 +1595,7 @@ model/mac-rx-middle.i: model/mac-rx-middle.cc.i
 
 # target to preprocess a source file
 model/mac-rx-middle.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-rx-middle.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-rx-middle.cc.i
 .PHONY : model/mac-rx-middle.cc.i
 
 model/mac-rx-middle.s: model/mac-rx-middle.cc.s
@@ -1603,7 +1603,7 @@ model/mac-rx-middle.s: model/mac-rx-middle.cc.s
 
 # target to generate assembly for a file
 model/mac-rx-middle.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-rx-middle.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-rx-middle.cc.s
 .PHONY : model/mac-rx-middle.cc.s
 
 model/mac-tx-middle.o: model/mac-tx-middle.cc.o
@@ -1611,7 +1611,7 @@ model/mac-tx-middle.o: model/mac-tx-middle.cc.o
 
 # target to build an object file
 model/mac-tx-middle.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-tx-middle.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-tx-middle.cc.o
 .PHONY : model/mac-tx-middle.cc.o
 
 model/mac-tx-middle.i: model/mac-tx-middle.cc.i
@@ -1619,7 +1619,7 @@ model/mac-tx-middle.i: model/mac-tx-middle.cc.i
 
 # target to preprocess a source file
 model/mac-tx-middle.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-tx-middle.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-tx-middle.cc.i
 .PHONY : model/mac-tx-middle.cc.i
 
 model/mac-tx-middle.s: model/mac-tx-middle.cc.s
@@ -1627,7 +1627,7 @@ model/mac-tx-middle.s: model/mac-tx-middle.cc.s
 
 # target to generate assembly for a file
 model/mac-tx-middle.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-tx-middle.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mac-tx-middle.cc.s
 .PHONY : model/mac-tx-middle.cc.s
 
 model/mgt-action-headers.o: model/mgt-action-headers.cc.o
@@ -1635,7 +1635,7 @@ model/mgt-action-headers.o: model/mgt-action-headers.cc.o
 
 # target to build an object file
 model/mgt-action-headers.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-action-headers.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-action-headers.cc.o
 .PHONY : model/mgt-action-headers.cc.o
 
 model/mgt-action-headers.i: model/mgt-action-headers.cc.i
@@ -1643,7 +1643,7 @@ model/mgt-action-headers.i: model/mgt-action-headers.cc.i
 
 # target to preprocess a source file
 model/mgt-action-headers.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-action-headers.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-action-headers.cc.i
 .PHONY : model/mgt-action-headers.cc.i
 
 model/mgt-action-headers.s: model/mgt-action-headers.cc.s
@@ -1651,7 +1651,7 @@ model/mgt-action-headers.s: model/mgt-action-headers.cc.s
 
 # target to generate assembly for a file
 model/mgt-action-headers.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-action-headers.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-action-headers.cc.s
 .PHONY : model/mgt-action-headers.cc.s
 
 model/mgt-headers.o: model/mgt-headers.cc.o
@@ -1659,7 +1659,7 @@ model/mgt-headers.o: model/mgt-headers.cc.o
 
 # target to build an object file
 model/mgt-headers.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-headers.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-headers.cc.o
 .PHONY : model/mgt-headers.cc.o
 
 model/mgt-headers.i: model/mgt-headers.cc.i
@@ -1667,7 +1667,7 @@ model/mgt-headers.i: model/mgt-headers.cc.i
 
 # target to preprocess a source file
 model/mgt-headers.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-headers.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-headers.cc.i
 .PHONY : model/mgt-headers.cc.i
 
 model/mgt-headers.s: model/mgt-headers.cc.s
@@ -1675,7 +1675,7 @@ model/mgt-headers.s: model/mgt-headers.cc.s
 
 # target to generate assembly for a file
 model/mgt-headers.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-headers.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mgt-headers.cc.s
 .PHONY : model/mgt-headers.cc.s
 
 model/mpdu-aggregator.o: model/mpdu-aggregator.cc.o
@@ -1683,7 +1683,7 @@ model/mpdu-aggregator.o: model/mpdu-aggregator.cc.o
 
 # target to build an object file
 model/mpdu-aggregator.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.o
 .PHONY : model/mpdu-aggregator.cc.o
 
 model/mpdu-aggregator.i: model/mpdu-aggregator.cc.i
@@ -1691,7 +1691,7 @@ model/mpdu-aggregator.i: model/mpdu-aggregator.cc.i
 
 # target to preprocess a source file
 model/mpdu-aggregator.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.i
 .PHONY : model/mpdu-aggregator.cc.i
 
 model/mpdu-aggregator.s: model/mpdu-aggregator.cc.s
@@ -1699,7 +1699,7 @@ model/mpdu-aggregator.s: model/mpdu-aggregator.cc.s
 
 # target to generate assembly for a file
 model/mpdu-aggregator.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/mpdu-aggregator.cc.s
 .PHONY : model/mpdu-aggregator.cc.s
 
 model/msdu-aggregator.o: model/msdu-aggregator.cc.o
@@ -1707,7 +1707,7 @@ model/msdu-aggregator.o: model/msdu-aggregator.cc.o
 
 # target to build an object file
 model/msdu-aggregator.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/msdu-aggregator.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/msdu-aggregator.cc.o
 .PHONY : model/msdu-aggregator.cc.o
 
 model/msdu-aggregator.i: model/msdu-aggregator.cc.i
@@ -1715,7 +1715,7 @@ model/msdu-aggregator.i: model/msdu-aggregator.cc.i
 
 # target to preprocess a source file
 model/msdu-aggregator.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/msdu-aggregator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/msdu-aggregator.cc.i
 .PHONY : model/msdu-aggregator.cc.i
 
 model/msdu-aggregator.s: model/msdu-aggregator.cc.s
@@ -1723,7 +1723,7 @@ model/msdu-aggregator.s: model/msdu-aggregator.cc.s
 
 # target to generate assembly for a file
 model/msdu-aggregator.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/msdu-aggregator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/msdu-aggregator.cc.s
 .PHONY : model/msdu-aggregator.cc.s
 
 model/nist-error-rate-model.o: model/nist-error-rate-model.cc.o
@@ -1731,7 +1731,7 @@ model/nist-error-rate-model.o: model/nist-error-rate-model.cc.o
 
 # target to build an object file
 model/nist-error-rate-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/nist-error-rate-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/nist-error-rate-model.cc.o
 .PHONY : model/nist-error-rate-model.cc.o
 
 model/nist-error-rate-model.i: model/nist-error-rate-model.cc.i
@@ -1739,7 +1739,7 @@ model/nist-error-rate-model.i: model/nist-error-rate-model.cc.i
 
 # target to preprocess a source file
 model/nist-error-rate-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/nist-error-rate-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/nist-error-rate-model.cc.i
 .PHONY : model/nist-error-rate-model.cc.i
 
 model/nist-error-rate-model.s: model/nist-error-rate-model.cc.s
@@ -1747,7 +1747,7 @@ model/nist-error-rate-model.s: model/nist-error-rate-model.cc.s
 
 # target to generate assembly for a file
 model/nist-error-rate-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/nist-error-rate-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/nist-error-rate-model.cc.s
 .PHONY : model/nist-error-rate-model.cc.s
 
 model/non-ht/dsss-error-rate-model.o: model/non-ht/dsss-error-rate-model.cc.o
@@ -1755,7 +1755,7 @@ model/non-ht/dsss-error-rate-model.o: model/non-ht/dsss-error-rate-model.cc.o
 
 # target to build an object file
 model/non-ht/dsss-error-rate-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.o
 .PHONY : model/non-ht/dsss-error-rate-model.cc.o
 
 model/non-ht/dsss-error-rate-model.i: model/non-ht/dsss-error-rate-model.cc.i
@@ -1763,7 +1763,7 @@ model/non-ht/dsss-error-rate-model.i: model/non-ht/dsss-error-rate-model.cc.i
 
 # target to preprocess a source file
 model/non-ht/dsss-error-rate-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.i
 .PHONY : model/non-ht/dsss-error-rate-model.cc.i
 
 model/non-ht/dsss-error-rate-model.s: model/non-ht/dsss-error-rate-model.cc.s
@@ -1771,7 +1771,7 @@ model/non-ht/dsss-error-rate-model.s: model/non-ht/dsss-error-rate-model.cc.s
 
 # target to generate assembly for a file
 model/non-ht/dsss-error-rate-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.s
 .PHONY : model/non-ht/dsss-error-rate-model.cc.s
 
 model/non-ht/dsss-parameter-set.o: model/non-ht/dsss-parameter-set.cc.o
@@ -1779,7 +1779,7 @@ model/non-ht/dsss-parameter-set.o: model/non-ht/dsss-parameter-set.cc.o
 
 # target to build an object file
 model/non-ht/dsss-parameter-set.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-parameter-set.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-parameter-set.cc.o
 .PHONY : model/non-ht/dsss-parameter-set.cc.o
 
 model/non-ht/dsss-parameter-set.i: model/non-ht/dsss-parameter-set.cc.i
@@ -1787,7 +1787,7 @@ model/non-ht/dsss-parameter-set.i: model/non-ht/dsss-parameter-set.cc.i
 
 # target to preprocess a source file
 model/non-ht/dsss-parameter-set.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-parameter-set.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-parameter-set.cc.i
 .PHONY : model/non-ht/dsss-parameter-set.cc.i
 
 model/non-ht/dsss-parameter-set.s: model/non-ht/dsss-parameter-set.cc.s
@@ -1795,7 +1795,7 @@ model/non-ht/dsss-parameter-set.s: model/non-ht/dsss-parameter-set.cc.s
 
 # target to generate assembly for a file
 model/non-ht/dsss-parameter-set.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-parameter-set.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-parameter-set.cc.s
 .PHONY : model/non-ht/dsss-parameter-set.cc.s
 
 model/non-ht/dsss-phy.o: model/non-ht/dsss-phy.cc.o
@@ -1803,7 +1803,7 @@ model/non-ht/dsss-phy.o: model/non-ht/dsss-phy.cc.o
 
 # target to build an object file
 model/non-ht/dsss-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-phy.cc.o
 .PHONY : model/non-ht/dsss-phy.cc.o
 
 model/non-ht/dsss-phy.i: model/non-ht/dsss-phy.cc.i
@@ -1811,7 +1811,7 @@ model/non-ht/dsss-phy.i: model/non-ht/dsss-phy.cc.i
 
 # target to preprocess a source file
 model/non-ht/dsss-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-phy.cc.i
 .PHONY : model/non-ht/dsss-phy.cc.i
 
 model/non-ht/dsss-phy.s: model/non-ht/dsss-phy.cc.s
@@ -1819,7 +1819,7 @@ model/non-ht/dsss-phy.s: model/non-ht/dsss-phy.cc.s
 
 # target to generate assembly for a file
 model/non-ht/dsss-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-phy.cc.s
 .PHONY : model/non-ht/dsss-phy.cc.s
 
 model/non-ht/dsss-ppdu.o: model/non-ht/dsss-ppdu.cc.o
@@ -1827,7 +1827,7 @@ model/non-ht/dsss-ppdu.o: model/non-ht/dsss-ppdu.cc.o
 
 # target to build an object file
 model/non-ht/dsss-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-ppdu.cc.o
 .PHONY : model/non-ht/dsss-ppdu.cc.o
 
 model/non-ht/dsss-ppdu.i: model/non-ht/dsss-ppdu.cc.i
@@ -1835,7 +1835,7 @@ model/non-ht/dsss-ppdu.i: model/non-ht/dsss-ppdu.cc.i
 
 # target to preprocess a source file
 model/non-ht/dsss-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-ppdu.cc.i
 .PHONY : model/non-ht/dsss-ppdu.cc.i
 
 model/non-ht/dsss-ppdu.s: model/non-ht/dsss-ppdu.cc.s
@@ -1843,7 +1843,7 @@ model/non-ht/dsss-ppdu.s: model/non-ht/dsss-ppdu.cc.s
 
 # target to generate assembly for a file
 model/non-ht/dsss-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-ppdu.cc.s
 .PHONY : model/non-ht/dsss-ppdu.cc.s
 
 model/non-ht/erp-information.o: model/non-ht/erp-information.cc.o
@@ -1851,7 +1851,7 @@ model/non-ht/erp-information.o: model/non-ht/erp-information.cc.o
 
 # target to build an object file
 model/non-ht/erp-information.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-information.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-information.cc.o
 .PHONY : model/non-ht/erp-information.cc.o
 
 model/non-ht/erp-information.i: model/non-ht/erp-information.cc.i
@@ -1859,7 +1859,7 @@ model/non-ht/erp-information.i: model/non-ht/erp-information.cc.i
 
 # target to preprocess a source file
 model/non-ht/erp-information.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-information.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-information.cc.i
 .PHONY : model/non-ht/erp-information.cc.i
 
 model/non-ht/erp-information.s: model/non-ht/erp-information.cc.s
@@ -1867,7 +1867,7 @@ model/non-ht/erp-information.s: model/non-ht/erp-information.cc.s
 
 # target to generate assembly for a file
 model/non-ht/erp-information.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-information.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-information.cc.s
 .PHONY : model/non-ht/erp-information.cc.s
 
 model/non-ht/erp-ofdm-phy.o: model/non-ht/erp-ofdm-phy.cc.o
@@ -1875,7 +1875,7 @@ model/non-ht/erp-ofdm-phy.o: model/non-ht/erp-ofdm-phy.cc.o
 
 # target to build an object file
 model/non-ht/erp-ofdm-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-phy.cc.o
 .PHONY : model/non-ht/erp-ofdm-phy.cc.o
 
 model/non-ht/erp-ofdm-phy.i: model/non-ht/erp-ofdm-phy.cc.i
@@ -1883,7 +1883,7 @@ model/non-ht/erp-ofdm-phy.i: model/non-ht/erp-ofdm-phy.cc.i
 
 # target to preprocess a source file
 model/non-ht/erp-ofdm-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-phy.cc.i
 .PHONY : model/non-ht/erp-ofdm-phy.cc.i
 
 model/non-ht/erp-ofdm-phy.s: model/non-ht/erp-ofdm-phy.cc.s
@@ -1891,7 +1891,7 @@ model/non-ht/erp-ofdm-phy.s: model/non-ht/erp-ofdm-phy.cc.s
 
 # target to generate assembly for a file
 model/non-ht/erp-ofdm-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-phy.cc.s
 .PHONY : model/non-ht/erp-ofdm-phy.cc.s
 
 model/non-ht/erp-ofdm-ppdu.o: model/non-ht/erp-ofdm-ppdu.cc.o
@@ -1899,7 +1899,7 @@ model/non-ht/erp-ofdm-ppdu.o: model/non-ht/erp-ofdm-ppdu.cc.o
 
 # target to build an object file
 model/non-ht/erp-ofdm-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-ppdu.cc.o
 .PHONY : model/non-ht/erp-ofdm-ppdu.cc.o
 
 model/non-ht/erp-ofdm-ppdu.i: model/non-ht/erp-ofdm-ppdu.cc.i
@@ -1907,7 +1907,7 @@ model/non-ht/erp-ofdm-ppdu.i: model/non-ht/erp-ofdm-ppdu.cc.i
 
 # target to preprocess a source file
 model/non-ht/erp-ofdm-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-ppdu.cc.i
 .PHONY : model/non-ht/erp-ofdm-ppdu.cc.i
 
 model/non-ht/erp-ofdm-ppdu.s: model/non-ht/erp-ofdm-ppdu.cc.s
@@ -1915,7 +1915,7 @@ model/non-ht/erp-ofdm-ppdu.s: model/non-ht/erp-ofdm-ppdu.cc.s
 
 # target to generate assembly for a file
 model/non-ht/erp-ofdm-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/erp-ofdm-ppdu.cc.s
 .PHONY : model/non-ht/erp-ofdm-ppdu.cc.s
 
 model/non-ht/ofdm-phy.o: model/non-ht/ofdm-phy.cc.o
@@ -1923,7 +1923,7 @@ model/non-ht/ofdm-phy.o: model/non-ht/ofdm-phy.cc.o
 
 # target to build an object file
 model/non-ht/ofdm-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-phy.cc.o
 .PHONY : model/non-ht/ofdm-phy.cc.o
 
 model/non-ht/ofdm-phy.i: model/non-ht/ofdm-phy.cc.i
@@ -1931,7 +1931,7 @@ model/non-ht/ofdm-phy.i: model/non-ht/ofdm-phy.cc.i
 
 # target to preprocess a source file
 model/non-ht/ofdm-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-phy.cc.i
 .PHONY : model/non-ht/ofdm-phy.cc.i
 
 model/non-ht/ofdm-phy.s: model/non-ht/ofdm-phy.cc.s
@@ -1939,7 +1939,7 @@ model/non-ht/ofdm-phy.s: model/non-ht/ofdm-phy.cc.s
 
 # target to generate assembly for a file
 model/non-ht/ofdm-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-phy.cc.s
 .PHONY : model/non-ht/ofdm-phy.cc.s
 
 model/non-ht/ofdm-ppdu.o: model/non-ht/ofdm-ppdu.cc.o
@@ -1947,7 +1947,7 @@ model/non-ht/ofdm-ppdu.o: model/non-ht/ofdm-ppdu.cc.o
 
 # target to build an object file
 model/non-ht/ofdm-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-ppdu.cc.o
 .PHONY : model/non-ht/ofdm-ppdu.cc.o
 
 model/non-ht/ofdm-ppdu.i: model/non-ht/ofdm-ppdu.cc.i
@@ -1955,7 +1955,7 @@ model/non-ht/ofdm-ppdu.i: model/non-ht/ofdm-ppdu.cc.i
 
 # target to preprocess a source file
 model/non-ht/ofdm-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-ppdu.cc.i
 .PHONY : model/non-ht/ofdm-ppdu.cc.i
 
 model/non-ht/ofdm-ppdu.s: model/non-ht/ofdm-ppdu.cc.s
@@ -1963,7 +1963,7 @@ model/non-ht/ofdm-ppdu.s: model/non-ht/ofdm-ppdu.cc.s
 
 # target to generate assembly for a file
 model/non-ht/ofdm-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/ofdm-ppdu.cc.s
 .PHONY : model/non-ht/ofdm-ppdu.cc.s
 
 model/non-inheritance.o: model/non-inheritance.cc.o
@@ -1971,7 +1971,7 @@ model/non-inheritance.o: model/non-inheritance.cc.o
 
 # target to build an object file
 model/non-inheritance.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-inheritance.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-inheritance.cc.o
 .PHONY : model/non-inheritance.cc.o
 
 model/non-inheritance.i: model/non-inheritance.cc.i
@@ -1979,7 +1979,7 @@ model/non-inheritance.i: model/non-inheritance.cc.i
 
 # target to preprocess a source file
 model/non-inheritance.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-inheritance.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-inheritance.cc.i
 .PHONY : model/non-inheritance.cc.i
 
 model/non-inheritance.s: model/non-inheritance.cc.s
@@ -1987,7 +1987,7 @@ model/non-inheritance.s: model/non-inheritance.cc.s
 
 # target to generate assembly for a file
 model/non-inheritance.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-inheritance.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/non-inheritance.cc.s
 .PHONY : model/non-inheritance.cc.s
 
 model/originator-block-ack-agreement.o: model/originator-block-ack-agreement.cc.o
@@ -1995,7 +1995,7 @@ model/originator-block-ack-agreement.o: model/originator-block-ack-agreement.cc.
 
 # target to build an object file
 model/originator-block-ack-agreement.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/originator-block-ack-agreement.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/originator-block-ack-agreement.cc.o
 .PHONY : model/originator-block-ack-agreement.cc.o
 
 model/originator-block-ack-agreement.i: model/originator-block-ack-agreement.cc.i
@@ -2003,7 +2003,7 @@ model/originator-block-ack-agreement.i: model/originator-block-ack-agreement.cc.
 
 # target to preprocess a source file
 model/originator-block-ack-agreement.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/originator-block-ack-agreement.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/originator-block-ack-agreement.cc.i
 .PHONY : model/originator-block-ack-agreement.cc.i
 
 model/originator-block-ack-agreement.s: model/originator-block-ack-agreement.cc.s
@@ -2011,7 +2011,7 @@ model/originator-block-ack-agreement.s: model/originator-block-ack-agreement.cc.
 
 # target to generate assembly for a file
 model/originator-block-ack-agreement.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/originator-block-ack-agreement.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/originator-block-ack-agreement.cc.s
 .PHONY : model/originator-block-ack-agreement.cc.s
 
 model/phy-entity.o: model/phy-entity.cc.o
@@ -2019,7 +2019,7 @@ model/phy-entity.o: model/phy-entity.cc.o
 
 # target to build an object file
 model/phy-entity.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/phy-entity.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/phy-entity.cc.o
 .PHONY : model/phy-entity.cc.o
 
 model/phy-entity.i: model/phy-entity.cc.i
@@ -2027,7 +2027,7 @@ model/phy-entity.i: model/phy-entity.cc.i
 
 # target to preprocess a source file
 model/phy-entity.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/phy-entity.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/phy-entity.cc.i
 .PHONY : model/phy-entity.cc.i
 
 model/phy-entity.s: model/phy-entity.cc.s
@@ -2035,7 +2035,7 @@ model/phy-entity.s: model/phy-entity.cc.s
 
 # target to generate assembly for a file
 model/phy-entity.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/phy-entity.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/phy-entity.cc.s
 .PHONY : model/phy-entity.cc.s
 
 model/preamble-detection-model.o: model/preamble-detection-model.cc.o
@@ -2043,7 +2043,7 @@ model/preamble-detection-model.o: model/preamble-detection-model.cc.o
 
 # target to build an object file
 model/preamble-detection-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/preamble-detection-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/preamble-detection-model.cc.o
 .PHONY : model/preamble-detection-model.cc.o
 
 model/preamble-detection-model.i: model/preamble-detection-model.cc.i
@@ -2051,7 +2051,7 @@ model/preamble-detection-model.i: model/preamble-detection-model.cc.i
 
 # target to preprocess a source file
 model/preamble-detection-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/preamble-detection-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/preamble-detection-model.cc.i
 .PHONY : model/preamble-detection-model.cc.i
 
 model/preamble-detection-model.s: model/preamble-detection-model.cc.s
@@ -2059,7 +2059,7 @@ model/preamble-detection-model.s: model/preamble-detection-model.cc.s
 
 # target to generate assembly for a file
 model/preamble-detection-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/preamble-detection-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/preamble-detection-model.cc.s
 .PHONY : model/preamble-detection-model.cc.s
 
 model/qos-frame-exchange-manager.o: model/qos-frame-exchange-manager.cc.o
@@ -2067,7 +2067,7 @@ model/qos-frame-exchange-manager.o: model/qos-frame-exchange-manager.cc.o
 
 # target to build an object file
 model/qos-frame-exchange-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-frame-exchange-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-frame-exchange-manager.cc.o
 .PHONY : model/qos-frame-exchange-manager.cc.o
 
 model/qos-frame-exchange-manager.i: model/qos-frame-exchange-manager.cc.i
@@ -2075,7 +2075,7 @@ model/qos-frame-exchange-manager.i: model/qos-frame-exchange-manager.cc.i
 
 # target to preprocess a source file
 model/qos-frame-exchange-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-frame-exchange-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-frame-exchange-manager.cc.i
 .PHONY : model/qos-frame-exchange-manager.cc.i
 
 model/qos-frame-exchange-manager.s: model/qos-frame-exchange-manager.cc.s
@@ -2083,7 +2083,7 @@ model/qos-frame-exchange-manager.s: model/qos-frame-exchange-manager.cc.s
 
 # target to generate assembly for a file
 model/qos-frame-exchange-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-frame-exchange-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-frame-exchange-manager.cc.s
 .PHONY : model/qos-frame-exchange-manager.cc.s
 
 model/qos-txop.o: model/qos-txop.cc.o
@@ -2091,7 +2091,7 @@ model/qos-txop.o: model/qos-txop.cc.o
 
 # target to build an object file
 model/qos-txop.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-txop.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-txop.cc.o
 .PHONY : model/qos-txop.cc.o
 
 model/qos-txop.i: model/qos-txop.cc.i
@@ -2099,7 +2099,7 @@ model/qos-txop.i: model/qos-txop.cc.i
 
 # target to preprocess a source file
 model/qos-txop.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-txop.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-txop.cc.i
 .PHONY : model/qos-txop.cc.i
 
 model/qos-txop.s: model/qos-txop.cc.s
@@ -2107,7 +2107,7 @@ model/qos-txop.s: model/qos-txop.cc.s
 
 # target to generate assembly for a file
 model/qos-txop.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-txop.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-txop.cc.s
 .PHONY : model/qos-txop.cc.s
 
 model/qos-utils.o: model/qos-utils.cc.o
@@ -2115,7 +2115,7 @@ model/qos-utils.o: model/qos-utils.cc.o
 
 # target to build an object file
 model/qos-utils.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.o
 .PHONY : model/qos-utils.cc.o
 
 model/qos-utils.i: model/qos-utils.cc.i
@@ -2123,7 +2123,7 @@ model/qos-utils.i: model/qos-utils.cc.i
 
 # target to preprocess a source file
 model/qos-utils.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.i
 .PHONY : model/qos-utils.cc.i
 
 model/qos-utils.s: model/qos-utils.cc.s
@@ -2131,7 +2131,7 @@ model/qos-utils.s: model/qos-utils.cc.s
 
 # target to generate assembly for a file
 model/qos-utils.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/qos-utils.cc.s
 .PHONY : model/qos-utils.cc.s
 
 model/rate-control/aarf-wifi-manager.o: model/rate-control/aarf-wifi-manager.cc.o
@@ -2139,7 +2139,7 @@ model/rate-control/aarf-wifi-manager.o: model/rate-control/aarf-wifi-manager.cc.
 
 # target to build an object file
 model/rate-control/aarf-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarf-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarf-wifi-manager.cc.o
 .PHONY : model/rate-control/aarf-wifi-manager.cc.o
 
 model/rate-control/aarf-wifi-manager.i: model/rate-control/aarf-wifi-manager.cc.i
@@ -2147,7 +2147,7 @@ model/rate-control/aarf-wifi-manager.i: model/rate-control/aarf-wifi-manager.cc.
 
 # target to preprocess a source file
 model/rate-control/aarf-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarf-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarf-wifi-manager.cc.i
 .PHONY : model/rate-control/aarf-wifi-manager.cc.i
 
 model/rate-control/aarf-wifi-manager.s: model/rate-control/aarf-wifi-manager.cc.s
@@ -2155,7 +2155,7 @@ model/rate-control/aarf-wifi-manager.s: model/rate-control/aarf-wifi-manager.cc.
 
 # target to generate assembly for a file
 model/rate-control/aarf-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarf-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarf-wifi-manager.cc.s
 .PHONY : model/rate-control/aarf-wifi-manager.cc.s
 
 model/rate-control/aarfcd-wifi-manager.o: model/rate-control/aarfcd-wifi-manager.cc.o
@@ -2163,7 +2163,7 @@ model/rate-control/aarfcd-wifi-manager.o: model/rate-control/aarfcd-wifi-manager
 
 # target to build an object file
 model/rate-control/aarfcd-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarfcd-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarfcd-wifi-manager.cc.o
 .PHONY : model/rate-control/aarfcd-wifi-manager.cc.o
 
 model/rate-control/aarfcd-wifi-manager.i: model/rate-control/aarfcd-wifi-manager.cc.i
@@ -2171,7 +2171,7 @@ model/rate-control/aarfcd-wifi-manager.i: model/rate-control/aarfcd-wifi-manager
 
 # target to preprocess a source file
 model/rate-control/aarfcd-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarfcd-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarfcd-wifi-manager.cc.i
 .PHONY : model/rate-control/aarfcd-wifi-manager.cc.i
 
 model/rate-control/aarfcd-wifi-manager.s: model/rate-control/aarfcd-wifi-manager.cc.s
@@ -2179,7 +2179,7 @@ model/rate-control/aarfcd-wifi-manager.s: model/rate-control/aarfcd-wifi-manager
 
 # target to generate assembly for a file
 model/rate-control/aarfcd-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarfcd-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aarfcd-wifi-manager.cc.s
 .PHONY : model/rate-control/aarfcd-wifi-manager.cc.s
 
 model/rate-control/amrr-wifi-manager.o: model/rate-control/amrr-wifi-manager.cc.o
@@ -2187,7 +2187,7 @@ model/rate-control/amrr-wifi-manager.o: model/rate-control/amrr-wifi-manager.cc.
 
 # target to build an object file
 model/rate-control/amrr-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/amrr-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/amrr-wifi-manager.cc.o
 .PHONY : model/rate-control/amrr-wifi-manager.cc.o
 
 model/rate-control/amrr-wifi-manager.i: model/rate-control/amrr-wifi-manager.cc.i
@@ -2195,7 +2195,7 @@ model/rate-control/amrr-wifi-manager.i: model/rate-control/amrr-wifi-manager.cc.
 
 # target to preprocess a source file
 model/rate-control/amrr-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/amrr-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/amrr-wifi-manager.cc.i
 .PHONY : model/rate-control/amrr-wifi-manager.cc.i
 
 model/rate-control/amrr-wifi-manager.s: model/rate-control/amrr-wifi-manager.cc.s
@@ -2203,7 +2203,7 @@ model/rate-control/amrr-wifi-manager.s: model/rate-control/amrr-wifi-manager.cc.
 
 # target to generate assembly for a file
 model/rate-control/amrr-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/amrr-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/amrr-wifi-manager.cc.s
 .PHONY : model/rate-control/amrr-wifi-manager.cc.s
 
 model/rate-control/aparf-wifi-manager.o: model/rate-control/aparf-wifi-manager.cc.o
@@ -2211,7 +2211,7 @@ model/rate-control/aparf-wifi-manager.o: model/rate-control/aparf-wifi-manager.c
 
 # target to build an object file
 model/rate-control/aparf-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aparf-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aparf-wifi-manager.cc.o
 .PHONY : model/rate-control/aparf-wifi-manager.cc.o
 
 model/rate-control/aparf-wifi-manager.i: model/rate-control/aparf-wifi-manager.cc.i
@@ -2219,7 +2219,7 @@ model/rate-control/aparf-wifi-manager.i: model/rate-control/aparf-wifi-manager.c
 
 # target to preprocess a source file
 model/rate-control/aparf-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aparf-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aparf-wifi-manager.cc.i
 .PHONY : model/rate-control/aparf-wifi-manager.cc.i
 
 model/rate-control/aparf-wifi-manager.s: model/rate-control/aparf-wifi-manager.cc.s
@@ -2227,7 +2227,7 @@ model/rate-control/aparf-wifi-manager.s: model/rate-control/aparf-wifi-manager.c
 
 # target to generate assembly for a file
 model/rate-control/aparf-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aparf-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/aparf-wifi-manager.cc.s
 .PHONY : model/rate-control/aparf-wifi-manager.cc.s
 
 model/rate-control/arf-wifi-manager.o: model/rate-control/arf-wifi-manager.cc.o
@@ -2235,7 +2235,7 @@ model/rate-control/arf-wifi-manager.o: model/rate-control/arf-wifi-manager.cc.o
 
 # target to build an object file
 model/rate-control/arf-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/arf-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/arf-wifi-manager.cc.o
 .PHONY : model/rate-control/arf-wifi-manager.cc.o
 
 model/rate-control/arf-wifi-manager.i: model/rate-control/arf-wifi-manager.cc.i
@@ -2243,7 +2243,7 @@ model/rate-control/arf-wifi-manager.i: model/rate-control/arf-wifi-manager.cc.i
 
 # target to preprocess a source file
 model/rate-control/arf-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/arf-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/arf-wifi-manager.cc.i
 .PHONY : model/rate-control/arf-wifi-manager.cc.i
 
 model/rate-control/arf-wifi-manager.s: model/rate-control/arf-wifi-manager.cc.s
@@ -2251,7 +2251,7 @@ model/rate-control/arf-wifi-manager.s: model/rate-control/arf-wifi-manager.cc.s
 
 # target to generate assembly for a file
 model/rate-control/arf-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/arf-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/arf-wifi-manager.cc.s
 .PHONY : model/rate-control/arf-wifi-manager.cc.s
 
 model/rate-control/cara-wifi-manager.o: model/rate-control/cara-wifi-manager.cc.o
@@ -2259,7 +2259,7 @@ model/rate-control/cara-wifi-manager.o: model/rate-control/cara-wifi-manager.cc.
 
 # target to build an object file
 model/rate-control/cara-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/cara-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/cara-wifi-manager.cc.o
 .PHONY : model/rate-control/cara-wifi-manager.cc.o
 
 model/rate-control/cara-wifi-manager.i: model/rate-control/cara-wifi-manager.cc.i
@@ -2267,7 +2267,7 @@ model/rate-control/cara-wifi-manager.i: model/rate-control/cara-wifi-manager.cc.
 
 # target to preprocess a source file
 model/rate-control/cara-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/cara-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/cara-wifi-manager.cc.i
 .PHONY : model/rate-control/cara-wifi-manager.cc.i
 
 model/rate-control/cara-wifi-manager.s: model/rate-control/cara-wifi-manager.cc.s
@@ -2275,7 +2275,7 @@ model/rate-control/cara-wifi-manager.s: model/rate-control/cara-wifi-manager.cc.
 
 # target to generate assembly for a file
 model/rate-control/cara-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/cara-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/cara-wifi-manager.cc.s
 .PHONY : model/rate-control/cara-wifi-manager.cc.s
 
 model/rate-control/constant-rate-wifi-manager.o: model/rate-control/constant-rate-wifi-manager.cc.o
@@ -2283,7 +2283,7 @@ model/rate-control/constant-rate-wifi-manager.o: model/rate-control/constant-rat
 
 # target to build an object file
 model/rate-control/constant-rate-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/constant-rate-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/constant-rate-wifi-manager.cc.o
 .PHONY : model/rate-control/constant-rate-wifi-manager.cc.o
 
 model/rate-control/constant-rate-wifi-manager.i: model/rate-control/constant-rate-wifi-manager.cc.i
@@ -2291,7 +2291,7 @@ model/rate-control/constant-rate-wifi-manager.i: model/rate-control/constant-rat
 
 # target to preprocess a source file
 model/rate-control/constant-rate-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/constant-rate-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/constant-rate-wifi-manager.cc.i
 .PHONY : model/rate-control/constant-rate-wifi-manager.cc.i
 
 model/rate-control/constant-rate-wifi-manager.s: model/rate-control/constant-rate-wifi-manager.cc.s
@@ -2299,7 +2299,7 @@ model/rate-control/constant-rate-wifi-manager.s: model/rate-control/constant-rat
 
 # target to generate assembly for a file
 model/rate-control/constant-rate-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/constant-rate-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/constant-rate-wifi-manager.cc.s
 .PHONY : model/rate-control/constant-rate-wifi-manager.cc.s
 
 model/rate-control/ideal-wifi-manager.o: model/rate-control/ideal-wifi-manager.cc.o
@@ -2307,7 +2307,7 @@ model/rate-control/ideal-wifi-manager.o: model/rate-control/ideal-wifi-manager.c
 
 # target to build an object file
 model/rate-control/ideal-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/ideal-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/ideal-wifi-manager.cc.o
 .PHONY : model/rate-control/ideal-wifi-manager.cc.o
 
 model/rate-control/ideal-wifi-manager.i: model/rate-control/ideal-wifi-manager.cc.i
@@ -2315,7 +2315,7 @@ model/rate-control/ideal-wifi-manager.i: model/rate-control/ideal-wifi-manager.c
 
 # target to preprocess a source file
 model/rate-control/ideal-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/ideal-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/ideal-wifi-manager.cc.i
 .PHONY : model/rate-control/ideal-wifi-manager.cc.i
 
 model/rate-control/ideal-wifi-manager.s: model/rate-control/ideal-wifi-manager.cc.s
@@ -2323,7 +2323,7 @@ model/rate-control/ideal-wifi-manager.s: model/rate-control/ideal-wifi-manager.c
 
 # target to generate assembly for a file
 model/rate-control/ideal-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/ideal-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/ideal-wifi-manager.cc.s
 .PHONY : model/rate-control/ideal-wifi-manager.cc.s
 
 model/rate-control/minstrel-ht-wifi-manager.o: model/rate-control/minstrel-ht-wifi-manager.cc.o
@@ -2331,7 +2331,7 @@ model/rate-control/minstrel-ht-wifi-manager.o: model/rate-control/minstrel-ht-wi
 
 # target to build an object file
 model/rate-control/minstrel-ht-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-ht-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-ht-wifi-manager.cc.o
 .PHONY : model/rate-control/minstrel-ht-wifi-manager.cc.o
 
 model/rate-control/minstrel-ht-wifi-manager.i: model/rate-control/minstrel-ht-wifi-manager.cc.i
@@ -2339,7 +2339,7 @@ model/rate-control/minstrel-ht-wifi-manager.i: model/rate-control/minstrel-ht-wi
 
 # target to preprocess a source file
 model/rate-control/minstrel-ht-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-ht-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-ht-wifi-manager.cc.i
 .PHONY : model/rate-control/minstrel-ht-wifi-manager.cc.i
 
 model/rate-control/minstrel-ht-wifi-manager.s: model/rate-control/minstrel-ht-wifi-manager.cc.s
@@ -2347,7 +2347,7 @@ model/rate-control/minstrel-ht-wifi-manager.s: model/rate-control/minstrel-ht-wi
 
 # target to generate assembly for a file
 model/rate-control/minstrel-ht-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-ht-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-ht-wifi-manager.cc.s
 .PHONY : model/rate-control/minstrel-ht-wifi-manager.cc.s
 
 model/rate-control/minstrel-wifi-manager.o: model/rate-control/minstrel-wifi-manager.cc.o
@@ -2355,7 +2355,7 @@ model/rate-control/minstrel-wifi-manager.o: model/rate-control/minstrel-wifi-man
 
 # target to build an object file
 model/rate-control/minstrel-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-wifi-manager.cc.o
 .PHONY : model/rate-control/minstrel-wifi-manager.cc.o
 
 model/rate-control/minstrel-wifi-manager.i: model/rate-control/minstrel-wifi-manager.cc.i
@@ -2363,7 +2363,7 @@ model/rate-control/minstrel-wifi-manager.i: model/rate-control/minstrel-wifi-man
 
 # target to preprocess a source file
 model/rate-control/minstrel-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-wifi-manager.cc.i
 .PHONY : model/rate-control/minstrel-wifi-manager.cc.i
 
 model/rate-control/minstrel-wifi-manager.s: model/rate-control/minstrel-wifi-manager.cc.s
@@ -2371,7 +2371,7 @@ model/rate-control/minstrel-wifi-manager.s: model/rate-control/minstrel-wifi-man
 
 # target to generate assembly for a file
 model/rate-control/minstrel-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/minstrel-wifi-manager.cc.s
 .PHONY : model/rate-control/minstrel-wifi-manager.cc.s
 
 model/rate-control/onoe-wifi-manager.o: model/rate-control/onoe-wifi-manager.cc.o
@@ -2379,7 +2379,7 @@ model/rate-control/onoe-wifi-manager.o: model/rate-control/onoe-wifi-manager.cc.
 
 # target to build an object file
 model/rate-control/onoe-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/onoe-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/onoe-wifi-manager.cc.o
 .PHONY : model/rate-control/onoe-wifi-manager.cc.o
 
 model/rate-control/onoe-wifi-manager.i: model/rate-control/onoe-wifi-manager.cc.i
@@ -2387,7 +2387,7 @@ model/rate-control/onoe-wifi-manager.i: model/rate-control/onoe-wifi-manager.cc.
 
 # target to preprocess a source file
 model/rate-control/onoe-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/onoe-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/onoe-wifi-manager.cc.i
 .PHONY : model/rate-control/onoe-wifi-manager.cc.i
 
 model/rate-control/onoe-wifi-manager.s: model/rate-control/onoe-wifi-manager.cc.s
@@ -2395,7 +2395,7 @@ model/rate-control/onoe-wifi-manager.s: model/rate-control/onoe-wifi-manager.cc.
 
 # target to generate assembly for a file
 model/rate-control/onoe-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/onoe-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/onoe-wifi-manager.cc.s
 .PHONY : model/rate-control/onoe-wifi-manager.cc.s
 
 model/rate-control/parf-wifi-manager.o: model/rate-control/parf-wifi-manager.cc.o
@@ -2403,7 +2403,7 @@ model/rate-control/parf-wifi-manager.o: model/rate-control/parf-wifi-manager.cc.
 
 # target to build an object file
 model/rate-control/parf-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/parf-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/parf-wifi-manager.cc.o
 .PHONY : model/rate-control/parf-wifi-manager.cc.o
 
 model/rate-control/parf-wifi-manager.i: model/rate-control/parf-wifi-manager.cc.i
@@ -2411,7 +2411,7 @@ model/rate-control/parf-wifi-manager.i: model/rate-control/parf-wifi-manager.cc.
 
 # target to preprocess a source file
 model/rate-control/parf-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/parf-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/parf-wifi-manager.cc.i
 .PHONY : model/rate-control/parf-wifi-manager.cc.i
 
 model/rate-control/parf-wifi-manager.s: model/rate-control/parf-wifi-manager.cc.s
@@ -2419,7 +2419,7 @@ model/rate-control/parf-wifi-manager.s: model/rate-control/parf-wifi-manager.cc.
 
 # target to generate assembly for a file
 model/rate-control/parf-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/parf-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/parf-wifi-manager.cc.s
 .PHONY : model/rate-control/parf-wifi-manager.cc.s
 
 model/rate-control/rraa-wifi-manager.o: model/rate-control/rraa-wifi-manager.cc.o
@@ -2427,7 +2427,7 @@ model/rate-control/rraa-wifi-manager.o: model/rate-control/rraa-wifi-manager.cc.
 
 # target to build an object file
 model/rate-control/rraa-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rraa-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rraa-wifi-manager.cc.o
 .PHONY : model/rate-control/rraa-wifi-manager.cc.o
 
 model/rate-control/rraa-wifi-manager.i: model/rate-control/rraa-wifi-manager.cc.i
@@ -2435,7 +2435,7 @@ model/rate-control/rraa-wifi-manager.i: model/rate-control/rraa-wifi-manager.cc.
 
 # target to preprocess a source file
 model/rate-control/rraa-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rraa-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rraa-wifi-manager.cc.i
 .PHONY : model/rate-control/rraa-wifi-manager.cc.i
 
 model/rate-control/rraa-wifi-manager.s: model/rate-control/rraa-wifi-manager.cc.s
@@ -2443,7 +2443,7 @@ model/rate-control/rraa-wifi-manager.s: model/rate-control/rraa-wifi-manager.cc.
 
 # target to generate assembly for a file
 model/rate-control/rraa-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rraa-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rraa-wifi-manager.cc.s
 .PHONY : model/rate-control/rraa-wifi-manager.cc.s
 
 model/rate-control/rrpaa-wifi-manager.o: model/rate-control/rrpaa-wifi-manager.cc.o
@@ -2451,7 +2451,7 @@ model/rate-control/rrpaa-wifi-manager.o: model/rate-control/rrpaa-wifi-manager.c
 
 # target to build an object file
 model/rate-control/rrpaa-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rrpaa-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rrpaa-wifi-manager.cc.o
 .PHONY : model/rate-control/rrpaa-wifi-manager.cc.o
 
 model/rate-control/rrpaa-wifi-manager.i: model/rate-control/rrpaa-wifi-manager.cc.i
@@ -2459,7 +2459,7 @@ model/rate-control/rrpaa-wifi-manager.i: model/rate-control/rrpaa-wifi-manager.c
 
 # target to preprocess a source file
 model/rate-control/rrpaa-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rrpaa-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rrpaa-wifi-manager.cc.i
 .PHONY : model/rate-control/rrpaa-wifi-manager.cc.i
 
 model/rate-control/rrpaa-wifi-manager.s: model/rate-control/rrpaa-wifi-manager.cc.s
@@ -2467,7 +2467,7 @@ model/rate-control/rrpaa-wifi-manager.s: model/rate-control/rrpaa-wifi-manager.c
 
 # target to generate assembly for a file
 model/rate-control/rrpaa-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rrpaa-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/rrpaa-wifi-manager.cc.s
 .PHONY : model/rate-control/rrpaa-wifi-manager.cc.s
 
 model/rate-control/thompson-sampling-wifi-manager.o: model/rate-control/thompson-sampling-wifi-manager.cc.o
@@ -2475,7 +2475,7 @@ model/rate-control/thompson-sampling-wifi-manager.o: model/rate-control/thompson
 
 # target to build an object file
 model/rate-control/thompson-sampling-wifi-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-manager.cc.o
 .PHONY : model/rate-control/thompson-sampling-wifi-manager.cc.o
 
 model/rate-control/thompson-sampling-wifi-manager.i: model/rate-control/thompson-sampling-wifi-manager.cc.i
@@ -2483,7 +2483,7 @@ model/rate-control/thompson-sampling-wifi-manager.i: model/rate-control/thompson
 
 # target to preprocess a source file
 model/rate-control/thompson-sampling-wifi-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-manager.cc.i
 .PHONY : model/rate-control/thompson-sampling-wifi-manager.cc.i
 
 model/rate-control/thompson-sampling-wifi-manager.s: model/rate-control/thompson-sampling-wifi-manager.cc.s
@@ -2491,7 +2491,7 @@ model/rate-control/thompson-sampling-wifi-manager.s: model/rate-control/thompson
 
 # target to generate assembly for a file
 model/rate-control/thompson-sampling-wifi-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-manager.cc.s
 .PHONY : model/rate-control/thompson-sampling-wifi-manager.cc.s
 
 model/recipient-block-ack-agreement.o: model/recipient-block-ack-agreement.cc.o
@@ -2499,7 +2499,7 @@ model/recipient-block-ack-agreement.o: model/recipient-block-ack-agreement.cc.o
 
 # target to build an object file
 model/recipient-block-ack-agreement.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/recipient-block-ack-agreement.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/recipient-block-ack-agreement.cc.o
 .PHONY : model/recipient-block-ack-agreement.cc.o
 
 model/recipient-block-ack-agreement.i: model/recipient-block-ack-agreement.cc.i
@@ -2507,7 +2507,7 @@ model/recipient-block-ack-agreement.i: model/recipient-block-ack-agreement.cc.i
 
 # target to preprocess a source file
 model/recipient-block-ack-agreement.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/recipient-block-ack-agreement.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/recipient-block-ack-agreement.cc.i
 .PHONY : model/recipient-block-ack-agreement.cc.i
 
 model/recipient-block-ack-agreement.s: model/recipient-block-ack-agreement.cc.s
@@ -2515,7 +2515,7 @@ model/recipient-block-ack-agreement.s: model/recipient-block-ack-agreement.cc.s
 
 # target to generate assembly for a file
 model/recipient-block-ack-agreement.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/recipient-block-ack-agreement.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/recipient-block-ack-agreement.cc.s
 .PHONY : model/recipient-block-ack-agreement.cc.s
 
 model/reduced-neighbor-report.o: model/reduced-neighbor-report.cc.o
@@ -2523,7 +2523,7 @@ model/reduced-neighbor-report.o: model/reduced-neighbor-report.cc.o
 
 # target to build an object file
 model/reduced-neighbor-report.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reduced-neighbor-report.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reduced-neighbor-report.cc.o
 .PHONY : model/reduced-neighbor-report.cc.o
 
 model/reduced-neighbor-report.i: model/reduced-neighbor-report.cc.i
@@ -2531,7 +2531,7 @@ model/reduced-neighbor-report.i: model/reduced-neighbor-report.cc.i
 
 # target to preprocess a source file
 model/reduced-neighbor-report.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reduced-neighbor-report.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reduced-neighbor-report.cc.i
 .PHONY : model/reduced-neighbor-report.cc.i
 
 model/reduced-neighbor-report.s: model/reduced-neighbor-report.cc.s
@@ -2539,7 +2539,7 @@ model/reduced-neighbor-report.s: model/reduced-neighbor-report.cc.s
 
 # target to generate assembly for a file
 model/reduced-neighbor-report.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reduced-neighbor-report.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reduced-neighbor-report.cc.s
 .PHONY : model/reduced-neighbor-report.cc.s
 
 model/reference/error-rate-tables.o: model/reference/error-rate-tables.cc.o
@@ -2547,7 +2547,7 @@ model/reference/error-rate-tables.o: model/reference/error-rate-tables.cc.o
 
 # target to build an object file
 model/reference/error-rate-tables.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reference/error-rate-tables.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reference/error-rate-tables.cc.o
 .PHONY : model/reference/error-rate-tables.cc.o
 
 model/reference/error-rate-tables.i: model/reference/error-rate-tables.cc.i
@@ -2555,7 +2555,7 @@ model/reference/error-rate-tables.i: model/reference/error-rate-tables.cc.i
 
 # target to preprocess a source file
 model/reference/error-rate-tables.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reference/error-rate-tables.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reference/error-rate-tables.cc.i
 .PHONY : model/reference/error-rate-tables.cc.i
 
 model/reference/error-rate-tables.s: model/reference/error-rate-tables.cc.s
@@ -2563,7 +2563,7 @@ model/reference/error-rate-tables.s: model/reference/error-rate-tables.cc.s
 
 # target to generate assembly for a file
 model/reference/error-rate-tables.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reference/error-rate-tables.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/reference/error-rate-tables.cc.s
 .PHONY : model/reference/error-rate-tables.cc.s
 
 model/simple-frame-capture-model.o: model/simple-frame-capture-model.cc.o
@@ -2571,7 +2571,7 @@ model/simple-frame-capture-model.o: model/simple-frame-capture-model.cc.o
 
 # target to build an object file
 model/simple-frame-capture-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/simple-frame-capture-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/simple-frame-capture-model.cc.o
 .PHONY : model/simple-frame-capture-model.cc.o
 
 model/simple-frame-capture-model.i: model/simple-frame-capture-model.cc.i
@@ -2579,7 +2579,7 @@ model/simple-frame-capture-model.i: model/simple-frame-capture-model.cc.i
 
 # target to preprocess a source file
 model/simple-frame-capture-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/simple-frame-capture-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/simple-frame-capture-model.cc.i
 .PHONY : model/simple-frame-capture-model.cc.i
 
 model/simple-frame-capture-model.s: model/simple-frame-capture-model.cc.s
@@ -2587,7 +2587,7 @@ model/simple-frame-capture-model.s: model/simple-frame-capture-model.cc.s
 
 # target to generate assembly for a file
 model/simple-frame-capture-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/simple-frame-capture-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/simple-frame-capture-model.cc.s
 .PHONY : model/simple-frame-capture-model.cc.s
 
 model/snr-tag.o: model/snr-tag.cc.o
@@ -2595,7 +2595,7 @@ model/snr-tag.o: model/snr-tag.cc.o
 
 # target to build an object file
 model/snr-tag.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/snr-tag.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/snr-tag.cc.o
 .PHONY : model/snr-tag.cc.o
 
 model/snr-tag.i: model/snr-tag.cc.i
@@ -2603,7 +2603,7 @@ model/snr-tag.i: model/snr-tag.cc.i
 
 # target to preprocess a source file
 model/snr-tag.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/snr-tag.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/snr-tag.cc.i
 .PHONY : model/snr-tag.cc.i
 
 model/snr-tag.s: model/snr-tag.cc.s
@@ -2611,7 +2611,7 @@ model/snr-tag.s: model/snr-tag.cc.s
 
 # target to generate assembly for a file
 model/snr-tag.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/snr-tag.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/snr-tag.cc.s
 .PHONY : model/snr-tag.cc.s
 
 model/spectrum-wifi-phy.o: model/spectrum-wifi-phy.cc.o
@@ -2619,7 +2619,7 @@ model/spectrum-wifi-phy.o: model/spectrum-wifi-phy.cc.o
 
 # target to build an object file
 model/spectrum-wifi-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.o
 .PHONY : model/spectrum-wifi-phy.cc.o
 
 model/spectrum-wifi-phy.i: model/spectrum-wifi-phy.cc.i
@@ -2627,7 +2627,7 @@ model/spectrum-wifi-phy.i: model/spectrum-wifi-phy.cc.i
 
 # target to preprocess a source file
 model/spectrum-wifi-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.i
 .PHONY : model/spectrum-wifi-phy.cc.i
 
 model/spectrum-wifi-phy.s: model/spectrum-wifi-phy.cc.s
@@ -2635,7 +2635,7 @@ model/spectrum-wifi-phy.s: model/spectrum-wifi-phy.cc.s
 
 # target to generate assembly for a file
 model/spectrum-wifi-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/spectrum-wifi-phy.cc.s
 .PHONY : model/spectrum-wifi-phy.cc.s
 
 model/ssid.o: model/ssid.cc.o
@@ -2643,7 +2643,7 @@ model/ssid.o: model/ssid.cc.o
 
 # target to build an object file
 model/ssid.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ssid.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ssid.cc.o
 .PHONY : model/ssid.cc.o
 
 model/ssid.i: model/ssid.cc.i
@@ -2651,7 +2651,7 @@ model/ssid.i: model/ssid.cc.i
 
 # target to preprocess a source file
 model/ssid.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ssid.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ssid.cc.i
 .PHONY : model/ssid.cc.i
 
 model/ssid.s: model/ssid.cc.s
@@ -2659,7 +2659,7 @@ model/ssid.s: model/ssid.cc.s
 
 # target to generate assembly for a file
 model/ssid.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ssid.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/ssid.cc.s
 .PHONY : model/ssid.cc.s
 
 model/sta-wifi-mac.o: model/sta-wifi-mac.cc.o
@@ -2667,7 +2667,7 @@ model/sta-wifi-mac.o: model/sta-wifi-mac.cc.o
 
 # target to build an object file
 model/sta-wifi-mac.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.o
 .PHONY : model/sta-wifi-mac.cc.o
 
 model/sta-wifi-mac.i: model/sta-wifi-mac.cc.i
@@ -2675,7 +2675,7 @@ model/sta-wifi-mac.i: model/sta-wifi-mac.cc.i
 
 # target to preprocess a source file
 model/sta-wifi-mac.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.i
 .PHONY : model/sta-wifi-mac.cc.i
 
 model/sta-wifi-mac.s: model/sta-wifi-mac.cc.s
@@ -2683,7 +2683,7 @@ model/sta-wifi-mac.s: model/sta-wifi-mac.cc.s
 
 # target to generate assembly for a file
 model/sta-wifi-mac.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/sta-wifi-mac.cc.s
 .PHONY : model/sta-wifi-mac.cc.s
 
 model/status-code.o: model/status-code.cc.o
@@ -2691,7 +2691,7 @@ model/status-code.o: model/status-code.cc.o
 
 # target to build an object file
 model/status-code.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/status-code.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/status-code.cc.o
 .PHONY : model/status-code.cc.o
 
 model/status-code.i: model/status-code.cc.i
@@ -2699,7 +2699,7 @@ model/status-code.i: model/status-code.cc.i
 
 # target to preprocess a source file
 model/status-code.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/status-code.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/status-code.cc.i
 .PHONY : model/status-code.cc.i
 
 model/status-code.s: model/status-code.cc.s
@@ -2707,7 +2707,7 @@ model/status-code.s: model/status-code.cc.s
 
 # target to generate assembly for a file
 model/status-code.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/status-code.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/status-code.cc.s
 .PHONY : model/status-code.cc.s
 
 model/supported-rates.o: model/supported-rates.cc.o
@@ -2715,7 +2715,7 @@ model/supported-rates.o: model/supported-rates.cc.o
 
 # target to build an object file
 model/supported-rates.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/supported-rates.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/supported-rates.cc.o
 .PHONY : model/supported-rates.cc.o
 
 model/supported-rates.i: model/supported-rates.cc.i
@@ -2723,7 +2723,7 @@ model/supported-rates.i: model/supported-rates.cc.i
 
 # target to preprocess a source file
 model/supported-rates.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/supported-rates.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/supported-rates.cc.i
 .PHONY : model/supported-rates.cc.i
 
 model/supported-rates.s: model/supported-rates.cc.s
@@ -2731,7 +2731,7 @@ model/supported-rates.s: model/supported-rates.cc.s
 
 # target to generate assembly for a file
 model/supported-rates.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/supported-rates.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/supported-rates.cc.s
 .PHONY : model/supported-rates.cc.s
 
 model/table-based-error-rate-model.o: model/table-based-error-rate-model.cc.o
@@ -2739,7 +2739,7 @@ model/table-based-error-rate-model.o: model/table-based-error-rate-model.cc.o
 
 # target to build an object file
 model/table-based-error-rate-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o
 .PHONY : model/table-based-error-rate-model.cc.o
 
 model/table-based-error-rate-model.i: model/table-based-error-rate-model.cc.i
@@ -2747,7 +2747,7 @@ model/table-based-error-rate-model.i: model/table-based-error-rate-model.cc.i
 
 # target to preprocess a source file
 model/table-based-error-rate-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.i
 .PHONY : model/table-based-error-rate-model.cc.i
 
 model/table-based-error-rate-model.s: model/table-based-error-rate-model.cc.s
@@ -2755,7 +2755,7 @@ model/table-based-error-rate-model.s: model/table-based-error-rate-model.cc.s
 
 # target to generate assembly for a file
 model/table-based-error-rate-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.s
 .PHONY : model/table-based-error-rate-model.cc.s
 
 model/threshold-preamble-detection-model.o: model/threshold-preamble-detection-model.cc.o
@@ -2763,7 +2763,7 @@ model/threshold-preamble-detection-model.o: model/threshold-preamble-detection-m
 
 # target to build an object file
 model/threshold-preamble-detection-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/threshold-preamble-detection-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/threshold-preamble-detection-model.cc.o
 .PHONY : model/threshold-preamble-detection-model.cc.o
 
 model/threshold-preamble-detection-model.i: model/threshold-preamble-detection-model.cc.i
@@ -2771,7 +2771,7 @@ model/threshold-preamble-detection-model.i: model/threshold-preamble-detection-m
 
 # target to preprocess a source file
 model/threshold-preamble-detection-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/threshold-preamble-detection-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/threshold-preamble-detection-model.cc.i
 .PHONY : model/threshold-preamble-detection-model.cc.i
 
 model/threshold-preamble-detection-model.s: model/threshold-preamble-detection-model.cc.s
@@ -2779,7 +2779,7 @@ model/threshold-preamble-detection-model.s: model/threshold-preamble-detection-m
 
 # target to generate assembly for a file
 model/threshold-preamble-detection-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/threshold-preamble-detection-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/threshold-preamble-detection-model.cc.s
 .PHONY : model/threshold-preamble-detection-model.cc.s
 
 model/tim.o: model/tim.cc.o
@@ -2787,7 +2787,7 @@ model/tim.o: model/tim.cc.o
 
 # target to build an object file
 model/tim.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/tim.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/tim.cc.o
 .PHONY : model/tim.cc.o
 
 model/tim.i: model/tim.cc.i
@@ -2795,7 +2795,7 @@ model/tim.i: model/tim.cc.i
 
 # target to preprocess a source file
 model/tim.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/tim.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/tim.cc.i
 .PHONY : model/tim.cc.i
 
 model/tim.s: model/tim.cc.s
@@ -2803,7 +2803,7 @@ model/tim.s: model/tim.cc.s
 
 # target to generate assembly for a file
 model/tim.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/tim.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/tim.cc.s
 .PHONY : model/tim.cc.s
 
 model/txop.o: model/txop.cc.o
@@ -2811,7 +2811,7 @@ model/txop.o: model/txop.cc.o
 
 # target to build an object file
 model/txop.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.o
 .PHONY : model/txop.cc.o
 
 model/txop.i: model/txop.cc.i
@@ -2819,7 +2819,7 @@ model/txop.i: model/txop.cc.i
 
 # target to preprocess a source file
 model/txop.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.i
 .PHONY : model/txop.cc.i
 
 model/txop.s: model/txop.cc.s
@@ -2827,7 +2827,7 @@ model/txop.s: model/txop.cc.s
 
 # target to generate assembly for a file
 model/txop.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/txop.cc.s
 .PHONY : model/txop.cc.s
 
 model/vht/vht-capabilities.o: model/vht/vht-capabilities.cc.o
@@ -2835,7 +2835,7 @@ model/vht/vht-capabilities.o: model/vht/vht-capabilities.cc.o
 
 # target to build an object file
 model/vht/vht-capabilities.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-capabilities.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-capabilities.cc.o
 .PHONY : model/vht/vht-capabilities.cc.o
 
 model/vht/vht-capabilities.i: model/vht/vht-capabilities.cc.i
@@ -2843,7 +2843,7 @@ model/vht/vht-capabilities.i: model/vht/vht-capabilities.cc.i
 
 # target to preprocess a source file
 model/vht/vht-capabilities.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-capabilities.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-capabilities.cc.i
 .PHONY : model/vht/vht-capabilities.cc.i
 
 model/vht/vht-capabilities.s: model/vht/vht-capabilities.cc.s
@@ -2851,7 +2851,7 @@ model/vht/vht-capabilities.s: model/vht/vht-capabilities.cc.s
 
 # target to generate assembly for a file
 model/vht/vht-capabilities.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-capabilities.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-capabilities.cc.s
 .PHONY : model/vht/vht-capabilities.cc.s
 
 model/vht/vht-configuration.o: model/vht/vht-configuration.cc.o
@@ -2859,7 +2859,7 @@ model/vht/vht-configuration.o: model/vht/vht-configuration.cc.o
 
 # target to build an object file
 model/vht/vht-configuration.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.o
 .PHONY : model/vht/vht-configuration.cc.o
 
 model/vht/vht-configuration.i: model/vht/vht-configuration.cc.i
@@ -2867,7 +2867,7 @@ model/vht/vht-configuration.i: model/vht/vht-configuration.cc.i
 
 # target to preprocess a source file
 model/vht/vht-configuration.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.i
 .PHONY : model/vht/vht-configuration.cc.i
 
 model/vht/vht-configuration.s: model/vht/vht-configuration.cc.s
@@ -2875,7 +2875,7 @@ model/vht/vht-configuration.s: model/vht/vht-configuration.cc.s
 
 # target to generate assembly for a file
 model/vht/vht-configuration.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-configuration.cc.s
 .PHONY : model/vht/vht-configuration.cc.s
 
 model/vht/vht-frame-exchange-manager.o: model/vht/vht-frame-exchange-manager.cc.o
@@ -2883,7 +2883,7 @@ model/vht/vht-frame-exchange-manager.o: model/vht/vht-frame-exchange-manager.cc.
 
 # target to build an object file
 model/vht/vht-frame-exchange-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-frame-exchange-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-frame-exchange-manager.cc.o
 .PHONY : model/vht/vht-frame-exchange-manager.cc.o
 
 model/vht/vht-frame-exchange-manager.i: model/vht/vht-frame-exchange-manager.cc.i
@@ -2891,7 +2891,7 @@ model/vht/vht-frame-exchange-manager.i: model/vht/vht-frame-exchange-manager.cc.
 
 # target to preprocess a source file
 model/vht/vht-frame-exchange-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-frame-exchange-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-frame-exchange-manager.cc.i
 .PHONY : model/vht/vht-frame-exchange-manager.cc.i
 
 model/vht/vht-frame-exchange-manager.s: model/vht/vht-frame-exchange-manager.cc.s
@@ -2899,7 +2899,7 @@ model/vht/vht-frame-exchange-manager.s: model/vht/vht-frame-exchange-manager.cc.
 
 # target to generate assembly for a file
 model/vht/vht-frame-exchange-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-frame-exchange-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-frame-exchange-manager.cc.s
 .PHONY : model/vht/vht-frame-exchange-manager.cc.s
 
 model/vht/vht-operation.o: model/vht/vht-operation.cc.o
@@ -2907,7 +2907,7 @@ model/vht/vht-operation.o: model/vht/vht-operation.cc.o
 
 # target to build an object file
 model/vht/vht-operation.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-operation.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-operation.cc.o
 .PHONY : model/vht/vht-operation.cc.o
 
 model/vht/vht-operation.i: model/vht/vht-operation.cc.i
@@ -2915,7 +2915,7 @@ model/vht/vht-operation.i: model/vht/vht-operation.cc.i
 
 # target to preprocess a source file
 model/vht/vht-operation.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-operation.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-operation.cc.i
 .PHONY : model/vht/vht-operation.cc.i
 
 model/vht/vht-operation.s: model/vht/vht-operation.cc.s
@@ -2923,7 +2923,7 @@ model/vht/vht-operation.s: model/vht/vht-operation.cc.s
 
 # target to generate assembly for a file
 model/vht/vht-operation.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-operation.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-operation.cc.s
 .PHONY : model/vht/vht-operation.cc.s
 
 model/vht/vht-phy.o: model/vht/vht-phy.cc.o
@@ -2931,7 +2931,7 @@ model/vht/vht-phy.o: model/vht/vht-phy.cc.o
 
 # target to build an object file
 model/vht/vht-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.o
 .PHONY : model/vht/vht-phy.cc.o
 
 model/vht/vht-phy.i: model/vht/vht-phy.cc.i
@@ -2939,7 +2939,7 @@ model/vht/vht-phy.i: model/vht/vht-phy.cc.i
 
 # target to preprocess a source file
 model/vht/vht-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.i
 .PHONY : model/vht/vht-phy.cc.i
 
 model/vht/vht-phy.s: model/vht/vht-phy.cc.s
@@ -2947,7 +2947,7 @@ model/vht/vht-phy.s: model/vht/vht-phy.cc.s
 
 # target to generate assembly for a file
 model/vht/vht-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-phy.cc.s
 .PHONY : model/vht/vht-phy.cc.s
 
 model/vht/vht-ppdu.o: model/vht/vht-ppdu.cc.o
@@ -2955,7 +2955,7 @@ model/vht/vht-ppdu.o: model/vht/vht-ppdu.cc.o
 
 # target to build an object file
 model/vht/vht-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-ppdu.cc.o
 .PHONY : model/vht/vht-ppdu.cc.o
 
 model/vht/vht-ppdu.i: model/vht/vht-ppdu.cc.i
@@ -2963,7 +2963,7 @@ model/vht/vht-ppdu.i: model/vht/vht-ppdu.cc.i
 
 # target to preprocess a source file
 model/vht/vht-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-ppdu.cc.i
 .PHONY : model/vht/vht-ppdu.cc.i
 
 model/vht/vht-ppdu.s: model/vht/vht-ppdu.cc.s
@@ -2971,7 +2971,7 @@ model/vht/vht-ppdu.s: model/vht/vht-ppdu.cc.s
 
 # target to generate assembly for a file
 model/vht/vht-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/vht/vht-ppdu.cc.s
 .PHONY : model/vht/vht-ppdu.cc.s
 
 model/wifi-ack-manager.o: model/wifi-ack-manager.cc.o
@@ -2979,7 +2979,7 @@ model/wifi-ack-manager.o: model/wifi-ack-manager.cc.o
 
 # target to build an object file
 model/wifi-ack-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ack-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ack-manager.cc.o
 .PHONY : model/wifi-ack-manager.cc.o
 
 model/wifi-ack-manager.i: model/wifi-ack-manager.cc.i
@@ -2987,7 +2987,7 @@ model/wifi-ack-manager.i: model/wifi-ack-manager.cc.i
 
 # target to preprocess a source file
 model/wifi-ack-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ack-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ack-manager.cc.i
 .PHONY : model/wifi-ack-manager.cc.i
 
 model/wifi-ack-manager.s: model/wifi-ack-manager.cc.s
@@ -2995,7 +2995,7 @@ model/wifi-ack-manager.s: model/wifi-ack-manager.cc.s
 
 # target to generate assembly for a file
 model/wifi-ack-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ack-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ack-manager.cc.s
 .PHONY : model/wifi-ack-manager.cc.s
 
 model/wifi-acknowledgment.o: model/wifi-acknowledgment.cc.o
@@ -3003,7 +3003,7 @@ model/wifi-acknowledgment.o: model/wifi-acknowledgment.cc.o
 
 # target to build an object file
 model/wifi-acknowledgment.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-acknowledgment.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-acknowledgment.cc.o
 .PHONY : model/wifi-acknowledgment.cc.o
 
 model/wifi-acknowledgment.i: model/wifi-acknowledgment.cc.i
@@ -3011,7 +3011,7 @@ model/wifi-acknowledgment.i: model/wifi-acknowledgment.cc.i
 
 # target to preprocess a source file
 model/wifi-acknowledgment.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-acknowledgment.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-acknowledgment.cc.i
 .PHONY : model/wifi-acknowledgment.cc.i
 
 model/wifi-acknowledgment.s: model/wifi-acknowledgment.cc.s
@@ -3019,7 +3019,7 @@ model/wifi-acknowledgment.s: model/wifi-acknowledgment.cc.s
 
 # target to generate assembly for a file
 model/wifi-acknowledgment.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-acknowledgment.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-acknowledgment.cc.s
 .PHONY : model/wifi-acknowledgment.cc.s
 
 model/wifi-assoc-manager.o: model/wifi-assoc-manager.cc.o
@@ -3027,7 +3027,7 @@ model/wifi-assoc-manager.o: model/wifi-assoc-manager.cc.o
 
 # target to build an object file
 model/wifi-assoc-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-assoc-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-assoc-manager.cc.o
 .PHONY : model/wifi-assoc-manager.cc.o
 
 model/wifi-assoc-manager.i: model/wifi-assoc-manager.cc.i
@@ -3035,7 +3035,7 @@ model/wifi-assoc-manager.i: model/wifi-assoc-manager.cc.i
 
 # target to preprocess a source file
 model/wifi-assoc-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-assoc-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-assoc-manager.cc.i
 .PHONY : model/wifi-assoc-manager.cc.i
 
 model/wifi-assoc-manager.s: model/wifi-assoc-manager.cc.s
@@ -3043,7 +3043,7 @@ model/wifi-assoc-manager.s: model/wifi-assoc-manager.cc.s
 
 # target to generate assembly for a file
 model/wifi-assoc-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-assoc-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-assoc-manager.cc.s
 .PHONY : model/wifi-assoc-manager.cc.s
 
 model/wifi-bandwidth-filter.o: model/wifi-bandwidth-filter.cc.o
@@ -3051,7 +3051,7 @@ model/wifi-bandwidth-filter.o: model/wifi-bandwidth-filter.cc.o
 
 # target to build an object file
 model/wifi-bandwidth-filter.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-bandwidth-filter.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-bandwidth-filter.cc.o
 .PHONY : model/wifi-bandwidth-filter.cc.o
 
 model/wifi-bandwidth-filter.i: model/wifi-bandwidth-filter.cc.i
@@ -3059,7 +3059,7 @@ model/wifi-bandwidth-filter.i: model/wifi-bandwidth-filter.cc.i
 
 # target to preprocess a source file
 model/wifi-bandwidth-filter.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-bandwidth-filter.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-bandwidth-filter.cc.i
 .PHONY : model/wifi-bandwidth-filter.cc.i
 
 model/wifi-bandwidth-filter.s: model/wifi-bandwidth-filter.cc.s
@@ -3067,7 +3067,7 @@ model/wifi-bandwidth-filter.s: model/wifi-bandwidth-filter.cc.s
 
 # target to generate assembly for a file
 model/wifi-bandwidth-filter.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-bandwidth-filter.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-bandwidth-filter.cc.s
 .PHONY : model/wifi-bandwidth-filter.cc.s
 
 model/wifi-default-ack-manager.o: model/wifi-default-ack-manager.cc.o
@@ -3075,7 +3075,7 @@ model/wifi-default-ack-manager.o: model/wifi-default-ack-manager.cc.o
 
 # target to build an object file
 model/wifi-default-ack-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-ack-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-ack-manager.cc.o
 .PHONY : model/wifi-default-ack-manager.cc.o
 
 model/wifi-default-ack-manager.i: model/wifi-default-ack-manager.cc.i
@@ -3083,7 +3083,7 @@ model/wifi-default-ack-manager.i: model/wifi-default-ack-manager.cc.i
 
 # target to preprocess a source file
 model/wifi-default-ack-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-ack-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-ack-manager.cc.i
 .PHONY : model/wifi-default-ack-manager.cc.i
 
 model/wifi-default-ack-manager.s: model/wifi-default-ack-manager.cc.s
@@ -3091,7 +3091,7 @@ model/wifi-default-ack-manager.s: model/wifi-default-ack-manager.cc.s
 
 # target to generate assembly for a file
 model/wifi-default-ack-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-ack-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-ack-manager.cc.s
 .PHONY : model/wifi-default-ack-manager.cc.s
 
 model/wifi-default-assoc-manager.o: model/wifi-default-assoc-manager.cc.o
@@ -3099,7 +3099,7 @@ model/wifi-default-assoc-manager.o: model/wifi-default-assoc-manager.cc.o
 
 # target to build an object file
 model/wifi-default-assoc-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-assoc-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-assoc-manager.cc.o
 .PHONY : model/wifi-default-assoc-manager.cc.o
 
 model/wifi-default-assoc-manager.i: model/wifi-default-assoc-manager.cc.i
@@ -3107,7 +3107,7 @@ model/wifi-default-assoc-manager.i: model/wifi-default-assoc-manager.cc.i
 
 # target to preprocess a source file
 model/wifi-default-assoc-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-assoc-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-assoc-manager.cc.i
 .PHONY : model/wifi-default-assoc-manager.cc.i
 
 model/wifi-default-assoc-manager.s: model/wifi-default-assoc-manager.cc.s
@@ -3115,7 +3115,7 @@ model/wifi-default-assoc-manager.s: model/wifi-default-assoc-manager.cc.s
 
 # target to generate assembly for a file
 model/wifi-default-assoc-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-assoc-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-assoc-manager.cc.s
 .PHONY : model/wifi-default-assoc-manager.cc.s
 
 model/wifi-default-protection-manager.o: model/wifi-default-protection-manager.cc.o
@@ -3123,7 +3123,7 @@ model/wifi-default-protection-manager.o: model/wifi-default-protection-manager.c
 
 # target to build an object file
 model/wifi-default-protection-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-protection-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-protection-manager.cc.o
 .PHONY : model/wifi-default-protection-manager.cc.o
 
 model/wifi-default-protection-manager.i: model/wifi-default-protection-manager.cc.i
@@ -3131,7 +3131,7 @@ model/wifi-default-protection-manager.i: model/wifi-default-protection-manager.c
 
 # target to preprocess a source file
 model/wifi-default-protection-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-protection-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-protection-manager.cc.i
 .PHONY : model/wifi-default-protection-manager.cc.i
 
 model/wifi-default-protection-manager.s: model/wifi-default-protection-manager.cc.s
@@ -3139,7 +3139,7 @@ model/wifi-default-protection-manager.s: model/wifi-default-protection-manager.c
 
 # target to generate assembly for a file
 model/wifi-default-protection-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-protection-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-default-protection-manager.cc.s
 .PHONY : model/wifi-default-protection-manager.cc.s
 
 model/wifi-information-element.o: model/wifi-information-element.cc.o
@@ -3147,7 +3147,7 @@ model/wifi-information-element.o: model/wifi-information-element.cc.o
 
 # target to build an object file
 model/wifi-information-element.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-information-element.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-information-element.cc.o
 .PHONY : model/wifi-information-element.cc.o
 
 model/wifi-information-element.i: model/wifi-information-element.cc.i
@@ -3155,7 +3155,7 @@ model/wifi-information-element.i: model/wifi-information-element.cc.i
 
 # target to preprocess a source file
 model/wifi-information-element.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-information-element.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-information-element.cc.i
 .PHONY : model/wifi-information-element.cc.i
 
 model/wifi-information-element.s: model/wifi-information-element.cc.s
@@ -3163,7 +3163,7 @@ model/wifi-information-element.s: model/wifi-information-element.cc.s
 
 # target to generate assembly for a file
 model/wifi-information-element.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-information-element.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-information-element.cc.s
 .PHONY : model/wifi-information-element.cc.s
 
 model/wifi-mac-header.o: model/wifi-mac-header.cc.o
@@ -3171,7 +3171,7 @@ model/wifi-mac-header.o: model/wifi-mac-header.cc.o
 
 # target to build an object file
 model/wifi-mac-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-header.cc.o
 .PHONY : model/wifi-mac-header.cc.o
 
 model/wifi-mac-header.i: model/wifi-mac-header.cc.i
@@ -3179,7 +3179,7 @@ model/wifi-mac-header.i: model/wifi-mac-header.cc.i
 
 # target to preprocess a source file
 model/wifi-mac-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-header.cc.i
 .PHONY : model/wifi-mac-header.cc.i
 
 model/wifi-mac-header.s: model/wifi-mac-header.cc.s
@@ -3187,7 +3187,7 @@ model/wifi-mac-header.s: model/wifi-mac-header.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-header.cc.s
 .PHONY : model/wifi-mac-header.cc.s
 
 model/wifi-mac-queue-container.o: model/wifi-mac-queue-container.cc.o
@@ -3195,7 +3195,7 @@ model/wifi-mac-queue-container.o: model/wifi-mac-queue-container.cc.o
 
 # target to build an object file
 model/wifi-mac-queue-container.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-container.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-container.cc.o
 .PHONY : model/wifi-mac-queue-container.cc.o
 
 model/wifi-mac-queue-container.i: model/wifi-mac-queue-container.cc.i
@@ -3203,7 +3203,7 @@ model/wifi-mac-queue-container.i: model/wifi-mac-queue-container.cc.i
 
 # target to preprocess a source file
 model/wifi-mac-queue-container.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-container.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-container.cc.i
 .PHONY : model/wifi-mac-queue-container.cc.i
 
 model/wifi-mac-queue-container.s: model/wifi-mac-queue-container.cc.s
@@ -3211,7 +3211,7 @@ model/wifi-mac-queue-container.s: model/wifi-mac-queue-container.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac-queue-container.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-container.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-container.cc.s
 .PHONY : model/wifi-mac-queue-container.cc.s
 
 model/wifi-mac-queue-elem.o: model/wifi-mac-queue-elem.cc.o
@@ -3219,7 +3219,7 @@ model/wifi-mac-queue-elem.o: model/wifi-mac-queue-elem.cc.o
 
 # target to build an object file
 model/wifi-mac-queue-elem.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-elem.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-elem.cc.o
 .PHONY : model/wifi-mac-queue-elem.cc.o
 
 model/wifi-mac-queue-elem.i: model/wifi-mac-queue-elem.cc.i
@@ -3227,7 +3227,7 @@ model/wifi-mac-queue-elem.i: model/wifi-mac-queue-elem.cc.i
 
 # target to preprocess a source file
 model/wifi-mac-queue-elem.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-elem.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-elem.cc.i
 .PHONY : model/wifi-mac-queue-elem.cc.i
 
 model/wifi-mac-queue-elem.s: model/wifi-mac-queue-elem.cc.s
@@ -3235,7 +3235,7 @@ model/wifi-mac-queue-elem.s: model/wifi-mac-queue-elem.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac-queue-elem.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-elem.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-elem.cc.s
 .PHONY : model/wifi-mac-queue-elem.cc.s
 
 model/wifi-mac-queue-scheduler.o: model/wifi-mac-queue-scheduler.cc.o
@@ -3243,7 +3243,7 @@ model/wifi-mac-queue-scheduler.o: model/wifi-mac-queue-scheduler.cc.o
 
 # target to build an object file
 model/wifi-mac-queue-scheduler.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-scheduler.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-scheduler.cc.o
 .PHONY : model/wifi-mac-queue-scheduler.cc.o
 
 model/wifi-mac-queue-scheduler.i: model/wifi-mac-queue-scheduler.cc.i
@@ -3251,7 +3251,7 @@ model/wifi-mac-queue-scheduler.i: model/wifi-mac-queue-scheduler.cc.i
 
 # target to preprocess a source file
 model/wifi-mac-queue-scheduler.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-scheduler.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-scheduler.cc.i
 .PHONY : model/wifi-mac-queue-scheduler.cc.i
 
 model/wifi-mac-queue-scheduler.s: model/wifi-mac-queue-scheduler.cc.s
@@ -3259,7 +3259,7 @@ model/wifi-mac-queue-scheduler.s: model/wifi-mac-queue-scheduler.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac-queue-scheduler.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-scheduler.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue-scheduler.cc.s
 .PHONY : model/wifi-mac-queue-scheduler.cc.s
 
 model/wifi-mac-queue.o: model/wifi-mac-queue.cc.o
@@ -3267,7 +3267,7 @@ model/wifi-mac-queue.o: model/wifi-mac-queue.cc.o
 
 # target to build an object file
 model/wifi-mac-queue.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue.cc.o
 .PHONY : model/wifi-mac-queue.cc.o
 
 model/wifi-mac-queue.i: model/wifi-mac-queue.cc.i
@@ -3275,7 +3275,7 @@ model/wifi-mac-queue.i: model/wifi-mac-queue.cc.i
 
 # target to preprocess a source file
 model/wifi-mac-queue.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue.cc.i
 .PHONY : model/wifi-mac-queue.cc.i
 
 model/wifi-mac-queue.s: model/wifi-mac-queue.cc.s
@@ -3283,7 +3283,7 @@ model/wifi-mac-queue.s: model/wifi-mac-queue.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac-queue.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-queue.cc.s
 .PHONY : model/wifi-mac-queue.cc.s
 
 model/wifi-mac-trailer.o: model/wifi-mac-trailer.cc.o
@@ -3291,7 +3291,7 @@ model/wifi-mac-trailer.o: model/wifi-mac-trailer.cc.o
 
 # target to build an object file
 model/wifi-mac-trailer.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-trailer.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-trailer.cc.o
 .PHONY : model/wifi-mac-trailer.cc.o
 
 model/wifi-mac-trailer.i: model/wifi-mac-trailer.cc.i
@@ -3299,7 +3299,7 @@ model/wifi-mac-trailer.i: model/wifi-mac-trailer.cc.i
 
 # target to preprocess a source file
 model/wifi-mac-trailer.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-trailer.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-trailer.cc.i
 .PHONY : model/wifi-mac-trailer.cc.i
 
 model/wifi-mac-trailer.s: model/wifi-mac-trailer.cc.s
@@ -3307,7 +3307,7 @@ model/wifi-mac-trailer.s: model/wifi-mac-trailer.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac-trailer.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-trailer.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac-trailer.cc.s
 .PHONY : model/wifi-mac-trailer.cc.s
 
 model/wifi-mac.o: model/wifi-mac.cc.o
@@ -3315,7 +3315,7 @@ model/wifi-mac.o: model/wifi-mac.cc.o
 
 # target to build an object file
 model/wifi-mac.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.o
 .PHONY : model/wifi-mac.cc.o
 
 model/wifi-mac.i: model/wifi-mac.cc.i
@@ -3323,7 +3323,7 @@ model/wifi-mac.i: model/wifi-mac.cc.i
 
 # target to preprocess a source file
 model/wifi-mac.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.i
 .PHONY : model/wifi-mac.cc.i
 
 model/wifi-mac.s: model/wifi-mac.cc.s
@@ -3331,7 +3331,7 @@ model/wifi-mac.s: model/wifi-mac.cc.s
 
 # target to generate assembly for a file
 model/wifi-mac.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mac.cc.s
 .PHONY : model/wifi-mac.cc.s
 
 model/wifi-mode.o: model/wifi-mode.cc.o
@@ -3339,7 +3339,7 @@ model/wifi-mode.o: model/wifi-mode.cc.o
 
 # target to build an object file
 model/wifi-mode.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mode.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mode.cc.o
 .PHONY : model/wifi-mode.cc.o
 
 model/wifi-mode.i: model/wifi-mode.cc.i
@@ -3347,7 +3347,7 @@ model/wifi-mode.i: model/wifi-mode.cc.i
 
 # target to preprocess a source file
 model/wifi-mode.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mode.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mode.cc.i
 .PHONY : model/wifi-mode.cc.i
 
 model/wifi-mode.s: model/wifi-mode.cc.s
@@ -3355,7 +3355,7 @@ model/wifi-mode.s: model/wifi-mode.cc.s
 
 # target to generate assembly for a file
 model/wifi-mode.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mode.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mode.cc.s
 .PHONY : model/wifi-mode.cc.s
 
 model/wifi-mpdu.o: model/wifi-mpdu.cc.o
@@ -3363,7 +3363,7 @@ model/wifi-mpdu.o: model/wifi-mpdu.cc.o
 
 # target to build an object file
 model/wifi-mpdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mpdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mpdu.cc.o
 .PHONY : model/wifi-mpdu.cc.o
 
 model/wifi-mpdu.i: model/wifi-mpdu.cc.i
@@ -3371,7 +3371,7 @@ model/wifi-mpdu.i: model/wifi-mpdu.cc.i
 
 # target to preprocess a source file
 model/wifi-mpdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mpdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mpdu.cc.i
 .PHONY : model/wifi-mpdu.cc.i
 
 model/wifi-mpdu.s: model/wifi-mpdu.cc.s
@@ -3379,7 +3379,7 @@ model/wifi-mpdu.s: model/wifi-mpdu.cc.s
 
 # target to generate assembly for a file
 model/wifi-mpdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mpdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-mpdu.cc.s
 .PHONY : model/wifi-mpdu.cc.s
 
 model/wifi-net-device.o: model/wifi-net-device.cc.o
@@ -3387,7 +3387,7 @@ model/wifi-net-device.o: model/wifi-net-device.cc.o
 
 # target to build an object file
 model/wifi-net-device.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.o
 .PHONY : model/wifi-net-device.cc.o
 
 model/wifi-net-device.i: model/wifi-net-device.cc.i
@@ -3395,7 +3395,7 @@ model/wifi-net-device.i: model/wifi-net-device.cc.i
 
 # target to preprocess a source file
 model/wifi-net-device.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.i
 .PHONY : model/wifi-net-device.cc.i
 
 model/wifi-net-device.s: model/wifi-net-device.cc.s
@@ -3403,7 +3403,7 @@ model/wifi-net-device.s: model/wifi-net-device.cc.s
 
 # target to generate assembly for a file
 model/wifi-net-device.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-net-device.cc.s
 .PHONY : model/wifi-net-device.cc.s
 
 model/wifi-phy-common.o: model/wifi-phy-common.cc.o
@@ -3411,7 +3411,7 @@ model/wifi-phy-common.o: model/wifi-phy-common.cc.o
 
 # target to build an object file
 model/wifi-phy-common.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.o
 .PHONY : model/wifi-phy-common.cc.o
 
 model/wifi-phy-common.i: model/wifi-phy-common.cc.i
@@ -3419,7 +3419,7 @@ model/wifi-phy-common.i: model/wifi-phy-common.cc.i
 
 # target to preprocess a source file
 model/wifi-phy-common.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.i
 .PHONY : model/wifi-phy-common.cc.i
 
 model/wifi-phy-common.s: model/wifi-phy-common.cc.s
@@ -3427,7 +3427,7 @@ model/wifi-phy-common.s: model/wifi-phy-common.cc.s
 
 # target to generate assembly for a file
 model/wifi-phy-common.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-common.cc.s
 .PHONY : model/wifi-phy-common.cc.s
 
 model/wifi-phy-operating-channel.o: model/wifi-phy-operating-channel.cc.o
@@ -3435,7 +3435,7 @@ model/wifi-phy-operating-channel.o: model/wifi-phy-operating-channel.cc.o
 
 # target to build an object file
 model/wifi-phy-operating-channel.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-operating-channel.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-operating-channel.cc.o
 .PHONY : model/wifi-phy-operating-channel.cc.o
 
 model/wifi-phy-operating-channel.i: model/wifi-phy-operating-channel.cc.i
@@ -3443,7 +3443,7 @@ model/wifi-phy-operating-channel.i: model/wifi-phy-operating-channel.cc.i
 
 # target to preprocess a source file
 model/wifi-phy-operating-channel.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-operating-channel.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-operating-channel.cc.i
 .PHONY : model/wifi-phy-operating-channel.cc.i
 
 model/wifi-phy-operating-channel.s: model/wifi-phy-operating-channel.cc.s
@@ -3451,7 +3451,7 @@ model/wifi-phy-operating-channel.s: model/wifi-phy-operating-channel.cc.s
 
 # target to generate assembly for a file
 model/wifi-phy-operating-channel.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-operating-channel.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-operating-channel.cc.s
 .PHONY : model/wifi-phy-operating-channel.cc.s
 
 model/wifi-phy-state-helper.o: model/wifi-phy-state-helper.cc.o
@@ -3459,7 +3459,7 @@ model/wifi-phy-state-helper.o: model/wifi-phy-state-helper.cc.o
 
 # target to build an object file
 model/wifi-phy-state-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-state-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-state-helper.cc.o
 .PHONY : model/wifi-phy-state-helper.cc.o
 
 model/wifi-phy-state-helper.i: model/wifi-phy-state-helper.cc.i
@@ -3467,7 +3467,7 @@ model/wifi-phy-state-helper.i: model/wifi-phy-state-helper.cc.i
 
 # target to preprocess a source file
 model/wifi-phy-state-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-state-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-state-helper.cc.i
 .PHONY : model/wifi-phy-state-helper.cc.i
 
 model/wifi-phy-state-helper.s: model/wifi-phy-state-helper.cc.s
@@ -3475,7 +3475,7 @@ model/wifi-phy-state-helper.s: model/wifi-phy-state-helper.cc.s
 
 # target to generate assembly for a file
 model/wifi-phy-state-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-state-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy-state-helper.cc.s
 .PHONY : model/wifi-phy-state-helper.cc.s
 
 model/wifi-phy.o: model/wifi-phy.cc.o
@@ -3483,7 +3483,7 @@ model/wifi-phy.o: model/wifi-phy.cc.o
 
 # target to build an object file
 model/wifi-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.o
 .PHONY : model/wifi-phy.cc.o
 
 model/wifi-phy.i: model/wifi-phy.cc.i
@@ -3491,7 +3491,7 @@ model/wifi-phy.i: model/wifi-phy.cc.i
 
 # target to preprocess a source file
 model/wifi-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.i
 .PHONY : model/wifi-phy.cc.i
 
 model/wifi-phy.s: model/wifi-phy.cc.s
@@ -3499,7 +3499,7 @@ model/wifi-phy.s: model/wifi-phy.cc.s
 
 # target to generate assembly for a file
 model/wifi-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-phy.cc.s
 .PHONY : model/wifi-phy.cc.s
 
 model/wifi-ppdu.o: model/wifi-ppdu.cc.o
@@ -3507,7 +3507,7 @@ model/wifi-ppdu.o: model/wifi-ppdu.cc.o
 
 # target to build an object file
 model/wifi-ppdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ppdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ppdu.cc.o
 .PHONY : model/wifi-ppdu.cc.o
 
 model/wifi-ppdu.i: model/wifi-ppdu.cc.i
@@ -3515,7 +3515,7 @@ model/wifi-ppdu.i: model/wifi-ppdu.cc.i
 
 # target to preprocess a source file
 model/wifi-ppdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ppdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ppdu.cc.i
 .PHONY : model/wifi-ppdu.cc.i
 
 model/wifi-ppdu.s: model/wifi-ppdu.cc.s
@@ -3523,7 +3523,7 @@ model/wifi-ppdu.s: model/wifi-ppdu.cc.s
 
 # target to generate assembly for a file
 model/wifi-ppdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ppdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-ppdu.cc.s
 .PHONY : model/wifi-ppdu.cc.s
 
 model/wifi-protection-manager.o: model/wifi-protection-manager.cc.o
@@ -3531,7 +3531,7 @@ model/wifi-protection-manager.o: model/wifi-protection-manager.cc.o
 
 # target to build an object file
 model/wifi-protection-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection-manager.cc.o
 .PHONY : model/wifi-protection-manager.cc.o
 
 model/wifi-protection-manager.i: model/wifi-protection-manager.cc.i
@@ -3539,7 +3539,7 @@ model/wifi-protection-manager.i: model/wifi-protection-manager.cc.i
 
 # target to preprocess a source file
 model/wifi-protection-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection-manager.cc.i
 .PHONY : model/wifi-protection-manager.cc.i
 
 model/wifi-protection-manager.s: model/wifi-protection-manager.cc.s
@@ -3547,7 +3547,7 @@ model/wifi-protection-manager.s: model/wifi-protection-manager.cc.s
 
 # target to generate assembly for a file
 model/wifi-protection-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection-manager.cc.s
 .PHONY : model/wifi-protection-manager.cc.s
 
 model/wifi-protection.o: model/wifi-protection.cc.o
@@ -3555,7 +3555,7 @@ model/wifi-protection.o: model/wifi-protection.cc.o
 
 # target to build an object file
 model/wifi-protection.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection.cc.o
 .PHONY : model/wifi-protection.cc.o
 
 model/wifi-protection.i: model/wifi-protection.cc.i
@@ -3563,7 +3563,7 @@ model/wifi-protection.i: model/wifi-protection.cc.i
 
 # target to preprocess a source file
 model/wifi-protection.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection.cc.i
 .PHONY : model/wifi-protection.cc.i
 
 model/wifi-protection.s: model/wifi-protection.cc.s
@@ -3571,7 +3571,7 @@ model/wifi-protection.s: model/wifi-protection.cc.s
 
 # target to generate assembly for a file
 model/wifi-protection.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-protection.cc.s
 .PHONY : model/wifi-protection.cc.s
 
 model/wifi-psdu.o: model/wifi-psdu.cc.o
@@ -3579,7 +3579,7 @@ model/wifi-psdu.o: model/wifi-psdu.cc.o
 
 # target to build an object file
 model/wifi-psdu.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-psdu.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-psdu.cc.o
 .PHONY : model/wifi-psdu.cc.o
 
 model/wifi-psdu.i: model/wifi-psdu.cc.i
@@ -3587,7 +3587,7 @@ model/wifi-psdu.i: model/wifi-psdu.cc.i
 
 # target to preprocess a source file
 model/wifi-psdu.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-psdu.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-psdu.cc.i
 .PHONY : model/wifi-psdu.cc.i
 
 model/wifi-psdu.s: model/wifi-psdu.cc.s
@@ -3595,7 +3595,7 @@ model/wifi-psdu.s: model/wifi-psdu.cc.s
 
 # target to generate assembly for a file
 model/wifi-psdu.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-psdu.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-psdu.cc.s
 .PHONY : model/wifi-psdu.cc.s
 
 model/wifi-radio-energy-model.o: model/wifi-radio-energy-model.cc.o
@@ -3603,7 +3603,7 @@ model/wifi-radio-energy-model.o: model/wifi-radio-energy-model.cc.o
 
 # target to build an object file
 model/wifi-radio-energy-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.o
 .PHONY : model/wifi-radio-energy-model.cc.o
 
 model/wifi-radio-energy-model.i: model/wifi-radio-energy-model.cc.i
@@ -3611,7 +3611,7 @@ model/wifi-radio-energy-model.i: model/wifi-radio-energy-model.cc.i
 
 # target to preprocess a source file
 model/wifi-radio-energy-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.i
 .PHONY : model/wifi-radio-energy-model.cc.i
 
 model/wifi-radio-energy-model.s: model/wifi-radio-energy-model.cc.s
@@ -3619,7 +3619,7 @@ model/wifi-radio-energy-model.s: model/wifi-radio-energy-model.cc.s
 
 # target to generate assembly for a file
 model/wifi-radio-energy-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-radio-energy-model.cc.s
 .PHONY : model/wifi-radio-energy-model.cc.s
 
 model/wifi-remote-station-info.o: model/wifi-remote-station-info.cc.o
@@ -3627,7 +3627,7 @@ model/wifi-remote-station-info.o: model/wifi-remote-station-info.cc.o
 
 # target to build an object file
 model/wifi-remote-station-info.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-info.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-info.cc.o
 .PHONY : model/wifi-remote-station-info.cc.o
 
 model/wifi-remote-station-info.i: model/wifi-remote-station-info.cc.i
@@ -3635,7 +3635,7 @@ model/wifi-remote-station-info.i: model/wifi-remote-station-info.cc.i
 
 # target to preprocess a source file
 model/wifi-remote-station-info.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-info.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-info.cc.i
 .PHONY : model/wifi-remote-station-info.cc.i
 
 model/wifi-remote-station-info.s: model/wifi-remote-station-info.cc.s
@@ -3643,7 +3643,7 @@ model/wifi-remote-station-info.s: model/wifi-remote-station-info.cc.s
 
 # target to generate assembly for a file
 model/wifi-remote-station-info.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-info.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-info.cc.s
 .PHONY : model/wifi-remote-station-info.cc.s
 
 model/wifi-remote-station-manager.o: model/wifi-remote-station-manager.cc.o
@@ -3651,7 +3651,7 @@ model/wifi-remote-station-manager.o: model/wifi-remote-station-manager.cc.o
 
 # target to build an object file
 model/wifi-remote-station-manager.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.o
 .PHONY : model/wifi-remote-station-manager.cc.o
 
 model/wifi-remote-station-manager.i: model/wifi-remote-station-manager.cc.i
@@ -3659,7 +3659,7 @@ model/wifi-remote-station-manager.i: model/wifi-remote-station-manager.cc.i
 
 # target to preprocess a source file
 model/wifi-remote-station-manager.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.i
 .PHONY : model/wifi-remote-station-manager.cc.i
 
 model/wifi-remote-station-manager.s: model/wifi-remote-station-manager.cc.s
@@ -3667,7 +3667,7 @@ model/wifi-remote-station-manager.s: model/wifi-remote-station-manager.cc.s
 
 # target to generate assembly for a file
 model/wifi-remote-station-manager.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-remote-station-manager.cc.s
 .PHONY : model/wifi-remote-station-manager.cc.s
 
 model/wifi-spectrum-phy-interface.o: model/wifi-spectrum-phy-interface.cc.o
@@ -3675,7 +3675,7 @@ model/wifi-spectrum-phy-interface.o: model/wifi-spectrum-phy-interface.cc.o
 
 # target to build an object file
 model/wifi-spectrum-phy-interface.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.o
 .PHONY : model/wifi-spectrum-phy-interface.cc.o
 
 model/wifi-spectrum-phy-interface.i: model/wifi-spectrum-phy-interface.cc.i
@@ -3683,7 +3683,7 @@ model/wifi-spectrum-phy-interface.i: model/wifi-spectrum-phy-interface.cc.i
 
 # target to preprocess a source file
 model/wifi-spectrum-phy-interface.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.i
 .PHONY : model/wifi-spectrum-phy-interface.cc.i
 
 model/wifi-spectrum-phy-interface.s: model/wifi-spectrum-phy-interface.cc.s
@@ -3691,7 +3691,7 @@ model/wifi-spectrum-phy-interface.s: model/wifi-spectrum-phy-interface.cc.s
 
 # target to generate assembly for a file
 model/wifi-spectrum-phy-interface.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-phy-interface.cc.s
 .PHONY : model/wifi-spectrum-phy-interface.cc.s
 
 model/wifi-spectrum-signal-parameters.o: model/wifi-spectrum-signal-parameters.cc.o
@@ -3699,7 +3699,7 @@ model/wifi-spectrum-signal-parameters.o: model/wifi-spectrum-signal-parameters.c
 
 # target to build an object file
 model/wifi-spectrum-signal-parameters.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-signal-parameters.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-signal-parameters.cc.o
 .PHONY : model/wifi-spectrum-signal-parameters.cc.o
 
 model/wifi-spectrum-signal-parameters.i: model/wifi-spectrum-signal-parameters.cc.i
@@ -3707,7 +3707,7 @@ model/wifi-spectrum-signal-parameters.i: model/wifi-spectrum-signal-parameters.c
 
 # target to preprocess a source file
 model/wifi-spectrum-signal-parameters.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-signal-parameters.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-signal-parameters.cc.i
 .PHONY : model/wifi-spectrum-signal-parameters.cc.i
 
 model/wifi-spectrum-signal-parameters.s: model/wifi-spectrum-signal-parameters.cc.s
@@ -3715,7 +3715,7 @@ model/wifi-spectrum-signal-parameters.s: model/wifi-spectrum-signal-parameters.c
 
 # target to generate assembly for a file
 model/wifi-spectrum-signal-parameters.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-signal-parameters.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-signal-parameters.cc.s
 .PHONY : model/wifi-spectrum-signal-parameters.cc.s
 
 model/wifi-spectrum-value-helper.o: model/wifi-spectrum-value-helper.cc.o
@@ -3723,7 +3723,7 @@ model/wifi-spectrum-value-helper.o: model/wifi-spectrum-value-helper.cc.o
 
 # target to build an object file
 model/wifi-spectrum-value-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-value-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-value-helper.cc.o
 .PHONY : model/wifi-spectrum-value-helper.cc.o
 
 model/wifi-spectrum-value-helper.i: model/wifi-spectrum-value-helper.cc.i
@@ -3731,7 +3731,7 @@ model/wifi-spectrum-value-helper.i: model/wifi-spectrum-value-helper.cc.i
 
 # target to preprocess a source file
 model/wifi-spectrum-value-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-value-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-value-helper.cc.i
 .PHONY : model/wifi-spectrum-value-helper.cc.i
 
 model/wifi-spectrum-value-helper.s: model/wifi-spectrum-value-helper.cc.s
@@ -3739,7 +3739,7 @@ model/wifi-spectrum-value-helper.s: model/wifi-spectrum-value-helper.cc.s
 
 # target to generate assembly for a file
 model/wifi-spectrum-value-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-value-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-spectrum-value-helper.cc.s
 .PHONY : model/wifi-spectrum-value-helper.cc.s
 
 model/wifi-standards.o: model/wifi-standards.cc.o
@@ -3747,7 +3747,7 @@ model/wifi-standards.o: model/wifi-standards.cc.o
 
 # target to build an object file
 model/wifi-standards.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.o
 .PHONY : model/wifi-standards.cc.o
 
 model/wifi-standards.i: model/wifi-standards.cc.i
@@ -3755,7 +3755,7 @@ model/wifi-standards.i: model/wifi-standards.cc.i
 
 # target to preprocess a source file
 model/wifi-standards.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.i
 .PHONY : model/wifi-standards.cc.i
 
 model/wifi-standards.s: model/wifi-standards.cc.s
@@ -3763,7 +3763,7 @@ model/wifi-standards.s: model/wifi-standards.cc.s
 
 # target to generate assembly for a file
 model/wifi-standards.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.s
 .PHONY : model/wifi-standards.cc.s
 
 model/wifi-tx-current-model.o: model/wifi-tx-current-model.cc.o
@@ -3771,7 +3771,7 @@ model/wifi-tx-current-model.o: model/wifi-tx-current-model.cc.o
 
 # target to build an object file
 model/wifi-tx-current-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-current-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-current-model.cc.o
 .PHONY : model/wifi-tx-current-model.cc.o
 
 model/wifi-tx-current-model.i: model/wifi-tx-current-model.cc.i
@@ -3779,7 +3779,7 @@ model/wifi-tx-current-model.i: model/wifi-tx-current-model.cc.i
 
 # target to preprocess a source file
 model/wifi-tx-current-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-current-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-current-model.cc.i
 .PHONY : model/wifi-tx-current-model.cc.i
 
 model/wifi-tx-current-model.s: model/wifi-tx-current-model.cc.s
@@ -3787,7 +3787,7 @@ model/wifi-tx-current-model.s: model/wifi-tx-current-model.cc.s
 
 # target to generate assembly for a file
 model/wifi-tx-current-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-current-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-current-model.cc.s
 .PHONY : model/wifi-tx-current-model.cc.s
 
 model/wifi-tx-parameters.o: model/wifi-tx-parameters.cc.o
@@ -3795,7 +3795,7 @@ model/wifi-tx-parameters.o: model/wifi-tx-parameters.cc.o
 
 # target to build an object file
 model/wifi-tx-parameters.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-parameters.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-parameters.cc.o
 .PHONY : model/wifi-tx-parameters.cc.o
 
 model/wifi-tx-parameters.i: model/wifi-tx-parameters.cc.i
@@ -3803,7 +3803,7 @@ model/wifi-tx-parameters.i: model/wifi-tx-parameters.cc.i
 
 # target to preprocess a source file
 model/wifi-tx-parameters.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-parameters.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-parameters.cc.i
 .PHONY : model/wifi-tx-parameters.cc.i
 
 model/wifi-tx-parameters.s: model/wifi-tx-parameters.cc.s
@@ -3811,7 +3811,7 @@ model/wifi-tx-parameters.s: model/wifi-tx-parameters.cc.s
 
 # target to generate assembly for a file
 model/wifi-tx-parameters.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-parameters.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-parameters.cc.s
 .PHONY : model/wifi-tx-parameters.cc.s
 
 model/wifi-tx-timer.o: model/wifi-tx-timer.cc.o
@@ -3819,7 +3819,7 @@ model/wifi-tx-timer.o: model/wifi-tx-timer.cc.o
 
 # target to build an object file
 model/wifi-tx-timer.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-timer.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-timer.cc.o
 .PHONY : model/wifi-tx-timer.cc.o
 
 model/wifi-tx-timer.i: model/wifi-tx-timer.cc.i
@@ -3827,7 +3827,7 @@ model/wifi-tx-timer.i: model/wifi-tx-timer.cc.i
 
 # target to preprocess a source file
 model/wifi-tx-timer.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-timer.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-timer.cc.i
 .PHONY : model/wifi-tx-timer.cc.i
 
 model/wifi-tx-timer.s: model/wifi-tx-timer.cc.s
@@ -3835,7 +3835,7 @@ model/wifi-tx-timer.s: model/wifi-tx-timer.cc.s
 
 # target to generate assembly for a file
 model/wifi-tx-timer.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-timer.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-timer.cc.s
 .PHONY : model/wifi-tx-timer.cc.s
 
 model/wifi-tx-vector.o: model/wifi-tx-vector.cc.o
@@ -3843,7 +3843,7 @@ model/wifi-tx-vector.o: model/wifi-tx-vector.cc.o
 
 # target to build an object file
 model/wifi-tx-vector.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-vector.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-vector.cc.o
 .PHONY : model/wifi-tx-vector.cc.o
 
 model/wifi-tx-vector.i: model/wifi-tx-vector.cc.i
@@ -3851,7 +3851,7 @@ model/wifi-tx-vector.i: model/wifi-tx-vector.cc.i
 
 # target to preprocess a source file
 model/wifi-tx-vector.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-vector.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-vector.cc.i
 .PHONY : model/wifi-tx-vector.cc.i
 
 model/wifi-tx-vector.s: model/wifi-tx-vector.cc.s
@@ -3859,7 +3859,7 @@ model/wifi-tx-vector.s: model/wifi-tx-vector.cc.s
 
 # target to generate assembly for a file
 model/wifi-tx-vector.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-vector.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-tx-vector.cc.s
 .PHONY : model/wifi-tx-vector.cc.s
 
 model/wifi-utils.o: model/wifi-utils.cc.o
@@ -3867,7 +3867,7 @@ model/wifi-utils.o: model/wifi-utils.cc.o
 
 # target to build an object file
 model/wifi-utils.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-utils.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-utils.cc.o
 .PHONY : model/wifi-utils.cc.o
 
 model/wifi-utils.i: model/wifi-utils.cc.i
@@ -3875,7 +3875,7 @@ model/wifi-utils.i: model/wifi-utils.cc.i
 
 # target to preprocess a source file
 model/wifi-utils.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-utils.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-utils.cc.i
 .PHONY : model/wifi-utils.cc.i
 
 model/wifi-utils.s: model/wifi-utils.cc.s
@@ -3883,7 +3883,7 @@ model/wifi-utils.s: model/wifi-utils.cc.s
 
 # target to generate assembly for a file
 model/wifi-utils.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-utils.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-utils.cc.s
 .PHONY : model/wifi-utils.cc.s
 
 model/yans-error-rate-model.o: model/yans-error-rate-model.cc.o
@@ -3891,7 +3891,7 @@ model/yans-error-rate-model.o: model/yans-error-rate-model.cc.o
 
 # target to build an object file
 model/yans-error-rate-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-error-rate-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-error-rate-model.cc.o
 .PHONY : model/yans-error-rate-model.cc.o
 
 model/yans-error-rate-model.i: model/yans-error-rate-model.cc.i
@@ -3899,7 +3899,7 @@ model/yans-error-rate-model.i: model/yans-error-rate-model.cc.i
 
 # target to preprocess a source file
 model/yans-error-rate-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-error-rate-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-error-rate-model.cc.i
 .PHONY : model/yans-error-rate-model.cc.i
 
 model/yans-error-rate-model.s: model/yans-error-rate-model.cc.s
@@ -3907,7 +3907,7 @@ model/yans-error-rate-model.s: model/yans-error-rate-model.cc.s
 
 # target to generate assembly for a file
 model/yans-error-rate-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-error-rate-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-error-rate-model.cc.s
 .PHONY : model/yans-error-rate-model.cc.s
 
 model/yans-wifi-channel.o: model/yans-wifi-channel.cc.o
@@ -3915,7 +3915,7 @@ model/yans-wifi-channel.o: model/yans-wifi-channel.cc.o
 
 # target to build an object file
 model/yans-wifi-channel.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.o
 .PHONY : model/yans-wifi-channel.cc.o
 
 model/yans-wifi-channel.i: model/yans-wifi-channel.cc.i
@@ -3923,7 +3923,7 @@ model/yans-wifi-channel.i: model/yans-wifi-channel.cc.i
 
 # target to preprocess a source file
 model/yans-wifi-channel.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.i
 .PHONY : model/yans-wifi-channel.cc.i
 
 model/yans-wifi-channel.s: model/yans-wifi-channel.cc.s
@@ -3931,7 +3931,7 @@ model/yans-wifi-channel.s: model/yans-wifi-channel.cc.s
 
 # target to generate assembly for a file
 model/yans-wifi-channel.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-channel.cc.s
 .PHONY : model/yans-wifi-channel.cc.s
 
 model/yans-wifi-phy.o: model/yans-wifi-phy.cc.o
@@ -3939,7 +3939,7 @@ model/yans-wifi-phy.o: model/yans-wifi-phy.cc.o
 
 # target to build an object file
 model/yans-wifi-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-phy.cc.o
 .PHONY : model/yans-wifi-phy.cc.o
 
 model/yans-wifi-phy.i: model/yans-wifi-phy.cc.i
@@ -3947,7 +3947,7 @@ model/yans-wifi-phy.i: model/yans-wifi-phy.cc.i
 
 # target to preprocess a source file
 model/yans-wifi-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-phy.cc.i
 .PHONY : model/yans-wifi-phy.cc.i
 
 model/yans-wifi-phy.s: model/yans-wifi-phy.cc.s
@@ -3955,7 +3955,7 @@ model/yans-wifi-phy.s: model/yans-wifi-phy.cc.s
 
 # target to generate assembly for a file
 model/yans-wifi-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-obj.dir/build.make src/wifi/CMakeFiles/libwifi-obj.dir/model/yans-wifi-phy.cc.s
 .PHONY : model/yans-wifi-phy.cc.s
 
 test/block-ack-test-suite.o: test/block-ack-test-suite.cc.o
@@ -3963,7 +3963,7 @@ test/block-ack-test-suite.o: test/block-ack-test-suite.cc.o
 
 # target to build an object file
 test/block-ack-test-suite.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.o
 .PHONY : test/block-ack-test-suite.cc.o
 
 test/block-ack-test-suite.i: test/block-ack-test-suite.cc.i
@@ -3971,7 +3971,7 @@ test/block-ack-test-suite.i: test/block-ack-test-suite.cc.i
 
 # target to preprocess a source file
 test/block-ack-test-suite.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.i
 .PHONY : test/block-ack-test-suite.cc.i
 
 test/block-ack-test-suite.s: test/block-ack-test-suite.cc.s
@@ -3979,7 +3979,7 @@ test/block-ack-test-suite.s: test/block-ack-test-suite.cc.s
 
 # target to generate assembly for a file
 test/block-ack-test-suite.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.s
 .PHONY : test/block-ack-test-suite.cc.s
 
 test/channel-access-manager-test.o: test/channel-access-manager-test.cc.o
@@ -3987,7 +3987,7 @@ test/channel-access-manager-test.o: test/channel-access-manager-test.cc.o
 
 # target to build an object file
 test/channel-access-manager-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.o
 .PHONY : test/channel-access-manager-test.cc.o
 
 test/channel-access-manager-test.i: test/channel-access-manager-test.cc.i
@@ -3995,7 +3995,7 @@ test/channel-access-manager-test.i: test/channel-access-manager-test.cc.i
 
 # target to preprocess a source file
 test/channel-access-manager-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.i
 .PHONY : test/channel-access-manager-test.cc.i
 
 test/channel-access-manager-test.s: test/channel-access-manager-test.cc.s
@@ -4003,7 +4003,7 @@ test/channel-access-manager-test.s: test/channel-access-manager-test.cc.s
 
 # target to generate assembly for a file
 test/channel-access-manager-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.s
 .PHONY : test/channel-access-manager-test.cc.s
 
 test/inter-bss-test-suite.o: test/inter-bss-test-suite.cc.o
@@ -4011,7 +4011,7 @@ test/inter-bss-test-suite.o: test/inter-bss-test-suite.cc.o
 
 # target to build an object file
 test/inter-bss-test-suite.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.o
 .PHONY : test/inter-bss-test-suite.cc.o
 
 test/inter-bss-test-suite.i: test/inter-bss-test-suite.cc.i
@@ -4019,7 +4019,7 @@ test/inter-bss-test-suite.i: test/inter-bss-test-suite.cc.i
 
 # target to preprocess a source file
 test/inter-bss-test-suite.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.i
 .PHONY : test/inter-bss-test-suite.cc.i
 
 test/inter-bss-test-suite.s: test/inter-bss-test-suite.cc.s
@@ -4027,7 +4027,7 @@ test/inter-bss-test-suite.s: test/inter-bss-test-suite.cc.s
 
 # target to generate assembly for a file
 test/inter-bss-test-suite.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.s
 .PHONY : test/inter-bss-test-suite.cc.s
 
 test/power-rate-adaptation-test.o: test/power-rate-adaptation-test.cc.o
@@ -4035,7 +4035,7 @@ test/power-rate-adaptation-test.o: test/power-rate-adaptation-test.cc.o
 
 # target to build an object file
 test/power-rate-adaptation-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.o
 .PHONY : test/power-rate-adaptation-test.cc.o
 
 test/power-rate-adaptation-test.i: test/power-rate-adaptation-test.cc.i
@@ -4043,7 +4043,7 @@ test/power-rate-adaptation-test.i: test/power-rate-adaptation-test.cc.i
 
 # target to preprocess a source file
 test/power-rate-adaptation-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.i
 .PHONY : test/power-rate-adaptation-test.cc.i
 
 test/power-rate-adaptation-test.s: test/power-rate-adaptation-test.cc.s
@@ -4051,7 +4051,7 @@ test/power-rate-adaptation-test.s: test/power-rate-adaptation-test.cc.s
 
 # target to generate assembly for a file
 test/power-rate-adaptation-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.s
 .PHONY : test/power-rate-adaptation-test.cc.s
 
 test/power-save-test.o: test/power-save-test.cc.o
@@ -4059,7 +4059,7 @@ test/power-save-test.o: test/power-save-test.cc.o
 
 # target to build an object file
 test/power-save-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.o
 .PHONY : test/power-save-test.cc.o
 
 test/power-save-test.i: test/power-save-test.cc.i
@@ -4067,7 +4067,7 @@ test/power-save-test.i: test/power-save-test.cc.i
 
 # target to preprocess a source file
 test/power-save-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.i
 .PHONY : test/power-save-test.cc.i
 
 test/power-save-test.s: test/power-save-test.cc.s
@@ -4075,7 +4075,7 @@ test/power-save-test.s: test/power-save-test.cc.s
 
 # target to generate assembly for a file
 test/power-save-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.s
 .PHONY : test/power-save-test.cc.s
 
 test/spectrum-wifi-phy-test.o: test/spectrum-wifi-phy-test.cc.o
@@ -4083,7 +4083,7 @@ test/spectrum-wifi-phy-test.o: test/spectrum-wifi-phy-test.cc.o
 
 # target to build an object file
 test/spectrum-wifi-phy-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.o
 .PHONY : test/spectrum-wifi-phy-test.cc.o
 
 test/spectrum-wifi-phy-test.i: test/spectrum-wifi-phy-test.cc.i
@@ -4091,7 +4091,7 @@ test/spectrum-wifi-phy-test.i: test/spectrum-wifi-phy-test.cc.i
 
 # target to preprocess a source file
 test/spectrum-wifi-phy-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.i
 .PHONY : test/spectrum-wifi-phy-test.cc.i
 
 test/spectrum-wifi-phy-test.s: test/spectrum-wifi-phy-test.cc.s
@@ -4099,7 +4099,7 @@ test/spectrum-wifi-phy-test.s: test/spectrum-wifi-phy-test.cc.s
 
 # target to generate assembly for a file
 test/spectrum-wifi-phy-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.s
 .PHONY : test/spectrum-wifi-phy-test.cc.s
 
 test/tx-duration-test.o: test/tx-duration-test.cc.o
@@ -4107,7 +4107,7 @@ test/tx-duration-test.o: test/tx-duration-test.cc.o
 
 # target to build an object file
 test/tx-duration-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.o
 .PHONY : test/tx-duration-test.cc.o
 
 test/tx-duration-test.i: test/tx-duration-test.cc.i
@@ -4115,7 +4115,7 @@ test/tx-duration-test.i: test/tx-duration-test.cc.i
 
 # target to preprocess a source file
 test/tx-duration-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.i
 .PHONY : test/tx-duration-test.cc.i
 
 test/tx-duration-test.s: test/tx-duration-test.cc.s
@@ -4123,7 +4123,7 @@ test/tx-duration-test.s: test/tx-duration-test.cc.s
 
 # target to generate assembly for a file
 test/tx-duration-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.s
 .PHONY : test/tx-duration-test.cc.s
 
 test/wifi-aggregation-test.o: test/wifi-aggregation-test.cc.o
@@ -4131,7 +4131,7 @@ test/wifi-aggregation-test.o: test/wifi-aggregation-test.cc.o
 
 # target to build an object file
 test/wifi-aggregation-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.o
 .PHONY : test/wifi-aggregation-test.cc.o
 
 test/wifi-aggregation-test.i: test/wifi-aggregation-test.cc.i
@@ -4139,7 +4139,7 @@ test/wifi-aggregation-test.i: test/wifi-aggregation-test.cc.i
 
 # target to preprocess a source file
 test/wifi-aggregation-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.i
 .PHONY : test/wifi-aggregation-test.cc.i
 
 test/wifi-aggregation-test.s: test/wifi-aggregation-test.cc.s
@@ -4147,7 +4147,7 @@ test/wifi-aggregation-test.s: test/wifi-aggregation-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-aggregation-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.s
 .PHONY : test/wifi-aggregation-test.cc.s
 
 test/wifi-channel-switching-test.o: test/wifi-channel-switching-test.cc.o
@@ -4155,7 +4155,7 @@ test/wifi-channel-switching-test.o: test/wifi-channel-switching-test.cc.o
 
 # target to build an object file
 test/wifi-channel-switching-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.o
 .PHONY : test/wifi-channel-switching-test.cc.o
 
 test/wifi-channel-switching-test.i: test/wifi-channel-switching-test.cc.i
@@ -4163,7 +4163,7 @@ test/wifi-channel-switching-test.i: test/wifi-channel-switching-test.cc.i
 
 # target to preprocess a source file
 test/wifi-channel-switching-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.i
 .PHONY : test/wifi-channel-switching-test.cc.i
 
 test/wifi-channel-switching-test.s: test/wifi-channel-switching-test.cc.s
@@ -4171,7 +4171,7 @@ test/wifi-channel-switching-test.s: test/wifi-channel-switching-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-channel-switching-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.s
 .PHONY : test/wifi-channel-switching-test.cc.s
 
 test/wifi-dynamic-bw-op-test.o: test/wifi-dynamic-bw-op-test.cc.o
@@ -4179,7 +4179,7 @@ test/wifi-dynamic-bw-op-test.o: test/wifi-dynamic-bw-op-test.cc.o
 
 # target to build an object file
 test/wifi-dynamic-bw-op-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-dynamic-bw-op-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-dynamic-bw-op-test.cc.o
 .PHONY : test/wifi-dynamic-bw-op-test.cc.o
 
 test/wifi-dynamic-bw-op-test.i: test/wifi-dynamic-bw-op-test.cc.i
@@ -4187,7 +4187,7 @@ test/wifi-dynamic-bw-op-test.i: test/wifi-dynamic-bw-op-test.cc.i
 
 # target to preprocess a source file
 test/wifi-dynamic-bw-op-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-dynamic-bw-op-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-dynamic-bw-op-test.cc.i
 .PHONY : test/wifi-dynamic-bw-op-test.cc.i
 
 test/wifi-dynamic-bw-op-test.s: test/wifi-dynamic-bw-op-test.cc.s
@@ -4195,7 +4195,7 @@ test/wifi-dynamic-bw-op-test.s: test/wifi-dynamic-bw-op-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-dynamic-bw-op-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-dynamic-bw-op-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-dynamic-bw-op-test.cc.s
 .PHONY : test/wifi-dynamic-bw-op-test.cc.s
 
 test/wifi-eht-info-elems-test.o: test/wifi-eht-info-elems-test.cc.o
@@ -4203,7 +4203,7 @@ test/wifi-eht-info-elems-test.o: test/wifi-eht-info-elems-test.cc.o
 
 # target to build an object file
 test/wifi-eht-info-elems-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-eht-info-elems-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-eht-info-elems-test.cc.o
 .PHONY : test/wifi-eht-info-elems-test.cc.o
 
 test/wifi-eht-info-elems-test.i: test/wifi-eht-info-elems-test.cc.i
@@ -4211,7 +4211,7 @@ test/wifi-eht-info-elems-test.i: test/wifi-eht-info-elems-test.cc.i
 
 # target to preprocess a source file
 test/wifi-eht-info-elems-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-eht-info-elems-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-eht-info-elems-test.cc.i
 .PHONY : test/wifi-eht-info-elems-test.cc.i
 
 test/wifi-eht-info-elems-test.s: test/wifi-eht-info-elems-test.cc.s
@@ -4219,7 +4219,7 @@ test/wifi-eht-info-elems-test.s: test/wifi-eht-info-elems-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-eht-info-elems-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-eht-info-elems-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-eht-info-elems-test.cc.s
 .PHONY : test/wifi-eht-info-elems-test.cc.s
 
 test/wifi-emlsr-test.o: test/wifi-emlsr-test.cc.o
@@ -4227,7 +4227,7 @@ test/wifi-emlsr-test.o: test/wifi-emlsr-test.cc.o
 
 # target to build an object file
 test/wifi-emlsr-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-emlsr-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-emlsr-test.cc.o
 .PHONY : test/wifi-emlsr-test.cc.o
 
 test/wifi-emlsr-test.i: test/wifi-emlsr-test.cc.i
@@ -4235,7 +4235,7 @@ test/wifi-emlsr-test.i: test/wifi-emlsr-test.cc.i
 
 # target to preprocess a source file
 test/wifi-emlsr-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-emlsr-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-emlsr-test.cc.i
 .PHONY : test/wifi-emlsr-test.cc.i
 
 test/wifi-emlsr-test.s: test/wifi-emlsr-test.cc.s
@@ -4243,7 +4243,7 @@ test/wifi-emlsr-test.s: test/wifi-emlsr-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-emlsr-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-emlsr-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-emlsr-test.cc.s
 .PHONY : test/wifi-emlsr-test.cc.s
 
 test/wifi-error-rate-models-test.o: test/wifi-error-rate-models-test.cc.o
@@ -4251,7 +4251,7 @@ test/wifi-error-rate-models-test.o: test/wifi-error-rate-models-test.cc.o
 
 # target to build an object file
 test/wifi-error-rate-models-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.o
 .PHONY : test/wifi-error-rate-models-test.cc.o
 
 test/wifi-error-rate-models-test.i: test/wifi-error-rate-models-test.cc.i
@@ -4259,7 +4259,7 @@ test/wifi-error-rate-models-test.i: test/wifi-error-rate-models-test.cc.i
 
 # target to preprocess a source file
 test/wifi-error-rate-models-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.i
 .PHONY : test/wifi-error-rate-models-test.cc.i
 
 test/wifi-error-rate-models-test.s: test/wifi-error-rate-models-test.cc.s
@@ -4267,7 +4267,7 @@ test/wifi-error-rate-models-test.s: test/wifi-error-rate-models-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-error-rate-models-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.s
 .PHONY : test/wifi-error-rate-models-test.cc.s
 
 test/wifi-fils-frame-test.o: test/wifi-fils-frame-test.cc.o
@@ -4275,7 +4275,7 @@ test/wifi-fils-frame-test.o: test/wifi-fils-frame-test.cc.o
 
 # target to build an object file
 test/wifi-fils-frame-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-fils-frame-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-fils-frame-test.cc.o
 .PHONY : test/wifi-fils-frame-test.cc.o
 
 test/wifi-fils-frame-test.i: test/wifi-fils-frame-test.cc.i
@@ -4283,7 +4283,7 @@ test/wifi-fils-frame-test.i: test/wifi-fils-frame-test.cc.i
 
 # target to preprocess a source file
 test/wifi-fils-frame-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-fils-frame-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-fils-frame-test.cc.i
 .PHONY : test/wifi-fils-frame-test.cc.i
 
 test/wifi-fils-frame-test.s: test/wifi-fils-frame-test.cc.s
@@ -4291,7 +4291,7 @@ test/wifi-fils-frame-test.s: test/wifi-fils-frame-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-fils-frame-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-fils-frame-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-fils-frame-test.cc.s
 .PHONY : test/wifi-fils-frame-test.cc.s
 
 test/wifi-he-info-elems-test.o: test/wifi-he-info-elems-test.cc.o
@@ -4299,7 +4299,7 @@ test/wifi-he-info-elems-test.o: test/wifi-he-info-elems-test.cc.o
 
 # target to build an object file
 test/wifi-he-info-elems-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-he-info-elems-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-he-info-elems-test.cc.o
 .PHONY : test/wifi-he-info-elems-test.cc.o
 
 test/wifi-he-info-elems-test.i: test/wifi-he-info-elems-test.cc.i
@@ -4307,7 +4307,7 @@ test/wifi-he-info-elems-test.i: test/wifi-he-info-elems-test.cc.i
 
 # target to preprocess a source file
 test/wifi-he-info-elems-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-he-info-elems-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-he-info-elems-test.cc.i
 .PHONY : test/wifi-he-info-elems-test.cc.i
 
 test/wifi-he-info-elems-test.s: test/wifi-he-info-elems-test.cc.s
@@ -4315,7 +4315,7 @@ test/wifi-he-info-elems-test.s: test/wifi-he-info-elems-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-he-info-elems-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-he-info-elems-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-he-info-elems-test.cc.s
 .PHONY : test/wifi-he-info-elems-test.cc.s
 
 test/wifi-ie-fragment-test.o: test/wifi-ie-fragment-test.cc.o
@@ -4323,7 +4323,7 @@ test/wifi-ie-fragment-test.o: test/wifi-ie-fragment-test.cc.o
 
 # target to build an object file
 test/wifi-ie-fragment-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ie-fragment-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ie-fragment-test.cc.o
 .PHONY : test/wifi-ie-fragment-test.cc.o
 
 test/wifi-ie-fragment-test.i: test/wifi-ie-fragment-test.cc.i
@@ -4331,7 +4331,7 @@ test/wifi-ie-fragment-test.i: test/wifi-ie-fragment-test.cc.i
 
 # target to preprocess a source file
 test/wifi-ie-fragment-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ie-fragment-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ie-fragment-test.cc.i
 .PHONY : test/wifi-ie-fragment-test.cc.i
 
 test/wifi-ie-fragment-test.s: test/wifi-ie-fragment-test.cc.s
@@ -4339,7 +4339,7 @@ test/wifi-ie-fragment-test.s: test/wifi-ie-fragment-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-ie-fragment-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ie-fragment-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ie-fragment-test.cc.s
 .PHONY : test/wifi-ie-fragment-test.cc.s
 
 test/wifi-mac-ofdma-test.o: test/wifi-mac-ofdma-test.cc.o
@@ -4347,7 +4347,7 @@ test/wifi-mac-ofdma-test.o: test/wifi-mac-ofdma-test.cc.o
 
 # target to build an object file
 test/wifi-mac-ofdma-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.o
 .PHONY : test/wifi-mac-ofdma-test.cc.o
 
 test/wifi-mac-ofdma-test.i: test/wifi-mac-ofdma-test.cc.i
@@ -4355,7 +4355,7 @@ test/wifi-mac-ofdma-test.i: test/wifi-mac-ofdma-test.cc.i
 
 # target to preprocess a source file
 test/wifi-mac-ofdma-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.i
 .PHONY : test/wifi-mac-ofdma-test.cc.i
 
 test/wifi-mac-ofdma-test.s: test/wifi-mac-ofdma-test.cc.s
@@ -4363,7 +4363,7 @@ test/wifi-mac-ofdma-test.s: test/wifi-mac-ofdma-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-mac-ofdma-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.s
 .PHONY : test/wifi-mac-ofdma-test.cc.s
 
 test/wifi-mac-queue-test.o: test/wifi-mac-queue-test.cc.o
@@ -4371,7 +4371,7 @@ test/wifi-mac-queue-test.o: test/wifi-mac-queue-test.cc.o
 
 # target to build an object file
 test/wifi-mac-queue-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.o
 .PHONY : test/wifi-mac-queue-test.cc.o
 
 test/wifi-mac-queue-test.i: test/wifi-mac-queue-test.cc.i
@@ -4379,7 +4379,7 @@ test/wifi-mac-queue-test.i: test/wifi-mac-queue-test.cc.i
 
 # target to preprocess a source file
 test/wifi-mac-queue-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.i
 .PHONY : test/wifi-mac-queue-test.cc.i
 
 test/wifi-mac-queue-test.s: test/wifi-mac-queue-test.cc.s
@@ -4387,7 +4387,7 @@ test/wifi-mac-queue-test.s: test/wifi-mac-queue-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-mac-queue-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.s
 .PHONY : test/wifi-mac-queue-test.cc.s
 
 test/wifi-mlo-test.o: test/wifi-mlo-test.cc.o
@@ -4395,7 +4395,7 @@ test/wifi-mlo-test.o: test/wifi-mlo-test.cc.o
 
 # target to build an object file
 test/wifi-mlo-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mlo-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mlo-test.cc.o
 .PHONY : test/wifi-mlo-test.cc.o
 
 test/wifi-mlo-test.i: test/wifi-mlo-test.cc.i
@@ -4403,7 +4403,7 @@ test/wifi-mlo-test.i: test/wifi-mlo-test.cc.i
 
 # target to preprocess a source file
 test/wifi-mlo-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mlo-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mlo-test.cc.i
 .PHONY : test/wifi-mlo-test.cc.i
 
 test/wifi-mlo-test.s: test/wifi-mlo-test.cc.s
@@ -4411,7 +4411,7 @@ test/wifi-mlo-test.s: test/wifi-mlo-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-mlo-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mlo-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mlo-test.cc.s
 .PHONY : test/wifi-mlo-test.cc.s
 
 test/wifi-non-ht-dup-test.o: test/wifi-non-ht-dup-test.cc.o
@@ -4419,7 +4419,7 @@ test/wifi-non-ht-dup-test.o: test/wifi-non-ht-dup-test.cc.o
 
 # target to build an object file
 test/wifi-non-ht-dup-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-non-ht-dup-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-non-ht-dup-test.cc.o
 .PHONY : test/wifi-non-ht-dup-test.cc.o
 
 test/wifi-non-ht-dup-test.i: test/wifi-non-ht-dup-test.cc.i
@@ -4427,7 +4427,7 @@ test/wifi-non-ht-dup-test.i: test/wifi-non-ht-dup-test.cc.i
 
 # target to preprocess a source file
 test/wifi-non-ht-dup-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-non-ht-dup-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-non-ht-dup-test.cc.i
 .PHONY : test/wifi-non-ht-dup-test.cc.i
 
 test/wifi-non-ht-dup-test.s: test/wifi-non-ht-dup-test.cc.s
@@ -4435,7 +4435,7 @@ test/wifi-non-ht-dup-test.s: test/wifi-non-ht-dup-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-non-ht-dup-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-non-ht-dup-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-non-ht-dup-test.cc.s
 .PHONY : test/wifi-non-ht-dup-test.cc.s
 
 test/wifi-phy-cca-test.o: test/wifi-phy-cca-test.cc.o
@@ -4443,7 +4443,7 @@ test/wifi-phy-cca-test.o: test/wifi-phy-cca-test.cc.o
 
 # target to build an object file
 test/wifi-phy-cca-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-cca-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-cca-test.cc.o
 .PHONY : test/wifi-phy-cca-test.cc.o
 
 test/wifi-phy-cca-test.i: test/wifi-phy-cca-test.cc.i
@@ -4451,7 +4451,7 @@ test/wifi-phy-cca-test.i: test/wifi-phy-cca-test.cc.i
 
 # target to preprocess a source file
 test/wifi-phy-cca-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-cca-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-cca-test.cc.i
 .PHONY : test/wifi-phy-cca-test.cc.i
 
 test/wifi-phy-cca-test.s: test/wifi-phy-cca-test.cc.s
@@ -4459,7 +4459,7 @@ test/wifi-phy-cca-test.s: test/wifi-phy-cca-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-phy-cca-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-cca-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-cca-test.cc.s
 .PHONY : test/wifi-phy-cca-test.cc.s
 
 test/wifi-phy-mu-mimo-test.o: test/wifi-phy-mu-mimo-test.cc.o
@@ -4467,7 +4467,7 @@ test/wifi-phy-mu-mimo-test.o: test/wifi-phy-mu-mimo-test.cc.o
 
 # target to build an object file
 test/wifi-phy-mu-mimo-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-mu-mimo-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-mu-mimo-test.cc.o
 .PHONY : test/wifi-phy-mu-mimo-test.cc.o
 
 test/wifi-phy-mu-mimo-test.i: test/wifi-phy-mu-mimo-test.cc.i
@@ -4475,7 +4475,7 @@ test/wifi-phy-mu-mimo-test.i: test/wifi-phy-mu-mimo-test.cc.i
 
 # target to preprocess a source file
 test/wifi-phy-mu-mimo-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-mu-mimo-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-mu-mimo-test.cc.i
 .PHONY : test/wifi-phy-mu-mimo-test.cc.i
 
 test/wifi-phy-mu-mimo-test.s: test/wifi-phy-mu-mimo-test.cc.s
@@ -4483,7 +4483,7 @@ test/wifi-phy-mu-mimo-test.s: test/wifi-phy-mu-mimo-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-phy-mu-mimo-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-mu-mimo-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-mu-mimo-test.cc.s
 .PHONY : test/wifi-phy-mu-mimo-test.cc.s
 
 test/wifi-phy-ofdma-test.o: test/wifi-phy-ofdma-test.cc.o
@@ -4491,7 +4491,7 @@ test/wifi-phy-ofdma-test.o: test/wifi-phy-ofdma-test.cc.o
 
 # target to build an object file
 test/wifi-phy-ofdma-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.o
 .PHONY : test/wifi-phy-ofdma-test.cc.o
 
 test/wifi-phy-ofdma-test.i: test/wifi-phy-ofdma-test.cc.i
@@ -4499,7 +4499,7 @@ test/wifi-phy-ofdma-test.i: test/wifi-phy-ofdma-test.cc.i
 
 # target to preprocess a source file
 test/wifi-phy-ofdma-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.i
 .PHONY : test/wifi-phy-ofdma-test.cc.i
 
 test/wifi-phy-ofdma-test.s: test/wifi-phy-ofdma-test.cc.s
@@ -4507,7 +4507,7 @@ test/wifi-phy-ofdma-test.s: test/wifi-phy-ofdma-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-phy-ofdma-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.s
 .PHONY : test/wifi-phy-ofdma-test.cc.s
 
 test/wifi-phy-reception-test.o: test/wifi-phy-reception-test.cc.o
@@ -4515,7 +4515,7 @@ test/wifi-phy-reception-test.o: test/wifi-phy-reception-test.cc.o
 
 # target to build an object file
 test/wifi-phy-reception-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.o
 .PHONY : test/wifi-phy-reception-test.cc.o
 
 test/wifi-phy-reception-test.i: test/wifi-phy-reception-test.cc.i
@@ -4523,7 +4523,7 @@ test/wifi-phy-reception-test.i: test/wifi-phy-reception-test.cc.i
 
 # target to preprocess a source file
 test/wifi-phy-reception-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.i
 .PHONY : test/wifi-phy-reception-test.cc.i
 
 test/wifi-phy-reception-test.s: test/wifi-phy-reception-test.cc.s
@@ -4531,7 +4531,7 @@ test/wifi-phy-reception-test.s: test/wifi-phy-reception-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-phy-reception-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.s
 .PHONY : test/wifi-phy-reception-test.cc.s
 
 test/wifi-phy-rx-trace-helper-test.o: test/wifi-phy-rx-trace-helper-test.cc.o
@@ -4539,7 +4539,7 @@ test/wifi-phy-rx-trace-helper-test.o: test/wifi-phy-rx-trace-helper-test.cc.o
 
 # target to build an object file
 test/wifi-phy-rx-trace-helper-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-rx-trace-helper-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-rx-trace-helper-test.cc.o
 .PHONY : test/wifi-phy-rx-trace-helper-test.cc.o
 
 test/wifi-phy-rx-trace-helper-test.i: test/wifi-phy-rx-trace-helper-test.cc.i
@@ -4547,7 +4547,7 @@ test/wifi-phy-rx-trace-helper-test.i: test/wifi-phy-rx-trace-helper-test.cc.i
 
 # target to preprocess a source file
 test/wifi-phy-rx-trace-helper-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-rx-trace-helper-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-rx-trace-helper-test.cc.i
 .PHONY : test/wifi-phy-rx-trace-helper-test.cc.i
 
 test/wifi-phy-rx-trace-helper-test.s: test/wifi-phy-rx-trace-helper-test.cc.s
@@ -4555,7 +4555,7 @@ test/wifi-phy-rx-trace-helper-test.s: test/wifi-phy-rx-trace-helper-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-phy-rx-trace-helper-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-rx-trace-helper-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-rx-trace-helper-test.cc.s
 .PHONY : test/wifi-phy-rx-trace-helper-test.cc.s
 
 test/wifi-phy-thresholds-test.o: test/wifi-phy-thresholds-test.cc.o
@@ -4563,7 +4563,7 @@ test/wifi-phy-thresholds-test.o: test/wifi-phy-thresholds-test.cc.o
 
 # target to build an object file
 test/wifi-phy-thresholds-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.o
 .PHONY : test/wifi-phy-thresholds-test.cc.o
 
 test/wifi-phy-thresholds-test.i: test/wifi-phy-thresholds-test.cc.i
@@ -4571,7 +4571,7 @@ test/wifi-phy-thresholds-test.i: test/wifi-phy-thresholds-test.cc.i
 
 # target to preprocess a source file
 test/wifi-phy-thresholds-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.i
 .PHONY : test/wifi-phy-thresholds-test.cc.i
 
 test/wifi-phy-thresholds-test.s: test/wifi-phy-thresholds-test.cc.s
@@ -4579,7 +4579,7 @@ test/wifi-phy-thresholds-test.s: test/wifi-phy-thresholds-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-phy-thresholds-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.s
 .PHONY : test/wifi-phy-thresholds-test.cc.s
 
 test/wifi-primary-channels-test.o: test/wifi-primary-channels-test.cc.o
@@ -4587,7 +4587,7 @@ test/wifi-primary-channels-test.o: test/wifi-primary-channels-test.cc.o
 
 # target to build an object file
 test/wifi-primary-channels-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.o
 .PHONY : test/wifi-primary-channels-test.cc.o
 
 test/wifi-primary-channels-test.i: test/wifi-primary-channels-test.cc.i
@@ -4595,7 +4595,7 @@ test/wifi-primary-channels-test.i: test/wifi-primary-channels-test.cc.i
 
 # target to preprocess a source file
 test/wifi-primary-channels-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.i
 .PHONY : test/wifi-primary-channels-test.cc.i
 
 test/wifi-primary-channels-test.s: test/wifi-primary-channels-test.cc.s
@@ -4603,7 +4603,7 @@ test/wifi-primary-channels-test.s: test/wifi-primary-channels-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-primary-channels-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.s
 .PHONY : test/wifi-primary-channels-test.cc.s
 
 test/wifi-ru-allocation-test.o: test/wifi-ru-allocation-test.cc.o
@@ -4611,7 +4611,7 @@ test/wifi-ru-allocation-test.o: test/wifi-ru-allocation-test.cc.o
 
 # target to build an object file
 test/wifi-ru-allocation-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.o
 .PHONY : test/wifi-ru-allocation-test.cc.o
 
 test/wifi-ru-allocation-test.i: test/wifi-ru-allocation-test.cc.i
@@ -4619,7 +4619,7 @@ test/wifi-ru-allocation-test.i: test/wifi-ru-allocation-test.cc.i
 
 # target to preprocess a source file
 test/wifi-ru-allocation-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.i
 .PHONY : test/wifi-ru-allocation-test.cc.i
 
 test/wifi-ru-allocation-test.s: test/wifi-ru-allocation-test.cc.s
@@ -4627,7 +4627,7 @@ test/wifi-ru-allocation-test.s: test/wifi-ru-allocation-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-ru-allocation-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.s
 .PHONY : test/wifi-ru-allocation-test.cc.s
 
 test/wifi-test.o: test/wifi-test.cc.o
@@ -4635,7 +4635,7 @@ test/wifi-test.o: test/wifi-test.cc.o
 
 # target to build an object file
 test/wifi-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.o
 .PHONY : test/wifi-test.cc.o
 
 test/wifi-test.i: test/wifi-test.cc.i
@@ -4643,7 +4643,7 @@ test/wifi-test.i: test/wifi-test.cc.i
 
 # target to preprocess a source file
 test/wifi-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.i
 .PHONY : test/wifi-test.cc.i
 
 test/wifi-test.s: test/wifi-test.cc.s
@@ -4651,7 +4651,7 @@ test/wifi-test.s: test/wifi-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.s
 .PHONY : test/wifi-test.cc.s
 
 test/wifi-transmit-mask-test.o: test/wifi-transmit-mask-test.cc.o
@@ -4659,7 +4659,7 @@ test/wifi-transmit-mask-test.o: test/wifi-transmit-mask-test.cc.o
 
 # target to build an object file
 test/wifi-transmit-mask-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.o
 .PHONY : test/wifi-transmit-mask-test.cc.o
 
 test/wifi-transmit-mask-test.i: test/wifi-transmit-mask-test.cc.i
@@ -4667,7 +4667,7 @@ test/wifi-transmit-mask-test.i: test/wifi-transmit-mask-test.cc.i
 
 # target to preprocess a source file
 test/wifi-transmit-mask-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.i
 .PHONY : test/wifi-transmit-mask-test.cc.i
 
 test/wifi-transmit-mask-test.s: test/wifi-transmit-mask-test.cc.s
@@ -4675,7 +4675,7 @@ test/wifi-transmit-mask-test.s: test/wifi-transmit-mask-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-transmit-mask-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.s
 .PHONY : test/wifi-transmit-mask-test.cc.s
 
 test/wifi-txop-test.o: test/wifi-txop-test.cc.o
@@ -4683,7 +4683,7 @@ test/wifi-txop-test.o: test/wifi-txop-test.cc.o
 
 # target to build an object file
 test/wifi-txop-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.o
 .PHONY : test/wifi-txop-test.cc.o
 
 test/wifi-txop-test.i: test/wifi-txop-test.cc.i
@@ -4691,7 +4691,7 @@ test/wifi-txop-test.i: test/wifi-txop-test.cc.i
 
 # target to preprocess a source file
 test/wifi-txop-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.i
 .PHONY : test/wifi-txop-test.cc.i
 
 test/wifi-txop-test.s: test/wifi-txop-test.cc.s
@@ -4699,7 +4699,7 @@ test/wifi-txop-test.s: test/wifi-txop-test.cc.s
 
 # target to generate assembly for a file
 test/wifi-txop-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wifi/CMakeFiles/libwifi-test.dir/build.make src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.s
 .PHONY : test/wifi-txop-test.cc.s
 
 # Help Target
@@ -5290,7 +5290,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

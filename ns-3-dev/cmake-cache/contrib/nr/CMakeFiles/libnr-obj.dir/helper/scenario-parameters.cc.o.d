@@ -1,8 +1,8 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/helper/scenario-parameters.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/helper/scenario-parameters.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/helper/scenario-parameters.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/helper/scenario-parameters.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/helper/scenario-parameters.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \

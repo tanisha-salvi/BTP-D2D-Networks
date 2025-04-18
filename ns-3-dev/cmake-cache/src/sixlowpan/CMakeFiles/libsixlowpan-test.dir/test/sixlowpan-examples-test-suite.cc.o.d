@@ -1,7 +1,7 @@
 src/sixlowpan/CMakeFiles/libsixlowpan-test.dir/test/sixlowpan-examples-test-suite.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/sixlowpan/test/sixlowpan-examples-test-suite.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/sixlowpan/test/sixlowpan-examples-test-suite.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/example-as-test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/example-as-test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/example-as-test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \

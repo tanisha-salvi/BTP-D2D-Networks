@@ -1,7 +1,7 @@
 scratch/nested-subdir/CMakeFiles/scratch-nested-subdir-lib.dir/lib/scratch-nested-subdir-library-source.cc.o: \
- /mnt/d/Downloads/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-header.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

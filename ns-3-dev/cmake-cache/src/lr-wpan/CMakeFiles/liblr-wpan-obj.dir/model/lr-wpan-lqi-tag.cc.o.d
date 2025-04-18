@@ -1,12 +1,12 @@
 src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-lqi-tag.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/lr-wpan/model/lr-wpan-lqi-tag.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lr-wpan/model/lr-wpan-lqi-tag.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/lr-wpan/model/lr-wpan-lqi-tag.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/tag.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lr-wpan/model/lr-wpan-lqi-tag.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/tag.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -21,7 +21,7 @@ src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-lqi-tag.cc.o: \
  /usr/include/c++/11/vector /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
@@ -111,6 +111,6 @@ src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-lqi-tag.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/list \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/integer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/integer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h

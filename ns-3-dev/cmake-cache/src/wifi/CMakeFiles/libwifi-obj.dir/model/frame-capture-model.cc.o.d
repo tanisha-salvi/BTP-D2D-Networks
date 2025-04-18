@@ -1,8 +1,8 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/frame-capture-model.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/frame-capture-model.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/frame-capture-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/frame-capture-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -34,14 +34,14 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /usr/include/c++/11/list \
@@ -121,7 +121,7 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/frame-capture-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \

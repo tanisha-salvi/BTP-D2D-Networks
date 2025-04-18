@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/point-to-point//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/point-to-point//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/rule
 .PHONY : src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ libpoint-to-point-obj: src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/r
 
 # fast build rule for target.
 libpoint-to-point-obj/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build
 .PHONY : libpoint-to-point-obj/fast
 
 # Convenience name for target.
 src/point-to-point/CMakeFiles/libpoint-to-point.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/CMakeFiles/libpoint-to-point.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/CMakeFiles/libpoint-to-point.dir/rule
 .PHONY : src/point-to-point/CMakeFiles/libpoint-to-point.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ libpoint-to-point: src/point-to-point/CMakeFiles/libpoint-to-point.dir/rule
 
 # fast build rule for target.
 libpoint-to-point/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point.dir/build
 .PHONY : libpoint-to-point/fast
 
 # Convenience name for target.
 src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/rule
 .PHONY : src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ libpoint-to-point-test: src/point-to-point/CMakeFiles/libpoint-to-point-test.dir
 
 # fast build rule for target.
 libpoint-to-point-test/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build
 .PHONY : libpoint-to-point-test/fast
 
 helper/point-to-point-helper.o: helper/point-to-point-helper.cc.o
@@ -219,7 +219,7 @@ helper/point-to-point-helper.o: helper/point-to-point-helper.cc.o
 
 # target to build an object file
 helper/point-to-point-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.o
 .PHONY : helper/point-to-point-helper.cc.o
 
 helper/point-to-point-helper.i: helper/point-to-point-helper.cc.i
@@ -227,7 +227,7 @@ helper/point-to-point-helper.i: helper/point-to-point-helper.cc.i
 
 # target to preprocess a source file
 helper/point-to-point-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.i
 .PHONY : helper/point-to-point-helper.cc.i
 
 helper/point-to-point-helper.s: helper/point-to-point-helper.cc.s
@@ -235,7 +235,7 @@ helper/point-to-point-helper.s: helper/point-to-point-helper.cc.s
 
 # target to generate assembly for a file
 helper/point-to-point-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/helper/point-to-point-helper.cc.s
 .PHONY : helper/point-to-point-helper.cc.s
 
 model/point-to-point-channel.o: model/point-to-point-channel.cc.o
@@ -243,7 +243,7 @@ model/point-to-point-channel.o: model/point-to-point-channel.cc.o
 
 # target to build an object file
 model/point-to-point-channel.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.o
 .PHONY : model/point-to-point-channel.cc.o
 
 model/point-to-point-channel.i: model/point-to-point-channel.cc.i
@@ -251,7 +251,7 @@ model/point-to-point-channel.i: model/point-to-point-channel.cc.i
 
 # target to preprocess a source file
 model/point-to-point-channel.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.i
 .PHONY : model/point-to-point-channel.cc.i
 
 model/point-to-point-channel.s: model/point-to-point-channel.cc.s
@@ -259,7 +259,7 @@ model/point-to-point-channel.s: model/point-to-point-channel.cc.s
 
 # target to generate assembly for a file
 model/point-to-point-channel.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-channel.cc.s
 .PHONY : model/point-to-point-channel.cc.s
 
 model/point-to-point-net-device.o: model/point-to-point-net-device.cc.o
@@ -267,7 +267,7 @@ model/point-to-point-net-device.o: model/point-to-point-net-device.cc.o
 
 # target to build an object file
 model/point-to-point-net-device.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.o
 .PHONY : model/point-to-point-net-device.cc.o
 
 model/point-to-point-net-device.i: model/point-to-point-net-device.cc.i
@@ -275,7 +275,7 @@ model/point-to-point-net-device.i: model/point-to-point-net-device.cc.i
 
 # target to preprocess a source file
 model/point-to-point-net-device.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.i
 .PHONY : model/point-to-point-net-device.cc.i
 
 model/point-to-point-net-device.s: model/point-to-point-net-device.cc.s
@@ -283,7 +283,7 @@ model/point-to-point-net-device.s: model/point-to-point-net-device.cc.s
 
 # target to generate assembly for a file
 model/point-to-point-net-device.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/point-to-point-net-device.cc.s
 .PHONY : model/point-to-point-net-device.cc.s
 
 model/ppp-header.o: model/ppp-header.cc.o
@@ -291,7 +291,7 @@ model/ppp-header.o: model/ppp-header.cc.o
 
 # target to build an object file
 model/ppp-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/ppp-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/ppp-header.cc.o
 .PHONY : model/ppp-header.cc.o
 
 model/ppp-header.i: model/ppp-header.cc.i
@@ -299,7 +299,7 @@ model/ppp-header.i: model/ppp-header.cc.i
 
 # target to preprocess a source file
 model/ppp-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/ppp-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/ppp-header.cc.i
 .PHONY : model/ppp-header.cc.i
 
 model/ppp-header.s: model/ppp-header.cc.s
@@ -307,7 +307,7 @@ model/ppp-header.s: model/ppp-header.cc.s
 
 # target to generate assembly for a file
 model/ppp-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/ppp-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-obj.dir/model/ppp-header.cc.s
 .PHONY : model/ppp-header.cc.s
 
 test/point-to-point-test.o: test/point-to-point-test.cc.o
@@ -315,7 +315,7 @@ test/point-to-point-test.o: test/point-to-point-test.cc.o
 
 # target to build an object file
 test/point-to-point-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/test/point-to-point-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/test/point-to-point-test.cc.o
 .PHONY : test/point-to-point-test.cc.o
 
 test/point-to-point-test.i: test/point-to-point-test.cc.i
@@ -323,7 +323,7 @@ test/point-to-point-test.i: test/point-to-point-test.cc.i
 
 # target to preprocess a source file
 test/point-to-point-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/test/point-to-point-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/test/point-to-point-test.cc.i
 .PHONY : test/point-to-point-test.cc.i
 
 test/point-to-point-test.s: test/point-to-point-test.cc.s
@@ -331,7 +331,7 @@ test/point-to-point-test.s: test/point-to-point-test.cc.s
 
 # target to generate assembly for a file
 test/point-to-point-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/test/point-to-point-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/build.make src/point-to-point/CMakeFiles/libpoint-to-point-test.dir/test/point-to-point-test.cc.s
 .PHONY : test/point-to-point-test.cc.s
 
 # Help Target
@@ -376,7 +376,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

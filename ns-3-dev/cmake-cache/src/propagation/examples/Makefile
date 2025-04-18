@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/propagation/examples//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/propagation/examples//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/propagation/examples/CMakeFiles/main-propagation-loss.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/CMakeFiles/main-propagation-loss.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/CMakeFiles/main-propagation-loss.dir/rule
 .PHONY : src/propagation/examples/CMakeFiles/main-propagation-loss.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ main-propagation-loss: src/propagation/examples/CMakeFiles/main-propagation-loss
 
 # fast build rule for target.
 main-propagation-loss/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build
 .PHONY : main-propagation-loss/fast
 
 # Convenience name for target.
 src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/rule
 .PHONY : src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ jakes-propagation-model-example: src/propagation/examples/CMakeFiles/jakes-propa
 
 # fast build rule for target.
 jakes-propagation-model-example/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build
 .PHONY : jakes-propagation-model-example/fast
 
 jakes-propagation-model-example.o: jakes-propagation-model-example.cc.o
@@ -205,7 +205,7 @@ jakes-propagation-model-example.o: jakes-propagation-model-example.cc.o
 
 # target to build an object file
 jakes-propagation-model-example.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.o
 .PHONY : jakes-propagation-model-example.cc.o
 
 jakes-propagation-model-example.i: jakes-propagation-model-example.cc.i
@@ -213,7 +213,7 @@ jakes-propagation-model-example.i: jakes-propagation-model-example.cc.i
 
 # target to preprocess a source file
 jakes-propagation-model-example.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.i
 .PHONY : jakes-propagation-model-example.cc.i
 
 jakes-propagation-model-example.s: jakes-propagation-model-example.cc.s
@@ -221,7 +221,7 @@ jakes-propagation-model-example.s: jakes-propagation-model-example.cc.s
 
 # target to generate assembly for a file
 jakes-propagation-model-example.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/build.make src/propagation/examples/CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.s
 .PHONY : jakes-propagation-model-example.cc.s
 
 main-propagation-loss.o: main-propagation-loss.cc.o
@@ -229,7 +229,7 @@ main-propagation-loss.o: main-propagation-loss.cc.o
 
 # target to build an object file
 main-propagation-loss.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o
 .PHONY : main-propagation-loss.cc.o
 
 main-propagation-loss.i: main-propagation-loss.cc.i
@@ -237,7 +237,7 @@ main-propagation-loss.i: main-propagation-loss.cc.i
 
 # target to preprocess a source file
 main-propagation-loss.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.i
 .PHONY : main-propagation-loss.cc.i
 
 main-propagation-loss.s: main-propagation-loss.cc.s
@@ -245,7 +245,7 @@ main-propagation-loss.s: main-propagation-loss.cc.s
 
 # target to generate assembly for a file
 main-propagation-loss.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/propagation/examples/CMakeFiles/main-propagation-loss.dir/build.make src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.s
 .PHONY : main-propagation-loss.cc.s
 
 # Help Target
@@ -280,7 +280,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

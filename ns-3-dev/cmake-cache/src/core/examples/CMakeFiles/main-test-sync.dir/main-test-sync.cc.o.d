@@ -1,7 +1,7 @@
 src/core/examples/CMakeFiles/main-test-sync.dir/main-test-sync.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/examples/main-test-sync.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/examples/main-test-sync.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/command-line.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
@@ -102,7 +102,7 @@ src/core/examples/CMakeFiles/main-test-sync.dir/main-test-sync.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
@@ -115,17 +115,17 @@ src/core/examples/CMakeFiles/main-test-sync.dir/main-test-sync.cc.o: \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/global-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/global-value.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/global-value.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/realtime-simulator-impl.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/realtime-simulator-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/realtime-simulator-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/scheduler.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
@@ -153,8 +153,8 @@ src/core/examples/CMakeFiles/main-test-sync.dir/main-test-sync.cc.o: \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h

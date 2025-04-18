@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/spectrum/CMakeFiles/libspectrum-obj.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/CMakeFiles/libspectrum-obj.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/CMakeFiles/libspectrum-obj.dir/rule
 .PHONY : src/spectrum/CMakeFiles/libspectrum-obj.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ libspectrum-obj: src/spectrum/CMakeFiles/libspectrum-obj.dir/rule
 
 # fast build rule for target.
 libspectrum-obj/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/build
 .PHONY : libspectrum-obj/fast
 
 # Convenience name for target.
 src/spectrum/CMakeFiles/libspectrum.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/CMakeFiles/libspectrum.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/CMakeFiles/libspectrum.dir/rule
 .PHONY : src/spectrum/CMakeFiles/libspectrum.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ libspectrum: src/spectrum/CMakeFiles/libspectrum.dir/rule
 
 # fast build rule for target.
 libspectrum/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum.dir/build.make src/spectrum/CMakeFiles/libspectrum.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum.dir/build.make src/spectrum/CMakeFiles/libspectrum.dir/build
 .PHONY : libspectrum/fast
 
 # Convenience name for target.
 src/spectrum/CMakeFiles/libspectrum-test.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/CMakeFiles/libspectrum-test.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/spectrum/CMakeFiles/libspectrum-test.dir/rule
 .PHONY : src/spectrum/CMakeFiles/libspectrum-test.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ libspectrum-test: src/spectrum/CMakeFiles/libspectrum-test.dir/rule
 
 # fast build rule for target.
 libspectrum-test/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/build
 .PHONY : libspectrum-test/fast
 
 helper/adhoc-aloha-noack-ideal-phy-helper.o: helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
@@ -219,7 +219,7 @@ helper/adhoc-aloha-noack-ideal-phy-helper.o: helper/adhoc-aloha-noack-ideal-phy-
 
 # target to build an object file
 helper/adhoc-aloha-noack-ideal-phy-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
 .PHONY : helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
 
 helper/adhoc-aloha-noack-ideal-phy-helper.i: helper/adhoc-aloha-noack-ideal-phy-helper.cc.i
@@ -227,7 +227,7 @@ helper/adhoc-aloha-noack-ideal-phy-helper.i: helper/adhoc-aloha-noack-ideal-phy-
 
 # target to preprocess a source file
 helper/adhoc-aloha-noack-ideal-phy-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.i
 .PHONY : helper/adhoc-aloha-noack-ideal-phy-helper.cc.i
 
 helper/adhoc-aloha-noack-ideal-phy-helper.s: helper/adhoc-aloha-noack-ideal-phy-helper.cc.s
@@ -235,7 +235,7 @@ helper/adhoc-aloha-noack-ideal-phy-helper.s: helper/adhoc-aloha-noack-ideal-phy-
 
 # target to generate assembly for a file
 helper/adhoc-aloha-noack-ideal-phy-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.s
 .PHONY : helper/adhoc-aloha-noack-ideal-phy-helper.cc.s
 
 helper/spectrum-analyzer-helper.o: helper/spectrum-analyzer-helper.cc.o
@@ -243,7 +243,7 @@ helper/spectrum-analyzer-helper.o: helper/spectrum-analyzer-helper.cc.o
 
 # target to build an object file
 helper/spectrum-analyzer-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
 .PHONY : helper/spectrum-analyzer-helper.cc.o
 
 helper/spectrum-analyzer-helper.i: helper/spectrum-analyzer-helper.cc.i
@@ -251,7 +251,7 @@ helper/spectrum-analyzer-helper.i: helper/spectrum-analyzer-helper.cc.i
 
 # target to preprocess a source file
 helper/spectrum-analyzer-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.i
 .PHONY : helper/spectrum-analyzer-helper.cc.i
 
 helper/spectrum-analyzer-helper.s: helper/spectrum-analyzer-helper.cc.s
@@ -259,7 +259,7 @@ helper/spectrum-analyzer-helper.s: helper/spectrum-analyzer-helper.cc.s
 
 # target to generate assembly for a file
 helper/spectrum-analyzer-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.s
 .PHONY : helper/spectrum-analyzer-helper.cc.s
 
 helper/spectrum-helper.o: helper/spectrum-helper.cc.o
@@ -267,7 +267,7 @@ helper/spectrum-helper.o: helper/spectrum-helper.cc.o
 
 # target to build an object file
 helper/spectrum-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
 .PHONY : helper/spectrum-helper.cc.o
 
 helper/spectrum-helper.i: helper/spectrum-helper.cc.i
@@ -275,7 +275,7 @@ helper/spectrum-helper.i: helper/spectrum-helper.cc.i
 
 # target to preprocess a source file
 helper/spectrum-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.i
 .PHONY : helper/spectrum-helper.cc.i
 
 helper/spectrum-helper.s: helper/spectrum-helper.cc.s
@@ -283,7 +283,7 @@ helper/spectrum-helper.s: helper/spectrum-helper.cc.s
 
 # target to generate assembly for a file
 helper/spectrum-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.s
 .PHONY : helper/spectrum-helper.cc.s
 
 helper/tv-spectrum-transmitter-helper.o: helper/tv-spectrum-transmitter-helper.cc.o
@@ -291,7 +291,7 @@ helper/tv-spectrum-transmitter-helper.o: helper/tv-spectrum-transmitter-helper.c
 
 # target to build an object file
 helper/tv-spectrum-transmitter-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o
 .PHONY : helper/tv-spectrum-transmitter-helper.cc.o
 
 helper/tv-spectrum-transmitter-helper.i: helper/tv-spectrum-transmitter-helper.cc.i
@@ -299,7 +299,7 @@ helper/tv-spectrum-transmitter-helper.i: helper/tv-spectrum-transmitter-helper.c
 
 # target to preprocess a source file
 helper/tv-spectrum-transmitter-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.i
 .PHONY : helper/tv-spectrum-transmitter-helper.cc.i
 
 helper/tv-spectrum-transmitter-helper.s: helper/tv-spectrum-transmitter-helper.cc.s
@@ -307,7 +307,7 @@ helper/tv-spectrum-transmitter-helper.s: helper/tv-spectrum-transmitter-helper.c
 
 # target to generate assembly for a file
 helper/tv-spectrum-transmitter-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.s
 .PHONY : helper/tv-spectrum-transmitter-helper.cc.s
 
 helper/waveform-generator-helper.o: helper/waveform-generator-helper.cc.o
@@ -315,7 +315,7 @@ helper/waveform-generator-helper.o: helper/waveform-generator-helper.cc.o
 
 # target to build an object file
 helper/waveform-generator-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o
 .PHONY : helper/waveform-generator-helper.cc.o
 
 helper/waveform-generator-helper.i: helper/waveform-generator-helper.cc.i
@@ -323,7 +323,7 @@ helper/waveform-generator-helper.i: helper/waveform-generator-helper.cc.i
 
 # target to preprocess a source file
 helper/waveform-generator-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.i
 .PHONY : helper/waveform-generator-helper.cc.i
 
 helper/waveform-generator-helper.s: helper/waveform-generator-helper.cc.s
@@ -331,7 +331,7 @@ helper/waveform-generator-helper.s: helper/waveform-generator-helper.cc.s
 
 # target to generate assembly for a file
 helper/waveform-generator-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.s
 .PHONY : helper/waveform-generator-helper.cc.s
 
 model/aloha-noack-mac-header.o: model/aloha-noack-mac-header.cc.o
@@ -339,7 +339,7 @@ model/aloha-noack-mac-header.o: model/aloha-noack-mac-header.cc.o
 
 # target to build an object file
 model/aloha-noack-mac-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
 .PHONY : model/aloha-noack-mac-header.cc.o
 
 model/aloha-noack-mac-header.i: model/aloha-noack-mac-header.cc.i
@@ -347,7 +347,7 @@ model/aloha-noack-mac-header.i: model/aloha-noack-mac-header.cc.i
 
 # target to preprocess a source file
 model/aloha-noack-mac-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.i
 .PHONY : model/aloha-noack-mac-header.cc.i
 
 model/aloha-noack-mac-header.s: model/aloha-noack-mac-header.cc.s
@@ -355,7 +355,7 @@ model/aloha-noack-mac-header.s: model/aloha-noack-mac-header.cc.s
 
 # target to generate assembly for a file
 model/aloha-noack-mac-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.s
 .PHONY : model/aloha-noack-mac-header.cc.s
 
 model/aloha-noack-net-device.o: model/aloha-noack-net-device.cc.o
@@ -363,7 +363,7 @@ model/aloha-noack-net-device.o: model/aloha-noack-net-device.cc.o
 
 # target to build an object file
 model/aloha-noack-net-device.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
 .PHONY : model/aloha-noack-net-device.cc.o
 
 model/aloha-noack-net-device.i: model/aloha-noack-net-device.cc.i
@@ -371,7 +371,7 @@ model/aloha-noack-net-device.i: model/aloha-noack-net-device.cc.i
 
 # target to preprocess a source file
 model/aloha-noack-net-device.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.i
 .PHONY : model/aloha-noack-net-device.cc.i
 
 model/aloha-noack-net-device.s: model/aloha-noack-net-device.cc.s
@@ -379,7 +379,7 @@ model/aloha-noack-net-device.s: model/aloha-noack-net-device.cc.s
 
 # target to generate assembly for a file
 model/aloha-noack-net-device.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.s
 .PHONY : model/aloha-noack-net-device.cc.s
 
 model/constant-spectrum-propagation-loss.o: model/constant-spectrum-propagation-loss.cc.o
@@ -387,7 +387,7 @@ model/constant-spectrum-propagation-loss.o: model/constant-spectrum-propagation-
 
 # target to build an object file
 model/constant-spectrum-propagation-loss.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o
 .PHONY : model/constant-spectrum-propagation-loss.cc.o
 
 model/constant-spectrum-propagation-loss.i: model/constant-spectrum-propagation-loss.cc.i
@@ -395,7 +395,7 @@ model/constant-spectrum-propagation-loss.i: model/constant-spectrum-propagation-
 
 # target to preprocess a source file
 model/constant-spectrum-propagation-loss.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.i
 .PHONY : model/constant-spectrum-propagation-loss.cc.i
 
 model/constant-spectrum-propagation-loss.s: model/constant-spectrum-propagation-loss.cc.s
@@ -403,7 +403,7 @@ model/constant-spectrum-propagation-loss.s: model/constant-spectrum-propagation-
 
 # target to generate assembly for a file
 model/constant-spectrum-propagation-loss.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.s
 .PHONY : model/constant-spectrum-propagation-loss.cc.s
 
 model/friis-spectrum-propagation-loss.o: model/friis-spectrum-propagation-loss.cc.o
@@ -411,7 +411,7 @@ model/friis-spectrum-propagation-loss.o: model/friis-spectrum-propagation-loss.c
 
 # target to build an object file
 model/friis-spectrum-propagation-loss.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o
 .PHONY : model/friis-spectrum-propagation-loss.cc.o
 
 model/friis-spectrum-propagation-loss.i: model/friis-spectrum-propagation-loss.cc.i
@@ -419,7 +419,7 @@ model/friis-spectrum-propagation-loss.i: model/friis-spectrum-propagation-loss.c
 
 # target to preprocess a source file
 model/friis-spectrum-propagation-loss.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.i
 .PHONY : model/friis-spectrum-propagation-loss.cc.i
 
 model/friis-spectrum-propagation-loss.s: model/friis-spectrum-propagation-loss.cc.s
@@ -427,7 +427,7 @@ model/friis-spectrum-propagation-loss.s: model/friis-spectrum-propagation-loss.c
 
 # target to generate assembly for a file
 model/friis-spectrum-propagation-loss.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.s
 .PHONY : model/friis-spectrum-propagation-loss.cc.s
 
 model/half-duplex-ideal-phy-signal-parameters.o: model/half-duplex-ideal-phy-signal-parameters.cc.o
@@ -435,7 +435,7 @@ model/half-duplex-ideal-phy-signal-parameters.o: model/half-duplex-ideal-phy-sig
 
 # target to build an object file
 model/half-duplex-ideal-phy-signal-parameters.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.o
 .PHONY : model/half-duplex-ideal-phy-signal-parameters.cc.o
 
 model/half-duplex-ideal-phy-signal-parameters.i: model/half-duplex-ideal-phy-signal-parameters.cc.i
@@ -443,7 +443,7 @@ model/half-duplex-ideal-phy-signal-parameters.i: model/half-duplex-ideal-phy-sig
 
 # target to preprocess a source file
 model/half-duplex-ideal-phy-signal-parameters.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.i
 .PHONY : model/half-duplex-ideal-phy-signal-parameters.cc.i
 
 model/half-duplex-ideal-phy-signal-parameters.s: model/half-duplex-ideal-phy-signal-parameters.cc.s
@@ -451,7 +451,7 @@ model/half-duplex-ideal-phy-signal-parameters.s: model/half-duplex-ideal-phy-sig
 
 # target to generate assembly for a file
 model/half-duplex-ideal-phy-signal-parameters.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.s
 .PHONY : model/half-duplex-ideal-phy-signal-parameters.cc.s
 
 model/half-duplex-ideal-phy.o: model/half-duplex-ideal-phy.cc.o
@@ -459,7 +459,7 @@ model/half-duplex-ideal-phy.o: model/half-duplex-ideal-phy.cc.o
 
 # target to build an object file
 model/half-duplex-ideal-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
 .PHONY : model/half-duplex-ideal-phy.cc.o
 
 model/half-duplex-ideal-phy.i: model/half-duplex-ideal-phy.cc.i
@@ -467,7 +467,7 @@ model/half-duplex-ideal-phy.i: model/half-duplex-ideal-phy.cc.i
 
 # target to preprocess a source file
 model/half-duplex-ideal-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.i
 .PHONY : model/half-duplex-ideal-phy.cc.i
 
 model/half-duplex-ideal-phy.s: model/half-duplex-ideal-phy.cc.s
@@ -475,7 +475,7 @@ model/half-duplex-ideal-phy.s: model/half-duplex-ideal-phy.cc.s
 
 # target to generate assembly for a file
 model/half-duplex-ideal-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.s
 .PHONY : model/half-duplex-ideal-phy.cc.s
 
 model/ism-spectrum-value-helper.o: model/ism-spectrum-value-helper.cc.o
@@ -483,7 +483,7 @@ model/ism-spectrum-value-helper.o: model/ism-spectrum-value-helper.cc.o
 
 # target to build an object file
 model/ism-spectrum-value-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.o
 .PHONY : model/ism-spectrum-value-helper.cc.o
 
 model/ism-spectrum-value-helper.i: model/ism-spectrum-value-helper.cc.i
@@ -491,7 +491,7 @@ model/ism-spectrum-value-helper.i: model/ism-spectrum-value-helper.cc.i
 
 # target to preprocess a source file
 model/ism-spectrum-value-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.i
 .PHONY : model/ism-spectrum-value-helper.cc.i
 
 model/ism-spectrum-value-helper.s: model/ism-spectrum-value-helper.cc.s
@@ -499,7 +499,7 @@ model/ism-spectrum-value-helper.s: model/ism-spectrum-value-helper.cc.s
 
 # target to generate assembly for a file
 model/ism-spectrum-value-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.s
 .PHONY : model/ism-spectrum-value-helper.cc.s
 
 model/matrix-based-channel-model.o: model/matrix-based-channel-model.cc.o
@@ -507,7 +507,7 @@ model/matrix-based-channel-model.o: model/matrix-based-channel-model.cc.o
 
 # target to build an object file
 model/matrix-based-channel-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.o
 .PHONY : model/matrix-based-channel-model.cc.o
 
 model/matrix-based-channel-model.i: model/matrix-based-channel-model.cc.i
@@ -515,7 +515,7 @@ model/matrix-based-channel-model.i: model/matrix-based-channel-model.cc.i
 
 # target to preprocess a source file
 model/matrix-based-channel-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.i
 .PHONY : model/matrix-based-channel-model.cc.i
 
 model/matrix-based-channel-model.s: model/matrix-based-channel-model.cc.s
@@ -523,7 +523,7 @@ model/matrix-based-channel-model.s: model/matrix-based-channel-model.cc.s
 
 # target to generate assembly for a file
 model/matrix-based-channel-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.s
 .PHONY : model/matrix-based-channel-model.cc.s
 
 model/microwave-oven-spectrum-value-helper.o: model/microwave-oven-spectrum-value-helper.cc.o
@@ -531,7 +531,7 @@ model/microwave-oven-spectrum-value-helper.o: model/microwave-oven-spectrum-valu
 
 # target to build an object file
 model/microwave-oven-spectrum-value-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.o
 .PHONY : model/microwave-oven-spectrum-value-helper.cc.o
 
 model/microwave-oven-spectrum-value-helper.i: model/microwave-oven-spectrum-value-helper.cc.i
@@ -539,7 +539,7 @@ model/microwave-oven-spectrum-value-helper.i: model/microwave-oven-spectrum-valu
 
 # target to preprocess a source file
 model/microwave-oven-spectrum-value-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.i
 .PHONY : model/microwave-oven-spectrum-value-helper.cc.i
 
 model/microwave-oven-spectrum-value-helper.s: model/microwave-oven-spectrum-value-helper.cc.s
@@ -547,7 +547,7 @@ model/microwave-oven-spectrum-value-helper.s: model/microwave-oven-spectrum-valu
 
 # target to generate assembly for a file
 model/microwave-oven-spectrum-value-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.s
 .PHONY : model/microwave-oven-spectrum-value-helper.cc.s
 
 model/multi-model-spectrum-channel.o: model/multi-model-spectrum-channel.cc.o
@@ -555,7 +555,7 @@ model/multi-model-spectrum-channel.o: model/multi-model-spectrum-channel.cc.o
 
 # target to build an object file
 model/multi-model-spectrum-channel.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.o
 .PHONY : model/multi-model-spectrum-channel.cc.o
 
 model/multi-model-spectrum-channel.i: model/multi-model-spectrum-channel.cc.i
@@ -563,7 +563,7 @@ model/multi-model-spectrum-channel.i: model/multi-model-spectrum-channel.cc.i
 
 # target to preprocess a source file
 model/multi-model-spectrum-channel.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.i
 .PHONY : model/multi-model-spectrum-channel.cc.i
 
 model/multi-model-spectrum-channel.s: model/multi-model-spectrum-channel.cc.s
@@ -571,7 +571,7 @@ model/multi-model-spectrum-channel.s: model/multi-model-spectrum-channel.cc.s
 
 # target to generate assembly for a file
 model/multi-model-spectrum-channel.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.s
 .PHONY : model/multi-model-spectrum-channel.cc.s
 
 model/non-communicating-net-device.o: model/non-communicating-net-device.cc.o
@@ -579,7 +579,7 @@ model/non-communicating-net-device.o: model/non-communicating-net-device.cc.o
 
 # target to build an object file
 model/non-communicating-net-device.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.o
 .PHONY : model/non-communicating-net-device.cc.o
 
 model/non-communicating-net-device.i: model/non-communicating-net-device.cc.i
@@ -587,7 +587,7 @@ model/non-communicating-net-device.i: model/non-communicating-net-device.cc.i
 
 # target to preprocess a source file
 model/non-communicating-net-device.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.i
 .PHONY : model/non-communicating-net-device.cc.i
 
 model/non-communicating-net-device.s: model/non-communicating-net-device.cc.s
@@ -595,7 +595,7 @@ model/non-communicating-net-device.s: model/non-communicating-net-device.cc.s
 
 # target to generate assembly for a file
 model/non-communicating-net-device.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.s
 .PHONY : model/non-communicating-net-device.cc.s
 
 model/phased-array-spectrum-propagation-loss-model.o: model/phased-array-spectrum-propagation-loss-model.cc.o
@@ -603,7 +603,7 @@ model/phased-array-spectrum-propagation-loss-model.o: model/phased-array-spectru
 
 # target to build an object file
 model/phased-array-spectrum-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.o
 .PHONY : model/phased-array-spectrum-propagation-loss-model.cc.o
 
 model/phased-array-spectrum-propagation-loss-model.i: model/phased-array-spectrum-propagation-loss-model.cc.i
@@ -611,7 +611,7 @@ model/phased-array-spectrum-propagation-loss-model.i: model/phased-array-spectru
 
 # target to preprocess a source file
 model/phased-array-spectrum-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.i
 .PHONY : model/phased-array-spectrum-propagation-loss-model.cc.i
 
 model/phased-array-spectrum-propagation-loss-model.s: model/phased-array-spectrum-propagation-loss-model.cc.s
@@ -619,7 +619,7 @@ model/phased-array-spectrum-propagation-loss-model.s: model/phased-array-spectru
 
 # target to generate assembly for a file
 model/phased-array-spectrum-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.s
 .PHONY : model/phased-array-spectrum-propagation-loss-model.cc.s
 
 model/single-model-spectrum-channel.o: model/single-model-spectrum-channel.cc.o
@@ -627,7 +627,7 @@ model/single-model-spectrum-channel.o: model/single-model-spectrum-channel.cc.o
 
 # target to build an object file
 model/single-model-spectrum-channel.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.o
 .PHONY : model/single-model-spectrum-channel.cc.o
 
 model/single-model-spectrum-channel.i: model/single-model-spectrum-channel.cc.i
@@ -635,7 +635,7 @@ model/single-model-spectrum-channel.i: model/single-model-spectrum-channel.cc.i
 
 # target to preprocess a source file
 model/single-model-spectrum-channel.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.i
 .PHONY : model/single-model-spectrum-channel.cc.i
 
 model/single-model-spectrum-channel.s: model/single-model-spectrum-channel.cc.s
@@ -643,7 +643,7 @@ model/single-model-spectrum-channel.s: model/single-model-spectrum-channel.cc.s
 
 # target to generate assembly for a file
 model/single-model-spectrum-channel.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.s
 .PHONY : model/single-model-spectrum-channel.cc.s
 
 model/spectrum-analyzer.o: model/spectrum-analyzer.cc.o
@@ -651,7 +651,7 @@ model/spectrum-analyzer.o: model/spectrum-analyzer.cc.o
 
 # target to build an object file
 model/spectrum-analyzer.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
 .PHONY : model/spectrum-analyzer.cc.o
 
 model/spectrum-analyzer.i: model/spectrum-analyzer.cc.i
@@ -659,7 +659,7 @@ model/spectrum-analyzer.i: model/spectrum-analyzer.cc.i
 
 # target to preprocess a source file
 model/spectrum-analyzer.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.i
 .PHONY : model/spectrum-analyzer.cc.i
 
 model/spectrum-analyzer.s: model/spectrum-analyzer.cc.s
@@ -667,7 +667,7 @@ model/spectrum-analyzer.s: model/spectrum-analyzer.cc.s
 
 # target to generate assembly for a file
 model/spectrum-analyzer.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.s
 .PHONY : model/spectrum-analyzer.cc.s
 
 model/spectrum-channel.o: model/spectrum-channel.cc.o
@@ -675,7 +675,7 @@ model/spectrum-channel.o: model/spectrum-channel.cc.o
 
 # target to build an object file
 model/spectrum-channel.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
 .PHONY : model/spectrum-channel.cc.o
 
 model/spectrum-channel.i: model/spectrum-channel.cc.i
@@ -683,7 +683,7 @@ model/spectrum-channel.i: model/spectrum-channel.cc.i
 
 # target to preprocess a source file
 model/spectrum-channel.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.i
 .PHONY : model/spectrum-channel.cc.i
 
 model/spectrum-channel.s: model/spectrum-channel.cc.s
@@ -691,7 +691,7 @@ model/spectrum-channel.s: model/spectrum-channel.cc.s
 
 # target to generate assembly for a file
 model/spectrum-channel.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.s
 .PHONY : model/spectrum-channel.cc.s
 
 model/spectrum-converter.o: model/spectrum-converter.cc.o
@@ -699,7 +699,7 @@ model/spectrum-converter.o: model/spectrum-converter.cc.o
 
 # target to build an object file
 model/spectrum-converter.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
 .PHONY : model/spectrum-converter.cc.o
 
 model/spectrum-converter.i: model/spectrum-converter.cc.i
@@ -707,7 +707,7 @@ model/spectrum-converter.i: model/spectrum-converter.cc.i
 
 # target to preprocess a source file
 model/spectrum-converter.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.i
 .PHONY : model/spectrum-converter.cc.i
 
 model/spectrum-converter.s: model/spectrum-converter.cc.s
@@ -715,7 +715,7 @@ model/spectrum-converter.s: model/spectrum-converter.cc.s
 
 # target to generate assembly for a file
 model/spectrum-converter.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.s
 .PHONY : model/spectrum-converter.cc.s
 
 model/spectrum-error-model.o: model/spectrum-error-model.cc.o
@@ -723,7 +723,7 @@ model/spectrum-error-model.o: model/spectrum-error-model.cc.o
 
 # target to build an object file
 model/spectrum-error-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
 .PHONY : model/spectrum-error-model.cc.o
 
 model/spectrum-error-model.i: model/spectrum-error-model.cc.i
@@ -731,7 +731,7 @@ model/spectrum-error-model.i: model/spectrum-error-model.cc.i
 
 # target to preprocess a source file
 model/spectrum-error-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.i
 .PHONY : model/spectrum-error-model.cc.i
 
 model/spectrum-error-model.s: model/spectrum-error-model.cc.s
@@ -739,7 +739,7 @@ model/spectrum-error-model.s: model/spectrum-error-model.cc.s
 
 # target to generate assembly for a file
 model/spectrum-error-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.s
 .PHONY : model/spectrum-error-model.cc.s
 
 model/spectrum-interference.o: model/spectrum-interference.cc.o
@@ -747,7 +747,7 @@ model/spectrum-interference.o: model/spectrum-interference.cc.o
 
 # target to build an object file
 model/spectrum-interference.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
 .PHONY : model/spectrum-interference.cc.o
 
 model/spectrum-interference.i: model/spectrum-interference.cc.i
@@ -755,7 +755,7 @@ model/spectrum-interference.i: model/spectrum-interference.cc.i
 
 # target to preprocess a source file
 model/spectrum-interference.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.i
 .PHONY : model/spectrum-interference.cc.i
 
 model/spectrum-interference.s: model/spectrum-interference.cc.s
@@ -763,7 +763,7 @@ model/spectrum-interference.s: model/spectrum-interference.cc.s
 
 # target to generate assembly for a file
 model/spectrum-interference.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.s
 .PHONY : model/spectrum-interference.cc.s
 
 model/spectrum-model-300kHz-300GHz-log.o: model/spectrum-model-300kHz-300GHz-log.cc.o
@@ -771,7 +771,7 @@ model/spectrum-model-300kHz-300GHz-log.o: model/spectrum-model-300kHz-300GHz-log
 
 # target to build an object file
 model/spectrum-model-300kHz-300GHz-log.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.o
 .PHONY : model/spectrum-model-300kHz-300GHz-log.cc.o
 
 model/spectrum-model-300kHz-300GHz-log.i: model/spectrum-model-300kHz-300GHz-log.cc.i
@@ -779,7 +779,7 @@ model/spectrum-model-300kHz-300GHz-log.i: model/spectrum-model-300kHz-300GHz-log
 
 # target to preprocess a source file
 model/spectrum-model-300kHz-300GHz-log.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.i
 .PHONY : model/spectrum-model-300kHz-300GHz-log.cc.i
 
 model/spectrum-model-300kHz-300GHz-log.s: model/spectrum-model-300kHz-300GHz-log.cc.s
@@ -787,7 +787,7 @@ model/spectrum-model-300kHz-300GHz-log.s: model/spectrum-model-300kHz-300GHz-log
 
 # target to generate assembly for a file
 model/spectrum-model-300kHz-300GHz-log.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.s
 .PHONY : model/spectrum-model-300kHz-300GHz-log.cc.s
 
 model/spectrum-model-ism2400MHz-res1MHz.o: model/spectrum-model-ism2400MHz-res1MHz.cc.o
@@ -795,7 +795,7 @@ model/spectrum-model-ism2400MHz-res1MHz.o: model/spectrum-model-ism2400MHz-res1M
 
 # target to build an object file
 model/spectrum-model-ism2400MHz-res1MHz.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.o
 .PHONY : model/spectrum-model-ism2400MHz-res1MHz.cc.o
 
 model/spectrum-model-ism2400MHz-res1MHz.i: model/spectrum-model-ism2400MHz-res1MHz.cc.i
@@ -803,7 +803,7 @@ model/spectrum-model-ism2400MHz-res1MHz.i: model/spectrum-model-ism2400MHz-res1M
 
 # target to preprocess a source file
 model/spectrum-model-ism2400MHz-res1MHz.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.i
 .PHONY : model/spectrum-model-ism2400MHz-res1MHz.cc.i
 
 model/spectrum-model-ism2400MHz-res1MHz.s: model/spectrum-model-ism2400MHz-res1MHz.cc.s
@@ -811,7 +811,7 @@ model/spectrum-model-ism2400MHz-res1MHz.s: model/spectrum-model-ism2400MHz-res1M
 
 # target to generate assembly for a file
 model/spectrum-model-ism2400MHz-res1MHz.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.s
 .PHONY : model/spectrum-model-ism2400MHz-res1MHz.cc.s
 
 model/spectrum-model.o: model/spectrum-model.cc.o
@@ -819,7 +819,7 @@ model/spectrum-model.o: model/spectrum-model.cc.o
 
 # target to build an object file
 model/spectrum-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
 .PHONY : model/spectrum-model.cc.o
 
 model/spectrum-model.i: model/spectrum-model.cc.i
@@ -827,7 +827,7 @@ model/spectrum-model.i: model/spectrum-model.cc.i
 
 # target to preprocess a source file
 model/spectrum-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.i
 .PHONY : model/spectrum-model.cc.i
 
 model/spectrum-model.s: model/spectrum-model.cc.s
@@ -835,7 +835,7 @@ model/spectrum-model.s: model/spectrum-model.cc.s
 
 # target to generate assembly for a file
 model/spectrum-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.s
 .PHONY : model/spectrum-model.cc.s
 
 model/spectrum-phy.o: model/spectrum-phy.cc.o
@@ -843,7 +843,7 @@ model/spectrum-phy.o: model/spectrum-phy.cc.o
 
 # target to build an object file
 model/spectrum-phy.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
 .PHONY : model/spectrum-phy.cc.o
 
 model/spectrum-phy.i: model/spectrum-phy.cc.i
@@ -851,7 +851,7 @@ model/spectrum-phy.i: model/spectrum-phy.cc.i
 
 # target to preprocess a source file
 model/spectrum-phy.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.i
 .PHONY : model/spectrum-phy.cc.i
 
 model/spectrum-phy.s: model/spectrum-phy.cc.s
@@ -859,7 +859,7 @@ model/spectrum-phy.s: model/spectrum-phy.cc.s
 
 # target to generate assembly for a file
 model/spectrum-phy.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.s
 .PHONY : model/spectrum-phy.cc.s
 
 model/spectrum-propagation-loss-model.o: model/spectrum-propagation-loss-model.cc.o
@@ -867,7 +867,7 @@ model/spectrum-propagation-loss-model.o: model/spectrum-propagation-loss-model.c
 
 # target to build an object file
 model/spectrum-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.o
 .PHONY : model/spectrum-propagation-loss-model.cc.o
 
 model/spectrum-propagation-loss-model.i: model/spectrum-propagation-loss-model.cc.i
@@ -875,7 +875,7 @@ model/spectrum-propagation-loss-model.i: model/spectrum-propagation-loss-model.c
 
 # target to preprocess a source file
 model/spectrum-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.i
 .PHONY : model/spectrum-propagation-loss-model.cc.i
 
 model/spectrum-propagation-loss-model.s: model/spectrum-propagation-loss-model.cc.s
@@ -883,7 +883,7 @@ model/spectrum-propagation-loss-model.s: model/spectrum-propagation-loss-model.c
 
 # target to generate assembly for a file
 model/spectrum-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.s
 .PHONY : model/spectrum-propagation-loss-model.cc.s
 
 model/spectrum-signal-parameters.o: model/spectrum-signal-parameters.cc.o
@@ -891,7 +891,7 @@ model/spectrum-signal-parameters.o: model/spectrum-signal-parameters.cc.o
 
 # target to build an object file
 model/spectrum-signal-parameters.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.o
 .PHONY : model/spectrum-signal-parameters.cc.o
 
 model/spectrum-signal-parameters.i: model/spectrum-signal-parameters.cc.i
@@ -899,7 +899,7 @@ model/spectrum-signal-parameters.i: model/spectrum-signal-parameters.cc.i
 
 # target to preprocess a source file
 model/spectrum-signal-parameters.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.i
 .PHONY : model/spectrum-signal-parameters.cc.i
 
 model/spectrum-signal-parameters.s: model/spectrum-signal-parameters.cc.s
@@ -907,7 +907,7 @@ model/spectrum-signal-parameters.s: model/spectrum-signal-parameters.cc.s
 
 # target to generate assembly for a file
 model/spectrum-signal-parameters.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.s
 .PHONY : model/spectrum-signal-parameters.cc.s
 
 model/spectrum-transmit-filter.o: model/spectrum-transmit-filter.cc.o
@@ -915,7 +915,7 @@ model/spectrum-transmit-filter.o: model/spectrum-transmit-filter.cc.o
 
 # target to build an object file
 model/spectrum-transmit-filter.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.o
 .PHONY : model/spectrum-transmit-filter.cc.o
 
 model/spectrum-transmit-filter.i: model/spectrum-transmit-filter.cc.i
@@ -923,7 +923,7 @@ model/spectrum-transmit-filter.i: model/spectrum-transmit-filter.cc.i
 
 # target to preprocess a source file
 model/spectrum-transmit-filter.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.i
 .PHONY : model/spectrum-transmit-filter.cc.i
 
 model/spectrum-transmit-filter.s: model/spectrum-transmit-filter.cc.s
@@ -931,7 +931,7 @@ model/spectrum-transmit-filter.s: model/spectrum-transmit-filter.cc.s
 
 # target to generate assembly for a file
 model/spectrum-transmit-filter.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.s
 .PHONY : model/spectrum-transmit-filter.cc.s
 
 model/spectrum-value.o: model/spectrum-value.cc.o
@@ -939,7 +939,7 @@ model/spectrum-value.o: model/spectrum-value.cc.o
 
 # target to build an object file
 model/spectrum-value.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
 .PHONY : model/spectrum-value.cc.o
 
 model/spectrum-value.i: model/spectrum-value.cc.i
@@ -947,7 +947,7 @@ model/spectrum-value.i: model/spectrum-value.cc.i
 
 # target to preprocess a source file
 model/spectrum-value.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.i
 .PHONY : model/spectrum-value.cc.i
 
 model/spectrum-value.s: model/spectrum-value.cc.s
@@ -955,7 +955,7 @@ model/spectrum-value.s: model/spectrum-value.cc.s
 
 # target to generate assembly for a file
 model/spectrum-value.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.s
 .PHONY : model/spectrum-value.cc.s
 
 model/three-gpp-channel-model.o: model/three-gpp-channel-model.cc.o
@@ -963,7 +963,7 @@ model/three-gpp-channel-model.o: model/three-gpp-channel-model.cc.o
 
 # target to build an object file
 model/three-gpp-channel-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
 .PHONY : model/three-gpp-channel-model.cc.o
 
 model/three-gpp-channel-model.i: model/three-gpp-channel-model.cc.i
@@ -971,7 +971,7 @@ model/three-gpp-channel-model.i: model/three-gpp-channel-model.cc.i
 
 # target to preprocess a source file
 model/three-gpp-channel-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.i
 .PHONY : model/three-gpp-channel-model.cc.i
 
 model/three-gpp-channel-model.s: model/three-gpp-channel-model.cc.s
@@ -979,7 +979,7 @@ model/three-gpp-channel-model.s: model/three-gpp-channel-model.cc.s
 
 # target to generate assembly for a file
 model/three-gpp-channel-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.s
 .PHONY : model/three-gpp-channel-model.cc.s
 
 model/three-gpp-spectrum-propagation-loss-model.o: model/three-gpp-spectrum-propagation-loss-model.cc.o
@@ -987,7 +987,7 @@ model/three-gpp-spectrum-propagation-loss-model.o: model/three-gpp-spectrum-prop
 
 # target to build an object file
 model/three-gpp-spectrum-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.o
 .PHONY : model/three-gpp-spectrum-propagation-loss-model.cc.o
 
 model/three-gpp-spectrum-propagation-loss-model.i: model/three-gpp-spectrum-propagation-loss-model.cc.i
@@ -995,7 +995,7 @@ model/three-gpp-spectrum-propagation-loss-model.i: model/three-gpp-spectrum-prop
 
 # target to preprocess a source file
 model/three-gpp-spectrum-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.i
 .PHONY : model/three-gpp-spectrum-propagation-loss-model.cc.i
 
 model/three-gpp-spectrum-propagation-loss-model.s: model/three-gpp-spectrum-propagation-loss-model.cc.s
@@ -1003,7 +1003,7 @@ model/three-gpp-spectrum-propagation-loss-model.s: model/three-gpp-spectrum-prop
 
 # target to generate assembly for a file
 model/three-gpp-spectrum-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.s
 .PHONY : model/three-gpp-spectrum-propagation-loss-model.cc.s
 
 model/trace-fading-loss-model.o: model/trace-fading-loss-model.cc.o
@@ -1011,7 +1011,7 @@ model/trace-fading-loss-model.o: model/trace-fading-loss-model.cc.o
 
 # target to build an object file
 model/trace-fading-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
 .PHONY : model/trace-fading-loss-model.cc.o
 
 model/trace-fading-loss-model.i: model/trace-fading-loss-model.cc.i
@@ -1019,7 +1019,7 @@ model/trace-fading-loss-model.i: model/trace-fading-loss-model.cc.i
 
 # target to preprocess a source file
 model/trace-fading-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.i
 .PHONY : model/trace-fading-loss-model.cc.i
 
 model/trace-fading-loss-model.s: model/trace-fading-loss-model.cc.s
@@ -1027,7 +1027,7 @@ model/trace-fading-loss-model.s: model/trace-fading-loss-model.cc.s
 
 # target to generate assembly for a file
 model/trace-fading-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.s
 .PHONY : model/trace-fading-loss-model.cc.s
 
 model/tv-spectrum-transmitter.o: model/tv-spectrum-transmitter.cc.o
@@ -1035,7 +1035,7 @@ model/tv-spectrum-transmitter.o: model/tv-spectrum-transmitter.cc.o
 
 # target to build an object file
 model/tv-spectrum-transmitter.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
 .PHONY : model/tv-spectrum-transmitter.cc.o
 
 model/tv-spectrum-transmitter.i: model/tv-spectrum-transmitter.cc.i
@@ -1043,7 +1043,7 @@ model/tv-spectrum-transmitter.i: model/tv-spectrum-transmitter.cc.i
 
 # target to preprocess a source file
 model/tv-spectrum-transmitter.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.i
 .PHONY : model/tv-spectrum-transmitter.cc.i
 
 model/tv-spectrum-transmitter.s: model/tv-spectrum-transmitter.cc.s
@@ -1051,7 +1051,7 @@ model/tv-spectrum-transmitter.s: model/tv-spectrum-transmitter.cc.s
 
 # target to generate assembly for a file
 model/tv-spectrum-transmitter.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.s
 .PHONY : model/tv-spectrum-transmitter.cc.s
 
 model/two-ray-spectrum-propagation-loss-model.o: model/two-ray-spectrum-propagation-loss-model.cc.o
@@ -1059,7 +1059,7 @@ model/two-ray-spectrum-propagation-loss-model.o: model/two-ray-spectrum-propagat
 
 # target to build an object file
 model/two-ray-spectrum-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.o
 .PHONY : model/two-ray-spectrum-propagation-loss-model.cc.o
 
 model/two-ray-spectrum-propagation-loss-model.i: model/two-ray-spectrum-propagation-loss-model.cc.i
@@ -1067,7 +1067,7 @@ model/two-ray-spectrum-propagation-loss-model.i: model/two-ray-spectrum-propagat
 
 # target to preprocess a source file
 model/two-ray-spectrum-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.i
 .PHONY : model/two-ray-spectrum-propagation-loss-model.cc.i
 
 model/two-ray-spectrum-propagation-loss-model.s: model/two-ray-spectrum-propagation-loss-model.cc.s
@@ -1075,7 +1075,7 @@ model/two-ray-spectrum-propagation-loss-model.s: model/two-ray-spectrum-propagat
 
 # target to generate assembly for a file
 model/two-ray-spectrum-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.s
 .PHONY : model/two-ray-spectrum-propagation-loss-model.cc.s
 
 model/waveform-generator.o: model/waveform-generator.cc.o
@@ -1083,7 +1083,7 @@ model/waveform-generator.o: model/waveform-generator.cc.o
 
 # target to build an object file
 model/waveform-generator.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
 .PHONY : model/waveform-generator.cc.o
 
 model/waveform-generator.i: model/waveform-generator.cc.i
@@ -1091,7 +1091,7 @@ model/waveform-generator.i: model/waveform-generator.cc.i
 
 # target to preprocess a source file
 model/waveform-generator.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.i
 .PHONY : model/waveform-generator.cc.i
 
 model/waveform-generator.s: model/waveform-generator.cc.s
@@ -1099,7 +1099,7 @@ model/waveform-generator.s: model/waveform-generator.cc.s
 
 # target to generate assembly for a file
 model/waveform-generator.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.s
 .PHONY : model/waveform-generator.cc.s
 
 test/spectrum-ideal-phy-test.o: test/spectrum-ideal-phy-test.cc.o
@@ -1107,7 +1107,7 @@ test/spectrum-ideal-phy-test.o: test/spectrum-ideal-phy-test.cc.o
 
 # target to build an object file
 test/spectrum-ideal-phy-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.o
 .PHONY : test/spectrum-ideal-phy-test.cc.o
 
 test/spectrum-ideal-phy-test.i: test/spectrum-ideal-phy-test.cc.i
@@ -1115,7 +1115,7 @@ test/spectrum-ideal-phy-test.i: test/spectrum-ideal-phy-test.cc.i
 
 # target to preprocess a source file
 test/spectrum-ideal-phy-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.i
 .PHONY : test/spectrum-ideal-phy-test.cc.i
 
 test/spectrum-ideal-phy-test.s: test/spectrum-ideal-phy-test.cc.s
@@ -1123,7 +1123,7 @@ test/spectrum-ideal-phy-test.s: test/spectrum-ideal-phy-test.cc.s
 
 # target to generate assembly for a file
 test/spectrum-ideal-phy-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.s
 .PHONY : test/spectrum-ideal-phy-test.cc.s
 
 test/spectrum-interference-test.o: test/spectrum-interference-test.cc.o
@@ -1131,7 +1131,7 @@ test/spectrum-interference-test.o: test/spectrum-interference-test.cc.o
 
 # target to build an object file
 test/spectrum-interference-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.o
 .PHONY : test/spectrum-interference-test.cc.o
 
 test/spectrum-interference-test.i: test/spectrum-interference-test.cc.i
@@ -1139,7 +1139,7 @@ test/spectrum-interference-test.i: test/spectrum-interference-test.cc.i
 
 # target to preprocess a source file
 test/spectrum-interference-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.i
 .PHONY : test/spectrum-interference-test.cc.i
 
 test/spectrum-interference-test.s: test/spectrum-interference-test.cc.s
@@ -1147,7 +1147,7 @@ test/spectrum-interference-test.s: test/spectrum-interference-test.cc.s
 
 # target to generate assembly for a file
 test/spectrum-interference-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.s
 .PHONY : test/spectrum-interference-test.cc.s
 
 test/spectrum-value-test.o: test/spectrum-value-test.cc.o
@@ -1155,7 +1155,7 @@ test/spectrum-value-test.o: test/spectrum-value-test.cc.o
 
 # target to build an object file
 test/spectrum-value-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.o
 .PHONY : test/spectrum-value-test.cc.o
 
 test/spectrum-value-test.i: test/spectrum-value-test.cc.i
@@ -1163,7 +1163,7 @@ test/spectrum-value-test.i: test/spectrum-value-test.cc.i
 
 # target to preprocess a source file
 test/spectrum-value-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.i
 .PHONY : test/spectrum-value-test.cc.i
 
 test/spectrum-value-test.s: test/spectrum-value-test.cc.s
@@ -1171,7 +1171,7 @@ test/spectrum-value-test.s: test/spectrum-value-test.cc.s
 
 # target to generate assembly for a file
 test/spectrum-value-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-value-test.cc.s
 .PHONY : test/spectrum-value-test.cc.s
 
 test/spectrum-waveform-generator-test.o: test/spectrum-waveform-generator-test.cc.o
@@ -1179,7 +1179,7 @@ test/spectrum-waveform-generator-test.o: test/spectrum-waveform-generator-test.c
 
 # target to build an object file
 test/spectrum-waveform-generator-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-test.cc.o
 .PHONY : test/spectrum-waveform-generator-test.cc.o
 
 test/spectrum-waveform-generator-test.i: test/spectrum-waveform-generator-test.cc.i
@@ -1187,7 +1187,7 @@ test/spectrum-waveform-generator-test.i: test/spectrum-waveform-generator-test.c
 
 # target to preprocess a source file
 test/spectrum-waveform-generator-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-test.cc.i
 .PHONY : test/spectrum-waveform-generator-test.cc.i
 
 test/spectrum-waveform-generator-test.s: test/spectrum-waveform-generator-test.cc.s
@@ -1195,7 +1195,7 @@ test/spectrum-waveform-generator-test.s: test/spectrum-waveform-generator-test.c
 
 # target to generate assembly for a file
 test/spectrum-waveform-generator-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-test.cc.s
 .PHONY : test/spectrum-waveform-generator-test.cc.s
 
 test/three-gpp-channel-test-suite.o: test/three-gpp-channel-test-suite.cc.o
@@ -1203,7 +1203,7 @@ test/three-gpp-channel-test-suite.o: test/three-gpp-channel-test-suite.cc.o
 
 # target to build an object file
 test/three-gpp-channel-test-suite.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/three-gpp-channel-test-suite.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/three-gpp-channel-test-suite.cc.o
 .PHONY : test/three-gpp-channel-test-suite.cc.o
 
 test/three-gpp-channel-test-suite.i: test/three-gpp-channel-test-suite.cc.i
@@ -1211,7 +1211,7 @@ test/three-gpp-channel-test-suite.i: test/three-gpp-channel-test-suite.cc.i
 
 # target to preprocess a source file
 test/three-gpp-channel-test-suite.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/three-gpp-channel-test-suite.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/three-gpp-channel-test-suite.cc.i
 .PHONY : test/three-gpp-channel-test-suite.cc.i
 
 test/three-gpp-channel-test-suite.s: test/three-gpp-channel-test-suite.cc.s
@@ -1219,7 +1219,7 @@ test/three-gpp-channel-test-suite.s: test/three-gpp-channel-test-suite.cc.s
 
 # target to generate assembly for a file
 test/three-gpp-channel-test-suite.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/three-gpp-channel-test-suite.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/three-gpp-channel-test-suite.cc.s
 .PHONY : test/three-gpp-channel-test-suite.cc.s
 
 test/tv-helper-distribution-test.o: test/tv-helper-distribution-test.cc.o
@@ -1227,7 +1227,7 @@ test/tv-helper-distribution-test.o: test/tv-helper-distribution-test.cc.o
 
 # target to build an object file
 test/tv-helper-distribution-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-helper-distribution-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-helper-distribution-test.cc.o
 .PHONY : test/tv-helper-distribution-test.cc.o
 
 test/tv-helper-distribution-test.i: test/tv-helper-distribution-test.cc.i
@@ -1235,7 +1235,7 @@ test/tv-helper-distribution-test.i: test/tv-helper-distribution-test.cc.i
 
 # target to preprocess a source file
 test/tv-helper-distribution-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-helper-distribution-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-helper-distribution-test.cc.i
 .PHONY : test/tv-helper-distribution-test.cc.i
 
 test/tv-helper-distribution-test.s: test/tv-helper-distribution-test.cc.s
@@ -1243,7 +1243,7 @@ test/tv-helper-distribution-test.s: test/tv-helper-distribution-test.cc.s
 
 # target to generate assembly for a file
 test/tv-helper-distribution-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-helper-distribution-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-helper-distribution-test.cc.s
 .PHONY : test/tv-helper-distribution-test.cc.s
 
 test/tv-spectrum-transmitter-test.o: test/tv-spectrum-transmitter-test.cc.o
@@ -1251,7 +1251,7 @@ test/tv-spectrum-transmitter-test.o: test/tv-spectrum-transmitter-test.cc.o
 
 # target to build an object file
 test/tv-spectrum-transmitter-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.cc.o
 .PHONY : test/tv-spectrum-transmitter-test.cc.o
 
 test/tv-spectrum-transmitter-test.i: test/tv-spectrum-transmitter-test.cc.i
@@ -1259,7 +1259,7 @@ test/tv-spectrum-transmitter-test.i: test/tv-spectrum-transmitter-test.cc.i
 
 # target to preprocess a source file
 test/tv-spectrum-transmitter-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.cc.i
 .PHONY : test/tv-spectrum-transmitter-test.cc.i
 
 test/tv-spectrum-transmitter-test.s: test/tv-spectrum-transmitter-test.cc.s
@@ -1267,7 +1267,7 @@ test/tv-spectrum-transmitter-test.s: test/tv-spectrum-transmitter-test.cc.s
 
 # target to generate assembly for a file
 test/tv-spectrum-transmitter-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.cc.s
 .PHONY : test/tv-spectrum-transmitter-test.cc.s
 
 test/two-ray-splm-test-suite.o: test/two-ray-splm-test-suite.cc.o
@@ -1275,7 +1275,7 @@ test/two-ray-splm-test-suite.o: test/two-ray-splm-test-suite.cc.o
 
 # target to build an object file
 test/two-ray-splm-test-suite.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/two-ray-splm-test-suite.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/two-ray-splm-test-suite.cc.o
 .PHONY : test/two-ray-splm-test-suite.cc.o
 
 test/two-ray-splm-test-suite.i: test/two-ray-splm-test-suite.cc.i
@@ -1283,7 +1283,7 @@ test/two-ray-splm-test-suite.i: test/two-ray-splm-test-suite.cc.i
 
 # target to preprocess a source file
 test/two-ray-splm-test-suite.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/two-ray-splm-test-suite.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/two-ray-splm-test-suite.cc.i
 .PHONY : test/two-ray-splm-test-suite.cc.i
 
 test/two-ray-splm-test-suite.s: test/two-ray-splm-test-suite.cc.s
@@ -1291,7 +1291,7 @@ test/two-ray-splm-test-suite.s: test/two-ray-splm-test-suite.cc.s
 
 # target to generate assembly for a file
 test/two-ray-splm-test-suite.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/two-ray-splm-test-suite.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-test.dir/build.make src/spectrum/CMakeFiles/libspectrum-test.dir/test/two-ray-splm-test-suite.cc.s
 .PHONY : test/two-ray-splm-test-suite.cc.s
 
 # Help Target
@@ -1456,7 +1456,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,10 +1,6 @@
-/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified-1.cc
-/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified-org.cc
-/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified.cc
-/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link.cc
-/mnt/d/Downloads/ns-3-dev/scratch/scratch-simulator.cc
-/mnt/d/Downloads/ns-3-dev/scratch/ues.cc
-/mnt/d/Downloads/ns-3-dev/scratch/nested-subdir/scratch-nested-subdir-executable.cc
-/mnt/d/Downloads/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc
-/mnt/d/Downloads/ns-3-dev/scratch/subdir/scratch-subdir-additional-header.cc
-/mnt/d/Downloads/ns-3-dev/scratch/subdir/scratch-subdir.cc
+/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/scratch-simulator.cc
+/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/ues.cc
+/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/nested-subdir/scratch-nested-subdir-executable.cc
+/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc
+/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/subdir/scratch-subdir-additional-header.cc
+/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/subdir/scratch-subdir.cc

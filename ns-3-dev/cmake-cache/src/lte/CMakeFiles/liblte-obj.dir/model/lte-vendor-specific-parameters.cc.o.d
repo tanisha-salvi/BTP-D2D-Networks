@@ -1,9 +1,9 @@
 src/lte/CMakeFiles/liblte-obj.dir/model/lte-vendor-specific-parameters.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-vendor-specific-parameters.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-vendor-specific-parameters.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-vendor-specific-parameters.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/ff-mac-common.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-vendor-specific-parameters.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/ff-mac-common.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -21,9 +21,9 @@ src/lte/CMakeFiles/liblte-obj.dir/model/lte-vendor-specific-parameters.cc.o: \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
  /usr/include/c++/11/limits \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/propagation
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-propagation-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-propagation-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-propagation-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-propagation-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-propagation-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-propagation-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-propagation-default.so")
@@ -67,28 +67,28 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/channel-condition-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/cost231-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/itu-r-1411-los-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/itu-r-1411-nlos-over-rooftop-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/jakes-process.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/jakes-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/kun-2600-mhz-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/okumura-hata-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/probabilistic-v2v-channel-condition-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-cache.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-environment.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/three-gpp-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/propagation/model/three-gpp-v2v-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/propagation-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/channel-condition-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/cost231-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/itu-r-1411-los-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/itu-r-1411-nlos-over-rooftop-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/jakes-process.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/jakes-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/kun-2600-mhz-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/okumura-hata-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/probabilistic-v2v-channel-condition-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/propagation-cache.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/propagation-delay-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/propagation-environment.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/three-gpp-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/three-gpp-v2v-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/propagation-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/propagation/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/propagation/examples/cmake_install.cmake")
 
 endif()
 

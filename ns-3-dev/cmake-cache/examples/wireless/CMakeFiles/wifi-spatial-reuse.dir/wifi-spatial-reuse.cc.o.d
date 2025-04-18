@@ -1,7 +1,7 @@
 examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
- /mnt/d/Downloads/ns-3-dev/examples/wireless/wifi-spatial-reuse.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/wireless/wifi-spatial-reuse.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -18,17 +18,17 @@ examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ap-wifi-mac.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ap-wifi-mac.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/ap-wifi-mac.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mac-header.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
@@ -117,23 +117,23 @@ examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/list \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mac48-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mac.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/qos-utils.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/fatal-error.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h /usr/include/c++/11/map \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/ssid.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-information-element.h \
@@ -142,21 +142,21 @@ examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mac-queue-scheduler.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mac-queue-container.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mac-queue-elem.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
@@ -165,70 +165,70 @@ examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mode.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-common.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-spectrum-value-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /usr/include/c++/11/cstddef \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-standards.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-band.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-remote-station-info.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uinteger.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-utils.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/block-ack-type.h \
  /usr/include/c++/11/cstdint \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/data-rate.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/data-rate.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/eht-capabilities.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/eht-capabilities.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/eht/eht-capabilities.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-capabilities.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-capabilities.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-capabilities.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-information-element.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-information-element.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-information-element.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-6ghz-band-capabilities.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-6ghz-band-capabilities.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-6ghz-band-capabilities.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ht-capabilities.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ht-capabilities.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/ht/ht-capabilities.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/multi-link-element.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/multi-link-element.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/eht/multi-link-element.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-mac-header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-mac-header.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mac-header.h \
  /usr/include/c++/11/variant /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/stl_iterator_base_types.h \
  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/traced-callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traced-callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vht-capabilities.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vht-capabilities.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/vht/vht-capabilities.h \
  /usr/include/c++/11/array \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uniform-random-bit-generator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uniform-random-bit-generator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uniform-random-bit-generator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-container.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-container.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/iterator \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/enum.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/enum.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/pair.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/pair.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/pair.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/application-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/application-container.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/application-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/application.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/application.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/application.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/type-id.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
@@ -236,72 +236,72 @@ examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ipv4-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ipv4-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ipv6-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ipv6-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/event-id.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/random-variable-stream.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/command-line.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/command-line.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-configuration.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-configuration.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-configuration.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-ppdu.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ofdm-ppdu.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ofdm-ppdu.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/non-ht/ofdm-ppdu.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-phy-band.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-phy-band.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-band.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-ppdu.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-ppdu.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-ppdu.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-tx-vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-ru.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-ru.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-ru.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vht-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vht-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/vht/vht-phy.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ht-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ht-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/ht/ht-phy.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ofdm-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ofdm-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/non-ht/ofdm-phy.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/phy-entity.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/phy-entity.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/phy-entity.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mpdu-type.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-ppdu.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mobility-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mobility-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/helper/mobility-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/node-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/node-container.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/node.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/node.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-factory.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-factory.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/output-stream-wrapper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/output-stream-wrapper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/output-stream-wrapper.h \
  /usr/include/c++/11/fstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/position-allocator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/position-allocator.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/position-allocator.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/multi-model-spectrum-channel.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/multi-model-spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/multi-model-spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/phased-array-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/phased-array-model.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /usr/include/c++/11/complex /usr/include/c++/11/valarray \
@@ -318,61 +318,61 @@ examples/wireless/CMakeFiles/wifi-spatial-reuse.dir/wifi-spatial-reuse.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/channel.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/channel.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/propagation-delay-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/propagation-delay-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-converter.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/obss-pd-algorithm.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/obss-pd-algorithm.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/obss-pd-algorithm.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-configuration.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet-socket-client.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet-socket-client.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-socket-client.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-socket-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac64-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/net-device.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet-socket-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet-socket-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/packet-socket-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet-socket-server.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet-socket-server.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-socket-server.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-wifi-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-wifi-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/helper/spectrum-wifi-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/helper/wifi-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/helper/wifi-mac-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/qos-utils.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/qos-utils.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/qos-utils.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-standards.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-standards.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-standards.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/trace-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/trace-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/trace-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/pcap-file-wrapper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/pcap-file-wrapper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/pcap-file-wrapper.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/pcap-file.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/phy-entity.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-operating-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-state-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-state.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/deprecated.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/error-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/error-model.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/error-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ssid.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ssid.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/ssid.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-net-device.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-net-device.h

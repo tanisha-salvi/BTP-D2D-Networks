@@ -8,21 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Downloads/ns-3-dev/src/fd-net-device/examples/fd-tap-ping6.cc" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o" "gcc" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o.d"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o" "gcc" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o.d"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device/examples/fd-tap-ping6.cc" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o" "gcc" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o.d"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o" "gcc" "src/fd-net-device/examples/CMakeFiles/fd-tap-ping6.dir/fd-tap-ping6.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/fd-net-device/CMakeFiles/libfd-net-device.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/internet-apps/CMakeFiles/libinternet-apps.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/csma/CMakeFiles/libcsma.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/internet/CMakeFiles/libinternet.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/bridge/CMakeFiles/libbridge.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/traffic-control/CMakeFiles/libtraffic-control.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/network/CMakeFiles/libnetwork.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/stats/CMakeFiles/libstats.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/fd-net-device/CMakeFiles/libfd-net-device.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/internet-apps/CMakeFiles/libinternet-apps.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/csma/CMakeFiles/libcsma.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/internet/CMakeFiles/libinternet.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/bridge/CMakeFiles/libbridge.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/traffic-control/CMakeFiles/libtraffic-control.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/network/CMakeFiles/libnetwork.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/stats/CMakeFiles/libstats.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

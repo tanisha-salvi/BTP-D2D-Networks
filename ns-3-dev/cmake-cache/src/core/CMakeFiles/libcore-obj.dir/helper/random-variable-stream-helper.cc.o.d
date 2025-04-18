@@ -1,9 +1,9 @@
 src/core/CMakeFiles/libcore-obj.dir/helper/random-variable-stream-helper.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/helper/random-variable-stream-helper.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/helper/random-variable-stream-helper.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/core/helper/random-variable-stream-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/helper/random-variable-stream-helper.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/string \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -19,13 +19,13 @@ src/core/CMakeFiles/libcore-obj.dir/helper/random-variable-stream-helper.cc.o: \
  /usr/include/c++/11/vector /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/pointer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/pointer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
@@ -116,6 +116,6 @@ src/core/CMakeFiles/libcore-obj.dir/helper/random-variable-stream-helper.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/random-variable-stream.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
  /usr/include/c++/11/map

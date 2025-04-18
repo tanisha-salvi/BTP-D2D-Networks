@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/rule
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ example-sixlowpan: src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/rule
 
 # fast build rule for target.
 example-sixlowpan/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build
 .PHONY : example-sixlowpan/fast
 
 # Convenience name for target.
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/rule
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ example-ping-lr-wpan: src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir
 
 # fast build rule for target.
 example-ping-lr-wpan/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build
 .PHONY : example-ping-lr-wpan/fast
 
 # Convenience name for target.
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/rule
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ example-ping-lr-wpan-beacon: src/sixlowpan/examples/CMakeFiles/example-ping-lr-w
 
 # fast build rule for target.
 example-ping-lr-wpan-beacon/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build
 .PHONY : example-ping-lr-wpan-beacon/fast
 
 # Convenience name for target.
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/rule
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/rule
 
 # Convenience name for target.
@@ -225,7 +225,7 @@ example-ping-lr-wpan-mesh-under: src/sixlowpan/examples/CMakeFiles/example-ping-
 
 # fast build rule for target.
 example-ping-lr-wpan-mesh-under/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build
 .PHONY : example-ping-lr-wpan-mesh-under/fast
 
 example-ping-lr-wpan-beacon.o: example-ping-lr-wpan-beacon.cc.o
@@ -233,7 +233,7 @@ example-ping-lr-wpan-beacon.o: example-ping-lr-wpan-beacon.cc.o
 
 # target to build an object file
 example-ping-lr-wpan-beacon.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/example-ping-lr-wpan-beacon.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/example-ping-lr-wpan-beacon.cc.o
 .PHONY : example-ping-lr-wpan-beacon.cc.o
 
 example-ping-lr-wpan-beacon.i: example-ping-lr-wpan-beacon.cc.i
@@ -241,7 +241,7 @@ example-ping-lr-wpan-beacon.i: example-ping-lr-wpan-beacon.cc.i
 
 # target to preprocess a source file
 example-ping-lr-wpan-beacon.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/example-ping-lr-wpan-beacon.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/example-ping-lr-wpan-beacon.cc.i
 .PHONY : example-ping-lr-wpan-beacon.cc.i
 
 example-ping-lr-wpan-beacon.s: example-ping-lr-wpan-beacon.cc.s
@@ -249,7 +249,7 @@ example-ping-lr-wpan-beacon.s: example-ping-lr-wpan-beacon.cc.s
 
 # target to generate assembly for a file
 example-ping-lr-wpan-beacon.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/example-ping-lr-wpan-beacon.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-beacon.dir/example-ping-lr-wpan-beacon.cc.s
 .PHONY : example-ping-lr-wpan-beacon.cc.s
 
 example-ping-lr-wpan-mesh-under.o: example-ping-lr-wpan-mesh-under.cc.o
@@ -257,7 +257,7 @@ example-ping-lr-wpan-mesh-under.o: example-ping-lr-wpan-mesh-under.cc.o
 
 # target to build an object file
 example-ping-lr-wpan-mesh-under.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o
 .PHONY : example-ping-lr-wpan-mesh-under.cc.o
 
 example-ping-lr-wpan-mesh-under.i: example-ping-lr-wpan-mesh-under.cc.i
@@ -265,7 +265,7 @@ example-ping-lr-wpan-mesh-under.i: example-ping-lr-wpan-mesh-under.cc.i
 
 # target to preprocess a source file
 example-ping-lr-wpan-mesh-under.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.i
 .PHONY : example-ping-lr-wpan-mesh-under.cc.i
 
 example-ping-lr-wpan-mesh-under.s: example-ping-lr-wpan-mesh-under.cc.s
@@ -273,7 +273,7 @@ example-ping-lr-wpan-mesh-under.s: example-ping-lr-wpan-mesh-under.cc.s
 
 # target to generate assembly for a file
 example-ping-lr-wpan-mesh-under.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.s
 .PHONY : example-ping-lr-wpan-mesh-under.cc.s
 
 example-ping-lr-wpan.o: example-ping-lr-wpan.cc.o
@@ -281,7 +281,7 @@ example-ping-lr-wpan.o: example-ping-lr-wpan.cc.o
 
 # target to build an object file
 example-ping-lr-wpan.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.o
 .PHONY : example-ping-lr-wpan.cc.o
 
 example-ping-lr-wpan.i: example-ping-lr-wpan.cc.i
@@ -289,7 +289,7 @@ example-ping-lr-wpan.i: example-ping-lr-wpan.cc.i
 
 # target to preprocess a source file
 example-ping-lr-wpan.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.i
 .PHONY : example-ping-lr-wpan.cc.i
 
 example-ping-lr-wpan.s: example-ping-lr-wpan.cc.s
@@ -297,7 +297,7 @@ example-ping-lr-wpan.s: example-ping-lr-wpan.cc.s
 
 # target to generate assembly for a file
 example-ping-lr-wpan.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.s
 .PHONY : example-ping-lr-wpan.cc.s
 
 example-sixlowpan.o: example-sixlowpan.cc.o
@@ -305,7 +305,7 @@ example-sixlowpan.o: example-sixlowpan.cc.o
 
 # target to build an object file
 example-sixlowpan.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.o
 .PHONY : example-sixlowpan.cc.o
 
 example-sixlowpan.i: example-sixlowpan.cc.i
@@ -313,7 +313,7 @@ example-sixlowpan.i: example-sixlowpan.cc.i
 
 # target to preprocess a source file
 example-sixlowpan.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.i
 .PHONY : example-sixlowpan.cc.i
 
 example-sixlowpan.s: example-sixlowpan.cc.s
@@ -321,7 +321,7 @@ example-sixlowpan.s: example-sixlowpan.cc.s
 
 # target to generate assembly for a file
 example-sixlowpan.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/build.make src/sixlowpan/examples/CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.s
 .PHONY : example-sixlowpan.cc.s
 
 # Help Target
@@ -364,7 +364,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

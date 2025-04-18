@@ -1,9 +1,9 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/non-ht/dsss-error-rate-model.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/non-ht/dsss-error-rate-model.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/non-ht/dsss-error-rate-model.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/non-ht/dsss-error-rate-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/non-ht/dsss-error-rate-model.h \
  /usr/include/c++/11/cstdint \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \

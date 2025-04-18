@@ -1,12 +1,12 @@
 contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/test/nr-spectrum-phy-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/test/nr-spectrum-phy-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/test/nr-spectrum-phy-test.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/test/nr-spectrum-phy-test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -27,11 +27,11 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
  /usr/include/c++/11/limits /usr/include/c++/11/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -119,27 +119,27 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/traced-callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traced-callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \
  /usr/include/c++/11/fstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/beam-manager.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/beam-manager.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beam-manager.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beamforming-vector.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beam-id.h \
  /usr/include/c++/11/complex /usr/include/c++/11/cmath \
  /usr/include/math.h /usr/include/c++/11/bits/std_abs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uniform-planar-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uniform-planar-array.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/uniform-planar-array.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /usr/include/c++/11/valarray /usr/include/c++/11/algorithm \
@@ -153,78 +153,78 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/event-id.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/net-device.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/type-id.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mac48-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ipv4-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ipv4-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ipv6-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ipv6-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/constant-position-mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/constant-position-mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/constant-position-mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/multi-model-spectrum-channel.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/multi-model-spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/multi-model-spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/phased-array-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/phased-array-model.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/channel.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/channel.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/propagation-delay-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/propagation-delay-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/random-variable-stream.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-converter.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nr-gnb-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-gnb-phy.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-gnb-phy.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/ideal-beamforming-algorithm.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-control-messages.h \
@@ -232,19 +232,19 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-error-model.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-mimo-chunk-processor.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-mimo-matrices.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/sfnsf.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
  /usr/include/c++/11/deque \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ff-mac-common.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ff-mac-common.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/model/ff-mac-common.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lte-rrc-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-rrc-sap.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-rrc-sap.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
@@ -260,28 +260,44 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-phy.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-phy-sap.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-mac-sched-sap.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet-burst.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet-burst.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-phy-mac-common.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-ue-phy-sap.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nr-spectrum-value-helper.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/helper/nr-spectrum-value-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lte-enb-cphy-sap.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-enb-cphy-sap.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-rrc-sap.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lte-enb-phy-sap.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-enb-phy-sap.h \
+ /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-ue-mac.h \
+ /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-ue-mac.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-ccm-mac-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-ccm-mac-sap.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/model/ff-mac-common.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/ff-mac-sched-sap.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-mac-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nr-interference.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-ue-cmac-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-ue-cmac-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-sl-tft.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-sl-comm-resource-pool.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/nr-sl-comm-resource-pool.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-rrc-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/nr-sl-ue-rrc.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/nr-sl-rrc-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-sl-mac-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/nr-sl-mac-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-sl-ue-cmac-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/nr-sl-ue-cmac-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-spectrum-value-helper.h \
+ /mnt/d/Downloads/ns-3-dev/contrib/nr/helper/nr-spectrum-value-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-enb-cphy-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-enb-cphy-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-enb-phy-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-enb-phy-sap.h \
+ /mnt/d/Downloads/ns-3-dev/src/lte/model/ff-mac-sched-sap.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-interference.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-interference.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lte-interference.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-interference.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-interference.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-signal-parameters.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-signal-parameters.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nr-spectrum-phy.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-spectrum-phy.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-spectrum-phy.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beam-manager.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-amc.h \
@@ -289,11 +305,11 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-spectrum-phy-test.cc.o: \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-chunk-processor.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-interference.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-spectrum-signal-parameters.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lte-chunk-processor.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lte-chunk-processor.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-chunk-processor.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-channel.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/traced-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traced-value.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \

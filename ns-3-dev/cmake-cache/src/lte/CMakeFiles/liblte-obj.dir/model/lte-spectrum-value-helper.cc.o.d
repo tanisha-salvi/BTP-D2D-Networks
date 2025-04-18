@@ -1,11 +1,11 @@
 src/lte/CMakeFiles/liblte-obj.dir/model/lte-spectrum-value-helper.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-spectrum-value-helper.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-spectrum-value-helper.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/lte/model/lte-spectrum-value-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lte/model/lte-spectrum-value-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -26,11 +26,11 @@ src/lte/CMakeFiles/liblte-obj.dir/model/lte-spectrum-value-helper.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
  /usr/include/c++/11/limits /usr/include/c++/11/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/fatal-error.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h /usr/include/c++/11/cmath \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \

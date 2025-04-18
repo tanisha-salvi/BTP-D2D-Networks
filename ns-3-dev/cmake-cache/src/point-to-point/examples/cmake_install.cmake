@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/point-to-point/examples
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/point-to-point/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

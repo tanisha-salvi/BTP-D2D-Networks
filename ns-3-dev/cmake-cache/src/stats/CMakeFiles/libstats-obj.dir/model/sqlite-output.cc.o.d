@@ -1,8 +1,8 @@
 src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-output.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/sqlite-output.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/sqlite-output.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/sqlite-output.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/sqlite-output.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -34,11 +34,11 @@ src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-output.cc.o: \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/bits/move.h \
  /usr/include/c++/11/ext/atomicity.h /usr/include/sqlite3.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
@@ -52,7 +52,7 @@ src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-output.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \

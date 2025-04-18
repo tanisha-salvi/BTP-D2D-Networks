@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/rule
 .PHONY : src/wimax/examples/CMakeFiles/wimax-ipv4.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ wimax-ipv4: src/wimax/examples/CMakeFiles/wimax-ipv4.dir/rule
 
 # fast build rule for target.
 wimax-ipv4/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build
 .PHONY : wimax-ipv4/fast
 
 # Convenience name for target.
 src/wimax/examples/CMakeFiles/wimax-multicast.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/CMakeFiles/wimax-multicast.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/CMakeFiles/wimax-multicast.dir/rule
 .PHONY : src/wimax/examples/CMakeFiles/wimax-multicast.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ wimax-multicast: src/wimax/examples/CMakeFiles/wimax-multicast.dir/rule
 
 # fast build rule for target.
 wimax-multicast/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/build
 .PHONY : wimax-multicast/fast
 
 # Convenience name for target.
 src/wimax/examples/CMakeFiles/wimax-simple.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/CMakeFiles/wimax-simple.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/wimax/examples/CMakeFiles/wimax-simple.dir/rule
 .PHONY : src/wimax/examples/CMakeFiles/wimax-simple.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ wimax-simple: src/wimax/examples/CMakeFiles/wimax-simple.dir/rule
 
 # fast build rule for target.
 wimax-simple/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/build
 .PHONY : wimax-simple/fast
 
 wimax-ipv4.o: wimax-ipv4.cc.o
@@ -219,7 +219,7 @@ wimax-ipv4.o: wimax-ipv4.cc.o
 
 # target to build an object file
 wimax-ipv4.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o
 .PHONY : wimax-ipv4.cc.o
 
 wimax-ipv4.i: wimax-ipv4.cc.i
@@ -227,7 +227,7 @@ wimax-ipv4.i: wimax-ipv4.cc.i
 
 # target to preprocess a source file
 wimax-ipv4.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.i
 .PHONY : wimax-ipv4.cc.i
 
 wimax-ipv4.s: wimax-ipv4.cc.s
@@ -235,7 +235,7 @@ wimax-ipv4.s: wimax-ipv4.cc.s
 
 # target to generate assembly for a file
 wimax-ipv4.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.s
 .PHONY : wimax-ipv4.cc.s
 
 wimax-multicast.o: wimax-multicast.cc.o
@@ -243,7 +243,7 @@ wimax-multicast.o: wimax-multicast.cc.o
 
 # target to build an object file
 wimax-multicast.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.o
 .PHONY : wimax-multicast.cc.o
 
 wimax-multicast.i: wimax-multicast.cc.i
@@ -251,7 +251,7 @@ wimax-multicast.i: wimax-multicast.cc.i
 
 # target to preprocess a source file
 wimax-multicast.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.i
 .PHONY : wimax-multicast.cc.i
 
 wimax-multicast.s: wimax-multicast.cc.s
@@ -259,7 +259,7 @@ wimax-multicast.s: wimax-multicast.cc.s
 
 # target to generate assembly for a file
 wimax-multicast.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-multicast.dir/build.make src/wimax/examples/CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.s
 .PHONY : wimax-multicast.cc.s
 
 wimax-simple.o: wimax-simple.cc.o
@@ -267,7 +267,7 @@ wimax-simple.o: wimax-simple.cc.o
 
 # target to build an object file
 wimax-simple.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o
 .PHONY : wimax-simple.cc.o
 
 wimax-simple.i: wimax-simple.cc.i
@@ -275,7 +275,7 @@ wimax-simple.i: wimax-simple.cc.i
 
 # target to preprocess a source file
 wimax-simple.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.i
 .PHONY : wimax-simple.cc.i
 
 wimax-simple.s: wimax-simple.cc.s
@@ -283,7 +283,7 @@ wimax-simple.s: wimax-simple.cc.s
 
 # target to generate assembly for a file
 wimax-simple.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.s
 .PHONY : wimax-simple.cc.s
 
 # Help Target
@@ -322,7 +322,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,7 +1,7 @@
 src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/test/power-save-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/test/power-save-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -18,27 +18,27 @@ src/wifi/CMakeFiles/libwifi-test.dir/test/power-save-test.cc.o: \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/header-serialization-test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/header-serialization-test.h \
  /mnt/d/Downloads/ns-3-dev/src/network/test/header-serialization-test.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/buffer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/buffer.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
  /usr/include/c++/11/cstring /usr/include/string.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/limits \
  /usr/include/c++/11/list /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/tim.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/tim.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/tim.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-information-element.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \

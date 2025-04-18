@@ -1,10 +1,10 @@
 contrib/nr/examples/CMakeFiles/cttc-nr-3gpp-calibration-user.dir/3gpp-outdoor-calibration/sinr-output-stats.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/examples/3gpp-outdoor-calibration/sinr-output-stats.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/examples/3gpp-outdoor-calibration/sinr-output-stats.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/examples/3gpp-outdoor-calibration/sinr-output-stats.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/sqlite-output.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/examples/3gpp-outdoor-calibration/sinr-output-stats.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/sqlite-output.h \
  /mnt/d/Downloads/ns-3-dev/src/stats/model/sqlite-output.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -36,7 +36,7 @@ contrib/nr/examples/CMakeFiles/cttc-nr-3gpp-calibration-user.dir/3gpp-outdoor-ca
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/bits/move.h \
  /usr/include/c++/11/ext/atomicity.h /usr/include/sqlite3.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/rng-seed-manager.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/rng-seed-manager.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/rng-seed-manager.h

@@ -1,10 +1,10 @@
 src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-signal-parameters.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-signal-parameters.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-signal-parameters.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
@@ -41,7 +41,7 @@ src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-signal-paramete
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
@@ -53,15 +53,15 @@ src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-signal-paramete
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/packet-burst.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/packet-burst.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /usr/include/c++/11/list \

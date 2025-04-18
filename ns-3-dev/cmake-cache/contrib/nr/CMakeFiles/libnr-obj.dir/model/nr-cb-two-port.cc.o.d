@@ -1,9 +1,9 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-two-port.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-cb-two-port.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-cb-two-port.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-cb-two-port.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-cb-type-one.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-cb-two-port.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-cb-type-one.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
@@ -40,7 +40,7 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-two-port.cc.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \

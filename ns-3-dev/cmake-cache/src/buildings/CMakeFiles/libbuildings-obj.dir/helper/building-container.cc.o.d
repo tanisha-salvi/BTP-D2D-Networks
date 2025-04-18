@@ -1,10 +1,10 @@
 src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/buildings/helper/building-container.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/helper/building-container.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/buildings/helper/building-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/building.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/helper/building-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/building.h \
  /mnt/d/Downloads/ns-3-dev/src/buildings/model/building.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -31,14 +31,14 @@ src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o: \
  /usr/include/c++/11/limits \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/box.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/box.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/box.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /usr/include/c++/11/list \
@@ -120,12 +120,12 @@ src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/building-list.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/building-list.h \
  /mnt/d/Downloads/ns-3-dev/src/buildings/model/building-list.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/names.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/names.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/names.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h

@@ -1,9 +1,9 @@
 src/core/CMakeFiles/libcore-test.dir/test/time-test-suite.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/test/time-test-suite.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/test/time-test-suite.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/int64x64.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/int64x64.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -12,7 +12,7 @@ src/core/CMakeFiles/libcore-test.dir/test/time-test-suite.cc.o: \
  /usr/include/c++/11/bits/std_abs.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/c++/11/iostream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -43,7 +43,7 @@ src/core/CMakeFiles/libcore-test.dir/test/time-test-suite.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/list \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include examples/naming/CMakeFiles/object-names.dir/depend.make
@@ -74,16 +74,16 @@ examples/naming/CMakeFiles/object-names.dir/object-names.cc.o: ../examples/namin
 examples/naming/CMakeFiles/object-names.dir/object-names.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 examples/naming/CMakeFiles/object-names.dir/object-names.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 examples/naming/CMakeFiles/object-names.dir/object-names.cc.o: examples/naming/CMakeFiles/object-names.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/naming/CMakeFiles/object-names.dir/object-names.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/naming/CMakeFiles/object-names.dir/object-names.cc.o -MF CMakeFiles/object-names.dir/object-names.cc.o.d -o CMakeFiles/object-names.dir/object-names.cc.o -c /mnt/d/Downloads/ns-3-dev/examples/naming/object-names.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/naming/CMakeFiles/object-names.dir/object-names.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/naming/CMakeFiles/object-names.dir/object-names.cc.o -MF CMakeFiles/object-names.dir/object-names.cc.o.d -o CMakeFiles/object-names.dir/object-names.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/naming/object-names.cc
 
 examples/naming/CMakeFiles/object-names.dir/object-names.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/object-names.dir/object-names.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/examples/naming/object-names.cc > CMakeFiles/object-names.dir/object-names.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/naming/object-names.cc > CMakeFiles/object-names.dir/object-names.cc.i
 
 examples/naming/CMakeFiles/object-names.dir/object-names.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/object-names.dir/object-names.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/examples/naming/object-names.cc -o CMakeFiles/object-names.dir/object-names.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/naming/object-names.cc -o CMakeFiles/object-names.dir/object-names.cc.s
 
 # Object files for target object-names
 object__names_OBJECTS = \
@@ -96,18 +96,18 @@ object__names_EXTERNAL_OBJECTS =
 ../build/examples/naming/ns3.42-object-names-default: examples/naming/CMakeFiles/object-names.dir/build.make
 ../build/examples/naming/ns3.42-object-names-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/examples/naming/ns3.42-object-names-default: examples/naming/CMakeFiles/object-names.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/naming/ns3.42-object-names-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/object-names.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/naming/ns3.42-object-names-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/object-names.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/naming/CMakeFiles/object-names.dir/build: ../build/examples/naming/ns3.42-object-names-default
 .PHONY : examples/naming/CMakeFiles/object-names.dir/build
 
 examples/naming/CMakeFiles/object-names.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming && $(CMAKE_COMMAND) -P CMakeFiles/object-names.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming && $(CMAKE_COMMAND) -P CMakeFiles/object-names.dir/cmake_clean.cmake
 .PHONY : examples/naming/CMakeFiles/object-names.dir/clean
 
 examples/naming/CMakeFiles/object-names.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/examples/naming /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/naming/CMakeFiles/object-names.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/naming /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/naming/CMakeFiles/object-names.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/naming/CMakeFiles/object-names.dir/depend
 

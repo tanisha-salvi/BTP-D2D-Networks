@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/energy//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/energy//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/energy/CMakeFiles/energy-model-example.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/CMakeFiles/energy-model-example.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/CMakeFiles/energy-model-example.dir/rule
 .PHONY : examples/energy/CMakeFiles/energy-model-example.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ energy-model-example: examples/energy/CMakeFiles/energy-model-example.dir/rule
 
 # fast build rule for target.
 energy-model-example/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/build
 .PHONY : energy-model-example/fast
 
 # Convenience name for target.
 examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/rule
 .PHONY : examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ energy-model-with-harvesting-example: examples/energy/CMakeFiles/energy-model-wi
 
 # fast build rule for target.
 energy-model-with-harvesting-example/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build
 .PHONY : energy-model-with-harvesting-example/fast
 
 energy-model-example.o: energy-model-example.cc.o
@@ -205,7 +205,7 @@ energy-model-example.o: energy-model-example.cc.o
 
 # target to build an object file
 energy-model-example.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/energy-model-example.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/energy-model-example.cc.o
 .PHONY : energy-model-example.cc.o
 
 energy-model-example.i: energy-model-example.cc.i
@@ -213,7 +213,7 @@ energy-model-example.i: energy-model-example.cc.i
 
 # target to preprocess a source file
 energy-model-example.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/energy-model-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/energy-model-example.cc.i
 .PHONY : energy-model-example.cc.i
 
 energy-model-example.s: energy-model-example.cc.s
@@ -221,7 +221,7 @@ energy-model-example.s: energy-model-example.cc.s
 
 # target to generate assembly for a file
 energy-model-example.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/energy-model-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-example.dir/build.make examples/energy/CMakeFiles/energy-model-example.dir/energy-model-example.cc.s
 .PHONY : energy-model-example.cc.s
 
 energy-model-with-harvesting-example.o: energy-model-with-harvesting-example.cc.o
@@ -229,7 +229,7 @@ energy-model-with-harvesting-example.o: energy-model-with-harvesting-example.cc.
 
 # target to build an object file
 energy-model-with-harvesting-example.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.o
 .PHONY : energy-model-with-harvesting-example.cc.o
 
 energy-model-with-harvesting-example.i: energy-model-with-harvesting-example.cc.i
@@ -237,7 +237,7 @@ energy-model-with-harvesting-example.i: energy-model-with-harvesting-example.cc.
 
 # target to preprocess a source file
 energy-model-with-harvesting-example.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.i
 .PHONY : energy-model-with-harvesting-example.cc.i
 
 energy-model-with-harvesting-example.s: energy-model-with-harvesting-example.cc.s
@@ -245,7 +245,7 @@ energy-model-with-harvesting-example.s: energy-model-with-harvesting-example.cc.
 
 # target to generate assembly for a file
 energy-model-with-harvesting-example.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/build.make examples/energy/CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.s
 .PHONY : energy-model-with-harvesting-example.cc.s
 
 # Help Target
@@ -280,7 +280,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

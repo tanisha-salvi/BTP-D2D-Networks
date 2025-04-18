@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include scratch/CMakeFiles/scratch_ues.dir/depend.make
@@ -74,16 +74,16 @@ scratch/CMakeFiles/scratch_ues.dir/ues.cc.o: ../scratch/ues.cc
 scratch/CMakeFiles/scratch_ues.dir/ues.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 scratch/CMakeFiles/scratch_ues.dir/ues.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 scratch/CMakeFiles/scratch_ues.dir/ues.cc.o: scratch/CMakeFiles/scratch_ues.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object scratch/CMakeFiles/scratch_ues.dir/ues.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_ues.dir/ues.cc.o -MF CMakeFiles/scratch_ues.dir/ues.cc.o.d -o CMakeFiles/scratch_ues.dir/ues.cc.o -c /mnt/d/Downloads/ns-3-dev/scratch/ues.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object scratch/CMakeFiles/scratch_ues.dir/ues.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_ues.dir/ues.cc.o -MF CMakeFiles/scratch_ues.dir/ues.cc.o.d -o CMakeFiles/scratch_ues.dir/ues.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/ues.cc
 
 scratch/CMakeFiles/scratch_ues.dir/ues.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scratch_ues.dir/ues.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/scratch/ues.cc > CMakeFiles/scratch_ues.dir/ues.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/ues.cc > CMakeFiles/scratch_ues.dir/ues.cc.i
 
 scratch/CMakeFiles/scratch_ues.dir/ues.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scratch_ues.dir/ues.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/scratch/ues.cc -o CMakeFiles/scratch_ues.dir/ues.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/ues.cc -o CMakeFiles/scratch_ues.dir/ues.cc.s
 
 # Object files for target scratch_ues
 scratch_ues_OBJECTS = \
@@ -96,18 +96,18 @@ scratch_ues_EXTERNAL_OBJECTS =
 ../build/scratch/ns3.42-ues-default: scratch/CMakeFiles/scratch_ues.dir/build.make
 ../build/scratch/ns3.42-ues-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/scratch/ns3.42-ues-default: scratch/CMakeFiles/scratch_ues.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../build/scratch/ns3.42-ues-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scratch_ues.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../build/scratch/ns3.42-ues-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scratch_ues.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 scratch/CMakeFiles/scratch_ues.dir/build: ../build/scratch/ns3.42-ues-default
 .PHONY : scratch/CMakeFiles/scratch_ues.dir/build
 
 scratch/CMakeFiles/scratch_ues.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -P CMakeFiles/scratch_ues.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -P CMakeFiles/scratch_ues.dir/cmake_clean.cmake
 .PHONY : scratch/CMakeFiles/scratch_ues.dir/clean
 
 scratch/CMakeFiles/scratch_ues.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/scratch /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch/CMakeFiles/scratch_ues.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch/CMakeFiles/scratch_ues.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scratch/CMakeFiles/scratch_ues.dir/depend
 

@@ -3,46 +3,37 @@
 cmake_policy(SET CMP0009 NEW)
 
 # scratch_subdirectories at scratch/CMakeLists.txt:83 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/d/Downloads/ns-3-dev/scratch/**")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/**")
 set(OLD_GLOB
-  "/mnt/d/Downloads/ns-3-dev/scratch/.gitignore"
-  "/mnt/d/Downloads/ns-3-dev/scratch/CMakeLists.txt"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nested-subdir"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified-1.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified-org.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/scratch-simulator.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/subdir"
-  "/mnt/d/Downloads/ns-3-dev/scratch/ues.cc"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/CMakeLists.txt"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/nested-subdir"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/scratch-simulator.cc"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/subdir"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/ues.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/cmake.verify_globs")
 endif()
 
 # single_source_file_scratches at scratch/CMakeLists.txt:77 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/d/Downloads/ns-3-dev/scratch/[^.]*.cc")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/[^.]*.cc")
 set(OLD_GLOB
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified-1.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified-org.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link-modified.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/nr-prose-unicast-single-link.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/scratch-simulator.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/ues.cc"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/scratch-simulator.cc"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/ues.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/cmake.verify_globs")
 endif()
 
 # scratch_sources at scratch/CMakeLists.txt:108 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/d/Downloads/ns-3-dev/scratch/subdir/[^.]*.cc")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/subdir/[^.]*.cc")
 set(OLD_GLOB
-  "/mnt/d/Downloads/ns-3-dev/scratch/subdir/scratch-subdir-additional-header.cc"
-  "/mnt/d/Downloads/ns-3-dev/scratch/subdir/scratch-subdir.cc"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/subdir/scratch-subdir-additional-header.cc"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/subdir/scratch-subdir.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/cmake.verify_globs")
 endif()

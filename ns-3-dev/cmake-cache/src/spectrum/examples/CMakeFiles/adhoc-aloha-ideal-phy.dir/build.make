@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/depend.make
@@ -74,16 +74,16 @@ src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o: src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o -MF CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o.d -o CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o -c /mnt/d/Downloads/ns-3-dev/src/spectrum/examples/adhoc-aloha-ideal-phy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o -MF CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o.d -o CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/spectrum/examples/adhoc-aloha-ideal-phy.cc
 
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/spectrum/examples/adhoc-aloha-ideal-phy.cc > CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/spectrum/examples/adhoc-aloha-ideal-phy.cc > CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.i
 
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/spectrum/examples/adhoc-aloha-ideal-phy.cc -o CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/spectrum/examples/adhoc-aloha-ideal-phy.cc -o CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.s
 
 # Object files for target adhoc-aloha-ideal-phy
 adhoc__aloha__ideal__phy_OBJECTS = \
@@ -96,18 +96,18 @@ adhoc__aloha__ideal__phy_EXTERNAL_OBJECTS =
 ../build/src/spectrum/examples/ns3.42-adhoc-aloha-ideal-phy-default: src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/build.make
 ../build/src/spectrum/examples/ns3.42-adhoc-aloha-ideal-phy-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/spectrum/examples/ns3.42-adhoc-aloha-ideal-phy-default: src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/spectrum/examples/ns3.42-adhoc-aloha-ideal-phy-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adhoc-aloha-ideal-phy.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/spectrum/examples/ns3.42-adhoc-aloha-ideal-phy-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adhoc-aloha-ideal-phy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/build: ../build/src/spectrum/examples/ns3.42-adhoc-aloha-ideal-phy-default
 .PHONY : src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/build
 
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples && $(CMAKE_COMMAND) -P CMakeFiles/adhoc-aloha-ideal-phy.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples && $(CMAKE_COMMAND) -P CMakeFiles/adhoc-aloha-ideal-phy.dir/cmake_clean.cmake
 .PHONY : src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/clean
 
 src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/spectrum/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/spectrum/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/depend
 

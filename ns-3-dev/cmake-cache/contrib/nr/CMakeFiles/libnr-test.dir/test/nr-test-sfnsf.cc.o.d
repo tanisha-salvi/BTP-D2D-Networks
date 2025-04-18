@@ -1,9 +1,9 @@
 contrib/nr/CMakeFiles/libnr-test.dir/test/nr-test-sfnsf.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/test/nr-test-sfnsf.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/test/nr-test-sfnsf.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/sfnsf.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/sfnsf.h \
  /mnt/d/Downloads/ns-3-dev/contrib/nr/model/sfnsf.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -23,7 +23,7 @@ contrib/nr/CMakeFiles/libnr-test.dir/test/nr-test-sfnsf.cc.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
  /usr/include/c++/11/limits \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \

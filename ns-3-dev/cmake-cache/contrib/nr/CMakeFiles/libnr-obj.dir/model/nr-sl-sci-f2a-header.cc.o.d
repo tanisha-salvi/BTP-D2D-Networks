@@ -1,12 +1,12 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2a-header.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-sci-f2a-header.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-sl-sci-f2a-header.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-sci-f2a-header.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-sl-sci-f2-header.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-sl-sci-f2a-header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-sl-sci-f2-header.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -25,7 +25,7 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2a-header.cc.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
@@ -114,6 +114,6 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2a-header.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/list \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
  /usr/include/c++/11/algorithm

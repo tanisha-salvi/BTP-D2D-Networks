@@ -1,12 +1,12 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/block-ack-window.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/block-ack-window.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/block-ack-window.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/block-ack-window.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-utils.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/block-ack-type.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-utils.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/block-ack-type.h \
  /usr/include/c++/11/ostream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/fatal-error.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
@@ -20,7 +20,7 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.o: \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -38,15 +38,15 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/block-ack-window.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h /usr/include/c++/11/list \
  /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/depend.make
@@ -74,16 +74,16 @@ src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-pi
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o: src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o -MF CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o.d -o CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o -c /mnt/d/Downloads/ns-3-dev/src/sixlowpan/examples/example-ping-lr-wpan-mesh-under.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o -MF CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o.d -o CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/sixlowpan/examples/example-ping-lr-wpan-mesh-under.cc
 
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/sixlowpan/examples/example-ping-lr-wpan-mesh-under.cc > CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/sixlowpan/examples/example-ping-lr-wpan-mesh-under.cc > CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.i
 
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/sixlowpan/examples/example-ping-lr-wpan-mesh-under.cc -o CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/sixlowpan/examples/example-ping-lr-wpan-mesh-under.cc -o CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.s
 
 # Object files for target example-ping-lr-wpan-mesh-under
 example__ping__lr__wpan__mesh__under_OBJECTS = \
@@ -96,18 +96,18 @@ example__ping__lr__wpan__mesh__under_EXTERNAL_OBJECTS =
 ../build/src/sixlowpan/examples/ns3.42-example-ping-lr-wpan-mesh-under-default: src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build.make
 ../build/src/sixlowpan/examples/ns3.42-example-ping-lr-wpan-mesh-under-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/sixlowpan/examples/ns3.42-example-ping-lr-wpan-mesh-under-default: src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/sixlowpan/examples/ns3.42-example-ping-lr-wpan-mesh-under-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example-ping-lr-wpan-mesh-under.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/sixlowpan/examples/ns3.42-example-ping-lr-wpan-mesh-under-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example-ping-lr-wpan-mesh-under.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build: ../build/src/sixlowpan/examples/ns3.42-example-ping-lr-wpan-mesh-under-default
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/build
 
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples && $(CMAKE_COMMAND) -P CMakeFiles/example-ping-lr-wpan-mesh-under.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples && $(CMAKE_COMMAND) -P CMakeFiles/example-ping-lr-wpan-mesh-under.dir/cmake_clean.cmake
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/clean
 
 src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/sixlowpan/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/sixlowpan/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/depend
 

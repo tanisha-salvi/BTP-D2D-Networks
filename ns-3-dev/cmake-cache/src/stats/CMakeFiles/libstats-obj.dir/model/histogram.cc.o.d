@@ -1,11 +1,11 @@
 src/stats/CMakeFiles/libstats-obj.dir/model/histogram.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/histogram.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/histogram.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/histogram.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/histogram.h \
  /usr/include/c++/11/ostream \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
@@ -13,7 +13,7 @@ src/stats/CMakeFiles/libstats-obj.dir/model/histogram.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/string \
  /usr/include/c++/11/type_traits /usr/include/c++/11/unordered_map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simulator.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
@@ -40,7 +40,7 @@ src/stats/CMakeFiles/libstats-obj.dir/model/histogram.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \

@@ -1,10 +1,10 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/wifi-standards.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-standards.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-standards.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-standards.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-band.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-standards.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-phy-band.h \
  /usr/include/c++/11/iostream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \

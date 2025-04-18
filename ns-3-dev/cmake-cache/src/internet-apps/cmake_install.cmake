@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/internet-apps
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-internet-apps-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-internet-apps-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-internet-apps-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-internet-apps-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-internet-apps-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-internet-apps-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-internet-apps-default.so")
@@ -67,25 +67,25 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/helper/dhcp-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/helper/ping-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/helper/radvd-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/helper/v4traceroute-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/dhcp-client.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/dhcp-header.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/dhcp-server.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/ping.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/radvd-interface.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/radvd-prefix.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/radvd.h"
-    "/mnt/d/Downloads/ns-3-dev/src/internet-apps/model/v4traceroute.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/internet-apps-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/helper/dhcp-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/helper/ping-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/helper/radvd-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/helper/v4traceroute-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/dhcp-client.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/dhcp-header.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/dhcp-server.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/ping.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/radvd-interface.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/radvd-prefix.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/radvd.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/internet-apps/model/v4traceroute.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/internet-apps-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/internet-apps/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/internet-apps/examples/cmake_install.cmake")
 
 endif()
 

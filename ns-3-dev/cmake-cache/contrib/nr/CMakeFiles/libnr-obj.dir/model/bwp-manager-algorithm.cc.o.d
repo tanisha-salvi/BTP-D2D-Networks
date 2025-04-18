@@ -1,10 +1,10 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-algorithm.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/bwp-manager-algorithm.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/bwp-manager-algorithm.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/bwp-manager-algorithm.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/eps-bearer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/bwp-manager-algorithm.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/eps-bearer.h \
  /mnt/d/Downloads/ns-3-dev/src/lte/model/eps-bearer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
@@ -109,12 +109,12 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-algorithm.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/list \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uinteger.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h

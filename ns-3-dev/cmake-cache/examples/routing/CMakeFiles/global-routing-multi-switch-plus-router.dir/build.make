@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/depend.make
@@ -74,16 +74,16 @@ examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-r
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o: examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o -MF CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o.d -o CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o -c /mnt/d/Downloads/ns-3-dev/examples/routing/global-routing-multi-switch-plus-router.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o -MF CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o.d -o CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing/global-routing-multi-switch-plus-router.cc
 
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/examples/routing/global-routing-multi-switch-plus-router.cc > CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing/global-routing-multi-switch-plus-router.cc > CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.i
 
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/examples/routing/global-routing-multi-switch-plus-router.cc -o CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing/global-routing-multi-switch-plus-router.cc -o CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.s
 
 # Object files for target global-routing-multi-switch-plus-router
 global__routing__multi__switch__plus__router_OBJECTS = \
@@ -96,18 +96,18 @@ global__routing__multi__switch__plus__router_EXTERNAL_OBJECTS =
 ../build/examples/routing/ns3.42-global-routing-multi-switch-plus-router-default: examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make
 ../build/examples/routing/ns3.42-global-routing-multi-switch-plus-router-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/examples/routing/ns3.42-global-routing-multi-switch-plus-router-default: examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/routing/ns3.42-global-routing-multi-switch-plus-router-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/global-routing-multi-switch-plus-router.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/routing/ns3.42-global-routing-multi-switch-plus-router-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/global-routing-multi-switch-plus-router.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build: ../build/examples/routing/ns3.42-global-routing-multi-switch-plus-router-default
 .PHONY : examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build
 
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -P CMakeFiles/global-routing-multi-switch-plus-router.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -P CMakeFiles/global-routing-multi-switch-plus-router.dir/cmake_clean.cmake
 .PHONY : examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/clean
 
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/examples/routing /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/depend
 

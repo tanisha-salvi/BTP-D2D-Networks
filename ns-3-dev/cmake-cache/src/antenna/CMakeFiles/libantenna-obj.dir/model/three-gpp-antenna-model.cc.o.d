@@ -1,10 +1,10 @@
 src/antenna/CMakeFiles/libantenna-obj.dir/model/three-gpp-antenna-model.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/antenna/model/three-gpp-antenna-model.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/antenna/model/three-gpp-antenna-model.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/antenna/model/three-gpp-antenna-model.h \
- /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
- /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/antenna/model/three-gpp-antenna-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/antenna/model/antenna-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/antenna/model/angles.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
@@ -32,7 +32,7 @@ src/antenna/CMakeFiles/libantenna-obj.dir/model/three-gpp-antenna-model.cc.o: \
  /usr/include/c++/11/limits \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /usr/include/c++/11/list \
@@ -114,9 +114,9 @@ src/antenna/CMakeFiles/libantenna-obj.dir/model/three-gpp-antenna-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h /usr/include/c++/11/cmath \
  /usr/include/math.h /usr/include/c++/11/bits/std_abs.h

@@ -12,14 +12,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/internet/CMakeFiles/libinternet.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/csma/CMakeFiles/libcsma.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/point-to-point/CMakeFiles/libpoint-to-point.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/bridge/CMakeFiles/libbridge.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/traffic-control/CMakeFiles/libtraffic-control.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/network/CMakeFiles/libnetwork.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/stats/CMakeFiles/libstats.dir/DependInfo.cmake"
-  "/mnt/d/Downloads/ns-3-dev/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/internet/CMakeFiles/libinternet.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/csma/CMakeFiles/libcsma.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/point-to-point/CMakeFiles/libpoint-to-point.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/bridge/CMakeFiles/libbridge.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/traffic-control/CMakeFiles/libtraffic-control.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/network/CMakeFiles/libnetwork.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/stats/CMakeFiles/libstats.dir/DependInfo.cmake"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

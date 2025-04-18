@@ -1,7 +1,7 @@
 src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/test/wifi-ru-allocation-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/test/wifi-ru-allocation-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \
@@ -10,11 +10,11 @@ src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.o: \
  /usr/include/c++/11/limits /usr/include/c++/11/list \
  /usr/include/c++/11/sstream /usr/include/c++/11/string \
  /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/wifi-phy-operating-channel.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/wifi-phy-operating-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-operating-channel.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-band.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-standards.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -29,7 +29,7 @@ src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-ru-allocation-test.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
  /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-ru.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-ru.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-ru.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/set \
  /usr/include/c++/11/tuple

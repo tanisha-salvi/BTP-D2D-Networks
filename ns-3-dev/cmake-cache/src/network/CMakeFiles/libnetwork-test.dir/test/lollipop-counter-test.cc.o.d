@@ -1,9 +1,9 @@
 src/network/CMakeFiles/libnetwork-test.dir/test/lollipop-counter-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/network/test/lollipop-counter-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/network/test/lollipop-counter-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/lollipop-counter.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/lollipop-counter.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/lollipop-counter.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -21,7 +21,7 @@ src/network/CMakeFiles/libnetwork-test.dir/test/lollipop-counter-test.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
  /usr/include/c++/11/limits \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/wimax/examples/CMakeFiles/wimax-ipv4.dir/depend.make
@@ -74,16 +74,16 @@ src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o: ../src/wimax/examp
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o: src/wimax/examples/CMakeFiles/wimax-ipv4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o -MF CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o.d -o CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o -c /mnt/d/Downloads/ns-3-dev/src/wimax/examples/wimax-ipv4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o -MF CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o.d -o CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples/wimax-ipv4.cc
 
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/wimax/examples/wimax-ipv4.cc > CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples/wimax-ipv4.cc > CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.i
 
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/wimax/examples/wimax-ipv4.cc -o CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples/wimax-ipv4.cc -o CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.s
 
 # Object files for target wimax-ipv4
 wimax__ipv4_OBJECTS = \
@@ -96,18 +96,18 @@ wimax__ipv4_EXTERNAL_OBJECTS =
 ../build/src/wimax/examples/ns3.42-wimax-ipv4-default: src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build.make
 ../build/src/wimax/examples/ns3.42-wimax-ipv4-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/wimax/examples/ns3.42-wimax-ipv4-default: src/wimax/examples/CMakeFiles/wimax-ipv4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/wimax/examples/ns3.42-wimax-ipv4-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wimax-ipv4.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/wimax/examples/ns3.42-wimax-ipv4-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wimax-ipv4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build: ../build/src/wimax/examples/ns3.42-wimax-ipv4-default
 .PHONY : src/wimax/examples/CMakeFiles/wimax-ipv4.dir/build
 
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -P CMakeFiles/wimax-ipv4.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -P CMakeFiles/wimax-ipv4.dir/cmake_clean.cmake
 .PHONY : src/wimax/examples/CMakeFiles/wimax-ipv4.dir/clean
 
 src/wimax/examples/CMakeFiles/wimax-ipv4.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/wimax/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples/CMakeFiles/wimax-ipv4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples/CMakeFiles/wimax-ipv4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/wimax/examples/CMakeFiles/wimax-ipv4.dir/depend
 

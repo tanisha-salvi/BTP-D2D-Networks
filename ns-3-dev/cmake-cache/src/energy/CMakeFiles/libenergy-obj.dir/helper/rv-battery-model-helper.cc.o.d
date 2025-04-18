@@ -1,20 +1,20 @@
 src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/energy/helper/rv-battery-model-helper.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/rv-battery-model-helper.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/energy/helper/rv-battery-model-helper.h \
- /mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-model-helper.h \
- /mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-source-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/energy-source.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/rv-battery-model-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/energy-model-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/energy-source-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/energy-source.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/model/energy-source.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/model/device-energy-model-container.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/model/device-energy-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/node.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/node.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
@@ -29,7 +29,7 @@ src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o: \
  /usr/include/c++/11/vector /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
@@ -41,13 +41,13 @@ src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o: \
  /usr/include/c++/11/limits \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/type-id.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
@@ -126,50 +126,50 @@ src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-base.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
  /usr/include/c++/11/list \
  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mac48-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ipv4-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ipv4-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ipv6-address.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ipv6-address.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/model/energy-harvester.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/energy-source-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/energy-source-container.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-source-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/device-energy-model-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/device-energy-model-container.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/model/device-energy-model-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/device-energy-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/device-energy-model.h \
  /mnt/d/Downloads/ns-3-dev/src/energy/model/device-energy-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/net-device-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/net-device-container.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/net-device.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/net-device.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/node-container.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/node-container.h \
  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object-factory.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object-factory.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h

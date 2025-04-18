@@ -1,15 +1,15 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/table-based-error-rate-model.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/table-based-error-rate-model.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/table-based-error-rate-model.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/error-rate-model.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-mode.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-common.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-spectrum-value-helper.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/spectrum-value.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/table-based-error-rate-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/error-rate-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-mode.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-phy-common.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-spectrum-value-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/simple-ref-count.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -30,16 +30,16 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
  /usr/include/c++/11/limits /usr/include/c++/11/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-standards.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-phy-band.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/abort.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-standards.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-phy-band.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /usr/include/c++/11/list /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/fatal-error.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute-helper.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
@@ -48,7 +48,7 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
  /usr/include/c++/11/sstream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /usr/include/c++/11/functional /usr/include/c++/11/memory \
@@ -118,7 +118,7 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o: \
  /usr/include/c++/11/bits/stl_pair.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
@@ -131,38 +131,38 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/table-based-error-rate-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/error-rate-tables.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/error-rate-tables.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/reference/error-rate-tables.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/optional \
  /usr/include/c++/11/initializer_list \
  /usr/include/c++/11/bits/enable_special_members.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-tx-vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/he-ru.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-tx-vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/he-ru.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/he/he-ru.h \
  /usr/include/c++/11/set \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/wifi-utils.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/block-ack-type.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/nstime.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/wifi-utils.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/block-ack-type.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/yans-error-rate-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/dsss-error-rate-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/yans-error-rate-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/dsss-error-rate-model.h \
  /mnt/d/Downloads/ns-3-dev/src/wifi/model/non-ht/dsss-error-rate-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/pointer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/pointer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/string.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/string.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uinteger.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
  /usr/include/c++/11/algorithm

@@ -1,6 +1,6 @@
 ---- Summary of ns-3 settings:
 Build profile                 : default
-Build directory               : /mnt/d/Downloads/ns-3-dev/build
+Build directory               : /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build
 Build with runtime asserts    : [32mON[0m
 Build with runtime logging    : [32mON[0m
 Build version embedding       : OFF (not requested)

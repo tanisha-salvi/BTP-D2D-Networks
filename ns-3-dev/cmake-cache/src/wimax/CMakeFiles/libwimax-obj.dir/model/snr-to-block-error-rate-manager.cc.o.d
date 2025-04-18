@@ -1,9 +1,9 @@
 src/wimax/CMakeFiles/libwimax-obj.dir/model/snr-to-block-error-rate-manager.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/snr-to-block-error-rate-manager.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/snr-to-block-error-rate-manager.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/snr-to-block-error-rate-manager.h \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/snr-to-block-error-rate-record.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/ptr.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/snr-to-block-error-rate-manager.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/snr-to-block-error-rate-record.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
@@ -21,10 +21,10 @@ src/wimax/CMakeFiles/libwimax-obj.dir/model/snr-to-block-error-rate-manager.cc.o
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/exception /usr/include/c++/11/string_view \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/default-traces.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/default-traces.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/sstream

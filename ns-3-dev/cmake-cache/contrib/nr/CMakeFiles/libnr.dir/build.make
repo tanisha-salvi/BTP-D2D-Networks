@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include contrib/nr/CMakeFiles/libnr.dir/depend.make
@@ -74,141 +74,141 @@ libnr_OBJECTS =
 
 # External object files for target libnr
 libnr_EXTERNAL_OBJECTS = \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-matrices-eigen.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-phy-rx-trace.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-mac-rx-trace.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-point-to-point-epc-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-bearer-stats-calculator.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-bearer-stats-simple.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-bearer-stats-connector.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/beamforming-helper-base.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/ideal-beamforming-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/realistic-beamforming-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/node-distribution-scenario-interface.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/grid-scenario-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/hexagonal-grid-scenario-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/file-scenario-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/cc-bwp-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-radio-environment-map-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-spectrum-value-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/scenario-parameters.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/three-gpp-ftp-m1-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-stats-calculator.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-mac-scheduling-stats.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-sl-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-sl-stats-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-net-device.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-gnb-net-device.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-net-device.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-phy.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-gnb-phy.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-phy.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-spectrum-phy.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-interference.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-rr.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-pf.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-rr.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-pf.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-qos.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-qos.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-control-messages.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-spectrum-signal-parameters.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-radio-bearer-tag.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-amc.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-phy-mac-common.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-sched-sap.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-phy-sap.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-lte-mi-error-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-gnb-mac.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-mac.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-rrc-protocol-ideal.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-vs.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-vs-ul.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-vs-dl.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-fs.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-fs-ul.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-fs-dl.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-short-bsr-ce.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-harq-phy.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bandwidth-part-gnb.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bandwidth-part-ue.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-gnb.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-ue.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-algorithm.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-harq-vector.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-harq-rr.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-cqi-management.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lcg.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ns3.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-mr.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-mr.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ue-info-qos.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ue-info.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ue-info-pf.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lc-alg.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lc-rr.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lc-qos.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-error-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-t1.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-t2.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-ir.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-cc.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-ir-t1.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-ir-t2.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-cc-t1.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-cc-t2.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-error-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ch-access-manager.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/beam-id.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/beamforming-vector.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/beam-manager.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/ideal-beamforming-algorithm.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/realistic-beamforming-algorithm.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/sfnsf.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/lena-error-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-srs-default.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-power-control.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/realistic-bf-manager.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-bwp-manager-ue.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-chunk-processor.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-comm-resource-pool-factory.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-interference.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-mac-pdu-tag.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-phy-mac-common.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f1a-header.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2a-header.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2-header.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-harq.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler-dst-info.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler-lcg.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler-fixed-mcs.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-phy-sap.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/distance-based-three-gpp-spectrum-propagation-loss-model.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/helper/traffic-generator-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ftp-single.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-ftp-multi.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-video.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-gaming.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-voip.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-3gpp-pose-control.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-3gpp-audio-data.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-3gpp-generic-video.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/helper/xr-traffic-mixer-helper.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-two-port.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one-sp.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-chunk-processor.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-matrices.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-pm-search-full.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-pm-search.cc.o" \
-"/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-signal.cc.o"
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-matrices-eigen.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-phy-rx-trace.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-mac-rx-trace.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-point-to-point-epc-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-bearer-stats-calculator.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-bearer-stats-simple.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-bearer-stats-connector.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/beamforming-helper-base.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/ideal-beamforming-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/realistic-beamforming-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/node-distribution-scenario-interface.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/grid-scenario-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/hexagonal-grid-scenario-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/file-scenario-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/cc-bwp-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-radio-environment-map-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-spectrum-value-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/scenario-parameters.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/three-gpp-ftp-m1-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-stats-calculator.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-mac-scheduling-stats.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-sl-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-sl-stats-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-net-device.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-gnb-net-device.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-net-device.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-phy.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-gnb-phy.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-phy.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-spectrum-phy.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-interference.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-rr.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-pf.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-rr.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-pf.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-qos.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-qos.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-control-messages.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-spectrum-signal-parameters.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-radio-bearer-tag.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-amc.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-phy-mac-common.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-sched-sap.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-phy-sap.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-lte-mi-error-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-gnb-mac.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-mac.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-rrc-protocol-ideal.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-vs.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-vs-ul.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-vs-dl.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-fs.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-fs-ul.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-header-fs-dl.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-short-bsr-ce.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-harq-phy.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bandwidth-part-gnb.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bandwidth-part-ue.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-gnb.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-ue.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/bwp-manager-algorithm.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-harq-vector.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-harq-rr.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-cqi-management.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lcg.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ns3.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ofdma-mr.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-tdma-mr.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ue-info-qos.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ue-info.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-ue-info-pf.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lc-alg.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lc-rr.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-lc-qos.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-error-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-t1.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-t2.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-ir.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-cc.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-ir-t1.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-ir-t2.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-cc-t1.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-eesm-cc-t2.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-error-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ch-access-manager.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/beam-id.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/beamforming-vector.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/beam-manager.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/ideal-beamforming-algorithm.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/realistic-beamforming-algorithm.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/sfnsf.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/lena-error-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mac-scheduler-srs-default.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-ue-power-control.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/realistic-bf-manager.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-bwp-manager-ue.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-chunk-processor.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-comm-resource-pool-factory.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-interference.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-mac-pdu-tag.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-phy-mac-common.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f1a-header.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2a-header.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-sci-f2-header.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-harq.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler-dst-info.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler-lcg.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-mac-scheduler-fixed-mcs.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-sl-ue-phy-sap.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/distance-based-three-gpp-spectrum-propagation-loss-model.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/helper/traffic-generator-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ftp-single.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-ftp-multi.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-video.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-gaming.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-ngmn-voip.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-3gpp-pose-control.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-3gpp-audio-data.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/model/traffic-generator-3gpp-generic-video.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/utils/traffic-generators/helper/xr-traffic-mixer-helper.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-two-port.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one-sp.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-chunk-processor.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-matrices.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-pm-search-full.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-pm-search.cc.o" \
+"/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-signal.cc.o"
 
 ../build/lib/libns3.42-nr-default.so: contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-matrices-eigen.cc.o
 ../build/lib/libns3.42-nr-default.so: contrib/nr/CMakeFiles/libnr-obj.dir/helper/nr-helper.cc.o
@@ -348,18 +348,18 @@ libnr_EXTERNAL_OBJECTS = \
 ../build/lib/libns3.42-nr-default.so: contrib/nr/CMakeFiles/libnr.dir/build.make
 ../build/lib/libns3.42-nr-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/lib/libns3.42-nr-default.so: contrib/nr/CMakeFiles/libnr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.42-nr-default.so"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libnr.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.42-nr-default.so"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libnr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 contrib/nr/CMakeFiles/libnr.dir/build: ../build/lib/libns3.42-nr-default.so
 .PHONY : contrib/nr/CMakeFiles/libnr.dir/build
 
 contrib/nr/CMakeFiles/libnr.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr && $(CMAKE_COMMAND) -P CMakeFiles/libnr.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr && $(CMAKE_COMMAND) -P CMakeFiles/libnr.dir/cmake_clean.cmake
 .PHONY : contrib/nr/CMakeFiles/libnr.dir/clean
 
 contrib/nr/CMakeFiles/libnr.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/contrib/nr /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/CMakeFiles/libnr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : contrib/nr/CMakeFiles/libnr.dir/depend
 

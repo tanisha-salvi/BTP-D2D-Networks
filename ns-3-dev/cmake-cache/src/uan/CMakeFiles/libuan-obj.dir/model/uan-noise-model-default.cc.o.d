@@ -1,9 +1,9 @@
 src/uan/CMakeFiles/libuan-obj.dir/model/uan-noise-model-default.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/uan/model/uan-noise-model-default.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/uan/model/uan-noise-model-default.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/uan/model/uan-noise-model-default.h \
- /mnt/d/Downloads/ns-3-dev/src/uan/model/uan-noise-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/uan/model/uan-noise-model-default.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/uan/model/uan-noise-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -109,9 +109,9 @@ src/uan/CMakeFiles/libuan-obj.dir/model/uan-noise-model-default.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/attribute.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/attribute.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
  /usr/include/c++/11/cmath /usr/include/math.h \

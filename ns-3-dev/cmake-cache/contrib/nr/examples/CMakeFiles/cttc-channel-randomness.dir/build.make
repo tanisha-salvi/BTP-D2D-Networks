@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/depend.make
@@ -74,16 +74,16 @@ contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomne
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o: contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o -MF CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o.d -o CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o -c /mnt/d/Downloads/ns-3-dev/contrib/nr/examples/cttc-channel-randomness.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o -MF CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o.d -o CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/examples/cttc-channel-randomness.cc
 
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/contrib/nr/examples/cttc-channel-randomness.cc > CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/examples/cttc-channel-randomness.cc > CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.i
 
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/contrib/nr/examples/cttc-channel-randomness.cc -o CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/examples/cttc-channel-randomness.cc -o CMakeFiles/cttc-channel-randomness.dir/cttc-channel-randomness.cc.s
 
 # Object files for target cttc-channel-randomness
 cttc__channel__randomness_OBJECTS = \
@@ -96,18 +96,18 @@ cttc__channel__randomness_EXTERNAL_OBJECTS =
 ../build/contrib/nr/examples/ns3.42-cttc-channel-randomness-default: contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/build.make
 ../build/contrib/nr/examples/ns3.42-cttc-channel-randomness-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/contrib/nr/examples/ns3.42-cttc-channel-randomness-default: contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/contrib/nr/examples/ns3.42-cttc-channel-randomness-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cttc-channel-randomness.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/contrib/nr/examples/ns3.42-cttc-channel-randomness-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cttc-channel-randomness.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/build: ../build/contrib/nr/examples/ns3.42-cttc-channel-randomness-default
 .PHONY : contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/build
 
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples && $(CMAKE_COMMAND) -P CMakeFiles/cttc-channel-randomness.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples && $(CMAKE_COMMAND) -P CMakeFiles/cttc-channel-randomness.dir/cmake_clean.cmake
 .PHONY : contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/clean
 
 contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/contrib/nr/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : contrib/nr/examples/CMakeFiles/cttc-channel-randomness.dir/depend
 

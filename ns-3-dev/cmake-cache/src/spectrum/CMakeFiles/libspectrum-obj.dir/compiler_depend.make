@@ -6,17 +6,17 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
   /usr/include/stdc-predef.h \
   ../src/spectrum/helper/adhoc-aloha-noack-ideal-phy-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -27,33 +27,33 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   ../build/include/ns3/net-device-container.h \
-  ../src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -136,120 +136,120 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node-container.h \
-  ../src/network/helper/node-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   ../build/include/ns3/aloha-noack-net-device.h \
-  ../src/spectrum/model/aloha-noack-net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/aloha-noack-net-device.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/generic-phy.h \
-  ../src/network/utils/generic-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/generic-phy.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/config.h \
-  ../src/core/model/config.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
   ../build/include/ns3/half-duplex-ideal-phy.h \
-  ../src/spectrum/model/half-duplex-ideal-phy.h \
-  ../src/spectrum/model/spectrum-channel.h \
-  ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-value.h \
-  ../src/spectrum/model/spectrum-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/half-duplex-ideal-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/initializer_list \
@@ -262,52 +262,52 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
   /usr/include/c++/11/bits/gslice_array.h \
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
-  ../src/spectrum/model/spectrum-phy.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-signal-parameters.h \
-  ../src/spectrum/model/spectrum-transmit-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-interference.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-interference.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/names.h \
-  ../src/core/model/names.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/names.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/spectrum-channel.h \
-  ../src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
   ../build/include/ns3/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/helper/spectrum-analyzer-helper.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/helper/spectrum-analyzer-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -318,33 +318,33 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   ../build/include/ns3/net-device-container.h \
-  ../src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -427,131 +427,131 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node-container.h \
-  ../src/network/helper/node-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/config.h \
-  ../src/core/model/config.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/names.h \
-  ../src/core/model/names.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/names.h \
   ../build/include/ns3/non-communicating-net-device.h \
-  ../src/spectrum/model/non-communicating-net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/non-communicating-net-device.h \
   ../build/include/ns3/output-stream-wrapper.h \
-  ../src/network/utils/output-stream-wrapper.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/output-stream-wrapper.h \
   /usr/include/c++/11/fstream \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/spectrum-analyzer.h \
-  ../src/spectrum/model/spectrum-analyzer.h \
-  ../src/spectrum/model/spectrum-channel.h \
-  ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-value.h \
-  ../src/spectrum/model/spectrum-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-analyzer.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/initializer_list \
@@ -564,42 +564,42 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
   /usr/include/c++/11/bits/gslice_array.h \
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
-  ../src/spectrum/model/spectrum-phy.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-signal-parameters.h \
-  ../src/spectrum/model/spectrum-transmit-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/spectrum-channel.h \
-  ../src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
   ../build/include/ns3/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
   ../build/include/ns3/trace-helper.h \
-  ../src/network/helper/trace-helper.h \
-  ../src/network/helper/net-device-container.h \
-  ../src/network/helper/node-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/trace-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
   ../build/include/ns3/pcap-file-wrapper.h \
-  ../src/network/utils/pcap-file-wrapper.h \
-  ../src/network/utils/pcap-file.h
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/pcap-file-wrapper.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/pcap-file.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/helper/spectrum-helper.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/helper/spectrum-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -610,33 +610,33 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o: CMakeFi
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   ../build/include/ns3/net-device-container.h \
-  ../src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -719,81 +719,81 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o: CMakeFi
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node-container.h \
-  ../src/network/helper/node-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-value.h \
-  ../src/spectrum/model/spectrum-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/config.h \
-  ../src/core/model/config.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
   ../build/include/ns3/half-duplex-ideal-phy.h \
-  ../src/spectrum/model/half-duplex-ideal-phy.h \
-  ../src/spectrum/model/spectrum-channel.h \
-  ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/half-duplex-ideal-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -810,68 +810,68 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o: CMakeFi
   /usr/include/c++/11/bits/gslice_array.h \
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
-  ../src/spectrum/model/spectrum-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-signal-parameters.h \
-  ../src/spectrum/model/spectrum-transmit-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
-  ../src/spectrum/model/spectrum-interference.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-interference.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/generic-phy.h \
-  ../src/network/utils/generic-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/generic-phy.h \
   ../build/include/ns3/multi-model-spectrum-channel.h \
-  ../src/spectrum/model/multi-model-spectrum-channel.h \
-  ../src/spectrum/model/spectrum-converter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/multi-model-spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-converter.h \
   ../build/include/ns3/names.h \
-  ../src/core/model/names.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/names.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/single-model-spectrum-channel.h \
-  ../src/spectrum/model/single-model-spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/single-model-spectrum-channel.h \
   ../build/include/ns3/spectrum-channel.h \
-  ../src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
   ../build/include/ns3/spectrum-phy.h \
-  ../src/spectrum/model/spectrum-phy.h
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/helper/tv-spectrum-transmitter-helper.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/helper/tv-spectrum-transmitter-helper.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -882,17 +882,17 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -976,93 +976,93 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/net-device-container.h \
-  ../src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/node-container.h \
-  ../src/network/helper/node-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/non-communicating-net-device.h \
-  ../src/spectrum/model/non-communicating-net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/non-communicating-net-device.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/spectrum-channel.h \
-  ../src/spectrum/model/spectrum-channel.h \
-  ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-value.h \
-  ../src/spectrum/model/spectrum-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -1079,69 +1079,69 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
   /usr/include/c++/11/bits/gslice_array.h \
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
-  ../src/spectrum/model/spectrum-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-signal-parameters.h \
-  ../src/spectrum/model/spectrum-transmit-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/spectrum-phy.h \
-  ../src/spectrum/model/spectrum-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/spectrum-signal-parameters.h \
-  ../src/spectrum/model/spectrum-signal-parameters.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/spectrum-value.h \
-  ../src/spectrum/model/spectrum-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
   ../build/include/ns3/tv-spectrum-transmitter.h \
-  ../src/spectrum/model/tv-spectrum-transmitter.h \
-  ../src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/tv-spectrum-transmitter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/geographic-positions.h \
-  ../src/mobility/model/geographic-positions.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/geographic-positions.h \
   ../build/include/ns3/isotropic-antenna-model.h \
-  ../src/antenna/model/isotropic-antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/isotropic-antenna-model.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/mobility-helper.h \
-  ../src/mobility/helper/mobility-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/helper/mobility-helper.h \
   ../build/include/ns3/output-stream-wrapper.h \
-  ../src/network/utils/output-stream-wrapper.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/output-stream-wrapper.h \
   /usr/include/c++/11/fstream \
   ../build/include/ns3/position-allocator.h \
-  ../src/mobility/model/position-allocator.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/position-allocator.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/helper/waveform-generator-helper.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/helper/waveform-generator-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1152,33 +1152,33 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   ../build/include/ns3/net-device-container.h \
-  ../src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1261,127 +1261,127 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node-container.h \
-  ../src/network/helper/node-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/config.h \
-  ../src/core/model/config.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/config.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/names.h \
-  ../src/core/model/names.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/names.h \
   ../build/include/ns3/non-communicating-net-device.h \
-  ../src/spectrum/model/non-communicating-net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/non-communicating-net-device.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/spectrum-channel.h \
-  ../src/spectrum/model/spectrum-channel.h \
-  ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-value.h \
-  ../src/spectrum/model/spectrum-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/initializer_list \
@@ -1394,45 +1394,45 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
   /usr/include/c++/11/bits/gslice_array.h \
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
-  ../src/spectrum/model/spectrum-phy.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-signal-parameters.h \
-  ../src/spectrum/model/spectrum-transmit-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/spectrum-propagation-loss-model.h \
-  ../src/spectrum/model/spectrum-propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h \
   ../build/include/ns3/waveform-generator.h \
-  ../src/spectrum/model/waveform-generator.h \
-  ../src/spectrum/model/spectrum-channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/waveform-generator.h \
+  /mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/aloha-noack-mac-header.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/aloha-noack-mac-header.h \
   ../build/include/ns3/address-utils.h \
-  ../src/network/utils/address-utils.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/address-utils.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/string \
   /usr/include/c++/11/type_traits \
@@ -1443,36 +1443,36 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o: C
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/utils/mac16-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/mac64-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac16-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac64-address.h \
   ../build/include/ns3/buffer.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   ../build/include/ns3/header.h \
-  ../src/network/model/header.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1555,36 +1555,36 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o: C
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/aloha-noack-net-device.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/aloha-noack-net-device.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1597,26 +1597,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o: C
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/list \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1700,85 +1700,85 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o: C
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   ../build/include/ns3/generic-phy.h \
-  ../src/network/utils/generic-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/generic-phy.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../src/spectrum/model/aloha-noack-mac-header.h \
   ../build/include/ns3/address-utils.h \
-  ../src/network/utils/address-utils.h \
-  ../src/network/utils/mac16-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/mac64-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/address-utils.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac16-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac64-address.h \
   ../build/include/ns3/buffer.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   ../build/include/ns3/header.h \
-  ../src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
@@ -1786,36 +1786,36 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o: C
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   ../build/include/ns3/llc-snap-header.h \
-  ../src/network/utils/llc-snap-header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/llc-snap-header.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/constant-spectrum-propagation-loss.cc \
@@ -1825,16 +1825,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1845,27 +1845,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -1948,23 +1948,23 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -1982,19 +1982,19 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/friis-spectrum-propagation-loss.cc \
@@ -2004,16 +2004,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2024,27 +2024,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2127,23 +2127,23 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -2161,14 +2161,14 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
@@ -2177,17 +2177,17 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
   ../src/spectrum/model/half-duplex-ideal-phy-signal-parameters.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2198,8 +2198,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -2223,35 +2223,35 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/type-traits.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -2330,40 +2330,40 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/half-duplex-ideal-phy.cc \
@@ -2374,16 +2374,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o: CM
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2394,27 +2394,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o: CM
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2497,26 +2497,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o: CM
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -2535,91 +2535,91 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o: CM
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../src/spectrum/model/spectrum-interference.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
-  ../src/network/model/byte-tag-list.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/generic-phy.h \
-  ../src/network/utils/generic-phy.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/generic-phy.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../src/spectrum/model/half-duplex-ideal-phy-signal-parameters.h \
   ../src/spectrum/model/spectrum-error-model.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/packet-burst.h \
-  ../src/network/utils/packet-burst.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/ism-spectrum-value-helper.cc \
@@ -2628,16 +2628,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.o
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2648,33 +2648,33 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/ism-spectrum-value-helper.cc.o
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/matrix-based-channel-model.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/matrix-based-channel-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2685,8 +2685,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -2710,27 +2710,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/type-traits.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -2809,21 +2809,21 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
-  ../src/antenna/model/antenna-model.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/microwave-oven-spectrum-value-helper.cc \
@@ -2832,16 +2832,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2852,14 +2852,14 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/multi-model-spectrum-channel.cc \
@@ -2870,16 +2870,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2890,27 +2890,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2993,26 +2993,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -3031,105 +3031,105 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../src/spectrum/model/spectrum-converter.h \
   ../build/include/ns3/angles.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/packet-burst.h \
-  ../src/network/utils/packet-burst.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/non-communicating-net-device.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/non-communicating-net-device.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/string \
   /usr/include/c++/11/type_traits \
@@ -3140,22 +3140,22 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -3239,63 +3239,63 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
@@ -3303,28 +3303,28 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.cc \
@@ -3333,16 +3333,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -3353,27 +3353,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -3456,26 +3456,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -3494,17 +3494,17 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/single-model-spectrum-channel.cc \
@@ -3515,16 +3515,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -3535,27 +3535,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -3638,26 +3638,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -3676,85 +3676,85 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/angles.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/packet-burst.h \
-  ../src/network/utils/packet-burst.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-analyzer.cc \
@@ -3765,16 +3765,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o: CMakeF
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -3785,27 +3785,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o: CMakeF
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -3888,26 +3888,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o: CMakeF
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -3926,83 +3926,83 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o: CMakeF
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   /usr/include/c++/11/fstream \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-channel.cc \
@@ -4012,16 +4012,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o: CMakeFi
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4032,27 +4032,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o: CMakeFi
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -4135,26 +4135,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o: CMakeFi
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -4173,36 +4173,36 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o: CMakeFi
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-converter.cc \
@@ -4211,16 +4211,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o: CMake
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4231,16 +4231,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o: CMake
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   /usr/include/c++/11/algorithm
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
@@ -4250,16 +4250,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o: CMa
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4270,41 +4270,41 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o: CMa
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -4384,48 +4384,48 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o: CMa
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
-  ../src/network/model/byte-tag-list.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-interference.cc \
@@ -4434,16 +4434,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o: CM
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4454,41 +4454,41 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o: CM
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -4568,55 +4568,55 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o: CM
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
-  ../src/network/model/byte-tag-list.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../src/spectrum/model/spectrum-error-model.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-model-300kHz-300GHz-log.cc \
@@ -4625,16 +4625,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-l
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4645,12 +4645,12 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-l
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-model-ism2400MHz-res1MHz.cc \
@@ -4659,16 +4659,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4679,28 +4679,28 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-model.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4711,14 +4711,14 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o: CMakeFile
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
@@ -4730,16 +4730,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o: CMakeFiles/
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4750,35 +4750,35 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o: CMakeFiles/
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -4859,37 +4859,37 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o: CMakeFiles/
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../src/spectrum/model/spectrum-channel.h \
   ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/algorithm \
@@ -4907,54 +4907,54 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o: CMakeFiles/
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-propagation-loss-model.cc \
@@ -4963,16 +4963,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -4983,27 +4983,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -5086,23 +5086,23 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -5120,34 +5120,34 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-signal-parameters.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -5158,8 +5158,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -5183,28 +5183,28 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/type-traits.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -5283,48 +5283,48 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-transmit-filter.cc \
   /usr/include/stdc-predef.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -5335,16 +5335,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.o:
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -5428,33 +5428,33 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.o:
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/algorithm \
@@ -5469,7 +5469,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-transmit-filter.cc.o:
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/spectrum-value.cc \
@@ -5477,16 +5477,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o: CMakeFile
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -5497,16 +5497,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o: CMakeFile
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/math.h \
-  ../src/core/model/math.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/math.h \
   /usr/include/c++/11/cmath \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
@@ -5519,17 +5519,17 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o: 
   ../src/spectrum/model/three-gpp-channel-model.h \
   ../src/spectrum/model/matrix-based-channel-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -5540,8 +5540,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o: 
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -5565,27 +5565,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o: 
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/type-traits.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -5664,100 +5664,100 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o: 
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/angles.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/deprecated.h \
-  ../src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/channel-condition-model.h \
-  ../src/propagation/model/channel-condition-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/channel-condition-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/complex.h \
   /usr/include/c++/11/ccomplex \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/geocentric-constant-position-mobility-model.h \
-  ../src/mobility/model/geocentric-constant-position-mobility-model.h \
-  ../src/mobility/model/geographic-positions.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/geocentric-constant-position-mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/geographic-positions.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/integer.h \
-  ../src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   /usr/include/c++/11/random \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/random.h \
@@ -5776,17 +5776,17 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
   ../src/spectrum/model/three-gpp-spectrum-propagation-loss-model.h \
   ../src/spectrum/model/matrix-based-channel-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -5797,8 +5797,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -5822,27 +5822,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/type-traits.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -5921,102 +5921,102 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/cstddef \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/complex.h \
   /usr/include/c++/11/ccomplex \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/three-gpp-channel-model.h \
   ../build/include/ns3/angles.h \
-  ../src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
   ../build/include/ns3/deprecated.h \
-  ../src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/channel-condition-model.h \
-  ../src/propagation/model/channel-condition-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/channel-condition-model.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/trace-fading-loss-model.cc \
@@ -6026,16 +6026,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o: 
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -6046,27 +6046,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o: 
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -6149,40 +6149,40 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o: 
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/algorithm \
@@ -6197,18 +6197,18 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o: 
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   /usr/include/c++/11/fstream
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
@@ -6220,16 +6220,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o: 
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -6240,27 +6240,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o: 
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -6343,26 +6343,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o: 
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -6381,93 +6381,93 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o: 
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   ../build/include/ns3/integer.h \
-  ../src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
   ../build/include/ns3/isotropic-antenna-model.h \
-  ../src/antenna/model/isotropic-antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/isotropic-antenna-model.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-loss-model.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/two-ray-spectrum-propagation-loss-model.cc \
@@ -6477,16 +6477,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-l
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -6497,27 +6497,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-l
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -6600,26 +6600,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-l
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -6638,69 +6638,69 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/two-ray-spectrum-propagation-l
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/channel-condition-model.h \
-  ../src/propagation/model/channel-condition-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/channel-condition-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/spectrum/model/waveform-generator.cc \
@@ -6711,16 +6711,16 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
   ../src/spectrum/model/spectrum-value.h \
   ../src/spectrum/model/spectrum-model.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -6731,27 +6731,27 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstddef \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/mobility-model.h \
-  ../src/mobility/model/mobility-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -6834,26 +6834,26 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/vector.h \
-  ../src/core/model/vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
   ../build/include/ns3/phased-array-model.h \
-  ../src/antenna/model/phased-array-model.h \
-  ../src/antenna/model/angles.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/matrix-array.h \
-  ../src/core/model/matrix-array.h \
-  ../src/core/model/val-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -6872,95 +6872,97 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
   /usr/include/c++/11/bits/indirect_array.h \
   ../src/spectrum/model/spectrum-phy.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../src/spectrum/model/spectrum-propagation-loss-model.h \
   ../src/spectrum/model/spectrum-signal-parameters.h \
   ../src/spectrum/model/spectrum-transmit-filter.h \
   ../build/include/ns3/channel.h \
-  ../src/network/model/channel.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/channel.h \
   ../build/include/ns3/propagation-delay-model.h \
-  ../src/propagation/model/propagation-delay-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/propagation-loss-model.h \
-  ../src/propagation/model/propagation-loss-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/antenna-model.h \
-  ../src/antenna/model/antenna-model.h \
+  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/packet-burst.h \
-  ../src/network/utils/packet-burst.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h
 
 
 ../src/spectrum/model/waveform-generator.cc:
 
+../src/spectrum/model/tv-spectrum-transmitter.h:
+
+../src/spectrum/model/three-gpp-spectrum-propagation-loss-model.h:
+
 ../src/spectrum/model/tv-spectrum-transmitter.cc:
 
 ../src/spectrum/model/three-gpp-spectrum-propagation-loss-model.cc:
-
-/usr/include/c++/11/bits/random.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
 
@@ -6968,19 +6970,19 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 /usr/include/c++/11/cstdint:
 
-../src/core/model/string.h:
-
 ../build/include/ns3/string.h:
 
 ../build/include/ns3/integer.h:
-
-../src/mobility/model/geocentric-constant-position-mobility-model.h:
 
 ../build/include/ns3/geocentric-constant-position-mobility-model.h:
 
 /usr/include/c++/11/complex.h:
 
+/mnt/d/Downloads/ns-3-dev/src/propagation/model/channel-condition-model.h:
+
 ../src/spectrum/model/three-gpp-channel-model.cc:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/math.h:
 
 ../src/spectrum/model/spectrum-transmit-filter.cc:
 
@@ -6990,19 +6992,29 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 ../src/spectrum/model/spectrum-model-ism2400MHz-res1MHz.cc:
 
+../src/spectrum/model/spectrum-model-300kHz-300GHz-log.h:
+
 ../src/spectrum/model/spectrum-model-300kHz-300GHz-log.cc:
 
 ../src/spectrum/model/spectrum-interference.cc:
 
 ../src/spectrum/model/spectrum-error-model.cc:
 
+../src/spectrum/model/spectrum-analyzer.h:
+
 ../src/spectrum/model/spectrum-analyzer.cc:
 
+../src/spectrum/model/single-model-spectrum-channel.h:
+
 ../src/spectrum/model/phased-array-spectrum-propagation-loss-model.cc:
+
+../src/spectrum/model/non-communicating-net-device.h:
 
 ../src/spectrum/model/non-communicating-net-device.cc:
 
 ../build/include/ns3/angles.h:
+
+../src/spectrum/model/multi-model-spectrum-channel.cc:
 
 ../src/spectrum/model/microwave-oven-spectrum-value-helper.h:
 
@@ -7014,51 +7026,71 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 ../src/spectrum/model/ism-spectrum-value-helper.cc:
 
-../build/include/ns3/packet-burst.h:
-
 ../src/spectrum/model/spectrum-error-model.h:
+
+../src/spectrum/model/spectrum-interference.h:
+
+../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h:
+
+../src/spectrum/model/spectrum-channel.h:
+
+../src/spectrum/model/half-duplex-ideal-phy.h:
 
 ../src/spectrum/model/half-duplex-ideal-phy.cc:
 
 ../src/spectrum/model/half-duplex-ideal-phy-signal-parameters.cc:
 
-../src/network/utils/llc-snap-header.h:
+../src/spectrum/model/spectrum-signal-parameters.h:
+
+../src/spectrum/model/spectrum-model.h:
+
+../src/spectrum/model/spectrum-value.h:
 
 ../build/include/ns3/llc-snap-header.h:
 
+../src/spectrum/model/constant-spectrum-propagation-loss.h:
+
+../build/include/ns3/enum.h:
+
+/mnt/d/Downloads/ns-3-dev/src/mobility/model/geocentric-constant-position-mobility-model.h:
+
+../src/spectrum/model/aloha-noack-net-device.h:
+
 ../src/spectrum/model/aloha-noack-net-device.cc:
 
-../src/network/utils/mac64-address.h:
+../build/include/ns3/header.h:
 
-../src/network/utils/mac16-address.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/address-utils.h:
 
 ../build/include/ns3/address-utils.h:
 
 ../src/spectrum/model/aloha-noack-mac-header.h:
 
-../src/spectrum/model/waveform-generator.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/waveform-generator.h:
 
 ../src/spectrum/helper/waveform-generator-helper.h:
 
 ../build/include/ns3/uinteger.h:
 
-../src/mobility/model/position-allocator.h:
+/mnt/d/Downloads/ns-3-dev/src/mobility/model/position-allocator.h:
 
-../build/include/ns3/header.h:
+/mnt/d/Downloads/ns-3-dev/src/mobility/helper/mobility-helper.h:
 
-../src/mobility/helper/mobility-helper.h:
-
-../src/antenna/model/isotropic-antenna-model.h:
+/mnt/d/Downloads/ns-3-dev/src/antenna/model/isotropic-antenna-model.h:
 
 ../build/include/ns3/isotropic-antenna-model.h:
 
 ../src/spectrum/model/spectrum-model.cc:
 
+/mnt/d/Downloads/ns-3-dev/src/mobility/model/geographic-positions.h:
+
 ../build/include/ns3/geographic-positions.h:
 
 ../build/include/ns3/double.h:
 
-../src/spectrum/model/tv-spectrum-transmitter.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/mac64-address.h:
+
+../build/include/ns3/spectrum-signal-parameters.h:
 
 ../src/spectrum/helper/tv-spectrum-transmitter-helper.h:
 
@@ -7066,25 +7098,35 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 ../build/include/ns3/spectrum-phy.h:
 
-../src/spectrum/model/single-model-spectrum-channel.h:
+../src/spectrum/model/spectrum-phy.h:
 
-../src/spectrum/model/spectrum-converter.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/single-model-spectrum-channel.h:
+
+../build/include/ns3/position-allocator.h:
+
+../build/include/ns3/single-model-spectrum-channel.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-converter.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/multi-model-spectrum-channel.h:
 
 ../src/spectrum/helper/spectrum-helper.h:
 
-../src/network/utils/pcap-file.h:
+../src/spectrum/model/spectrum-converter.h:
 
-../src/network/utils/pcap-file-wrapper.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/pcap-file.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/pcap-file-wrapper.h:
 
 /usr/include/c++/11/bits/random.h:
 
 ../build/include/ns3/pcap-file-wrapper.h:
 
+/mnt/d/Downloads/ns-3-dev/src/network/helper/trace-helper.h:
+
 ../build/include/ns3/trace-helper.h:
 
-../src/spectrum/model/spectrum-analyzer.h:
-
-/usr/include/c++/11/fstream:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-analyzer.h:
 
 ../build/include/ns3/math.h:
 
@@ -7092,7 +7134,9 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 ../build/include/ns3/spectrum-analyzer.h:
 
-../src/network/utils/output-stream-wrapper.h:
+/usr/include/c++/11/fstream:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/output-stream-wrapper.h:
 
 ../build/include/ns3/output-stream-wrapper.h:
 
@@ -7100,21 +7144,19 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 ../src/spectrum/helper/spectrum-analyzer-helper.cc:
 
-../build/include/ns3/spectrum-propagation-loss-model.h:
-
 ../build/include/ns3/tv-spectrum-transmitter.h:
 
 ../build/include/ns3/spectrum-channel.h:
 
-../src/core/model/make-event.h:
-
-../src/core/model/simulator.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h:
 
 ../build/include/ns3/simulator.h:
 
+/mnt/d/Downloads/ns-3-dev/src/core/model/names.h:
+
 ../build/include/ns3/names.h:
 
-../src/network/utils/data-rate.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h:
 
 /usr/include/c++/11/bits/ranges_uninitialized.h:
 
@@ -7124,61 +7166,67 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 /usr/include/c++/11/bits/std_mutex.h:
 
-../src/spectrum/model/spectrum-model.h:
-
 /usr/include/x86_64-linux-gnu/bits/syscall.h:
 
 /usr/include/c++/11/memory:
 
 /usr/include/x86_64-linux-gnu/sys/syscall.h:
 
-../src/core/model/hash-murmur3.h:
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+../src/spectrum/model/spectrum-propagation-loss-model.cc:
 
-/usr/include/c++/11/bits/align.h:
+../build/include/ns3/propagation-loss-model.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 ../src/spectrum/helper/adhoc-aloha-noack-ideal-phy-helper.h:
 
-../src/core/model/fatal-impl.h:
-
-../src/network/utils/queue-item.h:
-
 ../build/include/ns3/vector.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/c++/11/cerrno:
 
-../build/include/ns3/spectrum-signal-parameters.h:
+/usr/include/c++/11/backward/auto_ptr.h:
 
-../src/network/model/byte-tag-list.h:
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+../src/spectrum/helper/waveform-generator-helper.cc:
+
+/usr/include/c++/11/ext/numeric_traits.h:
 
 /usr/include/c++/11/bits/move.h:
 
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h:
+
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
-../src/network/model/address.h:
+/usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-/usr/include/c++/11/bits/functexcept.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h:
 
-../src/core/model/attribute-accessor-helper.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 
-/usr/include/c++/11/pstl/glue_memory_defs.h:
-
-../src/core/model/deprecated.h:
-
 /usr/include/c++/11/bits/refwrap.h:
 
-../src/spectrum/model/spectrum-model-300kHz-300GHz-log.h:
+/mnt/d/Downloads/ns-3-dev/src/network/helper/node-container.h:
 
-../src/core/model/warnings.h:
+/usr/include/c++/11/bits/align.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h:
 
 /usr/include/c++/11/bits/valarray_array.tcc:
 
@@ -7192,7 +7240,9 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
-../src/core/model/type-name.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h:
 
 ../build/include/ns3/non-communicating-net-device.h:
 
@@ -7206,37 +7256,41 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 /usr/include/c++/11/debug/assertions.h:
 
-/usr/include/c++/11/bits/functional_hash.h:
+/mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h:
 
-../build/include/ns3/phased-array-model.h:
+/usr/include/c++/11/bits/functional_hash.h:
 
 ../src/spectrum/model/constant-spectrum-propagation-loss.cc:
 
 /usr/include/c++/11/system_error:
 
-../src/core/model/node-printer.h:
-
-../src/antenna/model/angles.h:
-
 ../build/include/ns3/trace-source-accessor.h:
 
 /usr/include/c++/11/ext/atomicity.h:
 
-/usr/include/c++/11/bits/stl_pair.h:
+../src/spectrum/model/microwave-oven-spectrum-value-helper.cc:
 
-../src/spectrum/model/friis-spectrum-propagation-loss.h:
+/usr/include/c++/11/tuple:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+/usr/include/c++/11/type_traits:
 
-/usr/include/c++/11/debug/debug.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/assert.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/abort.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h:
 
 ../build/include/ns3/spectrum-value.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
-../src/spectrum/model/phased-array-spectrum-propagation-loss-model.h:
-
 /usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h:
 
 /usr/include/c++/11/utility:
 
@@ -7246,201 +7300,63 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 /usr/include/errno.h:
 
-../src/spectrum/helper/waveform-generator-helper.cc:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/callback.h:
 
 /usr/include/syscall.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
-/usr/include/c++/11/bit:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/c++/11/cstdlib:
-
-../src/core/model/int64x64.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/11/bits/indirect_array.h:
 
-../src/core/model/default-deleter.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/c++/11/exception:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-../src/spectrum/model/spectrum-propagation-loss-model.cc:
-
-../build/include/ns3/propagation-loss-model.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-../src/core/model/callback.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/c++/11/bits/ranges_algobase.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+../src/spectrum/model/waveform-generator.h:
 
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/c++/11/bits/stl_pair.h:
 
-../build/include/ns3/nstime.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h:
 
-../build/include/ns3/abort.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/aloha-noack-net-device.h:
 
-/usr/include/c++/11/string_view:
+/mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/packet.h:
 
-../src/spectrum/model/two-ray-spectrum-propagation-loss-model.cc:
+/usr/include/c++/11/functional:
 
-/usr/include/c++/11/numeric:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/c++/11/type_traits:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/half-duplex-ideal-phy.h:
 
-../src/spectrum/model/microwave-oven-spectrum-value-helper.cc:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/ostream:
-
-../src/core/model/log-macros-enabled.h:
-
-../build/include/ns3/simple-ref-count.h:
+/usr/include/string.h:
 
 /usr/include/c++/11/unordered_map:
 
-../src/core/model/time-printer.h:
-
 ../build/include/ns3/ipv4-address.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h:
+
+../build/include/ns3/address.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-../src/core/model/attribute.h:
-
-../src/core/model/ptr.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
-
-/usr/include/c++/11/sstream:
-
-/usr/include/c++/11/bits/atomic_wait.h:
-
-../src/core/model/log-macros-disabled.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/usr/include/stdc-predef.h:
-
-../src/spectrum/model/aloha-noack-net-device.h:
-
-../src/network/model/nix-vector.h:
-
-/usr/include/c++/11/iostream:
-
-../src/network/model/channel.h:
-
-../src/network/utils/address-utils.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-../src/core/model/boolean.h:
-
-../src/core/model/log.h:
-
-../src/core/model/type-traits.h:
-
-../src/propagation/model/propagation-loss-model.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-../src/antenna/model/antenna-model.h:
-
-../src/core/model/assert.h:
-
-/usr/include/c++/11/cerrno:
-
-../src/core/model/attribute-helper.h:
-
-../build/include/ns3/node.h:
-
-/usr/include/c++/11/set:
-
-../src/spectrum/model/three-gpp-spectrum-propagation-loss-model.h:
-
-../src/network/model/tag-buffer.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-../src/core/model/pointer.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-../src/core/model/fatal-error.h:
-
-../src/core/model/event-impl.h:
-
-../src/core/model/trace-source-accessor.h:
-
-../src/network/helper/net-device-container.h:
-
-../build/include/ns3/net-device.h:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-../src/spectrum/model/spectrum-transmit-filter.h:
-
-../src/network/model/net-device.h:
-
-../src/network/utils/packet-burst.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-../src/network/model/node.h:
-
-/usr/include/c++/11/bits/gslice_array.h:
-
-../src/core/model/abort.h:
-
-../src/core/model/matrix-array.h:
-
-/usr/include/c++/11/vector:
-
-../build/include/ns3/type-id.h:
-
-../build/include/ns3/assert.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-../src/core/model/event-id.h:
-
-../build/include/ns3/attribute-helper.h:
-
-/usr/include/limits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -7450,17 +7366,115 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
-../src/spectrum/model/non-communicating-net-device.h:
+../build/include/ns3/simple-ref-count.h:
 
-../src/network/model/buffer.h:
+/usr/include/c++/11/bit:
 
-../src/core/model/hash-fnv.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/generic-phy.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/double.h:
+
+/usr/include/c++/11/vector:
+
+../build/include/ns3/type-id.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h:
+
+../src/spectrum/model/spectrum-converter.cc:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h:
 
 ../src/spectrum/helper/adhoc-aloha-noack-ideal-phy-helper.cc:
 
-../src/core/model/type-id.h:
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
-/usr/include/c++/11/functional:
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/ostream:
+
+../src/spectrum/model/spectrum-transmit-filter.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+../build/include/ns3/nstime.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/integer.h:
+
+../build/include/ns3/abort.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h:
+
+/usr/include/c++/11/bits/atomic_wait.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/stdc-predef.h:
+
+../build/include/ns3/queue-fwd.h:
+
+../build/include/ns3/attribute.h:
+
+/usr/include/c++/11/string_view:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/string:
+
+/usr/include/c++/11/bits/random.tcc:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+../build/include/ns3/net-device.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/config.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/address.h:
+
+../build/include/ns3/assert.h:
+
+/usr/include/limits.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+../build/include/ns3/attribute-helper.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h:
 
 ../build/include/ns3/deprecated.h:
 
@@ -7468,105 +7482,103 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o: CMake
 
 CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
 
-../src/network/model/packet-tag-list.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h:
 
-../src/network/helper/trace-helper.h:
+/mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h:
 
-/usr/include/c++/11/bits/shared_ptr.h:
+/usr/include/c++/11/ccomplex:
 
-/usr/include/c++/11/bits/stl_construct.h:
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/c++/11/cmath:
 
 ../build/include/ns3/half-duplex-ideal-phy.h:
-
-../src/spectrum/model/spectrum-converter.cc:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-../src/spectrum/model/half-duplex-ideal-phy.h:
-
-/usr/include/c++/11/list:
-
-/usr/include/c++/11/bits/uses_allocator_args.h:
 
 /usr/include/c++/11/climits:
 
 /usr/include/c++/11/new:
 
+/mnt/d/Downloads/ns-3-dev/src/network/utils/mac16-address.h:
+
 ../build/include/ns3/mac48-address.h:
 
 ../build/include/ns3/object-factory.h:
 
-/usr/include/c++/11/bits/gslice.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash.h:
 
-../src/spectrum/model/constant-spectrum-propagation-loss.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h:
 
-../build/include/ns3/enum.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h:
 
-../src/core/model/hash.h:
+../src/spectrum/model/friis-spectrum-propagation-loss.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h:
+
+../build/include/ns3/channel-condition-model.h:
+
+../build/include/ns3/config.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
 ../build/include/ns3/object-base.h:
 
-../src/spectrum/model/multi-model-spectrum-channel.cc:
+/usr/include/c++/11/bits/uses_allocator_args.h:
 
-../src/core/model/hash-function.h:
+/usr/include/c++/11/list:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/string.h:
 
-../src/core/model/object-base.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h:
 
 ../build/include/ns3/ptr.h:
 
-../src/network/utils/mac48-address.h:
-
-../src/spectrum/model/spectrum-interference.h:
-
-../src/core/model/traced-value.h:
-
-../src/network/model/packet-metadata.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h:
 
 ../src/spectrum/model/single-model-spectrum-channel.cc:
 
+/mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h:
+
 ../build/include/ns3/callback.h:
 
-../src/network/model/tag.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/tag.h:
 
-../src/network/model/trailer.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h:
 
-../src/network/model/chunk.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h:
 
-../src/network/utils/queue-size.h:
+/usr/include/c++/11/bits/shared_ptr.h:
 
-../src/network/utils/ipv4-address.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h:
 
-../src/propagation/model/channel-condition-model.h:
+/usr/include/c++/11/bits/stl_construct.h:
 
-../src/spectrum/model/half-duplex-ideal-phy-signal-parameters.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h:
 
-../src/network/model/packet.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h:
 
-/usr/include/c++/11/bits/valarray_after.h:
+/usr/include/c++/11/random:
 
-../src/spectrum/model/spectrum-signal-parameters.h:
+../build/include/ns3/object.h:
 
-../build/include/ns3/address.h:
+../build/include/ns3/spectrum-propagation-loss-model.h:
 
-../src/network/utils/ipv6-address.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/object.h:
 
-../src/network/utils/mac8-address.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/non-communicating-net-device.h:
 
-../build/include/ns3/channel-condition-model.h:
+/usr/include/c++/11/iostream:
 
-../src/core/model/simple-ref-count.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/enum.h:
 
-../build/include/ns3/config.h:
+/mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h:
 
-../src/core/model/object.h:
-
-../src/core/model/math.h:
-
-../src/core/model/attribute-construction-list.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h:
 
 ../build/include/ns3/node-container.h:
 
@@ -7576,47 +7588,59 @@ CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
 
 ../build/include/ns3/propagation-delay-model.h:
 
-../src/network/helper/node-container.h:
+../build/include/ns3/node.h:
 
-../src/spectrum/model/spectrum-signal-parameters.cc:
+/usr/include/c++/11/set:
 
-../build/include/ns3/buffer.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/node.h:
 
-/usr/include/c++/11/cstddef:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h:
 
-/usr/include/c++/11/map:
+/usr/include/c++/11/exception:
 
-../src/core/model/object-factory.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h:
 
-../src/network/utils/queue-fwd.h:
+../build/include/ns3/phased-array-model.h:
 
-../src/mobility/model/geographic-positions.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-model.h:
 
-../src/core/model/nstime.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/initializer_list:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/llc-snap-header.h:
+
+../src/spectrum/helper/spectrum-helper.cc:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h:
+
+../build/include/ns3/net-device-container.h:
+
+/usr/include/c++/11/complex:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h:
 
 ../src/spectrum/model/spectrum-value.cc:
 
 ../src/spectrum/model/spectrum-channel.cc:
 
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/tv-spectrum-transmitter.h:
+
 ../build/include/ns3/core-config.h:
 
 ../build/include/ns3/traced-value.h:
 
-/usr/include/c++/11/ccomplex:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/cmath:
+/mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h:
 
 /usr/include/c++/11/cstring:
-
-../src/network/utils/queue.h:
 
 ../build/include/ns3/ipv6-address.h:
 
 /usr/include/math.h:
-
-../src/core/model/integer.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
@@ -7624,13 +7648,7 @@ CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
 
 /usr/include/c++/11/bits/std_abs.h:
 
-../src/core/model/int64x64-128.h:
-
 ../build/include/ns3/log.h:
-
-../src/spectrum/helper/spectrum-helper.cc:
-
-../src/core/model/val-array.h:
 
 /usr/include/c++/11/bits/valarray_array.h:
 
@@ -7642,31 +7660,25 @@ CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
 
 ../build/include/ns3/traced-callback.h:
 
-/usr/include/c++/11/random:
+/mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h:
 
-../build/include/ns3/object.h:
+../build/include/ns3/generic-phy.h:
 
-../src/core/model/traced-callback.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h:
 
-../src/core/model/double.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h:
 
-/usr/include/string.h:
+../src/spectrum/model/spectrum-propagation-loss-model.h:
 
-../src/network/utils/generic-phy.h:
-
-../build/include/ns3/position-allocator.h:
-
-../build/include/ns3/single-model-spectrum-channel.h:
-
-../src/core/model/enum.h:
-
-../src/network/model/header.h:
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/11/bits/stl_numeric.h:
 
+/mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h:
+
 ../build/include/ns3/data-rate.h:
 
-../src/core/model/uinteger.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h:
 
 ../build/include/ns3/waveform-generator.h:
 
@@ -7674,31 +7686,35 @@ CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
 
 ../build/include/ns3/aloha-noack-net-device.h:
 
-../build/include/ns3/attribute.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/packet-burst.h:
 
-../build/include/ns3/queue-fwd.h:
+/mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h:
 
-../build/include/ns3/generic-phy.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-../src/core/model/config.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/log.h:
 
-../src/spectrum/model/spectrum-value.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/vector.h:
 
-../src/spectrum/model/spectrum-channel.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-channel.h:
 
-../src/mobility/model/mobility-model.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-value.h:
 
-../src/antenna/model/phased-array-model.h:
+../src/spectrum/model/spectrum-signal-parameters.cc:
 
-../build/include/ns3/net-device-container.h:
+../build/include/ns3/buffer.h:
 
-../src/core/model/vector.h:
+/usr/include/c++/11/cstddef:
 
-/usr/include/c++/11/complex:
+/usr/include/c++/11/map:
+
+/mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h:
 
 /usr/include/c++/11/algorithm:
 
 ../build/include/ns3/matrix-array.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h:
 
 ../src/spectrum/model/trace-fading-loss-model.h:
 
@@ -7706,26 +7722,46 @@ CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
 
 /usr/include/c++/11/valarray:
 
-/usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/initializer_list:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /usr/include/c++/11/bits/valarray_before.h:
 
-../src/core/model/names.h:
-
 ../build/include/ns3/random-variable-stream.h:
 
-../src/spectrum/model/spectrum-phy.h:
+../src/spectrum/model/half-duplex-ideal-phy-signal-parameters.h:
 
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
+/usr/include/c++/11/bits/valarray_after.h:
 
-../src/spectrum/model/spectrum-propagation-loss-model.h:
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-phy.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-propagation-loss-model.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/header.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-signal-parameters.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-transmit-filter.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h:
 
 ../build/include/ns3/channel.h:
 
-../src/propagation/model/propagation-delay-model.h:
+../src/spectrum/model/two-ray-spectrum-propagation-loss-model.cc:
 
-../src/core/model/random-variable-stream.h:
+/usr/include/c++/11/numeric:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/channel.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/phased-array-spectrum-propagation-loss-model.h:
+
+/mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-delay-model.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h:
+
+../build/include/ns3/packet-burst.h:
+
+/mnt/d/Downloads/ns-3-dev/src/spectrum/model/spectrum-interference.h:

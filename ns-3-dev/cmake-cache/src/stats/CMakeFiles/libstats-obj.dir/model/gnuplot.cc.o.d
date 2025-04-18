@@ -1,10 +1,10 @@
 src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/gnuplot.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/gnuplot.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/stats/model/gnuplot.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/stats/model/gnuplot.h \
  /usr/include/c++/11/string /usr/include/c++/11/utility \
  /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \

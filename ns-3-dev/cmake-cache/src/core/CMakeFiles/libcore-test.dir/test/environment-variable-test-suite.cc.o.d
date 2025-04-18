@@ -1,7 +1,7 @@
 src/core/CMakeFiles/libcore-test.dir/test/environment-variable-test-suite.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/test/environment-variable-test-suite.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/test/environment-variable-test-suite.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/environment-variable.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/environment-variable.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/environment-variable.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/allocator.h \
@@ -73,7 +73,7 @@ src/core/CMakeFiles/libcore-test.dir/test/environment-variable-test-suite.cc.o: 
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/string \
  /usr/include/c++/11/unordered_map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \

@@ -1,9 +1,9 @@
 src/core/CMakeFiles/libcore-test.dir/test/int64x64-test-suite.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/test/int64x64-test-suite.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/test/int64x64-test-suite.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/int64x64.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/int64x64.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -12,14 +12,14 @@ src/core/CMakeFiles/libcore-test.dir/test/int64x64-test-suite.cc.o: \
  /usr/include/c++/11/bits/std_abs.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/c++/11/iostream \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/limits \
  /usr/include/c++/11/list /usr/include/c++/11/sstream \
  /usr/include/c++/11/string /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/valgrind.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/valgrind.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/valgrind.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/c++/11/cfloat \

@@ -1,13 +1,13 @@
 src/network/CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/network/test/bit-serializer-test.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/network/test/bit-serializer-test.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/bit-deserializer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/bit-deserializer.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/bit-deserializer.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/deque \
  /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/bit-serializer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/bit-serializer.h \
  /mnt/d/Downloads/ns-3-dev/src/network/utils/bit-serializer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \

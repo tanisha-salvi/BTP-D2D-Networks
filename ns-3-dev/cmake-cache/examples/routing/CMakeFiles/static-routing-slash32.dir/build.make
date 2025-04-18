@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include examples/routing/CMakeFiles/static-routing-slash32.dir/depend.make
@@ -74,16 +74,16 @@ examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc
 examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o: examples/routing/CMakeFiles/static-routing-slash32.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o -MF CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o.d -o CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o -c /mnt/d/Downloads/ns-3-dev/examples/routing/static-routing-slash32.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o -MF CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o.d -o CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing/static-routing-slash32.cc
 
 examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/examples/routing/static-routing-slash32.cc > CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing/static-routing-slash32.cc > CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.i
 
 examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/examples/routing/static-routing-slash32.cc -o CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing/static-routing-slash32.cc -o CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.s
 
 # Object files for target static-routing-slash32
 static__routing__slash32_OBJECTS = \
@@ -96,18 +96,18 @@ static__routing__slash32_EXTERNAL_OBJECTS =
 ../build/examples/routing/ns3.42-static-routing-slash32-default: examples/routing/CMakeFiles/static-routing-slash32.dir/build.make
 ../build/examples/routing/ns3.42-static-routing-slash32-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/examples/routing/ns3.42-static-routing-slash32-default: examples/routing/CMakeFiles/static-routing-slash32.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/routing/ns3.42-static-routing-slash32-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/static-routing-slash32.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/routing/ns3.42-static-routing-slash32-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/static-routing-slash32.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/routing/CMakeFiles/static-routing-slash32.dir/build: ../build/examples/routing/ns3.42-static-routing-slash32-default
 .PHONY : examples/routing/CMakeFiles/static-routing-slash32.dir/build
 
 examples/routing/CMakeFiles/static-routing-slash32.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -P CMakeFiles/static-routing-slash32.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing && $(CMAKE_COMMAND) -P CMakeFiles/static-routing-slash32.dir/cmake_clean.cmake
 .PHONY : examples/routing/CMakeFiles/static-routing-slash32.dir/clean
 
 examples/routing/CMakeFiles/static-routing-slash32.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/examples/routing /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing/CMakeFiles/static-routing-slash32.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/routing /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing/CMakeFiles/static-routing-slash32.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/routing/CMakeFiles/static-routing-slash32.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/energy
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-energy-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-energy-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-energy-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-energy-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-energy-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-energy-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-energy-default.so")
@@ -67,32 +67,32 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/basic-energy-harvester-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/basic-energy-source-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-harvester-container.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-harvester-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-model-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/energy-source-container.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/generic-battery-model-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/li-ion-energy-source-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/helper/rv-battery-model-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/basic-energy-harvester.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/basic-energy-source.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/device-energy-model-container.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/device-energy-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/energy-harvester.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/energy-source.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/generic-battery-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/li-ion-energy-source.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/rv-battery-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/energy/model/simple-device-energy-model.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/energy-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/basic-energy-harvester-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/basic-energy-source-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/energy-harvester-container.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/energy-harvester-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/energy-model-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/energy-source-container.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/generic-battery-model-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/li-ion-energy-source-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/helper/rv-battery-model-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/basic-energy-harvester.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/basic-energy-source.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/device-energy-model-container.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/device-energy-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/energy-harvester.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/energy-source.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/generic-battery-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/li-ion-energy-source.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/rv-battery-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/model/simple-device-energy-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/energy-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples/cmake_install.cmake")
 
 endif()
 

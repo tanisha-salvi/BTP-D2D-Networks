@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/energy/examples/CMakeFiles/rv-battery-model-test.dir/depend.make
@@ -74,16 +74,16 @@ src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.c
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o: src/energy/examples/CMakeFiles/rv-battery-model-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o -MF CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o.d -o CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o -c /mnt/d/Downloads/ns-3-dev/src/energy/examples/rv-battery-model-test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o -MF CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o.d -o CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples/rv-battery-model-test.cc
 
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/energy/examples/rv-battery-model-test.cc > CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples/rv-battery-model-test.cc > CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.i
 
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/energy/examples/rv-battery-model-test.cc -o CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples/rv-battery-model-test.cc -o CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.s
 
 # Object files for target rv-battery-model-test
 rv__battery__model__test_OBJECTS = \
@@ -96,18 +96,18 @@ rv__battery__model__test_EXTERNAL_OBJECTS =
 ../build/src/energy/examples/ns3.42-rv-battery-model-test-default: src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make
 ../build/src/energy/examples/ns3.42-rv-battery-model-test-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/energy/examples/ns3.42-rv-battery-model-test-default: src/energy/examples/CMakeFiles/rv-battery-model-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/energy/examples/ns3.42-rv-battery-model-test-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rv-battery-model-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/energy/examples/ns3.42-rv-battery-model-test-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rv-battery-model-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build: ../build/src/energy/examples/ns3.42-rv-battery-model-test-default
 .PHONY : src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build
 
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -P CMakeFiles/rv-battery-model-test.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples && $(CMAKE_COMMAND) -P CMakeFiles/rv-battery-model-test.dir/cmake_clean.cmake
 .PHONY : src/energy/examples/CMakeFiles/rv-battery-model-test.dir/clean
 
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/energy/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples/CMakeFiles/rv-battery-model-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/energy/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples/CMakeFiles/rv-battery-model-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/energy/examples/CMakeFiles/rv-battery-model-test.dir/depend
 

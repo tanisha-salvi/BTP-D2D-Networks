@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include examples/socket/CMakeFiles/socket-bound-static-routing.dir/depend.make
@@ -74,16 +74,16 @@ examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-r
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o: examples/socket/CMakeFiles/socket-bound-static-routing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o -MF CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o.d -o CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o -c /mnt/d/Downloads/ns-3-dev/examples/socket/socket-bound-static-routing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o -MF CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o.d -o CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/socket/socket-bound-static-routing.cc
 
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/examples/socket/socket-bound-static-routing.cc > CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/socket/socket-bound-static-routing.cc > CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.i
 
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/examples/socket/socket-bound-static-routing.cc -o CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/socket/socket-bound-static-routing.cc -o CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.s
 
 # Object files for target socket-bound-static-routing
 socket__bound__static__routing_OBJECTS = \
@@ -96,18 +96,18 @@ socket__bound__static__routing_EXTERNAL_OBJECTS =
 ../build/examples/socket/ns3.42-socket-bound-static-routing-default: examples/socket/CMakeFiles/socket-bound-static-routing.dir/build.make
 ../build/examples/socket/ns3.42-socket-bound-static-routing-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/examples/socket/ns3.42-socket-bound-static-routing-default: examples/socket/CMakeFiles/socket-bound-static-routing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/socket/ns3.42-socket-bound-static-routing-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/socket-bound-static-routing.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../build/examples/socket/ns3.42-socket-bound-static-routing-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/socket-bound-static-routing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/build: ../build/examples/socket/ns3.42-socket-bound-static-routing-default
 .PHONY : examples/socket/CMakeFiles/socket-bound-static-routing.dir/build
 
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket && $(CMAKE_COMMAND) -P CMakeFiles/socket-bound-static-routing.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket && $(CMAKE_COMMAND) -P CMakeFiles/socket-bound-static-routing.dir/cmake_clean.cmake
 .PHONY : examples/socket/CMakeFiles/socket-bound-static-routing.dir/clean
 
 examples/socket/CMakeFiles/socket-bound-static-routing.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/examples/socket /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/socket/CMakeFiles/socket-bound-static-routing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/examples/socket /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/socket/CMakeFiles/socket-bound-static-routing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/socket/CMakeFiles/socket-bound-static-routing.dir/depend
 

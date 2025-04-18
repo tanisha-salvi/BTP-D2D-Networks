@@ -1,8 +1,8 @@
 src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-error-model.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/lr-wpan/model/lr-wpan-error-model.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lr-wpan/model/lr-wpan-error-model.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/lr-wpan/model/lr-wpan-error-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/lr-wpan/model/lr-wpan-error-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -108,6 +108,6 @@ src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-error-model.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h /usr/include/c++/11/cmath \
  /usr/include/math.h /usr/include/c++/11/bits/std_abs.h

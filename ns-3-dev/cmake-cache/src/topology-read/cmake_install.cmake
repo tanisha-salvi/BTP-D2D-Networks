@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/topology-read
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/topology-read
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-topology-read-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-topology-read-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-topology-read-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-topology-read-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-topology-read-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-topology-read-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-topology-read-default.so")
@@ -67,18 +67,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/topology-read/helper/topology-reader-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/topology-read/model/inet-topology-reader.h"
-    "/mnt/d/Downloads/ns-3-dev/src/topology-read/model/orbis-topology-reader.h"
-    "/mnt/d/Downloads/ns-3-dev/src/topology-read/model/rocketfuel-topology-reader.h"
-    "/mnt/d/Downloads/ns-3-dev/src/topology-read/model/topology-reader.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/topology-read-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/topology-read/helper/topology-reader-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/topology-read/model/inet-topology-reader.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/topology-read/model/orbis-topology-reader.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/topology-read/model/rocketfuel-topology-reader.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/topology-read/model/topology-reader.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/topology-read-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/topology-read/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/topology-read/examples/cmake_install.cmake")
 
 endif()
 

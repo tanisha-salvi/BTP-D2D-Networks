@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/aodv
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-aodv-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-aodv-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-aodv-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-aodv-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-aodv-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-aodv-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-aodv-default.so")
@@ -67,21 +67,21 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/helper/aodv-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-dpd.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-id-cache.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-neighbor.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-packet.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-routing-protocol.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-rqueue.h"
-    "/mnt/d/Downloads/ns-3-dev/src/aodv/model/aodv-rtable.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/aodv-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/helper/aodv-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-dpd.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-id-cache.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-neighbor.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-packet.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-routing-protocol.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-rqueue.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/aodv/model/aodv-rtable.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/aodv-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/aodv/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/aodv/examples/cmake_install.cmake")
 
 endif()
 

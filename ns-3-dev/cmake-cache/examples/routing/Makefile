@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/examples/routing//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/examples/routing//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/routing/CMakeFiles/dynamic-global-routing.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/dynamic-global-routing.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/dynamic-global-routing.dir/rule
 .PHONY : examples/routing/CMakeFiles/dynamic-global-routing.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ dynamic-global-routing: examples/routing/CMakeFiles/dynamic-global-routing.dir/r
 
 # fast build rule for target.
 dynamic-global-routing/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/build
 .PHONY : dynamic-global-routing/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/static-routing-slash32.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/static-routing-slash32.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/static-routing-slash32.dir/rule
 .PHONY : examples/routing/CMakeFiles/static-routing-slash32.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ static-routing-slash32: examples/routing/CMakeFiles/static-routing-slash32.dir/r
 
 # fast build rule for target.
 static-routing-slash32/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/build
 .PHONY : static-routing-slash32/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/global-routing-slash32.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/global-routing-slash32.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/global-routing-slash32.dir/rule
 .PHONY : examples/routing/CMakeFiles/global-routing-slash32.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ global-routing-slash32: examples/routing/CMakeFiles/global-routing-slash32.dir/r
 
 # fast build rule for target.
 global-routing-slash32/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/build
 .PHONY : global-routing-slash32/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/global-injection-slash32.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/global-injection-slash32.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/global-injection-slash32.dir/rule
 .PHONY : examples/routing/CMakeFiles/global-injection-slash32.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ global-injection-slash32: examples/routing/CMakeFiles/global-injection-slash32.d
 
 # fast build rule for target.
 global-injection-slash32/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/build
 .PHONY : global-injection-slash32/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/simple-global-routing.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-global-routing.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-global-routing.dir/rule
 .PHONY : examples/routing/CMakeFiles/simple-global-routing.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ simple-global-routing: examples/routing/CMakeFiles/simple-global-routing.dir/rul
 
 # fast build rule for target.
 simple-global-routing/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/build
 .PHONY : simple-global-routing/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/simple-alternate-routing.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-alternate-routing.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-alternate-routing.dir/rule
 .PHONY : examples/routing/CMakeFiles/simple-alternate-routing.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ simple-alternate-routing: examples/routing/CMakeFiles/simple-alternate-routing.d
 
 # fast build rule for target.
 simple-alternate-routing/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/build
 .PHONY : simple-alternate-routing/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/mixed-global-routing.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/mixed-global-routing.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/mixed-global-routing.dir/rule
 .PHONY : examples/routing/CMakeFiles/mixed-global-routing.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ mixed-global-routing: examples/routing/CMakeFiles/mixed-global-routing.dir/rule
 
 # fast build rule for target.
 mixed-global-routing/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/build
 .PHONY : mixed-global-routing/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/simple-routing-ping6.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-routing-ping6.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-routing-ping6.dir/rule
 .PHONY : examples/routing/CMakeFiles/simple-routing-ping6.dir/rule
 
 # Convenience name for target.
@@ -281,12 +281,12 @@ simple-routing-ping6: examples/routing/CMakeFiles/simple-routing-ping6.dir/rule
 
 # fast build rule for target.
 simple-routing-ping6/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/build
 .PHONY : simple-routing-ping6/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/manet-routing-compare.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/manet-routing-compare.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/manet-routing-compare.dir/rule
 .PHONY : examples/routing/CMakeFiles/manet-routing-compare.dir/rule
 
 # Convenience name for target.
@@ -295,12 +295,12 @@ manet-routing-compare: examples/routing/CMakeFiles/manet-routing-compare.dir/rul
 
 # fast build rule for target.
 manet-routing-compare/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/build
 .PHONY : manet-routing-compare/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/ripng-simple-network.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/ripng-simple-network.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/ripng-simple-network.dir/rule
 .PHONY : examples/routing/CMakeFiles/ripng-simple-network.dir/rule
 
 # Convenience name for target.
@@ -309,12 +309,12 @@ ripng-simple-network: examples/routing/CMakeFiles/ripng-simple-network.dir/rule
 
 # fast build rule for target.
 ripng-simple-network/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/build
 .PHONY : ripng-simple-network/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/rip-simple-network.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/rip-simple-network.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/rip-simple-network.dir/rule
 .PHONY : examples/routing/CMakeFiles/rip-simple-network.dir/rule
 
 # Convenience name for target.
@@ -323,12 +323,12 @@ rip-simple-network: examples/routing/CMakeFiles/rip-simple-network.dir/rule
 
 # fast build rule for target.
 rip-simple-network/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/build
 .PHONY : rip-simple-network/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/rule
 .PHONY : examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/rule
 
 # Convenience name for target.
@@ -337,12 +337,12 @@ global-routing-multi-switch-plus-router: examples/routing/CMakeFiles/global-rout
 
 # fast build rule for target.
 global-routing-multi-switch-plus-router/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build
 .PHONY : global-routing-multi-switch-plus-router/fast
 
 # Convenience name for target.
 examples/routing/CMakeFiles/simple-multicast-flooding.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-multicast-flooding.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/routing/CMakeFiles/simple-multicast-flooding.dir/rule
 .PHONY : examples/routing/CMakeFiles/simple-multicast-flooding.dir/rule
 
 # Convenience name for target.
@@ -351,7 +351,7 @@ simple-multicast-flooding: examples/routing/CMakeFiles/simple-multicast-flooding
 
 # fast build rule for target.
 simple-multicast-flooding/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/build
 .PHONY : simple-multicast-flooding/fast
 
 dynamic-global-routing.o: dynamic-global-routing.cc.o
@@ -359,7 +359,7 @@ dynamic-global-routing.o: dynamic-global-routing.cc.o
 
 # target to build an object file
 dynamic-global-routing.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.o
 .PHONY : dynamic-global-routing.cc.o
 
 dynamic-global-routing.i: dynamic-global-routing.cc.i
@@ -367,7 +367,7 @@ dynamic-global-routing.i: dynamic-global-routing.cc.i
 
 # target to preprocess a source file
 dynamic-global-routing.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.i
 .PHONY : dynamic-global-routing.cc.i
 
 dynamic-global-routing.s: dynamic-global-routing.cc.s
@@ -375,7 +375,7 @@ dynamic-global-routing.s: dynamic-global-routing.cc.s
 
 # target to generate assembly for a file
 dynamic-global-routing.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/dynamic-global-routing.dir/build.make examples/routing/CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.s
 .PHONY : dynamic-global-routing.cc.s
 
 global-injection-slash32.o: global-injection-slash32.cc.o
@@ -383,7 +383,7 @@ global-injection-slash32.o: global-injection-slash32.cc.o
 
 # target to build an object file
 global-injection-slash32.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.o
 .PHONY : global-injection-slash32.cc.o
 
 global-injection-slash32.i: global-injection-slash32.cc.i
@@ -391,7 +391,7 @@ global-injection-slash32.i: global-injection-slash32.cc.i
 
 # target to preprocess a source file
 global-injection-slash32.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.i
 .PHONY : global-injection-slash32.cc.i
 
 global-injection-slash32.s: global-injection-slash32.cc.s
@@ -399,7 +399,7 @@ global-injection-slash32.s: global-injection-slash32.cc.s
 
 # target to generate assembly for a file
 global-injection-slash32.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-injection-slash32.dir/build.make examples/routing/CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.s
 .PHONY : global-injection-slash32.cc.s
 
 global-routing-multi-switch-plus-router.o: global-routing-multi-switch-plus-router.cc.o
@@ -407,7 +407,7 @@ global-routing-multi-switch-plus-router.o: global-routing-multi-switch-plus-rout
 
 # target to build an object file
 global-routing-multi-switch-plus-router.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.o
 .PHONY : global-routing-multi-switch-plus-router.cc.o
 
 global-routing-multi-switch-plus-router.i: global-routing-multi-switch-plus-router.cc.i
@@ -415,7 +415,7 @@ global-routing-multi-switch-plus-router.i: global-routing-multi-switch-plus-rout
 
 # target to preprocess a source file
 global-routing-multi-switch-plus-router.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.i
 .PHONY : global-routing-multi-switch-plus-router.cc.i
 
 global-routing-multi-switch-plus-router.s: global-routing-multi-switch-plus-router.cc.s
@@ -423,7 +423,7 @@ global-routing-multi-switch-plus-router.s: global-routing-multi-switch-plus-rout
 
 # target to generate assembly for a file
 global-routing-multi-switch-plus-router.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/build.make examples/routing/CMakeFiles/global-routing-multi-switch-plus-router.dir/global-routing-multi-switch-plus-router.cc.s
 .PHONY : global-routing-multi-switch-plus-router.cc.s
 
 global-routing-slash32.o: global-routing-slash32.cc.o
@@ -431,7 +431,7 @@ global-routing-slash32.o: global-routing-slash32.cc.o
 
 # target to build an object file
 global-routing-slash32.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/global-routing-slash32.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/global-routing-slash32.cc.o
 .PHONY : global-routing-slash32.cc.o
 
 global-routing-slash32.i: global-routing-slash32.cc.i
@@ -439,7 +439,7 @@ global-routing-slash32.i: global-routing-slash32.cc.i
 
 # target to preprocess a source file
 global-routing-slash32.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/global-routing-slash32.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/global-routing-slash32.cc.i
 .PHONY : global-routing-slash32.cc.i
 
 global-routing-slash32.s: global-routing-slash32.cc.s
@@ -447,7 +447,7 @@ global-routing-slash32.s: global-routing-slash32.cc.s
 
 # target to generate assembly for a file
 global-routing-slash32.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/global-routing-slash32.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/global-routing-slash32.dir/build.make examples/routing/CMakeFiles/global-routing-slash32.dir/global-routing-slash32.cc.s
 .PHONY : global-routing-slash32.cc.s
 
 manet-routing-compare.o: manet-routing-compare.cc.o
@@ -455,7 +455,7 @@ manet-routing-compare.o: manet-routing-compare.cc.o
 
 # target to build an object file
 manet-routing-compare.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.o
 .PHONY : manet-routing-compare.cc.o
 
 manet-routing-compare.i: manet-routing-compare.cc.i
@@ -463,7 +463,7 @@ manet-routing-compare.i: manet-routing-compare.cc.i
 
 # target to preprocess a source file
 manet-routing-compare.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.i
 .PHONY : manet-routing-compare.cc.i
 
 manet-routing-compare.s: manet-routing-compare.cc.s
@@ -471,7 +471,7 @@ manet-routing-compare.s: manet-routing-compare.cc.s
 
 # target to generate assembly for a file
 manet-routing-compare.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/manet-routing-compare.dir/build.make examples/routing/CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.s
 .PHONY : manet-routing-compare.cc.s
 
 mixed-global-routing.o: mixed-global-routing.cc.o
@@ -479,7 +479,7 @@ mixed-global-routing.o: mixed-global-routing.cc.o
 
 # target to build an object file
 mixed-global-routing.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.o
 .PHONY : mixed-global-routing.cc.o
 
 mixed-global-routing.i: mixed-global-routing.cc.i
@@ -487,7 +487,7 @@ mixed-global-routing.i: mixed-global-routing.cc.i
 
 # target to preprocess a source file
 mixed-global-routing.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.i
 .PHONY : mixed-global-routing.cc.i
 
 mixed-global-routing.s: mixed-global-routing.cc.s
@@ -495,7 +495,7 @@ mixed-global-routing.s: mixed-global-routing.cc.s
 
 # target to generate assembly for a file
 mixed-global-routing.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/mixed-global-routing.dir/build.make examples/routing/CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.s
 .PHONY : mixed-global-routing.cc.s
 
 rip-simple-network.o: rip-simple-network.cc.o
@@ -503,7 +503,7 @@ rip-simple-network.o: rip-simple-network.cc.o
 
 # target to build an object file
 rip-simple-network.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.o
 .PHONY : rip-simple-network.cc.o
 
 rip-simple-network.i: rip-simple-network.cc.i
@@ -511,7 +511,7 @@ rip-simple-network.i: rip-simple-network.cc.i
 
 # target to preprocess a source file
 rip-simple-network.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.i
 .PHONY : rip-simple-network.cc.i
 
 rip-simple-network.s: rip-simple-network.cc.s
@@ -519,7 +519,7 @@ rip-simple-network.s: rip-simple-network.cc.s
 
 # target to generate assembly for a file
 rip-simple-network.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/rip-simple-network.dir/build.make examples/routing/CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.s
 .PHONY : rip-simple-network.cc.s
 
 ripng-simple-network.o: ripng-simple-network.cc.o
@@ -527,7 +527,7 @@ ripng-simple-network.o: ripng-simple-network.cc.o
 
 # target to build an object file
 ripng-simple-network.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.o
 .PHONY : ripng-simple-network.cc.o
 
 ripng-simple-network.i: ripng-simple-network.cc.i
@@ -535,7 +535,7 @@ ripng-simple-network.i: ripng-simple-network.cc.i
 
 # target to preprocess a source file
 ripng-simple-network.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.i
 .PHONY : ripng-simple-network.cc.i
 
 ripng-simple-network.s: ripng-simple-network.cc.s
@@ -543,7 +543,7 @@ ripng-simple-network.s: ripng-simple-network.cc.s
 
 # target to generate assembly for a file
 ripng-simple-network.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/ripng-simple-network.dir/build.make examples/routing/CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.s
 .PHONY : ripng-simple-network.cc.s
 
 simple-alternate-routing.o: simple-alternate-routing.cc.o
@@ -551,7 +551,7 @@ simple-alternate-routing.o: simple-alternate-routing.cc.o
 
 # target to build an object file
 simple-alternate-routing.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.o
 .PHONY : simple-alternate-routing.cc.o
 
 simple-alternate-routing.i: simple-alternate-routing.cc.i
@@ -559,7 +559,7 @@ simple-alternate-routing.i: simple-alternate-routing.cc.i
 
 # target to preprocess a source file
 simple-alternate-routing.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.i
 .PHONY : simple-alternate-routing.cc.i
 
 simple-alternate-routing.s: simple-alternate-routing.cc.s
@@ -567,7 +567,7 @@ simple-alternate-routing.s: simple-alternate-routing.cc.s
 
 # target to generate assembly for a file
 simple-alternate-routing.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-alternate-routing.dir/build.make examples/routing/CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.s
 .PHONY : simple-alternate-routing.cc.s
 
 simple-global-routing.o: simple-global-routing.cc.o
@@ -575,7 +575,7 @@ simple-global-routing.o: simple-global-routing.cc.o
 
 # target to build an object file
 simple-global-routing.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/simple-global-routing.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/simple-global-routing.cc.o
 .PHONY : simple-global-routing.cc.o
 
 simple-global-routing.i: simple-global-routing.cc.i
@@ -583,7 +583,7 @@ simple-global-routing.i: simple-global-routing.cc.i
 
 # target to preprocess a source file
 simple-global-routing.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/simple-global-routing.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/simple-global-routing.cc.i
 .PHONY : simple-global-routing.cc.i
 
 simple-global-routing.s: simple-global-routing.cc.s
@@ -591,7 +591,7 @@ simple-global-routing.s: simple-global-routing.cc.s
 
 # target to generate assembly for a file
 simple-global-routing.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/simple-global-routing.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-global-routing.dir/build.make examples/routing/CMakeFiles/simple-global-routing.dir/simple-global-routing.cc.s
 .PHONY : simple-global-routing.cc.s
 
 simple-multicast-flooding.o: simple-multicast-flooding.cc.o
@@ -599,7 +599,7 @@ simple-multicast-flooding.o: simple-multicast-flooding.cc.o
 
 # target to build an object file
 simple-multicast-flooding.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.o
 .PHONY : simple-multicast-flooding.cc.o
 
 simple-multicast-flooding.i: simple-multicast-flooding.cc.i
@@ -607,7 +607,7 @@ simple-multicast-flooding.i: simple-multicast-flooding.cc.i
 
 # target to preprocess a source file
 simple-multicast-flooding.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.i
 .PHONY : simple-multicast-flooding.cc.i
 
 simple-multicast-flooding.s: simple-multicast-flooding.cc.s
@@ -615,7 +615,7 @@ simple-multicast-flooding.s: simple-multicast-flooding.cc.s
 
 # target to generate assembly for a file
 simple-multicast-flooding.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-multicast-flooding.dir/build.make examples/routing/CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.s
 .PHONY : simple-multicast-flooding.cc.s
 
 simple-routing-ping6.o: simple-routing-ping6.cc.o
@@ -623,7 +623,7 @@ simple-routing-ping6.o: simple-routing-ping6.cc.o
 
 # target to build an object file
 simple-routing-ping6.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.o
 .PHONY : simple-routing-ping6.cc.o
 
 simple-routing-ping6.i: simple-routing-ping6.cc.i
@@ -631,7 +631,7 @@ simple-routing-ping6.i: simple-routing-ping6.cc.i
 
 # target to preprocess a source file
 simple-routing-ping6.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.i
 .PHONY : simple-routing-ping6.cc.i
 
 simple-routing-ping6.s: simple-routing-ping6.cc.s
@@ -639,7 +639,7 @@ simple-routing-ping6.s: simple-routing-ping6.cc.s
 
 # target to generate assembly for a file
 simple-routing-ping6.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/simple-routing-ping6.dir/build.make examples/routing/CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.s
 .PHONY : simple-routing-ping6.cc.s
 
 static-routing-slash32.o: static-routing-slash32.cc.o
@@ -647,7 +647,7 @@ static-routing-slash32.o: static-routing-slash32.cc.o
 
 # target to build an object file
 static-routing-slash32.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.o
 .PHONY : static-routing-slash32.cc.o
 
 static-routing-slash32.i: static-routing-slash32.cc.i
@@ -655,7 +655,7 @@ static-routing-slash32.i: static-routing-slash32.cc.i
 
 # target to preprocess a source file
 static-routing-slash32.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.i
 .PHONY : static-routing-slash32.cc.i
 
 static-routing-slash32.s: static-routing-slash32.cc.s
@@ -663,7 +663,7 @@ static-routing-slash32.s: static-routing-slash32.cc.s
 
 # target to generate assembly for a file
 static-routing-slash32.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f examples/routing/CMakeFiles/static-routing-slash32.dir/build.make examples/routing/CMakeFiles/static-routing-slash32.dir/static-routing-slash32.cc.s
 .PHONY : static-routing-slash32.cc.s
 
 # Help Target
@@ -742,7 +742,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

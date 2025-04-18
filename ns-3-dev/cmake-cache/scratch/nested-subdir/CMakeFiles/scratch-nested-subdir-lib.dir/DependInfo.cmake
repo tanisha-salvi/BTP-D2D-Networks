@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Downloads/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc" "scratch/nested-subdir/CMakeFiles/scratch-nested-subdir-lib.dir/lib/scratch-nested-subdir-library-source.cc.o" "gcc" "scratch/nested-subdir/CMakeFiles/scratch-nested-subdir-lib.dir/lib/scratch-nested-subdir-library-source.cc.o.d"
+  "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/nested-subdir/lib/scratch-nested-subdir-library-source.cc" "scratch/nested-subdir/CMakeFiles/scratch-nested-subdir-lib.dir/lib/scratch-nested-subdir-library-source.cc.o" "gcc" "scratch/nested-subdir/CMakeFiles/scratch-nested-subdir-lib.dir/lib/scratch-nested-subdir-library-source.cc.o.d"
   )
 
 # Targets to which this target links.

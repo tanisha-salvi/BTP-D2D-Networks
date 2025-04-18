@@ -1,8 +1,8 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-cb-type-one.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-cb-type-one.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-cb-type-one.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-cb-type-one.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
@@ -39,7 +39,7 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one.cc.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -123,8 +123,8 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-cb-type-one.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/boolean.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/boolean.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uinteger.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h

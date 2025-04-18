@@ -1,10 +1,10 @@
 src/wifi/CMakeFiles/libwifi-obj.dir/model/capability-information.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/capability-information.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/capability-information.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wifi/model/capability-information.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/buffer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/model/capability-information.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/buffer.h \
  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \

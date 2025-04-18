@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/wimax/examples/CMakeFiles/wimax-simple.dir/depend.make
@@ -74,16 +74,16 @@ src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o: ../src/wimax/e
 src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o: src/wimax/examples/CMakeFiles/wimax-simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o -MF CMakeFiles/wimax-simple.dir/wimax-simple.cc.o.d -o CMakeFiles/wimax-simple.dir/wimax-simple.cc.o -c /mnt/d/Downloads/ns-3-dev/src/wimax/examples/wimax-simple.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.o -MF CMakeFiles/wimax-simple.dir/wimax-simple.cc.o.d -o CMakeFiles/wimax-simple.dir/wimax-simple.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples/wimax-simple.cc
 
 src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wimax-simple.dir/wimax-simple.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/wimax/examples/wimax-simple.cc > CMakeFiles/wimax-simple.dir/wimax-simple.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples/wimax-simple.cc > CMakeFiles/wimax-simple.dir/wimax-simple.cc.i
 
 src/wimax/examples/CMakeFiles/wimax-simple.dir/wimax-simple.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wimax-simple.dir/wimax-simple.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/wimax/examples/wimax-simple.cc -o CMakeFiles/wimax-simple.dir/wimax-simple.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples/wimax-simple.cc -o CMakeFiles/wimax-simple.dir/wimax-simple.cc.s
 
 # Object files for target wimax-simple
 wimax__simple_OBJECTS = \
@@ -96,18 +96,18 @@ wimax__simple_EXTERNAL_OBJECTS =
 ../build/src/wimax/examples/ns3.42-wimax-simple-default: src/wimax/examples/CMakeFiles/wimax-simple.dir/build.make
 ../build/src/wimax/examples/ns3.42-wimax-simple-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/wimax/examples/ns3.42-wimax-simple-default: src/wimax/examples/CMakeFiles/wimax-simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/wimax/examples/ns3.42-wimax-simple-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wimax-simple.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/wimax/examples/ns3.42-wimax-simple-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wimax-simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/wimax/examples/CMakeFiles/wimax-simple.dir/build: ../build/src/wimax/examples/ns3.42-wimax-simple-default
 .PHONY : src/wimax/examples/CMakeFiles/wimax-simple.dir/build
 
 src/wimax/examples/CMakeFiles/wimax-simple.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -P CMakeFiles/wimax-simple.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples && $(CMAKE_COMMAND) -P CMakeFiles/wimax-simple.dir/cmake_clean.cmake
 .PHONY : src/wimax/examples/CMakeFiles/wimax-simple.dir/clean
 
 src/wimax/examples/CMakeFiles/wimax-simple.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/wimax/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wimax/examples/CMakeFiles/wimax-simple.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wimax/examples/CMakeFiles/wimax-simple.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/wimax/examples/CMakeFiles/wimax-simple.dir/depend
 

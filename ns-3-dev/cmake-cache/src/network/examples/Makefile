@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/network/examples//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/network/examples//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/network/examples/CMakeFiles/bit-serializer.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/bit-serializer.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/bit-serializer.dir/rule
 .PHONY : src/network/examples/CMakeFiles/bit-serializer.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ bit-serializer: src/network/examples/CMakeFiles/bit-serializer.dir/rule
 
 # fast build rule for target.
 bit-serializer/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/build
 .PHONY : bit-serializer/fast
 
 # Convenience name for target.
 src/network/examples/CMakeFiles/main-packet-header.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/main-packet-header.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/main-packet-header.dir/rule
 .PHONY : src/network/examples/CMakeFiles/main-packet-header.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ main-packet-header: src/network/examples/CMakeFiles/main-packet-header.dir/rule
 
 # fast build rule for target.
 main-packet-header/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/build
 .PHONY : main-packet-header/fast
 
 # Convenience name for target.
 src/network/examples/CMakeFiles/main-packet-tag.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/main-packet-tag.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/main-packet-tag.dir/rule
 .PHONY : src/network/examples/CMakeFiles/main-packet-tag.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ main-packet-tag: src/network/examples/CMakeFiles/main-packet-tag.dir/rule
 
 # fast build rule for target.
 main-packet-tag/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/build
 .PHONY : main-packet-tag/fast
 
 # Convenience name for target.
 src/network/examples/CMakeFiles/packet-socket-apps.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/packet-socket-apps.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/packet-socket-apps.dir/rule
 .PHONY : src/network/examples/CMakeFiles/packet-socket-apps.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ packet-socket-apps: src/network/examples/CMakeFiles/packet-socket-apps.dir/rule
 
 # fast build rule for target.
 packet-socket-apps/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/build
 .PHONY : packet-socket-apps/fast
 
 # Convenience name for target.
 src/network/examples/CMakeFiles/lollipop-comparisons.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/lollipop-comparisons.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/network/examples/CMakeFiles/lollipop-comparisons.dir/rule
 .PHONY : src/network/examples/CMakeFiles/lollipop-comparisons.dir/rule
 
 # Convenience name for target.
@@ -239,7 +239,7 @@ lollipop-comparisons: src/network/examples/CMakeFiles/lollipop-comparisons.dir/r
 
 # fast build rule for target.
 lollipop-comparisons/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/build
 .PHONY : lollipop-comparisons/fast
 
 bit-serializer.o: bit-serializer.cc.o
@@ -247,7 +247,7 @@ bit-serializer.o: bit-serializer.cc.o
 
 # target to build an object file
 bit-serializer.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/bit-serializer.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/bit-serializer.cc.o
 .PHONY : bit-serializer.cc.o
 
 bit-serializer.i: bit-serializer.cc.i
@@ -255,7 +255,7 @@ bit-serializer.i: bit-serializer.cc.i
 
 # target to preprocess a source file
 bit-serializer.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/bit-serializer.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/bit-serializer.cc.i
 .PHONY : bit-serializer.cc.i
 
 bit-serializer.s: bit-serializer.cc.s
@@ -263,7 +263,7 @@ bit-serializer.s: bit-serializer.cc.s
 
 # target to generate assembly for a file
 bit-serializer.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/bit-serializer.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/bit-serializer.dir/build.make src/network/examples/CMakeFiles/bit-serializer.dir/bit-serializer.cc.s
 .PHONY : bit-serializer.cc.s
 
 lollipop-comparisons.o: lollipop-comparisons.cc.o
@@ -271,7 +271,7 @@ lollipop-comparisons.o: lollipop-comparisons.cc.o
 
 # target to build an object file
 lollipop-comparisons.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.o
 .PHONY : lollipop-comparisons.cc.o
 
 lollipop-comparisons.i: lollipop-comparisons.cc.i
@@ -279,7 +279,7 @@ lollipop-comparisons.i: lollipop-comparisons.cc.i
 
 # target to preprocess a source file
 lollipop-comparisons.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.i
 .PHONY : lollipop-comparisons.cc.i
 
 lollipop-comparisons.s: lollipop-comparisons.cc.s
@@ -287,7 +287,7 @@ lollipop-comparisons.s: lollipop-comparisons.cc.s
 
 # target to generate assembly for a file
 lollipop-comparisons.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/lollipop-comparisons.dir/build.make src/network/examples/CMakeFiles/lollipop-comparisons.dir/lollipop-comparisons.cc.s
 .PHONY : lollipop-comparisons.cc.s
 
 main-packet-header.o: main-packet-header.cc.o
@@ -295,7 +295,7 @@ main-packet-header.o: main-packet-header.cc.o
 
 # target to build an object file
 main-packet-header.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/main-packet-header.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/main-packet-header.cc.o
 .PHONY : main-packet-header.cc.o
 
 main-packet-header.i: main-packet-header.cc.i
@@ -303,7 +303,7 @@ main-packet-header.i: main-packet-header.cc.i
 
 # target to preprocess a source file
 main-packet-header.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/main-packet-header.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/main-packet-header.cc.i
 .PHONY : main-packet-header.cc.i
 
 main-packet-header.s: main-packet-header.cc.s
@@ -311,7 +311,7 @@ main-packet-header.s: main-packet-header.cc.s
 
 # target to generate assembly for a file
 main-packet-header.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/main-packet-header.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-header.dir/build.make src/network/examples/CMakeFiles/main-packet-header.dir/main-packet-header.cc.s
 .PHONY : main-packet-header.cc.s
 
 main-packet-tag.o: main-packet-tag.cc.o
@@ -319,7 +319,7 @@ main-packet-tag.o: main-packet-tag.cc.o
 
 # target to build an object file
 main-packet-tag.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.o
 .PHONY : main-packet-tag.cc.o
 
 main-packet-tag.i: main-packet-tag.cc.i
@@ -327,7 +327,7 @@ main-packet-tag.i: main-packet-tag.cc.i
 
 # target to preprocess a source file
 main-packet-tag.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.i
 .PHONY : main-packet-tag.cc.i
 
 main-packet-tag.s: main-packet-tag.cc.s
@@ -335,7 +335,7 @@ main-packet-tag.s: main-packet-tag.cc.s
 
 # target to generate assembly for a file
 main-packet-tag.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/main-packet-tag.dir/build.make src/network/examples/CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.s
 .PHONY : main-packet-tag.cc.s
 
 packet-socket-apps.o: packet-socket-apps.cc.o
@@ -343,7 +343,7 @@ packet-socket-apps.o: packet-socket-apps.cc.o
 
 # target to build an object file
 packet-socket-apps.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.o
 .PHONY : packet-socket-apps.cc.o
 
 packet-socket-apps.i: packet-socket-apps.cc.i
@@ -351,7 +351,7 @@ packet-socket-apps.i: packet-socket-apps.cc.i
 
 # target to preprocess a source file
 packet-socket-apps.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.i
 .PHONY : packet-socket-apps.cc.i
 
 packet-socket-apps.s: packet-socket-apps.cc.s
@@ -359,7 +359,7 @@ packet-socket-apps.s: packet-socket-apps.cc.s
 
 # target to generate assembly for a file
 packet-socket-apps.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/network/examples/CMakeFiles/packet-socket-apps.dir/build.make src/network/examples/CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.s
 .PHONY : packet-socket-apps.cc.s
 
 # Help Target
@@ -406,7 +406,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

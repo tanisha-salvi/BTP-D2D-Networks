@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/depend.make
@@ -74,16 +74,16 @@ src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.c
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o: src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o -MF CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o.d -o CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o -c /mnt/d/Downloads/ns-3-dev/src/wifi/examples/wifi-phy-configuration.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o -MF CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o.d -o CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/examples/wifi-phy-configuration.cc
 
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/src/wifi/examples/wifi-phy-configuration.cc > CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/examples/wifi-phy-configuration.cc > CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.i
 
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/src/wifi/examples/wifi-phy-configuration.cc -o CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/examples/wifi-phy-configuration.cc -o CMakeFiles/wifi-phy-configuration.dir/wifi-phy-configuration.cc.s
 
 # Object files for target wifi-phy-configuration
 wifi__phy__configuration_OBJECTS = \
@@ -96,18 +96,18 @@ wifi__phy__configuration_EXTERNAL_OBJECTS =
 ../build/src/wifi/examples/ns3.42-wifi-phy-configuration-default: src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/build.make
 ../build/src/wifi/examples/ns3.42-wifi-phy-configuration-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/src/wifi/examples/ns3.42-wifi-phy-configuration-default: src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/wifi/examples/ns3.42-wifi-phy-configuration-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wifi-phy-configuration.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../build/src/wifi/examples/ns3.42-wifi-phy-configuration-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wifi-phy-configuration.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/build: ../build/src/wifi/examples/ns3.42-wifi-phy-configuration-default
 .PHONY : src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/build
 
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples && $(CMAKE_COMMAND) -P CMakeFiles/wifi-phy-configuration.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples && $(CMAKE_COMMAND) -P CMakeFiles/wifi-phy-configuration.dir/cmake_clean.cmake
 .PHONY : src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/clean
 
 src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/wifi/examples /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples /mnt/d/Downloads/ns-3-dev/cmake-cache/src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wifi/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/wifi/examples/CMakeFiles/wifi-phy-configuration.dir/depend
 

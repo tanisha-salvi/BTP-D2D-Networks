@@ -1,9 +1,9 @@
 src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation-loss-model.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/propagation/model/kun-2600-mhz-propagation-loss-model.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/kun-2600-mhz-propagation-loss-model.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/propagation/model/kun-2600-mhz-propagation-loss-model.h \
- /mnt/d/Downloads/ns-3-dev/src/propagation/model/propagation-loss-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/kun-2600-mhz-propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/propagation/model/propagation-loss-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -109,27 +109,27 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/random-variable-stream.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /usr/include/c++/11/map \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/double.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/enum.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/enum.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_iterator_base_types.h \
  /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/log.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/traced-callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traced-callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h

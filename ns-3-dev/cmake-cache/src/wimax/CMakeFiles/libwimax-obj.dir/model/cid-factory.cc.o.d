@@ -1,11 +1,11 @@
 src/wimax/CMakeFiles/libwimax-obj.dir/model/cid-factory.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/cid-factory.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/cid-factory.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/cid-factory.h \
- /mnt/d/Downloads/ns-3-dev/src/wimax/model/cid.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/cid-factory.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/wimax/model/cid.h \
  /usr/include/c++/11/ostream \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uinteger.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \

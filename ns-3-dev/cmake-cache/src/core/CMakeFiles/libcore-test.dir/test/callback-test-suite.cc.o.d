@@ -1,7 +1,7 @@
 src/core/CMakeFiles/libcore-test.dir/test/callback-test-suite.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/test/callback-test-suite.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/test/callback-test-suite.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
@@ -96,7 +96,7 @@ src/core/CMakeFiles/libcore-test.dir/test/callback-test-suite.cc.o: \
  /usr/include/c++/11/bits/stl_pair.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-wall-clock-ms.h \

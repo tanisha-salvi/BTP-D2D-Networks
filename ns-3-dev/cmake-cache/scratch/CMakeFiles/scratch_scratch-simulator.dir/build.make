@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Include any dependencies generated for this target.
 include scratch/CMakeFiles/scratch_scratch-simulator.dir/depend.make
@@ -74,16 +74,16 @@ scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o: ../scra
 scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o: CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx.gch
 scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o: scratch/CMakeFiles/scratch_scratch-simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o -MF CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o.d -o CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o -c /mnt/d/Downloads/ns-3-dev/scratch/scratch-simulator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -MD -MT scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o -MF CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o.d -o CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o -c /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/scratch-simulator.cc
 
 scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.i"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/ns-3-dev/scratch/scratch-simulator.cc > CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -E /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/scratch-simulator.cc > CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.i
 
 scratch/CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.s"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/ns-3-dev/scratch/scratch-simulator.cc -o CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx -S /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch/scratch-simulator.cc -o CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.s
 
 # Object files for target scratch_scratch-simulator
 scratch_scratch__simulator_OBJECTS = \
@@ -96,18 +96,18 @@ scratch_scratch__simulator_EXTERNAL_OBJECTS =
 ../build/scratch/ns3.42-scratch-simulator-default: scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make
 ../build/scratch/ns3.42-scratch-simulator-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 ../build/scratch/ns3.42-scratch-simulator-default: scratch/CMakeFiles/scratch_scratch-simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../build/scratch/ns3.42-scratch-simulator-default"
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scratch_scratch-simulator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../build/scratch/ns3.42-scratch-simulator-default"
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scratch_scratch-simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 scratch/CMakeFiles/scratch_scratch-simulator.dir/build: ../build/scratch/ns3.42-scratch-simulator-default
 .PHONY : scratch/CMakeFiles/scratch_scratch-simulator.dir/build
 
 scratch/CMakeFiles/scratch_scratch-simulator.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -P CMakeFiles/scratch_scratch-simulator.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch && $(CMAKE_COMMAND) -P CMakeFiles/scratch_scratch-simulator.dir/cmake_clean.cmake
 .PHONY : scratch/CMakeFiles/scratch_scratch-simulator.dir/clean
 
 scratch/CMakeFiles/scratch_scratch-simulator.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/scratch /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch /mnt/d/Downloads/ns-3-dev/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/scratch /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scratch/CMakeFiles/scratch_scratch-simulator.dir/depend
 

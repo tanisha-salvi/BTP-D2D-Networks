@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/contrib/nr-prose
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-nr-prose-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-nr-prose-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-nr-prose-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-nr-prose-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-nr-prose-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-nr-prose-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-nr-prose-default.so")
@@ -67,22 +67,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/helper/nr-sl-discovery-trace.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/helper/nr-sl-prose-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/helper/nr-sl-relay-trace.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/model/nr-sl-discovery-header.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/model/nr-sl-pc5-signalling-header.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-prose-direct-link.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-prose.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-service.h"
-    "/mnt/d/Downloads/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-prose-relay-selection-algorithm.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/nr-prose-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/helper/nr-sl-discovery-trace.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/helper/nr-sl-prose-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/helper/nr-sl-relay-trace.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/model/nr-sl-discovery-header.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/model/nr-sl-pc5-signalling-header.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-prose-direct-link.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-prose.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-service.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr-prose/model/nr-sl-ue-prose-relay-selection-algorithm.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/nr-prose-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/contrib/nr-prose/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/contrib/nr-prose/examples/cmake_install.cmake")
 
 endif()
 

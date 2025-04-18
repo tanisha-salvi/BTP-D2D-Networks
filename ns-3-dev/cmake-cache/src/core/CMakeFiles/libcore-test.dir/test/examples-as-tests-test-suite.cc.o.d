@@ -1,7 +1,7 @@
 src/core/CMakeFiles/libcore-test.dir/test/examples-as-tests-test-suite.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/test/examples-as-tests-test-suite.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/test/examples-as-tests-test-suite.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/example-as-test.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/example-as-test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/example-as-test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/test.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
@@ -11,5 +11,5 @@ src/core/CMakeFiles/libcore-test.dir/test/examples-as-tests-test-suite.cc.o: \
  /usr/include/c++/11/limits /usr/include/c++/11/list \
  /usr/include/c++/11/sstream /usr/include/c++/11/string \
  /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/system-path.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/system-path.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/system-path.h

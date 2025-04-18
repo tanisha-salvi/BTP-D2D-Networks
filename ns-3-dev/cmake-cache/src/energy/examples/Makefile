@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/energy/examples//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/energy/examples//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/rule
 .PHONY : src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ generic-battery-discharge-example: src/energy/examples/CMakeFiles/generic-batter
 
 # fast build rule for target.
 generic-battery-discharge-example/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build
 .PHONY : generic-battery-discharge-example/fast
 
 # Convenience name for target.
 src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/rule
 .PHONY : src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ generic-battery-wifiradio-example: src/energy/examples/CMakeFiles/generic-batter
 
 # fast build rule for target.
 generic-battery-wifiradio-example/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build
 .PHONY : generic-battery-wifiradio-example/fast
 
 # Convenience name for target.
 src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/rule
 .PHONY : src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ li-ion-energy-source-example: src/energy/examples/CMakeFiles/li-ion-energy-sourc
 
 # fast build rule for target.
 li-ion-energy-source-example/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build
 .PHONY : li-ion-energy-source-example/fast
 
 # Convenience name for target.
 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rule
 .PHONY : src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ rv-battery-model-test: src/energy/examples/CMakeFiles/rv-battery-model-test.dir/
 
 # fast build rule for target.
 rv-battery-model-test/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build
 .PHONY : rv-battery-model-test/fast
 
 # Convenience name for target.
 src/energy/examples/CMakeFiles/basic-energy-model-test.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/basic-energy-model-test.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/energy/examples/CMakeFiles/basic-energy-model-test.dir/rule
 .PHONY : src/energy/examples/CMakeFiles/basic-energy-model-test.dir/rule
 
 # Convenience name for target.
@@ -239,7 +239,7 @@ basic-energy-model-test: src/energy/examples/CMakeFiles/basic-energy-model-test.
 
 # fast build rule for target.
 basic-energy-model-test/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build
 .PHONY : basic-energy-model-test/fast
 
 basic-energy-model-test.o: basic-energy-model-test.cc.o
@@ -247,7 +247,7 @@ basic-energy-model-test.o: basic-energy-model-test.cc.o
 
 # target to build an object file
 basic-energy-model-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.o
 .PHONY : basic-energy-model-test.cc.o
 
 basic-energy-model-test.i: basic-energy-model-test.cc.i
@@ -255,7 +255,7 @@ basic-energy-model-test.i: basic-energy-model-test.cc.i
 
 # target to preprocess a source file
 basic-energy-model-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.i
 .PHONY : basic-energy-model-test.cc.i
 
 basic-energy-model-test.s: basic-energy-model-test.cc.s
@@ -263,7 +263,7 @@ basic-energy-model-test.s: basic-energy-model-test.cc.s
 
 # target to generate assembly for a file
 basic-energy-model-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/basic-energy-model-test.dir/build.make src/energy/examples/CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.s
 .PHONY : basic-energy-model-test.cc.s
 
 generic-battery-discharge-example.o: generic-battery-discharge-example.cc.o
@@ -271,7 +271,7 @@ generic-battery-discharge-example.o: generic-battery-discharge-example.cc.o
 
 # target to build an object file
 generic-battery-discharge-example.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.o
 .PHONY : generic-battery-discharge-example.cc.o
 
 generic-battery-discharge-example.i: generic-battery-discharge-example.cc.i
@@ -279,7 +279,7 @@ generic-battery-discharge-example.i: generic-battery-discharge-example.cc.i
 
 # target to preprocess a source file
 generic-battery-discharge-example.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.i
 .PHONY : generic-battery-discharge-example.cc.i
 
 generic-battery-discharge-example.s: generic-battery-discharge-example.cc.s
@@ -287,7 +287,7 @@ generic-battery-discharge-example.s: generic-battery-discharge-example.cc.s
 
 # target to generate assembly for a file
 generic-battery-discharge-example.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-discharge-example.dir/generic-battery-discharge-example.cc.s
 .PHONY : generic-battery-discharge-example.cc.s
 
 generic-battery-wifiradio-example.o: generic-battery-wifiradio-example.cc.o
@@ -295,7 +295,7 @@ generic-battery-wifiradio-example.o: generic-battery-wifiradio-example.cc.o
 
 # target to build an object file
 generic-battery-wifiradio-example.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/generic-battery-wifiradio-example.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/generic-battery-wifiradio-example.cc.o
 .PHONY : generic-battery-wifiradio-example.cc.o
 
 generic-battery-wifiradio-example.i: generic-battery-wifiradio-example.cc.i
@@ -303,7 +303,7 @@ generic-battery-wifiradio-example.i: generic-battery-wifiradio-example.cc.i
 
 # target to preprocess a source file
 generic-battery-wifiradio-example.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/generic-battery-wifiradio-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/generic-battery-wifiradio-example.cc.i
 .PHONY : generic-battery-wifiradio-example.cc.i
 
 generic-battery-wifiradio-example.s: generic-battery-wifiradio-example.cc.s
@@ -311,7 +311,7 @@ generic-battery-wifiradio-example.s: generic-battery-wifiradio-example.cc.s
 
 # target to generate assembly for a file
 generic-battery-wifiradio-example.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/generic-battery-wifiradio-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/build.make src/energy/examples/CMakeFiles/generic-battery-wifiradio-example.dir/generic-battery-wifiradio-example.cc.s
 .PHONY : generic-battery-wifiradio-example.cc.s
 
 li-ion-energy-source-example.o: li-ion-energy-source-example.cc.o
@@ -319,7 +319,7 @@ li-ion-energy-source-example.o: li-ion-energy-source-example.cc.o
 
 # target to build an object file
 li-ion-energy-source-example.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/li-ion-energy-source-example.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/li-ion-energy-source-example.cc.o
 .PHONY : li-ion-energy-source-example.cc.o
 
 li-ion-energy-source-example.i: li-ion-energy-source-example.cc.i
@@ -327,7 +327,7 @@ li-ion-energy-source-example.i: li-ion-energy-source-example.cc.i
 
 # target to preprocess a source file
 li-ion-energy-source-example.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/li-ion-energy-source-example.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/li-ion-energy-source-example.cc.i
 .PHONY : li-ion-energy-source-example.cc.i
 
 li-ion-energy-source-example.s: li-ion-energy-source-example.cc.s
@@ -335,7 +335,7 @@ li-ion-energy-source-example.s: li-ion-energy-source-example.cc.s
 
 # target to generate assembly for a file
 li-ion-energy-source-example.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/li-ion-energy-source-example.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/build.make src/energy/examples/CMakeFiles/li-ion-energy-source-example.dir/li-ion-energy-source-example.cc.s
 .PHONY : li-ion-energy-source-example.cc.s
 
 rv-battery-model-test.o: rv-battery-model-test.cc.o
@@ -343,7 +343,7 @@ rv-battery-model-test.o: rv-battery-model-test.cc.o
 
 # target to build an object file
 rv-battery-model-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o
 .PHONY : rv-battery-model-test.cc.o
 
 rv-battery-model-test.i: rv-battery-model-test.cc.i
@@ -351,7 +351,7 @@ rv-battery-model-test.i: rv-battery-model-test.cc.i
 
 # target to preprocess a source file
 rv-battery-model-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.i
 .PHONY : rv-battery-model-test.cc.i
 
 rv-battery-model-test.s: rv-battery-model-test.cc.s
@@ -359,7 +359,7 @@ rv-battery-model-test.s: rv-battery-model-test.cc.s
 
 # target to generate assembly for a file
 rv-battery-model-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/energy/examples/CMakeFiles/rv-battery-model-test.dir/build.make src/energy/examples/CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.s
 .PHONY : rv-battery-model-test.cc.s
 
 # Help Target
@@ -406,7 +406,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

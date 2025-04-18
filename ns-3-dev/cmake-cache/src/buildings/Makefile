@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache/src/buildings//CMakeFiles/progress.marks
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/buildings//CMakeFiles/progress.marks
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/clean
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/preinstall
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/buildings/CMakeFiles/libbuildings-obj.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/CMakeFiles/libbuildings-obj.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/CMakeFiles/libbuildings-obj.dir/rule
 .PHONY : src/buildings/CMakeFiles/libbuildings-obj.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ libbuildings-obj: src/buildings/CMakeFiles/libbuildings-obj.dir/rule
 
 # fast build rule for target.
 libbuildings-obj/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/build
 .PHONY : libbuildings-obj/fast
 
 # Convenience name for target.
 src/buildings/CMakeFiles/libbuildings.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/CMakeFiles/libbuildings.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/CMakeFiles/libbuildings.dir/rule
 .PHONY : src/buildings/CMakeFiles/libbuildings.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ libbuildings: src/buildings/CMakeFiles/libbuildings.dir/rule
 
 # fast build rule for target.
 libbuildings/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings.dir/build.make src/buildings/CMakeFiles/libbuildings.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings.dir/build.make src/buildings/CMakeFiles/libbuildings.dir/build
 .PHONY : libbuildings/fast
 
 # Convenience name for target.
 src/buildings/CMakeFiles/libbuildings-test.dir/rule:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/CMakeFiles/libbuildings-test.dir/rule
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/buildings/CMakeFiles/libbuildings-test.dir/rule
 .PHONY : src/buildings/CMakeFiles/libbuildings-test.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ libbuildings-test: src/buildings/CMakeFiles/libbuildings-test.dir/rule
 
 # fast build rule for target.
 libbuildings-test/fast:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/build
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/build
 .PHONY : libbuildings-test/fast
 
 helper/building-allocator.o: helper/building-allocator.cc.o
@@ -219,7 +219,7 @@ helper/building-allocator.o: helper/building-allocator.cc.o
 
 # target to build an object file
 helper/building-allocator.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.o
 .PHONY : helper/building-allocator.cc.o
 
 helper/building-allocator.i: helper/building-allocator.cc.i
@@ -227,7 +227,7 @@ helper/building-allocator.i: helper/building-allocator.cc.i
 
 # target to preprocess a source file
 helper/building-allocator.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.i
 .PHONY : helper/building-allocator.cc.i
 
 helper/building-allocator.s: helper/building-allocator.cc.s
@@ -235,7 +235,7 @@ helper/building-allocator.s: helper/building-allocator.cc.s
 
 # target to generate assembly for a file
 helper/building-allocator.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.s
 .PHONY : helper/building-allocator.cc.s
 
 helper/building-container.o: helper/building-container.cc.o
@@ -243,7 +243,7 @@ helper/building-container.o: helper/building-container.cc.o
 
 # target to build an object file
 helper/building-container.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o
 .PHONY : helper/building-container.cc.o
 
 helper/building-container.i: helper/building-container.cc.i
@@ -251,7 +251,7 @@ helper/building-container.i: helper/building-container.cc.i
 
 # target to preprocess a source file
 helper/building-container.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.i
 .PHONY : helper/building-container.cc.i
 
 helper/building-container.s: helper/building-container.cc.s
@@ -259,7 +259,7 @@ helper/building-container.s: helper/building-container.cc.s
 
 # target to generate assembly for a file
 helper/building-container.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.s
 .PHONY : helper/building-container.cc.s
 
 helper/building-position-allocator.o: helper/building-position-allocator.cc.o
@@ -267,7 +267,7 @@ helper/building-position-allocator.o: helper/building-position-allocator.cc.o
 
 # target to build an object file
 helper/building-position-allocator.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.o
 .PHONY : helper/building-position-allocator.cc.o
 
 helper/building-position-allocator.i: helper/building-position-allocator.cc.i
@@ -275,7 +275,7 @@ helper/building-position-allocator.i: helper/building-position-allocator.cc.i
 
 # target to preprocess a source file
 helper/building-position-allocator.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.i
 .PHONY : helper/building-position-allocator.cc.i
 
 helper/building-position-allocator.s: helper/building-position-allocator.cc.s
@@ -283,7 +283,7 @@ helper/building-position-allocator.s: helper/building-position-allocator.cc.s
 
 # target to generate assembly for a file
 helper/building-position-allocator.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.s
 .PHONY : helper/building-position-allocator.cc.s
 
 helper/buildings-helper.o: helper/buildings-helper.cc.o
@@ -291,7 +291,7 @@ helper/buildings-helper.o: helper/buildings-helper.cc.o
 
 # target to build an object file
 helper/buildings-helper.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.o
 .PHONY : helper/buildings-helper.cc.o
 
 helper/buildings-helper.i: helper/buildings-helper.cc.i
@@ -299,7 +299,7 @@ helper/buildings-helper.i: helper/buildings-helper.cc.i
 
 # target to preprocess a source file
 helper/buildings-helper.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.i
 .PHONY : helper/buildings-helper.cc.i
 
 helper/buildings-helper.s: helper/buildings-helper.cc.s
@@ -307,7 +307,7 @@ helper/buildings-helper.s: helper/buildings-helper.cc.s
 
 # target to generate assembly for a file
 helper/buildings-helper.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.s
 .PHONY : helper/buildings-helper.cc.s
 
 model/building-list.o: model/building-list.cc.o
@@ -315,7 +315,7 @@ model/building-list.o: model/building-list.cc.o
 
 # target to build an object file
 model/building-list.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.o
 .PHONY : model/building-list.cc.o
 
 model/building-list.i: model/building-list.cc.i
@@ -323,7 +323,7 @@ model/building-list.i: model/building-list.cc.i
 
 # target to preprocess a source file
 model/building-list.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.i
 .PHONY : model/building-list.cc.i
 
 model/building-list.s: model/building-list.cc.s
@@ -331,7 +331,7 @@ model/building-list.s: model/building-list.cc.s
 
 # target to generate assembly for a file
 model/building-list.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.s
 .PHONY : model/building-list.cc.s
 
 model/building.o: model/building.cc.o
@@ -339,7 +339,7 @@ model/building.o: model/building.cc.o
 
 # target to build an object file
 model/building.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.o
 .PHONY : model/building.cc.o
 
 model/building.i: model/building.cc.i
@@ -347,7 +347,7 @@ model/building.i: model/building.cc.i
 
 # target to preprocess a source file
 model/building.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.i
 .PHONY : model/building.cc.i
 
 model/building.s: model/building.cc.s
@@ -355,7 +355,7 @@ model/building.s: model/building.cc.s
 
 # target to generate assembly for a file
 model/building.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.s
 .PHONY : model/building.cc.s
 
 model/buildings-channel-condition-model.o: model/buildings-channel-condition-model.cc.o
@@ -363,7 +363,7 @@ model/buildings-channel-condition-model.o: model/buildings-channel-condition-mod
 
 # target to build an object file
 model/buildings-channel-condition-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.o
 .PHONY : model/buildings-channel-condition-model.cc.o
 
 model/buildings-channel-condition-model.i: model/buildings-channel-condition-model.cc.i
@@ -371,7 +371,7 @@ model/buildings-channel-condition-model.i: model/buildings-channel-condition-mod
 
 # target to preprocess a source file
 model/buildings-channel-condition-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.i
 .PHONY : model/buildings-channel-condition-model.cc.i
 
 model/buildings-channel-condition-model.s: model/buildings-channel-condition-model.cc.s
@@ -379,7 +379,7 @@ model/buildings-channel-condition-model.s: model/buildings-channel-condition-mod
 
 # target to generate assembly for a file
 model/buildings-channel-condition-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.s
 .PHONY : model/buildings-channel-condition-model.cc.s
 
 model/buildings-propagation-loss-model.o: model/buildings-propagation-loss-model.cc.o
@@ -387,7 +387,7 @@ model/buildings-propagation-loss-model.o: model/buildings-propagation-loss-model
 
 # target to build an object file
 model/buildings-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.o
 .PHONY : model/buildings-propagation-loss-model.cc.o
 
 model/buildings-propagation-loss-model.i: model/buildings-propagation-loss-model.cc.i
@@ -395,7 +395,7 @@ model/buildings-propagation-loss-model.i: model/buildings-propagation-loss-model
 
 # target to preprocess a source file
 model/buildings-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.i
 .PHONY : model/buildings-propagation-loss-model.cc.i
 
 model/buildings-propagation-loss-model.s: model/buildings-propagation-loss-model.cc.s
@@ -403,7 +403,7 @@ model/buildings-propagation-loss-model.s: model/buildings-propagation-loss-model
 
 # target to generate assembly for a file
 model/buildings-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.s
 .PHONY : model/buildings-propagation-loss-model.cc.s
 
 model/hybrid-buildings-propagation-loss-model.o: model/hybrid-buildings-propagation-loss-model.cc.o
@@ -411,7 +411,7 @@ model/hybrid-buildings-propagation-loss-model.o: model/hybrid-buildings-propagat
 
 # target to build an object file
 model/hybrid-buildings-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.o
 .PHONY : model/hybrid-buildings-propagation-loss-model.cc.o
 
 model/hybrid-buildings-propagation-loss-model.i: model/hybrid-buildings-propagation-loss-model.cc.i
@@ -419,7 +419,7 @@ model/hybrid-buildings-propagation-loss-model.i: model/hybrid-buildings-propagat
 
 # target to preprocess a source file
 model/hybrid-buildings-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.i
 .PHONY : model/hybrid-buildings-propagation-loss-model.cc.i
 
 model/hybrid-buildings-propagation-loss-model.s: model/hybrid-buildings-propagation-loss-model.cc.s
@@ -427,7 +427,7 @@ model/hybrid-buildings-propagation-loss-model.s: model/hybrid-buildings-propagat
 
 # target to generate assembly for a file
 model/hybrid-buildings-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.s
 .PHONY : model/hybrid-buildings-propagation-loss-model.cc.s
 
 model/itu-r-1238-propagation-loss-model.o: model/itu-r-1238-propagation-loss-model.cc.o
@@ -435,7 +435,7 @@ model/itu-r-1238-propagation-loss-model.o: model/itu-r-1238-propagation-loss-mod
 
 # target to build an object file
 model/itu-r-1238-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.o
 .PHONY : model/itu-r-1238-propagation-loss-model.cc.o
 
 model/itu-r-1238-propagation-loss-model.i: model/itu-r-1238-propagation-loss-model.cc.i
@@ -443,7 +443,7 @@ model/itu-r-1238-propagation-loss-model.i: model/itu-r-1238-propagation-loss-mod
 
 # target to preprocess a source file
 model/itu-r-1238-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.i
 .PHONY : model/itu-r-1238-propagation-loss-model.cc.i
 
 model/itu-r-1238-propagation-loss-model.s: model/itu-r-1238-propagation-loss-model.cc.s
@@ -451,7 +451,7 @@ model/itu-r-1238-propagation-loss-model.s: model/itu-r-1238-propagation-loss-mod
 
 # target to generate assembly for a file
 model/itu-r-1238-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.s
 .PHONY : model/itu-r-1238-propagation-loss-model.cc.s
 
 model/mobility-building-info.o: model/mobility-building-info.cc.o
@@ -459,7 +459,7 @@ model/mobility-building-info.o: model/mobility-building-info.cc.o
 
 # target to build an object file
 model/mobility-building-info.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.o
 .PHONY : model/mobility-building-info.cc.o
 
 model/mobility-building-info.i: model/mobility-building-info.cc.i
@@ -467,7 +467,7 @@ model/mobility-building-info.i: model/mobility-building-info.cc.i
 
 # target to preprocess a source file
 model/mobility-building-info.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.i
 .PHONY : model/mobility-building-info.cc.i
 
 model/mobility-building-info.s: model/mobility-building-info.cc.s
@@ -475,7 +475,7 @@ model/mobility-building-info.s: model/mobility-building-info.cc.s
 
 # target to generate assembly for a file
 model/mobility-building-info.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.s
 .PHONY : model/mobility-building-info.cc.s
 
 model/oh-buildings-propagation-loss-model.o: model/oh-buildings-propagation-loss-model.cc.o
@@ -483,7 +483,7 @@ model/oh-buildings-propagation-loss-model.o: model/oh-buildings-propagation-loss
 
 # target to build an object file
 model/oh-buildings-propagation-loss-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.o
 .PHONY : model/oh-buildings-propagation-loss-model.cc.o
 
 model/oh-buildings-propagation-loss-model.i: model/oh-buildings-propagation-loss-model.cc.i
@@ -491,7 +491,7 @@ model/oh-buildings-propagation-loss-model.i: model/oh-buildings-propagation-loss
 
 # target to preprocess a source file
 model/oh-buildings-propagation-loss-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.i
 .PHONY : model/oh-buildings-propagation-loss-model.cc.i
 
 model/oh-buildings-propagation-loss-model.s: model/oh-buildings-propagation-loss-model.cc.s
@@ -499,7 +499,7 @@ model/oh-buildings-propagation-loss-model.s: model/oh-buildings-propagation-loss
 
 # target to generate assembly for a file
 model/oh-buildings-propagation-loss-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.s
 .PHONY : model/oh-buildings-propagation-loss-model.cc.s
 
 model/random-walk-2d-outdoor-mobility-model.o: model/random-walk-2d-outdoor-mobility-model.cc.o
@@ -507,7 +507,7 @@ model/random-walk-2d-outdoor-mobility-model.o: model/random-walk-2d-outdoor-mobi
 
 # target to build an object file
 model/random-walk-2d-outdoor-mobility-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.o
 .PHONY : model/random-walk-2d-outdoor-mobility-model.cc.o
 
 model/random-walk-2d-outdoor-mobility-model.i: model/random-walk-2d-outdoor-mobility-model.cc.i
@@ -515,7 +515,7 @@ model/random-walk-2d-outdoor-mobility-model.i: model/random-walk-2d-outdoor-mobi
 
 # target to preprocess a source file
 model/random-walk-2d-outdoor-mobility-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.i
 .PHONY : model/random-walk-2d-outdoor-mobility-model.cc.i
 
 model/random-walk-2d-outdoor-mobility-model.s: model/random-walk-2d-outdoor-mobility-model.cc.s
@@ -523,7 +523,7 @@ model/random-walk-2d-outdoor-mobility-model.s: model/random-walk-2d-outdoor-mobi
 
 # target to generate assembly for a file
 model/random-walk-2d-outdoor-mobility-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.s
 .PHONY : model/random-walk-2d-outdoor-mobility-model.cc.s
 
 model/three-gpp-v2v-channel-condition-model.o: model/three-gpp-v2v-channel-condition-model.cc.o
@@ -531,7 +531,7 @@ model/three-gpp-v2v-channel-condition-model.o: model/three-gpp-v2v-channel-condi
 
 # target to build an object file
 model/three-gpp-v2v-channel-condition-model.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.o
 .PHONY : model/three-gpp-v2v-channel-condition-model.cc.o
 
 model/three-gpp-v2v-channel-condition-model.i: model/three-gpp-v2v-channel-condition-model.cc.i
@@ -539,7 +539,7 @@ model/three-gpp-v2v-channel-condition-model.i: model/three-gpp-v2v-channel-condi
 
 # target to preprocess a source file
 model/three-gpp-v2v-channel-condition-model.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.i
 .PHONY : model/three-gpp-v2v-channel-condition-model.cc.i
 
 model/three-gpp-v2v-channel-condition-model.s: model/three-gpp-v2v-channel-condition-model.cc.s
@@ -547,7 +547,7 @@ model/three-gpp-v2v-channel-condition-model.s: model/three-gpp-v2v-channel-condi
 
 # target to generate assembly for a file
 model/three-gpp-v2v-channel-condition-model.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-obj.dir/build.make src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.s
 .PHONY : model/three-gpp-v2v-channel-condition-model.cc.s
 
 test/building-position-allocator-test.o: test/building-position-allocator-test.cc.o
@@ -555,7 +555,7 @@ test/building-position-allocator-test.o: test/building-position-allocator-test.c
 
 # target to build an object file
 test/building-position-allocator-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.o
 .PHONY : test/building-position-allocator-test.cc.o
 
 test/building-position-allocator-test.i: test/building-position-allocator-test.cc.i
@@ -563,7 +563,7 @@ test/building-position-allocator-test.i: test/building-position-allocator-test.c
 
 # target to preprocess a source file
 test/building-position-allocator-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.i
 .PHONY : test/building-position-allocator-test.cc.i
 
 test/building-position-allocator-test.s: test/building-position-allocator-test.cc.s
@@ -571,7 +571,7 @@ test/building-position-allocator-test.s: test/building-position-allocator-test.c
 
 # target to generate assembly for a file
 test/building-position-allocator-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.s
 .PHONY : test/building-position-allocator-test.cc.s
 
 test/buildings-channel-condition-model-test.o: test/buildings-channel-condition-model-test.cc.o
@@ -579,7 +579,7 @@ test/buildings-channel-condition-model-test.o: test/buildings-channel-condition-
 
 # target to build an object file
 test/buildings-channel-condition-model-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.o
 .PHONY : test/buildings-channel-condition-model-test.cc.o
 
 test/buildings-channel-condition-model-test.i: test/buildings-channel-condition-model-test.cc.i
@@ -587,7 +587,7 @@ test/buildings-channel-condition-model-test.i: test/buildings-channel-condition-
 
 # target to preprocess a source file
 test/buildings-channel-condition-model-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.i
 .PHONY : test/buildings-channel-condition-model-test.cc.i
 
 test/buildings-channel-condition-model-test.s: test/buildings-channel-condition-model-test.cc.s
@@ -595,7 +595,7 @@ test/buildings-channel-condition-model-test.s: test/buildings-channel-condition-
 
 # target to generate assembly for a file
 test/buildings-channel-condition-model-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.s
 .PHONY : test/buildings-channel-condition-model-test.cc.s
 
 test/buildings-helper-test.o: test/buildings-helper-test.cc.o
@@ -603,7 +603,7 @@ test/buildings-helper-test.o: test/buildings-helper-test.cc.o
 
 # target to build an object file
 test/buildings-helper-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-helper-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-helper-test.cc.o
 .PHONY : test/buildings-helper-test.cc.o
 
 test/buildings-helper-test.i: test/buildings-helper-test.cc.i
@@ -611,7 +611,7 @@ test/buildings-helper-test.i: test/buildings-helper-test.cc.i
 
 # target to preprocess a source file
 test/buildings-helper-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-helper-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-helper-test.cc.i
 .PHONY : test/buildings-helper-test.cc.i
 
 test/buildings-helper-test.s: test/buildings-helper-test.cc.s
@@ -619,7 +619,7 @@ test/buildings-helper-test.s: test/buildings-helper-test.cc.s
 
 # target to generate assembly for a file
 test/buildings-helper-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-helper-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-helper-test.cc.s
 .PHONY : test/buildings-helper-test.cc.s
 
 test/buildings-pathloss-test.o: test/buildings-pathloss-test.cc.o
@@ -627,7 +627,7 @@ test/buildings-pathloss-test.o: test/buildings-pathloss-test.cc.o
 
 # target to build an object file
 test/buildings-pathloss-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-pathloss-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-pathloss-test.cc.o
 .PHONY : test/buildings-pathloss-test.cc.o
 
 test/buildings-pathloss-test.i: test/buildings-pathloss-test.cc.i
@@ -635,7 +635,7 @@ test/buildings-pathloss-test.i: test/buildings-pathloss-test.cc.i
 
 # target to preprocess a source file
 test/buildings-pathloss-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-pathloss-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-pathloss-test.cc.i
 .PHONY : test/buildings-pathloss-test.cc.i
 
 test/buildings-pathloss-test.s: test/buildings-pathloss-test.cc.s
@@ -643,7 +643,7 @@ test/buildings-pathloss-test.s: test/buildings-pathloss-test.cc.s
 
 # target to generate assembly for a file
 test/buildings-pathloss-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-pathloss-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-pathloss-test.cc.s
 .PHONY : test/buildings-pathloss-test.cc.s
 
 test/buildings-penetration-loss-pathloss-test.o: test/buildings-penetration-loss-pathloss-test.cc.o
@@ -651,7 +651,7 @@ test/buildings-penetration-loss-pathloss-test.o: test/buildings-penetration-loss
 
 # target to build an object file
 test/buildings-penetration-loss-pathloss-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-penetration-loss-pathloss-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-penetration-loss-pathloss-test.cc.o
 .PHONY : test/buildings-penetration-loss-pathloss-test.cc.o
 
 test/buildings-penetration-loss-pathloss-test.i: test/buildings-penetration-loss-pathloss-test.cc.i
@@ -659,7 +659,7 @@ test/buildings-penetration-loss-pathloss-test.i: test/buildings-penetration-loss
 
 # target to preprocess a source file
 test/buildings-penetration-loss-pathloss-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-penetration-loss-pathloss-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-penetration-loss-pathloss-test.cc.i
 .PHONY : test/buildings-penetration-loss-pathloss-test.cc.i
 
 test/buildings-penetration-loss-pathloss-test.s: test/buildings-penetration-loss-pathloss-test.cc.s
@@ -667,7 +667,7 @@ test/buildings-penetration-loss-pathloss-test.s: test/buildings-penetration-loss
 
 # target to generate assembly for a file
 test/buildings-penetration-loss-pathloss-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-penetration-loss-pathloss-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-penetration-loss-pathloss-test.cc.s
 .PHONY : test/buildings-penetration-loss-pathloss-test.cc.s
 
 test/buildings-shadowing-test.o: test/buildings-shadowing-test.cc.o
@@ -675,7 +675,7 @@ test/buildings-shadowing-test.o: test/buildings-shadowing-test.cc.o
 
 # target to build an object file
 test/buildings-shadowing-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-shadowing-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-shadowing-test.cc.o
 .PHONY : test/buildings-shadowing-test.cc.o
 
 test/buildings-shadowing-test.i: test/buildings-shadowing-test.cc.i
@@ -683,7 +683,7 @@ test/buildings-shadowing-test.i: test/buildings-shadowing-test.cc.i
 
 # target to preprocess a source file
 test/buildings-shadowing-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-shadowing-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-shadowing-test.cc.i
 .PHONY : test/buildings-shadowing-test.cc.i
 
 test/buildings-shadowing-test.s: test/buildings-shadowing-test.cc.s
@@ -691,7 +691,7 @@ test/buildings-shadowing-test.s: test/buildings-shadowing-test.cc.s
 
 # target to generate assembly for a file
 test/buildings-shadowing-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-shadowing-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/buildings-shadowing-test.cc.s
 .PHONY : test/buildings-shadowing-test.cc.s
 
 test/outdoor-random-walk-test.o: test/outdoor-random-walk-test.cc.o
@@ -699,7 +699,7 @@ test/outdoor-random-walk-test.o: test/outdoor-random-walk-test.cc.o
 
 # target to build an object file
 test/outdoor-random-walk-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/outdoor-random-walk-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/outdoor-random-walk-test.cc.o
 .PHONY : test/outdoor-random-walk-test.cc.o
 
 test/outdoor-random-walk-test.i: test/outdoor-random-walk-test.cc.i
@@ -707,7 +707,7 @@ test/outdoor-random-walk-test.i: test/outdoor-random-walk-test.cc.i
 
 # target to preprocess a source file
 test/outdoor-random-walk-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/outdoor-random-walk-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/outdoor-random-walk-test.cc.i
 .PHONY : test/outdoor-random-walk-test.cc.i
 
 test/outdoor-random-walk-test.s: test/outdoor-random-walk-test.cc.s
@@ -715,7 +715,7 @@ test/outdoor-random-walk-test.s: test/outdoor-random-walk-test.cc.s
 
 # target to generate assembly for a file
 test/outdoor-random-walk-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/outdoor-random-walk-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/outdoor-random-walk-test.cc.s
 .PHONY : test/outdoor-random-walk-test.cc.s
 
 test/three-gpp-v2v-channel-condition-model-test.o: test/three-gpp-v2v-channel-condition-model-test.cc.o
@@ -723,7 +723,7 @@ test/three-gpp-v2v-channel-condition-model-test.o: test/three-gpp-v2v-channel-co
 
 # target to build an object file
 test/three-gpp-v2v-channel-condition-model-test.cc.o:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/three-gpp-v2v-channel-condition-model-test.cc.o
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/three-gpp-v2v-channel-condition-model-test.cc.o
 .PHONY : test/three-gpp-v2v-channel-condition-model-test.cc.o
 
 test/three-gpp-v2v-channel-condition-model-test.i: test/three-gpp-v2v-channel-condition-model-test.cc.i
@@ -731,7 +731,7 @@ test/three-gpp-v2v-channel-condition-model-test.i: test/three-gpp-v2v-channel-co
 
 # target to preprocess a source file
 test/three-gpp-v2v-channel-condition-model-test.cc.i:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/three-gpp-v2v-channel-condition-model-test.cc.i
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/three-gpp-v2v-channel-condition-model-test.cc.i
 .PHONY : test/three-gpp-v2v-channel-condition-model-test.cc.i
 
 test/three-gpp-v2v-channel-condition-model-test.s: test/three-gpp-v2v-channel-condition-model-test.cc.s
@@ -739,7 +739,7 @@ test/three-gpp-v2v-channel-condition-model-test.s: test/three-gpp-v2v-channel-co
 
 # target to generate assembly for a file
 test/three-gpp-v2v-channel-condition-model-test.cc.s:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/three-gpp-v2v-channel-condition-model-test.cc.s
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(MAKE) $(MAKESILENT) -f src/buildings/CMakeFiles/libbuildings-test.dir/build.make src/buildings/CMakeFiles/libbuildings-test.dir/test/three-gpp-v2v-channel-condition-model-test.cc.s
 .PHONY : test/three-gpp-v2v-channel-condition-model-test.cc.s
 
 # Help Target
@@ -835,7 +835,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

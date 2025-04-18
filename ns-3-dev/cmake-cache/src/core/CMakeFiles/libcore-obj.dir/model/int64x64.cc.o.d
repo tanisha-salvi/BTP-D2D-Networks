@@ -1,9 +1,9 @@
 src/core/CMakeFiles/libcore-obj.dir/model/int64x64.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/int64x64.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/int64x64.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/int64x64-128.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -11,15 +11,15 @@ src/core/CMakeFiles/libcore-obj.dir/model/int64x64.cc.o: \
  /usr/include/c++/11/bits/std_abs.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/c++/11/iostream \
- /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/assert.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/fatal-error.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/fatal-impl.h \
  /usr/include/c++/11/ostream \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log-macros-disabled.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log-macros-enabled.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/node-printer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/time-printer.h \
  /usr/include/c++/11/string /usr/include/c++/11/type_traits \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/vector \
  /usr/include/c++/11/cstdlib /usr/include/c++/11/exception \

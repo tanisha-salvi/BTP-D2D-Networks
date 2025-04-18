@@ -1,8 +1,8 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/model/nr-mimo-matrices.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-mimo-matrices.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-mimo-matrices.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/nr-mimo-matrices.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/nr-mimo-matrices.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \

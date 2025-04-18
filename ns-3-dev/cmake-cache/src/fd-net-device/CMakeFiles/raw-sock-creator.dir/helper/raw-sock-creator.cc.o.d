@@ -1,7 +1,7 @@
 src/fd-net-device/CMakeFiles/raw-sock-creator.dir/helper/raw-sock-creator.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/fd-net-device/helper/raw-sock-creator.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device/helper/raw-sock-creator.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/fd-net-device/helper/creator-utils.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device/helper/creator-utils.h \
  /usr/include/c++/11/cstring \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/string.h /usr/include/errno.h /usr/include/c++/11/iomanip \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/ns-3-dev/cmake-cache//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,7 +168,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -6517,58 +6517,6 @@ wifi-eht-network/fast:
 .PHONY : wifi-eht-network/fast
 
 #=============================================================================
-# Target rules for targets named scratch_nr-prose-unicast-single-link-modified-1
-
-# Build rule for target.
-scratch_nr-prose-unicast-single-link-modified-1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_nr-prose-unicast-single-link-modified-1
-.PHONY : scratch_nr-prose-unicast-single-link-modified-1
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link-modified-1/fast:
-	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-1.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link-modified-1/fast
-
-#=============================================================================
-# Target rules for targets named scratch_nr-prose-unicast-single-link-modified-org
-
-# Build rule for target.
-scratch_nr-prose-unicast-single-link-modified-org: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_nr-prose-unicast-single-link-modified-org
-.PHONY : scratch_nr-prose-unicast-single-link-modified-org
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link-modified-org/fast:
-	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified-org.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link-modified-org/fast
-
-#=============================================================================
-# Target rules for targets named scratch_nr-prose-unicast-single-link-modified
-
-# Build rule for target.
-scratch_nr-prose-unicast-single-link-modified: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_nr-prose-unicast-single-link-modified
-.PHONY : scratch_nr-prose-unicast-single-link-modified
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link-modified/fast:
-	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link-modified.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link-modified/fast
-
-#=============================================================================
-# Target rules for targets named scratch_nr-prose-unicast-single-link
-
-# Build rule for target.
-scratch_nr-prose-unicast-single-link: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_nr-prose-unicast-single-link
-.PHONY : scratch_nr-prose-unicast-single-link
-
-# fast build rule for target.
-scratch_nr-prose-unicast-single-link/fast:
-	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build.make scratch/CMakeFiles/scratch_nr-prose-unicast-single-link.dir/build
-.PHONY : scratch_nr-prose-unicast-single-link/fast
-
-#=============================================================================
 # Target rules for targets named scratch_scratch-simulator
 
 # Build rule for target.
@@ -7155,10 +7103,6 @@ help:
 	@echo "... sample-simulator"
 	@echo "... scratch-nested-subdir-lib"
 	@echo "... scratch_nested-subdir_scratch-nested-subdir-executable"
-	@echo "... scratch_nr-prose-unicast-single-link"
-	@echo "... scratch_nr-prose-unicast-single-link-modified"
-	@echo "... scratch_nr-prose-unicast-single-link-modified-1"
-	@echo "... scratch_nr-prose-unicast-single-link-modified-org"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
 	@echo "... scratch_ues"
@@ -7299,7 +7243,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /mnt/d/Downloads/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

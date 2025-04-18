@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Downloads/ns-3-dev/src/buildings
+# Install script for directory: /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-buildings-default.so"
          RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/ns-3-dev/build/lib/libns3.42-buildings-default.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib/libns3.42-buildings-default.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-buildings-default.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-buildings-default.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-buildings-default.so"
-         OLD_RPATH "/mnt/d/Downloads/ns-3-dev/build/lib::::::::::::::::::::::::::::::::::::::::::::::"
+         OLD_RPATH "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/lib:::::::::::::::::::::::::::::"
          NEW_RPATH "/usr/local/lib:$ORIGIN/:$ORIGIN/../lib:/usr/local/lib64:$ORIGIN/:$ORIGIN/../lib64")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.42-buildings-default.so")
@@ -67,27 +67,27 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/helper/building-allocator.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/helper/building-container.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/helper/building-position-allocator.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/helper/buildings-helper.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/building-list.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/building.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/buildings-channel-condition-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/buildings-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/hybrid-buildings-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/itu-r-1238-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/mobility-building-info.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/oh-buildings-propagation-loss-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/random-walk-2d-outdoor-mobility-model.h"
-    "/mnt/d/Downloads/ns-3-dev/src/buildings/model/three-gpp-v2v-channel-condition-model.h"
-    "/mnt/d/Downloads/ns-3-dev/build/include/ns3/buildings-module.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/helper/building-allocator.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/helper/building-container.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/helper/building-position-allocator.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/helper/buildings-helper.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/building-list.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/building.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/buildings-channel-condition-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/buildings-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/hybrid-buildings-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/itu-r-1238-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/mobility-building-info.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/oh-buildings-propagation-loss-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/random-walk-2d-outdoor-mobility-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/buildings/model/three-gpp-v2v-channel-condition-model.h"
+    "/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/buildings-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/d/Downloads/ns-3-dev/cmake-cache/src/buildings/examples/cmake_install.cmake")
+  include("/mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/buildings/examples/cmake_install.cmake")
 
 endif()
 

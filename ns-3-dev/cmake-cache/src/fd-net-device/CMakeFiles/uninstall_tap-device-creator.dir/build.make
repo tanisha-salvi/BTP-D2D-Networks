@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Downloads/ns-3-dev
+CMAKE_SOURCE_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Downloads/ns-3-dev/cmake-cache
+CMAKE_BINARY_DIR = /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache
 
 # Utility rule file for uninstall_tap-device-creator.
 
@@ -67,7 +67,7 @@ include src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/compiler_d
 include src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/progress.make
 
 src/fd-net-device/CMakeFiles/uninstall_tap-device-creator:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/fd-net-device && rm /usr/local/libexec/ns3/ns3.42-tap-device-creator-default
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/fd-net-device && rm /usr/local/libexec/ns3/ns3.42-tap-device-creator-default
 
 uninstall_tap-device-creator: src/fd-net-device/CMakeFiles/uninstall_tap-device-creator
 uninstall_tap-device-creator: src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/build.make
@@ -78,10 +78,10 @@ src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/build: uninstall_t
 .PHONY : src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/build
 
 src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/clean:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache/src/fd-net-device && $(CMAKE_COMMAND) -P CMakeFiles/uninstall_tap-device-creator.dir/cmake_clean.cmake
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/fd-net-device && $(CMAKE_COMMAND) -P CMakeFiles/uninstall_tap-device-creator.dir/cmake_clean.cmake
 .PHONY : src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/clean
 
 src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/depend:
-	cd /mnt/d/Downloads/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/ns-3-dev /mnt/d/Downloads/ns-3-dev/src/fd-net-device /mnt/d/Downloads/ns-3-dev/cmake-cache /mnt/d/Downloads/ns-3-dev/cmake-cache/src/fd-net-device /mnt/d/Downloads/ns-3-dev/cmake-cache/src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/fd-net-device /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/fd-net-device /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/cmake-cache/src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/fd-net-device/CMakeFiles/uninstall_tap-device-creator.dir/depend
 

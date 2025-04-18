@@ -1,8 +1,8 @@
 contrib/nr/CMakeFiles/libnr-obj.dir/model/beamforming-vector.cc.o: \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beamforming-vector.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/beamforming-vector.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beamforming-vector.h \
- /mnt/d/Downloads/ns-3-dev/contrib/nr/model/beam-id.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/beamforming-vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/contrib/nr/model/beam-id.h \
  /usr/include/c++/11/complex \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -10,9 +10,9 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/beamforming-vector.cc.o: \
  /usr/include/math.h /usr/include/c++/11/bits/std_abs.h \
  /usr/include/c++/11/sstream \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/mobility-model.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/mobility-model.h \
  /mnt/d/Downloads/ns-3-dev/src/mobility/model/mobility-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/object.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
@@ -113,16 +113,16 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/beamforming-vector.cc.o: \
  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/traced-callback.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/traced-callback.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/vector.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/vector.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/vector.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uniform-planar-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uniform-planar-array.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/uniform-planar-array.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/phased-array-model.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/antenna-model.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/matrix-array.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/matrix-array.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/val-array.h \
  /usr/include/c++/11/valarray /usr/include/c++/11/algorithm \
@@ -136,8 +136,8 @@ contrib/nr/CMakeFiles/libnr-obj.dir/model/beamforming-vector.cc.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/angles.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/angles.h \
  /mnt/d/Downloads/ns-3-dev/src/antenna/model/angles.h \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/uinteger.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h

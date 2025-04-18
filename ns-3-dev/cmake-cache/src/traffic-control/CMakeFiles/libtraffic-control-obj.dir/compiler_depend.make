@@ -6,22 +6,22 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/queue-disc-cont
   /usr/include/stdc-predef.h \
   ../src/traffic-control/helper/queue-disc-container.h \
   ../build/include/ns3/queue-disc.h \
-  ../src/traffic-control/model/queue-disc.h \
-  ../src/traffic-control/model/packet-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/traffic-control/model/queue-disc.h \
+  /mnt/d/Downloads/ns-3-dev/src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -32,16 +32,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/queue-disc-cont
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -125,65 +125,65 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/queue-disc-cont
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/traffic-control-helper.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
@@ -192,22 +192,22 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/traffic-control
   ../src/traffic-control/helper/traffic-control-helper.h \
   ../src/traffic-control/helper/queue-disc-container.h \
   ../build/include/ns3/queue-disc.h \
-  ../src/traffic-control/model/queue-disc.h \
-  ../src/traffic-control/model/packet-filter.h \
+  /mnt/d/Downloads/ns-3-dev/src/traffic-control/model/queue-disc.h \
+  /mnt/d/Downloads/ns-3-dev/src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -218,16 +218,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/traffic-control
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -311,126 +311,126 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/helper/traffic-control
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/net-device-container.h \
-  ../src/network/helper/net-device-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/queue-limits.h \
-  ../src/network/utils/queue-limits.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-limits.h \
   ../build/include/ns3/traffic-control-layer.h \
-  ../src/traffic-control/model/traffic-control-layer.h \
+  /mnt/d/Downloads/ns-3-dev/src/traffic-control/model/traffic-control-layer.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/cobalt-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/cobalt-queue-disc.cc \
@@ -439,19 +439,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/cobalt-queue-dis
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -462,16 +462,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/cobalt-queue-dis
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -555,128 +555,128 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/cobalt-queue-dis
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/drop-tail-queue.h \
-  ../src/network/utils/drop-tail-queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/codel-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/codel-queue-disc.cc \
@@ -685,19 +685,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/codel-queue-disc
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -708,16 +708,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/codel-queue-disc
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -801,112 +801,112 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/codel-queue-disc
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/drop-tail-queue.h \
-  ../src/network/utils/drop-tail-queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fifo-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/fifo-queue-disc.cc \
@@ -915,19 +915,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fifo-queue-disc.
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -938,16 +938,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fifo-queue-disc.
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -1031,99 +1031,99 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fifo-queue-disc.
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/drop-tail-queue.h \
-  ../src/network/utils/drop-tail-queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-cobalt-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/fq-cobalt-queue-disc.cc \
@@ -1132,19 +1132,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-cobalt-queue-
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1155,16 +1155,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-cobalt-queue-
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -1248,124 +1248,124 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-cobalt-queue-
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../src/traffic-control/model/cobalt-queue-disc.h \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-codel-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/fq-codel-queue-disc.cc \
@@ -1374,19 +1374,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-codel-queue-d
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1397,16 +1397,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-codel-queue-d
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -1490,118 +1490,118 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-codel-queue-d
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../src/traffic-control/model/codel-queue-disc.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-pie-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/fq-pie-queue-disc.cc \
@@ -1610,19 +1610,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-pie-queue-dis
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1633,16 +1633,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-pie-queue-dis
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -1726,128 +1726,128 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/fq-pie-queue-dis
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../src/traffic-control/model/pie-queue-disc.h \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
   ../build/include/ns3/timer.h \
-  ../src/core/model/timer.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/timer-impl.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/timer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/timer-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/string.h \
-  ../src/core/model/string.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/string.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/mq-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/mq-queue-disc.cc \
@@ -1856,19 +1856,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/mq-queue-disc.cc
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -1879,16 +1879,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/mq-queue-disc.cc
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -1972,87 +1972,87 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/mq-queue-disc.cc
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/packet-filter.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/packet-filter.cc \
   /usr/include/stdc-predef.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2063,16 +2063,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/packet-filter.cc
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2156,71 +2156,71 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/packet-filter.cc
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../src/traffic-control/model/queue-disc.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/integer.h \
-  ../src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pfifo-fast-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/pfifo-fast-queue-disc.cc \
@@ -2229,19 +2229,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pfifo-fast-queue
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2252,16 +2252,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pfifo-fast-queue
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2345,111 +2345,111 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pfifo-fast-queue
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/socket.h \
-  ../src/network/model/socket.h \
-  ../src/network/model/address.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/socket.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/inet-socket-address.h \
-  ../src/network/utils/inet-socket-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet-socket-address.h \
   ../build/include/ns3/inet6-socket-address.h \
-  ../src/network/utils/inet6-socket-address.h
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet6-socket-address.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pie-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/pie-queue-disc.cc \
@@ -2458,19 +2458,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pie-queue-disc.c
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2481,16 +2481,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pie-queue-disc.c
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2574,120 +2574,120 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/pie-queue-disc.c
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/timer.h \
-  ../src/core/model/timer.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/timer-impl.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/timer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/timer-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/drop-tail-queue.h \
-  ../src/network/utils/drop-tail-queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/prio-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/prio-queue-disc.cc \
@@ -2696,19 +2696,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/prio-queue-disc.
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2719,16 +2719,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/prio-queue-disc.
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -2812,107 +2812,107 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/prio-queue-disc.
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/array \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/socket.h \
-  ../src/network/model/socket.h \
-  ../src/network/model/address.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/socket.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/inet-socket-address.h \
-  ../src/network/utils/inet-socket-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet-socket-address.h \
   ../build/include/ns3/inet6-socket-address.h \
-  ../src/network/utils/inet6-socket-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet6-socket-address.h \
   /usr/include/c++/11/iterator
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
@@ -2921,19 +2921,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/queue-disc.cc.o:
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -2944,16 +2944,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/queue-disc.cc.o:
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -3037,127 +3037,127 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/queue-disc.cc.o:
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/object-vector.h \
-  ../src/core/model/object-vector.h \
-  ../src/core/model/object-ptr-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-ptr-container.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/pointer.h \
-  ../src/core/model/pointer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h \
   ../build/include/ns3/queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/socket.h \
-  ../src/network/model/socket.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/socket.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/inet-socket-address.h \
-  ../src/network/utils/inet-socket-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet-socket-address.h \
   ../build/include/ns3/inet6-socket-address.h \
-  ../src/network/utils/inet6-socket-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet6-socket-address.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/red-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/red-queue-disc.cc \
@@ -3166,19 +3166,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/red-queue-disc.c
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -3189,16 +3189,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/red-queue-disc.c
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -3282,114 +3282,114 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/red-queue-disc.c
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/double.h \
-  ../src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
   ../build/include/ns3/drop-tail-queue.h \
-  ../src/network/utils/drop-tail-queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/tbf-queue-disc.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/tbf-queue-disc.cc \
@@ -3398,19 +3398,19 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/tbf-queue-disc.c
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/c++/11/string \
@@ -3421,16 +3421,16 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/tbf-queue-disc.c
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
-  ../src/core/model/object-base.h \
-  ../src/core/model/callback.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
@@ -3514,147 +3514,147 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/tbf-queue-disc.c
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   /usr/include/c++/11/map \
   ../build/include/ns3/boolean.h \
-  ../src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
   ../build/include/ns3/data-rate.h \
-  ../src/network/utils/data-rate.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h \
   ../build/include/ns3/event-id.h \
-  ../src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
   ../build/include/ns3/random-variable-stream.h \
-  ../src/core/model/random-variable-stream.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/trace-source-accessor.h \
-  ../src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
   ../build/include/ns3/drop-tail-queue.h \
-  ../src/network/utils/drop-tail-queue.h \
-  ../src/network/utils/queue.h \
-  ../src/network/utils/queue-fwd.h \
-  ../src/network/utils/queue-item.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/network/model/nix-vector.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/enum.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/uinteger.h \
-  ../src/core/model/uinteger.h
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h
 
 src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-layer.cc.o: CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx \
   ../src/traffic-control/model/traffic-control-layer.cc \
   /usr/include/stdc-predef.h \
   ../src/traffic-control/model/traffic-control-layer.h \
   ../build/include/ns3/address.h \
-  ../src/network/model/address.h \
-  ../src/network/model/tag-buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   ../build/include/ns3/assert.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/fatal-error.h \
-  ../src/core/model/fatal-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h \
   /usr/include/c++/11/ostream \
-  ../src/core/model/log.h \
-  ../src/core/model/log-macros-disabled.h \
-  ../src/core/model/log-macros-enabled.h \
-  ../src/core/model/node-printer.h \
-  ../src/core/model/time-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/string \
   /usr/include/c++/11/type_traits \
@@ -3665,31 +3665,31 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
   /usr/include/c++/11/exception \
   /usr/include/c++/11/string_view \
   ../build/include/ns3/attribute-helper.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/abort.h \
-  ../src/core/model/attribute-accessor-helper.h \
-  ../src/core/model/attribute.h \
-  ../src/core/model/ptr.h \
-  ../src/core/model/assert.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/core/model/default-deleter.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/assert.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h \
   /usr/include/c++/11/limits \
-  ../src/core/model/type-traits.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h \
   /usr/include/c++/11/sstream \
   ../build/include/ns3/attribute.h \
-  ../src/core/model/attribute.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h \
   ../build/include/ns3/net-device.h \
-  ../src/network/model/net-device.h \
-  ../src/network/model/address.h \
-  ../src/network/model/packet.h \
-  ../src/network/model/buffer.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  ../src/network/model/byte-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h \
   ../build/include/ns3/type-id.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/attribute-helper.h \
-  ../src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -3772,119 +3772,121 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../src/core/model/hash.h \
-  ../src/core/model/hash-fnv.h \
-  ../src/core/model/hash-function.h \
-  ../src/core/model/hash-murmur3.h \
-  ../src/core/model/trace-source-accessor.h \
-  ../src/network/model/header.h \
-  ../src/network/model/chunk.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/header.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h \
   ../build/include/ns3/object-base.h \
-  ../src/core/model/object-base.h \
-  ../src/core/model/type-id.h \
-  ../src/core/model/warnings.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h \
   /usr/include/c++/11/list \
-  ../src/network/model/nix-vector.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h \
   ../build/include/ns3/ptr.h \
-  ../src/core/model/ptr.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h \
   ../build/include/ns3/simple-ref-count.h \
-  ../src/core/model/simple-ref-count.h \
-  ../src/network/model/packet-metadata.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h \
   ../build/include/ns3/callback.h \
-  ../src/core/model/callback.h \
-  ../src/network/model/packet-tag-list.h \
-  ../src/network/model/tag.h \
-  ../src/network/model/trailer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/tag.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h \
   ../build/include/ns3/mac48-address.h \
-  ../src/network/utils/mac48-address.h \
-  ../src/network/utils/ipv4-address.h \
-  ../src/network/utils/ipv6-address.h \
-  ../src/network/utils/mac8-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h \
   ../build/include/ns3/ipv4-address.h \
-  ../src/network/utils/ipv4-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h \
   ../build/include/ns3/ipv6-address.h \
-  ../src/network/utils/ipv6-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h \
   ../build/include/ns3/object.h \
-  ../src/core/model/object.h \
-  ../src/core/model/attribute-construction-list.h \
-  ../src/core/model/object-base.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h \
   ../build/include/ns3/node.h \
-  ../src/network/model/node.h \
-  ../src/network/model/net-device.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/node.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h \
   ../build/include/ns3/queue-item.h \
-  ../src/network/utils/queue-item.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h \
   ../build/include/ns3/nstime.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/event-id.h \
-  ../src/core/model/deprecated.h \
-  ../src/core/model/event-impl.h \
-  ../src/core/model/int64x64.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h \
   ../build/include/ns3/core-config.h \
-  ../src/core/model/int64x64-128.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/c++/11/bits/std_abs.h \
-  ../src/core/model/type-name.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h \
   /usr/include/c++/11/set \
   ../build/include/ns3/traced-callback.h \
-  ../src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
   /usr/include/c++/11/map \
   ../src/traffic-control/model/queue-disc.h \
   ../src/traffic-control/model/packet-filter.h \
   ../build/include/ns3/queue-fwd.h \
-  ../src/network/utils/queue-fwd.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h \
   ../build/include/ns3/queue-size.h \
-  ../src/network/utils/queue-size.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h \
   ../build/include/ns3/abort.h \
-  ../src/core/model/abort.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/abort.h \
   ../build/include/ns3/traced-value.h \
-  ../src/core/model/traced-value.h \
-  ../src/core/model/boolean.h \
-  ../src/core/model/double.h \
-  ../src/core/model/enum.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/double.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/enum.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  ../src/core/model/integer.h \
-  ../src/core/model/traced-callback.h \
-  ../src/core/model/uinteger.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/integer.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h \
   ../build/include/ns3/log.h \
-  ../src/core/model/log.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
   ../build/include/ns3/net-device-queue-interface.h \
-  ../src/network/utils/net-device-queue-interface.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h \
   ../build/include/ns3/object-factory.h \
-  ../src/core/model/object-factory.h \
-  ../src/core/model/object.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object.h \
   ../build/include/ns3/simulator.h \
-  ../src/core/model/simulator.h \
-  ../src/core/model/make-event.h \
-  ../src/core/model/nstime.h \
-  ../src/core/model/object-factory.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h \
   ../build/include/ns3/object-map.h \
-  ../src/core/model/object-map.h \
-  ../src/core/model/object-ptr-container.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-map.h \
+  /mnt/d/Downloads/ns-3-dev/src/core/model/object-ptr-container.h \
   ../build/include/ns3/packet.h \
-  ../src/network/model/packet.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/packet.h \
   ../build/include/ns3/socket.h \
-  ../src/network/model/socket.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/model/socket.h \
   ../build/include/ns3/inet-socket-address.h \
-  ../src/network/utils/inet-socket-address.h \
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet-socket-address.h \
   ../build/include/ns3/inet6-socket-address.h \
-  ../src/network/utils/inet6-socket-address.h
+  /mnt/d/Downloads/ns-3-dev/src/network/utils/inet6-socket-address.h
 
 
-../src/core/model/object-map.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-map.h:
+
+../src/traffic-control/model/traffic-control-layer.cc:
 
 ../src/traffic-control/model/tbf-queue-disc.h:
 
 ../src/traffic-control/model/tbf-queue-disc.cc:
 
-../src/core/model/object-vector.h:
+../src/traffic-control/model/red-queue-disc.cc:
 
-../src/traffic-control/model/queue-disc.cc:
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-vector.h:
 
 /usr/include/c++/11/iterator:
 
@@ -3898,13 +3900,11 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 ../src/traffic-control/model/pie-queue-disc.cc:
 
-../src/network/utils/inet6-socket-address.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/inet-socket-address.h:
 
-../src/network/model/socket.h:
+../src/traffic-control/model/pfifo-fast-queue-disc.cc:
 
-/usr/include/c++/11/ext/type_traits.h:
-
-../build/include/ns3/object-base.h:
+/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/bits/ranges_uninitialized.h:
 
@@ -3918,51 +3918,49 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 /usr/include/c++/11/memory:
 
-../src/core/model/object-ptr-container.h:
-
 /usr/include/x86_64-linux-gnu/sys/syscall.h:
 
-/usr/include/c++/11/iostream:
-
-../src/core/model/hash-murmur3.h:
-
 /usr/include/c++/11/algorithm:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 ../build/include/ns3/queue-disc.h:
 
-/usr/include/c++/11/bits/align.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-fwd.h:
 
-../src/core/model/timer-impl.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-../src/core/model/fatal-impl.h:
+../build/include/ns3/integer.h:
 
-../src/network/utils/queue-item.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/type-id.h:
 
-../src/core/model/simulator.h:
-
-../src/network/model/packet.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-../src/network/model/byte-tag-list.h:
-
-../src/core/model/hash-fnv.h:
-
-/usr/include/c++/11/exception:
-
-../src/core/model/type-id.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/callback.h:
 
 ../build/include/ns3/socket.h:
 
 /usr/include/c++/11/utility:
+
+/usr/include/c++/11/cerrno:
+
+../build/include/ns3/traffic-control-layer.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute-accessor-helper.h:
 
 /usr/include/c++/11/bits/move.h:
 
@@ -3972,29 +3970,33 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
-../src/network/model/address.h:
-
 ../build/include/ns3/queue-item.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-../src/core/model/simple-ref-count.h:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
-
-../src/core/model/deprecated.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h:
 
 /usr/include/c++/11/bits/refwrap.h:
 
+/usr/include/c++/11/bits/align.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-size.h:
+
 ../src/traffic-control/model/fifo-queue-disc.h:
 
-../src/core/model/warnings.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/double.h:
 
-../src/network/utils/queue-limits.h:
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+../build/include/ns3/drop-tail-queue.h:
+
+../src/traffic-control/model/codel-queue-disc.cc:
+
+/usr/include/c++/11/compare:
 
 /usr/include/c++/11/bits/stl_function.h:
 
-/usr/include/c++/11/bits/stl_pair.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/header.h:
 
 ../build/include/ns3/trace-source-accessor.h:
 
@@ -4002,7 +4004,57 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 /usr/include/c++/11/system_error:
 
-../src/core/model/node-printer.h:
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/type_traits:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash.h:
+
+../build/include/ns3/net-device-queue-interface.h:
+
+/usr/include/c++/11/bits/atomic_wait.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/net-device-queue-interface.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/bit:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/11/unordered_map:
+
+../build/include/ns3/ipv4-address.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/c++/11/bits/ranges_algobase.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/11/ostream:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/type-name.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/fatal-impl.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/warnings.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/deprecated.h:
+
+../build/include/ns3/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/asm/unistd.h:
 
@@ -4011,6 +4063,10 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 ../build/include/ns3/nstime.h:
 
 ../build/include/ns3/inet6-socket-address.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/socket.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/integer.h:
 
 ../build/include/ns3/abort.h:
 
@@ -4022,8 +4078,6 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 /usr/include/c++/11/bits/functexcept.h:
 
-../src/core/model/attribute-accessor-helper.h:
-
 ../src/traffic-control/helper/queue-disc-container.h:
 
 /usr/include/c++/11/numeric:
@@ -4032,107 +4086,39 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 /usr/include/c++/11/string:
 
-/usr/include/c++/11/type_traits:
+/usr/include/limits.h:
 
-/usr/include/c++/11/tuple:
+/mnt/d/Downloads/ns-3-dev/src/core/model/fatal-error.h:
 
-/usr/include/c++/11/limits:
+/usr/include/c++/11/bits/stl_pair.h:
 
-/usr/include/c++/11/bits/atomic_wait.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/simple-ref-count.h:
 
-../src/core/model/log-macros-disabled.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/bit:
-
-../src/traffic-control/model/red-queue-disc.cc:
-
-../src/core/model/int64x64.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+../src/traffic-control/model/fq-pie-queue-disc.h:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
-../src/core/model/type-name.h:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-../build/include/ns3/drop-tail-queue.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-../src/traffic-control/model/red-queue-disc.h:
-
-../src/core/model/log.h:
-
-../src/core/model/boolean.h:
-
-../src/core/model/log-macros-enabled.h:
-
-/usr/include/c++/11/ostream:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-../src/core/model/default-deleter.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute.h:
 
 /usr/include/c++/11/bits/concept_check.h:
 
-../src/core/model/fatal-error.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash-fnv.h:
 
-../src/core/model/event-impl.h:
+/usr/include/stdc-predef.h:
 
-../src/core/model/attribute-construction-list.h:
+/usr/include/c++/11/bits/alloc_traits.h:
 
-/usr/include/c++/11/bits/uses_allocator.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/inet6-socket-address.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/abort.h:
 
-../src/traffic-control/model/packet-filter.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-../src/core/model/callback.h:
-
-/usr/include/c++/11/bits/ranges_algobase.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-../build/include/ns3/integer.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-../src/network/model/node.h:
-
-../src/core/model/object.h:
-
-../build/include/ns3/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
-
-/usr/include/c++/11/unordered_map:
-
-../src/core/model/time-printer.h:
-
-../build/include/ns3/ipv4-address.h:
+../build/include/ns3/queue-size.h:
 
 /usr/include/c++/11/debug/assertions.h:
 
-/usr/include/c++/11/climits:
+../build/include/ns3/pointer.h:
 
-/usr/include/c++/11/new:
+/usr/include/linux/close_range.h:
 
 ../build/include/ns3/object-map.h:
 
@@ -4140,67 +4126,23 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 ../build/include/ns3/object-factory.h:
 
-../build/include/ns3/simple-ref-count.h:
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-../src/traffic-control/model/queue-disc.h:
+/usr/include/c++/11/iosfwd:
 
-../src/core/model/attribute.h:
+../build/include/ns3/object.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/queue-disc.h:
 
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/linux/close_range.h:
-
-../build/include/ns3/pointer.h:
-
-../src/core/model/assert.h:
-
-/usr/include/c++/11/cerrno:
-
-../build/include/ns3/traffic-control-layer.h:
-
-/usr/include/c++/11/compare:
-
-../src/traffic-control/model/codel-queue-disc.cc:
-
-../src/core/model/attribute-helper.h:
-
-/usr/include/c++/11/set:
-
-../build/include/ns3/node.h:
-
-../src/network/utils/drop-tail-queue.h:
-
-../src/traffic-control/helper/queue-disc-container.cc:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+../build/include/ns3/uinteger.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/linux/limits.h:
 
-../src/core/model/ptr.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/log.h:
 
-../src/network/utils/inet-socket-address.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-../src/traffic-control/model/traffic-control-layer.cc:
-
-../src/core/model/trace-source-accessor.h:
-
-../src/network/helper/net-device-container.h:
-
-../src/traffic-control/model/pfifo-fast-queue-disc.cc:
-
-../src/core/model/abort.h:
-
-/usr/include/limits.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -4208,129 +4150,175 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
-../src/core/model/timer.h:
+../build/include/ns3/simple-ref-count.h:
+
+/usr/include/c++/11/limits:
+
+/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/packet-filter.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/tag.h:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/climits:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/ptr.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute-construction-list.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/assert.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/default-deleter.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/drop-tail-queue.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/object.h:
+
+/usr/include/c++/11/iostream:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/enum.h:
 
 /usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
 /usr/include/c++/11/sstream:
 
-../src/network/model/packet-tag-list.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/c++/11/debug/debug.h:
-
 /usr/include/c++/11/list:
 
 /usr/include/c++/11/bits/uses_allocator_args.h:
 
-/usr/include/c++/11/bits/shared_ptr.h:
+/usr/include/c++/11/bits/stl_tempbuf.h:
 
-/usr/include/c++/11/bits/stl_construct.h:
+../src/traffic-control/model/codel-queue-disc.h:
 
 /usr/include/syscall.h:
 
 ../src/traffic-control/model/packet-filter.cc:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/usr/include/c++/11/bits/uses_allocator.h:
 
-../src/core/model/object-base.h:
-
-../src/traffic-control/model/codel-queue-disc.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-../build/include/ns3/queue-size.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/type-traits.h:
 
 /usr/include/c++/11/functional:
 
-../src/core/model/hash.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/packet.h:
 
 ../build/include/ns3/enum.h:
 
-../src/core/model/hash-function.h:
+../src/traffic-control/model/pfifo-fast-queue-disc.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/chunk.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h:
+
+../src/traffic-control/model/cobalt-queue-disc.cc:
 
 /usr/include/string.h:
 
-../src/network/utils/queue-fwd.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash-murmur3.h:
 
 ../build/include/ns3/ptr.h:
 
-../src/network/utils/mac48-address.h:
+/usr/include/c++/11/exception:
 
-../src/core/model/nstime.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-item.h:
+
+../src/traffic-control/model/red-queue-disc.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/nstime.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/event-id.h:
+
+../build/include/ns3/net-device-container.h:
+
+CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
+
+../build/include/ns3/queue.h:
+
+../src/traffic-control/helper/queue-disc-container.cc:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/event-impl.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/int64x64.h:
 
 ../build/include/ns3/core-config.h:
 
 ../build/include/ns3/traced-value.h:
 
+/mnt/d/Downloads/ns-3-dev/src/core/model/int64x64-128.h:
+
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/c++/11/cmath:
-
-../src/core/model/integer.h:
 
 ../build/include/ns3/object-vector.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
+/usr/include/c++/11/set:
+
+../build/include/ns3/node.h:
+
 ../build/include/ns3/address.h:
 
-../src/network/model/tag-buffer.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/tag-buffer.h:
+
+../src/traffic-control/model/queue-disc.cc:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/address.h:
+
+../build/include/ns3/simulator.h:
+
+../src/traffic-control/model/fq-pie-queue-disc.cc:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-ptr-container.h:
 
 ../build/include/ns3/assert.h:
-
-../src/core/model/event-id.h:
-
-../src/traffic-control/model/mq-queue-disc.cc:
-
-../src/traffic-control/model/traffic-control-layer.h:
-
-../build/include/ns3/attribute-helper.h:
 
 ../build/include/ns3/queue-fwd.h:
 
 ../build/include/ns3/attribute.h:
 
-../src/network/model/nix-vector.h:
-
-../src/network/model/trailer.h:
-
 ../build/include/ns3/traced-callback.h:
 
-../build/include/ns3/object.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/traced-callback.h:
 
-../src/core/model/traced-callback.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/traced-value.h:
 
-../src/network/model/net-device.h:
-
-../src/traffic-control/model/cobalt-queue-disc.h:
-
-../src/core/model/double.h:
-
-../src/core/model/enum.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/boolean.h:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/11/bits/stl_numeric.h:
 
-../src/network/model/header.h:
-
 ../build/include/ns3/data-rate.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/ipv4-address.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 
 ../src/traffic-control/model/fifo-queue-disc.cc:
 
+/mnt/d/Downloads/ns-3-dev/src/core/model/uinteger.h:
+
 /usr/include/c++/11/map:
-
-../src/network/model/chunk.h:
-
-../src/network/utils/queue-size.h:
 
 ../src/traffic-control/helper/traffic-control-helper.cc:
 
@@ -4342,96 +4330,114 @@ src/traffic-control/CMakeFiles/libtraffic-control-obj.dir/model/traffic-control-
 
 ../build/include/ns3/boolean.h:
 
-../build/include/ns3/net-device-container.h:
-
-CMakeFiles/stdlib_pch-default.dir/cmake_pch.hxx:
-
-../build/include/ns3/queue.h:
-
 ../build/include/ns3/net-device.h:
 
-../src/network/model/buffer.h:
+/mnt/d/Downloads/ns-3-dev/src/network/helper/net-device-container.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/net-device.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/buffer.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/byte-tag-list.h:
 
 /usr/include/c++/11/vector:
 
 ../build/include/ns3/type-id.h:
 
-../src/core/model/traced-value.h:
+/usr/include/c++/11/ext/type_traits.h:
 
-../src/network/model/packet-metadata.h:
+../build/include/ns3/object-base.h:
 
-../src/network/model/tag.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-factory.h:
 
-../src/core/model/string.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/packet-metadata.h:
 
-../src/network/utils/ipv4-address.h:
+/mnt/d/Downloads/ns-3-dev/src/network/model/trailer.h:
 
-../src/network/utils/ipv6-address.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/mac48-address.h:
 
-../src/network/utils/mac8-address.h:
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/packet-tag-list.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/ipv6-address.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/mac8-address.h:
 
 /usr/include/c++/11/cstring:
 
 /usr/include/math.h:
 
-../src/network/utils/queue.h:
-
 ../build/include/ns3/ipv6-address.h:
 
-../src/core/model/object-factory.h:
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue.h:
 
-../src/core/model/int64x64-128.h:
+../src/traffic-control/model/fq-cobalt-queue-disc.cc:
 
 ../build/include/ns3/log.h:
 
 ../build/include/ns3/packet.h:
 
-../build/include/ns3/net-device-queue-interface.h:
-
-../src/network/utils/net-device-queue-interface.h:
-
-../build/include/ns3/simulator.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-../src/core/model/pointer.h:
-
-../src/traffic-control/model/fq-pie-queue-disc.cc:
-
-../src/core/model/make-event.h:
-
-../build/include/ns3/queue-limits.h:
-
-../build/include/ns3/uinteger.h:
-
-../src/traffic-control/model/cobalt-queue-disc.cc:
-
-../src/network/utils/data-rate.h:
-
-../build/include/ns3/random-variable-stream.h:
-
-../src/core/model/random-variable-stream.h:
-
-../src/traffic-control/model/fq-cobalt-queue-disc.cc:
-
-../src/traffic-control/model/fq-cobalt-queue-disc.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/simulator.h:
 
 ../build/include/ns3/callback.h:
 
 ../src/traffic-control/model/fq-codel-queue-disc.cc:
 
-../src/core/model/uinteger.h:
+/mnt/d/Downloads/ns-3-dev/src/core/model/make-event.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/trace-source-accessor.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/pointer.h:
+
+../build/include/ns3/queue-limits.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/hash-function.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/queue-limits.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/utils/data-rate.h:
+
+/mnt/d/Downloads/ns-3-dev/src/traffic-control/model/traffic-control-layer.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/node.h:
+
+../src/traffic-control/model/cobalt-queue-disc.h:
+
+../src/traffic-control/model/queue-disc.h:
+
+../src/traffic-control/model/packet-filter.h:
+
+../build/include/ns3/random-variable-stream.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/random-variable-stream.h:
+
+/mnt/d/Downloads/ns-3-dev/src/network/model/nix-vector.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/string.h:
+
+../src/traffic-control/model/fq-cobalt-queue-disc.h:
 
 ../src/traffic-control/model/fq-codel-queue-disc.h:
 
-../src/core/model/type-traits.h:
-
-../src/traffic-control/model/fq-pie-queue-disc.h:
-
 ../src/traffic-control/model/pie-queue-disc.h:
 
+/mnt/d/Downloads/ns-3-dev/src/core/model/timer.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/timer-impl.h:
+
+../src/traffic-control/model/traffic-control-layer.h:
+
+../build/include/ns3/attribute-helper.h:
+
+../src/traffic-control/model/mq-queue-disc.cc:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/attribute-helper.h:
+
+/mnt/d/Downloads/ns-3-dev/src/core/model/object-base.h:
+
 ../src/traffic-control/model/mq-queue-disc.h:
-
-/usr/include/features.h:
-
-../src/traffic-control/model/pfifo-fast-queue-disc.h:

@@ -1,18 +1,18 @@
 src/core/CMakeFiles/libcore-obj.dir/model/breakpoint.cc.o: \
- /mnt/d/Downloads/ns-3-dev/src/core/model/breakpoint.cc \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/breakpoint.cc \
  /usr/include/stdc-predef.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/breakpoint.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-disabled.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/log-macros-enabled.h \
- /mnt/d/Downloads/ns-3-dev/src/core/model/node-printer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/breakpoint.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log-macros-disabled.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/log-macros-enabled.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/node-printer.h \
  /usr/include/c++/11/ostream \
- /mnt/d/Downloads/ns-3-dev/src/core/model/time-printer.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/src/core/model/time-printer.h \
  /usr/include/c++/11/iostream \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/include/c++/11/string /usr/include/c++/11/type_traits \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/vector \
- /mnt/d/Downloads/ns-3-dev/build/include/ns3/core-config.h \
+ /mnt/d/Downloads/BTP-D2D-Networks/ns-3-dev/build/include/ns3/core-config.h \
  /usr/include/signal.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
