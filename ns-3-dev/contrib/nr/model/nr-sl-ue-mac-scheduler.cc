@@ -64,6 +64,18 @@ NrSlUeMacScheduler::SchedNrSlTriggerReq(const SfnSf& sfn)
     DoSchedNrSlTriggerReq(sfn);
 }
 
+std::list<SlResourceInfo>
+NrSlUeMacScheduler::GetNextList()
+{
+    return DoGetNextList();
+}
+
+void
+NrSlUeMacScheduler::SetSchedulerLookAheadMap(std::map <int, std::list<SlResourceInfo>> lookAheadMap)
+{
+    DoSetSchedulerLookAheadMap(lookAheadMap);
+}
+
 void
 NrSlUeMacScheduler::SchedNrSlRlcBufferReq(
     const struct NrSlMacSapProvider::NrSlReportBufferStatusParameters& params)

@@ -65,6 +65,8 @@ class NrSlUeMacSchedulerFixedMcs : public NrSlUeMacScheduler
     void DoSchedNrSlRlcBufferReq(
         const struct NrSlMacSapProvider::NrSlReportBufferStatusParameters& params) override;
 
+    void DoSetSchedulerLookAheadMap(std::map<int, std::list<SlResourceInfo>> lookAheadMap);
+
     void DoSchedNrSlTriggerReq(const SfnSf& sfn) override;
 
     void DoCschedNrSlLcConfigReq(
@@ -429,6 +431,8 @@ class NrSlUeMacSchedulerFixedMcs : public NrSlUeMacScheduler
     std::list<SlResourceInfo> SelectResourcesForBlindRetransmissions(
         std::list<SlResourceInfo> txOpps);
 
+    std::list<SlResourceInfo> DoGetNextList();
+
     /**
      * \brief Randomly select resources for a grant from the candidate resources,
      *        subject to the constraint of a minimum time gap betweeen resources
@@ -533,6 +537,9 @@ class NrSlUeMacSchedulerFixedMcs : public NrSlUeMacScheduler
         m_grantInfo; //!< (unpublished) grants, indexed by dstL2Id
 
     std::vector<SlGrantResource> m_publishedGrants; //!< published grants
+    
+    std::map<int, std::list<SlResourceInfo>> m_lookAheadMap;
+    std::list<SlResourceInfo> m_nextList;
 
     Ptr<UniformRandomVariable>
         m_ueSelectedUniformVariable; //!< uniform random variable used for NR Sidelink

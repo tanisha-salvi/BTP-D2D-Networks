@@ -52,6 +52,12 @@ NrSlSciF1aHeader::SetReselCounter(uint8_t reselCounter)
 }
 
 void
+NrSlSciF1aHeader::SetPreferenceList(std::vector<std::vector<uint32_t>> preferenceList)
+{
+    m_preferenceList = preferenceList;
+}
+
+void
 NrSlSciF1aHeader::SetPriority(uint8_t priority)
 {
     m_priority = priority;
@@ -152,6 +158,12 @@ uint8_t
 NrSlSciF1aHeader::GetReselCounter() const
 {
     return m_reselCounter;
+}
+
+std::vector<std::vector<uint32_t>> 
+NrSlSciF1aHeader::GetPreferenceList() const
+{
+    return m_preferenceList;
 }
 
 uint8_t
@@ -279,6 +291,15 @@ NrSlSciF1aHeader::GetSerializedSize() const
     // indexStartSbChReTx1 = 1 byte if slMaxNumPerReserve == 3
     totalSize = 1 + 1 + 1 + 2 + 2 + 1 + 1 + 1;
     totalSize = totalSize + 1;
+
+    // 1. Outer vector size (1 x 4 bytes)
+    totalSize += 4;
+    // 2. For each inner vector:
+    for (const auto& innerVec : m_preferenceList) {
+        totalSize += 4;                    // innerVec.size() -> 4 bytes
+        totalSize += 4 * innerVec.size(); // each uint32_t -> 4 bytes
+    }
+
     totalSize =
         (m_slMaxNumPerReserve == 2 ? totalSize + 2
                                    : totalSize + 0); // only gapReTx1 and indexStartSbChReTx1
@@ -307,6 +328,14 @@ NrSlSciF1aHeader::Serialize(Buffer::Iterator start) const
 
     i.WriteU8(m_reselCounter);
 
+    i.WriteU32(m_preferenceList.size());
+    for (const auto& innerVec : m_preferenceList) {
+        i.WriteU32(innerVec.size());
+        for (uint32_t val : innerVec) {
+            i.WriteU32(val);
+        }
+    }
+
     i.WriteU8(m_slMaxNumPerReserve);
     if (m_slMaxNumPerReserve == 2 || m_slMaxNumPerReserve == 3)
     {
@@ -333,6 +362,17 @@ NrSlSciF1aHeader::Deserialize(Buffer::Iterator start)
     m_indexStartSubChannel = i.ReadU8();
     m_lengthSubChannel = i.ReadU8();
     m_reselCounter = i.ReadU8();
+
+    uint32_t outerSize = i.ReadU32(); 
+    m_preferenceList.resize(outerSize);
+
+    for (uint32_t idx = 0; idx < outerSize; ++idx) {
+        uint32_t innerSize = i.ReadU32(); 
+        m_preferenceList[idx].resize(innerSize);
+        for (uint32_t j = 0; j < innerSize; ++j) {
+            m_preferenceList[idx][j] = i.ReadU32();
+        }
+    }
 
     m_slMaxNumPerReserve = i.ReadU8();
     if (m_slMaxNumPerReserve == 2 || m_slMaxNumPerReserve == 3)

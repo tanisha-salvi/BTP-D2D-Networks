@@ -81,7 +81,7 @@ class NrSlUeMacSchedulerLC
     bool m_harqEnabled{false}; //!< true if HARQ is enabled
     Time m_pdb{0};             //!< Packet Delay Budget
     bool m_dynamic{false};     //!< true if LC scheduling is dynamic, false if it is SPS
-    Time m_rri{0};             //!< Resource Reservation Interval
+    Time m_rri{100};             //!< Resource Reservation Interval
     SidelinkInfo::CastType m_castType{SidelinkInfo::CastType::Invalid}; //!< Cast type
 };
 

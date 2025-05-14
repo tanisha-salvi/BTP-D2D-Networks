@@ -130,6 +130,8 @@ class NrSlUeMac : public NrUeMac
     // SCHED API primitive for NR Sidelink
     // From FAPI 2.0.0 Small Cell Forum originated LTE MAC scheduler API
 
+    void DoSetPreferenceList(uint8_t nodeId, std::vector<std::vector<uint32_t>> preferenceList);
+
     /**
      * \brief Method to communicate NR SL grants from NR SL UE scheduler
      * \param dstL2Id destination L2 ID
@@ -841,6 +843,8 @@ class NrSlUeMac : public NrUeMac
                                      */
     uint8_t m_reselCounter{0};  //!< The resource selection counter
     uint16_t m_cResel{0};       //!< The C_resel counter
+
+    std::map<int, std::list<SlResourceInfo>> m_lookupResource;  // map of dstId to next resource list
 
     std::list<SfnSf> m_transmitHistory; //!< History of slots used for transmission
 

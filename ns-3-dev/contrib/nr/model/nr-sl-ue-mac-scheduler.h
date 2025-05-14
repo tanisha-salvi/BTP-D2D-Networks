@@ -83,6 +83,10 @@ class NrSlUeMacScheduler : public Object
      */
     void SchedNrSlTriggerReq(const SfnSf& sfn);
 
+    std::list<SlResourceInfo> GetNextList();
+
+    void SetSchedulerLookAheadMap(std::map <int, std::list<SlResourceInfo>> lookAheadMap);
+
     /**
      * \brief Update buffer status of logical channel data in RLC.
      *
@@ -195,6 +199,10 @@ class NrSlUeMacScheduler : public Object
      * \param sfn The current SfnSf
      */
     virtual void DoSchedNrSlTriggerReq(const SfnSf& sfn) = 0;
+
+    virtual std::list<SlResourceInfo> DoGetNextList() = 0;
+
+    virtual void DoSetSchedulerLookAheadMap(std::map <int, std::list<SlResourceInfo>> lookAheadMap) = 0;
 
     /**
      * \brief Update buffer status of logical channel data in RLC.

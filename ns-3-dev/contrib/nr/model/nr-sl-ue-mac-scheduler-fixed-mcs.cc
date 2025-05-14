@@ -16,15 +16,16 @@
 
 #include <optional>
 #include <queue>
+#include <iostream>
+#include <fstream>
 
-int counter = 0;
+#define NEXT_LIST_LIM 10
+
+bool originalSps = true;
+int numPairs = 10;
 
 #undef NS_LOG_APPEND_CONTEXT
 #define NS_LOG_APPEND_CONTEXT                                                                      \
-    if (GetMac())                                                                                  \
-    {                                                                                              \
-        std::clog << "[imsi=" << GetMac()->GetImsi() << "] ";                                      \
-    }
 
 namespace ns3
 {
@@ -308,6 +309,12 @@ NrSlUeMacSchedulerFixedMcs::GetUpperBoundReselCounter(uint16_t pRsrv) const
 }
 
 void
+NrSlUeMacSchedulerFixedMcs::DoSetSchedulerLookAheadMap(std::map <int, std::list<SlResourceInfo>> lookAheadMap) 
+{
+    m_lookAheadMap = lookAheadMap;
+}
+
+void
 NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
 {
     NS_LOG_FUNCTION(this << sfn);
@@ -344,27 +351,14 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
                          << " Priority: " << +allocationInfo.m_priority << " Is dynamic: "
                          << allocationInfo.m_isDynamic << " TB size: " << allocationInfo.m_tbSize
                          << " HARQ enabled: " << allocationInfo.m_harqEnabled);
-            std::cout << "Destination L2 Id to allocate: " << dstL2IdtoServe
-                      << " Number of LCs: " << allocationInfo.m_allocatedRlcPdus.size()
-                      << " Priority: " << +allocationInfo.m_priority
-                      << " Is dynamic: " << allocationInfo.m_isDynamic
-                      << " TB size: " << allocationInfo.m_tbSize
-                      << " RRI: " << allocationInfo.m_rri 
-                      << " HARQ enabled: " << allocationInfo.m_harqEnabled << "\n";
 
             NS_LOG_DEBUG("Resources available (" << candResources.size() << "):");
-
-            std::cout << "\n[" << (double)Simulator::Now().GetSeconds() * 1000.0 << "]\n";
-            std::cout << "Resources available (" << candResources.size() << "):\n";
 
             for (auto itCandResou : candResources)
             {
                 NS_LOG_DEBUG(itCandResou.sfn
                              << " slSubchannelStart: " << +itCandResou.slSubchannelStart
                              << " slSubchannelSize:" << itCandResou.slSubchannelSize);
-                std::cout << itCandResou.sfn
-                          << " slSubchannelStart: " << +itCandResou.slSubchannelStart
-                          << " slSubchannelLength:" << (int)itCandResou.slSubchannelLength << "\n";
             }
             if (dstL2IdtoServe > 0)
             {
@@ -381,8 +375,6 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
                     {
                         NS_LOG_DEBUG("All logical channels of destination " << dstL2IdtoServe
                                                                             << " were allocated");
-                        std::cout << "All logical channels of destination " << dstL2IdtoServe
-                                  << " were allocated\n";
                         // All LCs where served, remove destination
                         dstsAndLcsToSched.erase(dstL2IdtoServe);
                     }
@@ -392,10 +384,6 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
                                              << itDstsAndLcsToSched->second.size()
                                              << " logical channels of destination "
                                              << dstL2IdtoServe << " were allocated");
-                        std::cout << "Only " << allocationInfo.m_allocatedRlcPdus.size() << "/"
-                                  << itDstsAndLcsToSched->second.size()
-                                  << " logical channels of destination " << dstL2IdtoServe
-                                  << " were allocated\n";
                         // Remove only the LCs that were served
                         for (auto slRlcPduInfo : allocationInfo.m_allocatedRlcPdus)
                         {
@@ -405,7 +393,6 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
                                 if (*itLcs == slRlcPduInfo.lcid)
                                 {
                                     NS_LOG_DEBUG("Erasing LCID " << slRlcPduInfo.lcid);
-                                    std::cout << "Erasing LCID " << slRlcPduInfo.lcid << "\n";
                                     itLcs = itDstsAndLcsToSched->second.erase(itLcs);
                                 }
                                 else
@@ -419,7 +406,6 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
                 else
                 {
                     NS_LOG_DEBUG("Unable to allocate destination " << dstL2IdtoServe);
-                    std::cout << "Unable to allocate destination " << dstL2IdtoServe << "\n";
                     // It could happen that we are not able to serve this destination
                     // but could serve any of the other destinations needing scheduling.
                     // This case is not currently considered and we stop trying to allocate
@@ -430,7 +416,6 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
             else
             {
                 NS_LOG_DEBUG("No destination found to serve");
-                // std::cout << "No destination found to serve\n";
                 break;
             }
         }
@@ -438,7 +423,6 @@ NrSlUeMacSchedulerFixedMcs::DoSchedNrSlTriggerReq(const SfnSf& sfn)
     else
     {
         NS_LOG_DEBUG("No destination needing scheduling");
-        // std::cout << "No destination needing scheduling\n";
     }
     CheckForGrantsToPublish(sfn);
 }
@@ -523,7 +507,6 @@ NrSlUeMacSchedulerFixedMcs::TxResourceReselectionCheck(const SfnSf& sfn,
         {
             if (!grantFoundForLc)
             {
-                std::cout << "Passed, Fresh SPS grant required\n";
                 NS_LOG_DEBUG("Passed, Fresh SPS grant required");
                 pass = true;
             }
@@ -542,9 +525,6 @@ NrSlUeMacSchedulerFixedMcs::TxResourceReselectionCheck(const SfnSf& sfn,
                         double slProbResourceKeep = GetMac()->GetSlProbResourceKeep();
                         if (slProbResourceKeep > randProb)
                         {
-                            std::cout << "slProbResourceKeep ("
-                                << slProbResourceKeep << ") > randProb (" << randProb << ")"
-                                << ", Keeping the SPS grant, restarting slResoReselCounter\n";
                             NS_LOG_INFO(
                                 "slProbResourceKeep ("
                                 << slProbResourceKeep << ") > randProb (" << randProb << ")"
@@ -570,10 +550,6 @@ NrSlUeMacSchedulerFixedMcs::TxResourceReselectionCheck(const SfnSf& sfn,
                                         << slProbResourceKeep << ") <= randProb (" << randProb
                                         << ")"
                                         << ", Clearing the SPS grant");
-                            std::cout << "Passed, slProbResourceKeep ("
-                                            << slProbResourceKeep << ") <= randProb (" << randProb
-                                            << ")"
-                                            << ", Clearing the SPS grant\n";
                             GetMacHarq()->DeallocateHarqProcessId(itGrantFoundLc->harqId);
                             pass = true;
                         }
@@ -718,7 +694,6 @@ NrSlUeMacSchedulerFixedMcs::LogicalChannelPrioritization(
                 nSpsLcs++;
             }
         }
-        // std::cout << "m_prioToSps=" << m_prioToSps << ", nDynLcs=" << nDynLcs << ", nSpsLcs=" << nSpsLcs << "\n";
         if ((m_prioToSps && nSpsLcs > 0) || (!m_prioToSps && nDynLcs == 0 && nSpsLcs > 0))
         {
             dynamicGrant = false;
@@ -727,19 +702,16 @@ NrSlUeMacSchedulerFixedMcs::LogicalChannelPrioritization(
     else
     {
         dynamicGrant = lcgMap.begin()->second->IsLcDynamic(lcIdsbyPrio.rbegin()->second.front());
-        std::cout << "dynamicGrant = " << dynamicGrant << "\n";
     }
     if (dynamicGrant)
     {
         allocationInfo.m_isDynamic = true;
         NS_LOG_DEBUG("Selected scheduling type: dynamic grant / per-PDU ");
-        std::cout << "Selected scheduling type: dynamic grant / per-PDU \n";
     }
     else
     {
         allocationInfo.m_isDynamic = false;
         NS_LOG_DEBUG("Selected scheduling type: SPS");
-        std::cout << "Selected scheduling type: SPS\n";
     }
 
     allocationInfo.m_harqEnabled =
@@ -810,13 +782,14 @@ NrSlUeMacSchedulerFixedMcs::LogicalChannelPrioritization(
 
         allocationInfo.m_rri = lcgMap.begin()->second->GetLcRri(lcIdOfRef);
 
-        // allocationInfo.m_rri = 100;
-        //std::cout << "allocationInfo.m_rri=" << allocationInfo.m_rri << "\n"; //]
+        allocationInfo.m_rri = MilliSeconds(100);
         // Do it here because we need m_cResel for getting the candidate resources from the MAC
         m_reselCounter = GetRandomReselectionCounter(allocationInfo.m_rri);
-        // fix resel
-        m_reselCounter = 5;
-        // std::cout << "m_reselCounter=" << (int)m_reselCounter << "\n"; //]
+
+        if(!originalSps) {
+            // fix resel
+            m_reselCounter = 5;
+        }
         m_cResel = m_reselCounter * 10;
         NS_LOG_DEBUG("SPS Reselection counters: m_reselCounter " << +m_reselCounter << " m_cResel "
                                                                  << m_cResel);
@@ -868,25 +841,15 @@ NrSlUeMacSchedulerFixedMcs::LogicalChannelPrioritization(
         uint16_t lSubch = 0;
         uint32_t tbSize = 0;
 
-        std::cout << "bufferSize = " << (int)bufferSize << "\n";
-
         do
         {
             lSubch++;
             tbSize = CalculateTbSize(GetAmc(), dstMcs, symbolsPerSlot, lSubch, subChannelSize);
-            std::cout << "tbSize = " << (int)tbSize << "\n";
-            // if((int)tbSize > 700)
-            //     break;
         } while (tbSize < bufferSize + 5 && lSubch < GetTotalSubCh());
-
-        std::cout << dstIdSelected << " dstIdSelected\n";
 
         NS_LOG_DEBUG("Trying " << nLcsInQueue << " LCs with total buffer size of " << bufferSize
                                << " bytes in " << lSubch << " subchannels for a TB size of "
                                << tbSize << " bytes");
-        std::cout << "Trying " << nLcsInQueue << " LCs with total buffer size of " << bufferSize
-                  << " bytes in " << lSubch << " subchannels for a TB size of " << tbSize
-                  << " bytes\n";
 
         // All LCs in the set should have the same attributes than the lcIdOfRef
         NrSlUeMac::NrSlTransmissionParams params{lcgMap.begin()->second->GetLcPriority(lcIdOfRef),
@@ -1323,12 +1286,6 @@ NrSlUeMacSchedulerFixedMcs::CreateSpsGrantInfo(const std::set<SlGrantResource>& 
                                                   << " ms");
     NS_LOG_DEBUG("Resel Counter " << +m_reselCounter << " and cResel " << m_cResel);
 
-    //]
-     std::cout << "Creating SPS grants for dstL2Id " << slotAllocList.begin()->dstL2Id << "\n";
-    std::cout << "Resource reservation interval " << allocationInfo.m_rri.GetMilliSeconds()
-                                                  << " ms\n";
-    std::cout << "Resel Counter " << +m_reselCounter << " and cResel " << m_cResel << "\n ";
-
     uint16_t resPeriodSlots = GetMac()->GetResvPeriodInSlots(allocationInfo.m_rri);
     GrantInfo grant;
 
@@ -1387,7 +1344,6 @@ NrSlUeMacSchedulerFixedMcs::CreateSinglePduGrantInfo(const std::set<SlGrantResou
 {
     NS_LOG_FUNCTION(this);
     NS_LOG_DEBUG("Creating single-PDU grant for dstL2Id " << slotAllocList.begin()->dstL2Id);
-    std::cout << "Creating single-PDU grant for dstL2Id " << slotAllocList.begin()->dstL2Id << "\n";
 
     GrantInfo grant;
     grant.nSelected = static_cast<uint8_t>(slotAllocList.size());
@@ -1406,12 +1362,6 @@ NrSlUeMacSchedulerFixedMcs::CreateSinglePduGrantInfo(const std::set<SlGrantResou
                         << " slot = " << +slAlloc.sfn.GetSlot() << " normalized = "
                         << slAlloc.sfn.Normalize() << " subchannels = " << slAlloc.slPsschSubChStart
                         << ":" << slAlloc.slPsschSubChStart + slAlloc.slPsschSubChLength - 1);
-            std::cout << "  Dynamic NDI scheduled at: Frame = " << slAlloc.sfn.GetFrame()
-                      << " SF = " << +slAlloc.sfn.GetSubframe()
-                      << " slot = " << +slAlloc.sfn.GetSlot()
-                      << " normalized = " << slAlloc.sfn.Normalize()
-                      << " subchannels = " << slAlloc.slPsschSubChStart << ":"
-                      << slAlloc.slPsschSubChStart + slAlloc.slPsschSubChLength - 1 << "\n";
         }
         else
         {
@@ -1420,12 +1370,6 @@ NrSlUeMacSchedulerFixedMcs::CreateSinglePduGrantInfo(const std::set<SlGrantResou
                         << " slot = " << +slAlloc.sfn.GetSlot() << " normalized = "
                         << slAlloc.sfn.Normalize() << " subchannels = " << slAlloc.slPsschSubChStart
                         << ":" << slAlloc.slPsschSubChStart + slAlloc.slPsschSubChLength - 1);
-            std::cout << "  Dynamic rtx scheduled at: Frame = " << slAlloc.sfn.GetFrame()
-                      << " SF = " << +slAlloc.sfn.GetSubframe()
-                      << " slot = " << +slAlloc.sfn.GetSlot()
-                      << " normalized = " << slAlloc.sfn.Normalize()
-                      << " subchannels = " << slAlloc.slPsschSubChStart << ":"
-                      << slAlloc.slPsschSubChStart + slAlloc.slPsschSubChLength - 1 << "\n";
         }
         bool insertStatus = grant.slotAllocations.emplace(slAlloc).second;
         NS_ASSERT_MSG(insertStatus, "slot allocation already exist");
@@ -1547,63 +1491,6 @@ NrSlUeMacSchedulerFixedMcs::FilterTxOpportunities(const SfnSf& sfn,
                                                   uint16_t cResel)
 {
     NS_LOG_FUNCTION(this << sfn.Normalize() << txOppr.size() << rri.As(Time::MS) << cResel);
-
-    auto itr = m_dstMap.begin();
-    std::cout << "dstmap " << m_dstMap.size() << "\n";
-    while (itr != m_dstMap.end())
-    {
-        // auto x = *(itr->second);
-        std::cout << (int)itr->first << " -> "<< "\n";
-        itr++;
-    }
-
-    std::cout << "pub size = " << m_publishedGrants.size() << "\n";
-    auto itr2 = m_publishedGrants.begin();
-    while(itr2 != m_publishedGrants.end())
-    {
-        auto txo = *itr2;
-        std::cout << "-------------------------------------\n";
-        std::cout << "pub grant Parameters:\n";
-        std::cout << "slPsschSymStart       : " << static_cast<int>(txo.slPsschSymStart) << "\n";
-        std::cout << "slPsschSymLength      : " << static_cast<int>(txo.slPsschSymLength) << "\n";
-        std::cout << "sfn                   : " << txo.sfn << "\n";
-        // std::cout << "slSubchannelStart     : " << static_cast<int>(txo.slSubchannelStart) << "\n";
-        // std::cout << "slSubchannelLength    : " << static_cast<int>(txo.slSubchannelLength) << "\n";
-        std::cout << "-------------------------------------\n";
-        itr2++;
-    }
-
-    // itr = m_grantInfo.begin();
-    std::cout << "un size = " << m_grantInfo.size() << "\n";
-    // while(itr != m_grantInfo.end())
-    // {
-    //     auto txo = *itr;
-    //     std::cout << "-------------------------------------\n";
-    //     std::cout << "un grant Parameters:\n";
-    //     std::cout << "slPsschSymStart       : " << static_cast<int>(txo.slPsschSymStart) << "\n";
-    //     std::cout << "slPsschSymLength      : " << static_cast<int>(txo.slPsschSymLength) << "\n";
-    //     std::cout << "sfn                   : " << txo.sfn << "\n";
-    //     std::cout << "slSubchannelStart     : " << static_cast<int>(txo.slSubchannelStart) << "\n";
-    //     std::cout << "slSubchannelLength    : " << static_cast<int>(txo.slSubchannelLength) << "\n";
-    //     std::cout << "-------------------------------------\n";
-    //     itr++;
-    // }
-
-    // itr = txOppr.begin();
-    std::cout << "txoo size = " << txOppr.size() << "\n";
-    // while(itr != txOppr.end())
-    // {
-    //     auto txo = *itr;
-    //     std::cout << "-------------------------------------\n";
-    //     std::cout << "txoooo grant Parameters:\n";
-    //     std::cout << "slPsschSymStart       : " << static_cast<int>(txo.slPsschSymStart) << "\n";
-    //     std::cout << "slPsschSymLength      : " << static_cast<int>(txo.slPsschSymLength) << "\n";
-    //     std::cout << "sfn                   : " << txo.sfn << "\n";
-    //     std::cout << "slSubchannelStart     : " << static_cast<int>(txo.slSubchannelStart) << "\n";
-    //     std::cout << "slSubchannelLength    : " << static_cast<int>(txo.slSubchannelLength) << "\n";
-    //     std::cout << "-------------------------------------\n";
-    //     itr++;
-    // }
 
     if (txOppr.empty())
     {
@@ -1939,28 +1826,52 @@ NrSlUeMacSchedulerFixedMcs::SelectResourcesForBlindRetransmissions(std::list<SlR
     return newTxOpps;
 }
 
-std::list<SlResourceInfo> filterTx(std::list<SlResourceInfo> txOpps) {
-    std::list<SlResourceInfo> newTxOpps;
-    int length = (int)((*txOpps.begin()).slSubchannelLength);
-    for (SlResourceInfo res : txOpps)
-    {
-        if(length >= 3) {
-            if((int)res.slSubchannelStart == 0) {
-                newTxOpps.push_back(res);
+std::list<SlResourceInfo>
+NrSlUeMacSchedulerFixedMcs::DoGetNextList() 
+{
+    if(!m_nextList.empty()) {
+        auto x = *(m_nextList.begin());
+    }
+    return m_nextList;
+}
+
+std::list<SlResourceInfo> findBestSlot(int curNode, std::map<int, std::list<SlResourceInfo>> lookAheadMap, std::list<SlResourceInfo> nextList) {
+    std::list<SlResourceInfo> lst;
+    std::map<int, bool> taken;
+
+    for(auto entry : lookAheadMap) {
+        int node = entry.first;
+        auto nodeForesightList = entry.second;
+        if(curNode <= node)
+            break;
+        auto itr = nodeForesightList.begin();
+        while(itr != nodeForesightList.end()) {
+            if(taken[(int)(itr->sfn.Normalize())])
+            {
+                itr++;
+                continue;
             }
-        } else if(length == 2) {
-            if((int)res.slSubchannelStart != 1) {
-                newTxOpps.push_back(res);
-            }
-        } else {
-            newTxOpps.push_back(res);
+            taken[(int)(itr->sfn.Normalize())] = true;
+            break;
         }
     }
-    if(newTxOpps.empty()) {
-        std::cout << "newTxOpps empty!!\n";
-        return txOpps;
+    for(auto res : nextList) {
+        if(taken[(int)(res.sfn.Normalize())])
+            continue;
+        lst.emplace_back(res);
+        if(lst.size())
+            break;
     }
-    return newTxOpps;
+    return lst;
+}
+
+int GetWindowPartition(int sz, int highPriorityNum, int LowPriorityNum) {
+    int val = (highPriorityNum * sz) / (highPriorityNum + LowPriorityNum);
+    return val;
+}
+
+bool isHighPriority(int nodeId, int highPriorityNum) {
+    return (nodeId <= highPriorityNum);
 }
 
 std::list<SlResourceInfo>
@@ -1986,88 +1897,144 @@ NrSlUeMacSchedulerFixedMcs::SelectResourcesWithConstraint(std::list<SlResourceIn
     // *txOppsIt.sfn is the SfnSf
     // *txOppsIt.slHasPsfch is the SfnSf
 
-    std::cout << "txOpps size = " << txOpps.size() << "\n";
-
-    auto it1 = txOpps.begin();
-    for (int j = 0; j < (int)txOpps.size(); j++)
+    std::list<SlResourceInfo> bestSlot;
+    if (originalSps)
     {
-        break;
-        auto txo = *it1;
-        std::cout << "entry " << j + 1 << "\n";
-        std::cout << "SlResourceInfo Parameters:\n";
-        std::cout << "-------------------------------------\n";
-        std::cout << "numSlPscchRbs         : " << static_cast<int>(txo.numSlPscchRbs) << "\n";
-        std::cout << "slPscchSymStart       : " << static_cast<int>(txo.slPscchSymStart) << "\n";
-        std::cout << "slPscchSymLength      : " << static_cast<int>(txo.slPscchSymLength) << "\n";
-        std::cout << "slPsschSymStart       : " << static_cast<int>(txo.slPsschSymStart) << "\n";
-        std::cout << "slPsschSymLength      : " << static_cast<int>(txo.slPsschSymLength) << "\n";
-        std::cout << "slSubchannelSize      : " << static_cast<int>(txo.slSubchannelSize) << "\n";
-        std::cout << "slMaxNumPerReserve    : " << static_cast<int>(txo.slMaxNumPerReserve) << "\n";
-        std::cout << "slPsfchPeriod         : " << static_cast<int>(txo.slPsfchPeriod) << "\n";
-        std::cout << "slMinTimeGapPsfch     : " << static_cast<int>(txo.slMinTimeGapPsfch) << "\n";
-        std::cout << "slMinTimeGapProcessing: " << static_cast<int>(txo.slMinTimeGapProcessing) << "\n";
-        std::cout << "sfn                   : " << txo.sfn << "\n";
-        std::cout << "slSubchannelStart     : " << static_cast<int>(txo.slSubchannelStart) << "\n";
-        std::cout << "slSubchannelLength    : " << static_cast<int>(txo.slSubchannelLength) << "\n";
-        std::cout << "-------------------------------------\n";
-        it1++;
-    }
-
-    txOpps = filterTx(txOpps);
-    std::cout << "filtered size = " << txOpps.size() << "\n";
-
-    int c = 1;
-    while (newTxOpps.size() < totalTx && txOpps.size() > 0)
-    // while(txOpps.size() > 0)
-    {
-        auto txOppsIt = txOpps.begin();
-        auto txo = *txOppsIt;
-
-        auto old = *txOppsIt;
-
-        auto ran = m_grantSelectionUniformVariable->GetInteger(0, txOpps.size() - 1);
-        std::advance(txOppsIt, ran);
-        auto neww = *txOppsIt;
-
-        counter++;
-        std::cout << "Counter = " << counter << "\n";
-        std::cout << "Old : " << old.sfn << "\n";
-        std::cout << "New : " << neww.sfn << "\n";
-
-        if (IsCandidateResourceEligible(newTxOpps, *txOppsIt))
+        while (newTxOpps.size() < totalTx && txOpps.size() > 0)
         {
-            // copy the randomly selected resource into the new list
-            newTxOpps.emplace_back(*txOppsIt);
-            newTxOpps.sort();
+            auto txOppsIt = txOpps.begin();
+            auto ran = m_grantSelectionUniformVariable->GetInteger(0, txOpps.size() - 1);
+            std::advance(txOppsIt, ran);
+
+            if (IsCandidateResourceEligible(newTxOpps, *txOppsIt))
+            {
+                // copy the randomly selected resource into the new list
+                newTxOpps.emplace_back(*txOppsIt);
+                newTxOpps.sort();
+            }
+            // erase the selected one from the list
+            txOpps.erase(txOppsIt);
         }
-        // erase the selected one from the list
-        txOpps.erase(txOppsIt);
-        // std::cout << "erase size = " << txOpps.size() << "\n\n";
     }
+    else {
+        
+        int currentDstId = (int)(m_dstMap.begin()->first);
+        int txOppsSz = txOpps.size();
+        int highPriorityNum = 8 * numPairs / 10;
+        int lowPriorityNum = numPairs - highPriorityNum;
+
+        auto itr = txOpps.begin();
+
+        int partitionSize =
+            GetWindowPartition(txOppsSz, highPriorityNum, lowPriorityNum);
+
+        std::list<SlResourceInfo> slotList;
+
+        bool slotMatchFound = false;
+        if (currentDstId % 2 == 0 && isHighPriority(currentDstId / 2, highPriorityNum) && (*txOpps.begin()).sfn.GetFrame() >= 210)
+        {
+            bestSlot = findBestSlot(currentDstId, m_lookAheadMap, m_nextList);
+
+            if(!bestSlot.empty()) {
+                slotMatchFound = true;
+            }
+
+            if(slotMatchFound) {
+                auto res = *(bestSlot.begin());
+                if(res.sfn.GetFrame() >= 210) {
+                    SfnSf sf;
+                    if (res.sfn.GetSubframe() <= 4)
+                    sf = SfnSf(res.sfn.GetFrame() + 45, res.sfn.GetSubframe() + 5, res.sfn.GetSlot(), res.sfn.GetNumerology());
+                    else
+                    sf = SfnSf(res.sfn.GetFrame() + 46, (res.sfn.GetSubframe() + 5) % 10, res.sfn.GetSlot(), res.sfn.GetNumerology());
+
+                    // if (res.sfn.GetSubframe() <= 4)
+                    // sf = SfnSf(res.sfn.GetFrame() + 49, res.sfn.GetSubframe() + 5, res.sfn.GetSlot(), res.sfn.GetNumerology());
+                    // else
+                    // sf = SfnSf(res.sfn.GetFrame() + 50, (res.sfn.GetSubframe() + 5) % 10, res.sfn.GetSlot(), res.sfn.GetNumerology());
+
+                    res.sfn = sf;
+                    res.slSubchannelStart = (*txOpps.begin()).slSubchannelStart;
+                    res.slSubchannelLength = (*txOpps.begin()).slSubchannelLength;
+
+                    if(sf.Normalize() >= txOpps.begin()->sfn.Normalize()) {
+                        bestSlot.clear();
+                        bestSlot.emplace_back(res);
+                    }
+                    else {
+                        slotMatchFound = false;
+                    }
+                    // m_nextList = bestSlot;
+                    // slotList.emplace_back(res);
+                }
+                else {
+                    slotMatchFound = false;
+                }
+            }
+
+            if(isHighPriority(currentDstId / 2, highPriorityNum) && currentDstId % 2 == 0) {
+                m_nextList.clear();
+                std::map<int, bool> vis;
+
+                int c = 0;
+                while (m_nextList.size() < NEXT_LIST_LIM)
+                {
+                    auto ran = m_grantSelectionUniformVariable->GetInteger(0, partitionSize - 1);
+                    auto itr = txOpps.begin();
+                    advance(itr, ran);
+                    c++;
+                    if(c == 50)
+                        break;
+                    if (vis[(int)(itr->sfn.Normalize())])
+                        continue;
+                    m_nextList.emplace_back(*itr);
+                    vis[(int)(itr->sfn.Normalize())] = true;
+                }
+            }
+        }
+        
+        while (newTxOpps.size() < totalTx && txOpps.size() > 0)
+        {
+            partitionSize = GetWindowPartition(txOpps.size(), highPriorityNum, lowPriorityNum);
+            if(slotMatchFound) {
+                newTxOpps = bestSlot;
+                break;
+            }
+            auto txOppsIt = txOpps.begin();
+
+            auto old = *txOppsIt;
+
+            // auto ran = m_grantSelectionUniformVariable->GetInteger(0, txOpps.size() - 1);
+            // std::advance(txOppsIt, ran);
+            if (isHighPriority(currentDstId / 2, highPriorityNum))
+            {
+                auto ran = m_grantSelectionUniformVariable->GetInteger(0, partitionSize - 1);
+                std::advance(txOppsIt, ran);
+            }
+            else {
+                auto ran = m_grantSelectionUniformVariable->GetInteger(0, txOpps.size() - 1);
+                std::advance(txOppsIt, ran);
+            }
+            // else 
+            // {
+            //     auto ran = m_grantSelectionUniformVariable->GetInteger(partitionSize, txOpps.size() - 1);
+            //     std::advance(txOppsIt, ran);
+            // }
+            auto neww = *txOppsIt;
+
+            if (IsCandidateResourceEligible(newTxOpps, *txOppsIt))
+            {
+                // copy the randomly selected resource into the new list
+                newTxOpps.emplace_back(*txOppsIt);
+                newTxOpps.sort();
+            }
+            // erase the selected one from the list
+            txOpps.erase(txOppsIt);
+        }
+    }
+
     // sort the list by SfnSf before returning
     newTxOpps.sort();
-
-    std::cout << "newsize = " << newTxOpps.size() << "\n";
-    auto itt = newTxOpps.begin();
-    auto txo = *itt;
-    std::cout << "SlResourceInfo Parameters:\n";
-    std::cout << "-------------------------------------\n";
-    std::cout << "numSlPscchRbs         : " << static_cast<int>(txo.numSlPscchRbs) << "\n";
-    std::cout << "slPscchSymStart       : " << static_cast<int>(txo.slPscchSymStart) << "\n";
-    std::cout << "slPscchSymLength      : " << static_cast<int>(txo.slPscchSymLength) << "\n";
-    std::cout << "slPsschSymStart       : " << static_cast<int>(txo.slPsschSymStart) << "\n";
-    std::cout << "slPsschSymLength      : " << static_cast<int>(txo.slPsschSymLength) << "\n";
-    std::cout << "slSubchannelSize      : " << static_cast<int>(txo.slSubchannelSize) << "\n";
-    std::cout << "slMaxNumPerReserve    : " << static_cast<int>(txo.slMaxNumPerReserve) << "\n";
-    std::cout << "slPsfchPeriod         : " << static_cast<int>(txo.slPsfchPeriod) << "\n";
-    std::cout << "slMinTimeGapPsfch     : " << static_cast<int>(txo.slMinTimeGapPsfch) << "\n";
-    std::cout << "slMinTimeGapProcessing: " << static_cast<int>(txo.slMinTimeGapProcessing) << "\n";
-    std::cout << "sfn                   : " << txo.sfn << "\n";
-    std::cout << "slSubchannelStart     : " << static_cast<int>(txo.slSubchannelStart) << "\n";
-    std::cout << "slSubchannelLength    : " << static_cast<int>(txo.slSubchannelLength) << "\n";
-    std::cout << "-------------------------------------\n";
-
-
 
     NS_LOG_INFO("Selected " << newTxOpps.size() << " resources from " << originalSize
                             << " candidates and a maximum of " << +totalTx);

@@ -76,7 +76,7 @@ NrSlUeMac::GetTypeId()
             .AddAttribute("T2",
                           "The end of the selection window in physical slots; the "
                           "value used is min(T2, packet delay budget) if PDB is set",
-                          UintegerValue(17),
+                          UintegerValue(33),
                           MakeUintegerAccessor(&NrSlUeMac::m_t2),
                           MakeUintegerChecker<uint16_t>())
             .AddAttribute(
@@ -145,6 +145,27 @@ NrSlUeMac::NrSlUeMac()
     m_ueSelectedUniformVariable = CreateObject<UniformRandomVariable>();
     m_nrSlHarq = CreateObject<NrSlUeMacHarq>();
     m_nrSlHarq->InitHarqBuffer(MAX_SIDELINK_PROCESS_MULTIPLE_PDU, MAX_SIDELINK_PROCESS);
+}
+
+void 
+NrSlUeMac::DoSetPreferenceList(uint8_t nodeId, std::vector<std::vector<uint32_t>> preferenceList)
+{
+    std::list<SlResourceInfo> lst;
+    for (auto v : preferenceList)
+    {
+        uint32_t f = v[0];
+        uint8_t sf = v[1];
+        uint8_t sl = v[2];
+        uint8_t st = v[3];
+        uint8_t l = v[4];
+
+        SfnSf sfn = SfnSf(f, sf, sl, 2);
+        SlResourceInfo resInfo = SlResourceInfo(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, sfn, st, l);
+        lst.emplace_back(resInfo);
+    }
+    if(nodeId % 2 == 0)
+        m_lookupResource[(int)nodeId] = lst;
+    m_nrSlUeMacScheduler->SetSchedulerLookAheadMap(m_lookupResource);
 }
 
 void
@@ -451,10 +472,6 @@ NrSlUeMac::GetCandidateResourcesPrivate(const SfnSf& sfn,
     if (m_enableSensing && sensingData.empty() && transmitHistory.empty())
     {
         NS_LOG_DEBUG("No sensing or data found: Total slots selected " << mTotal);
-
-        if((int)this->GetRnti() == 2)
-        std::cout << "No sensing or data found: Total slots selected " << mTotal << "\n";
-        
         m_tracedSensingAlgorithm(report, candidateResources, sensingData, transmitHistory);
         return candidateResources;
     }
@@ -480,31 +497,6 @@ NrSlUeMac::GetCandidateResourcesPrivate(const SfnSf& sfn,
             updatedSensingData.pop_back();
             rvIt = updatedSensingData.crbegin();
         }
-    }
-
-    // codechange
-    // if((int)this->GetRnti() == 1)
-    {
-    std::cout << "time = [" << (double)(Simulator::Now().GetSeconds() * 1000.0) << "] ";
-    std::cout << "rnti = " << (int)this->GetRnti() << ", sensing " << m_enableSensing << "\n";
-    std::cout << "updatedSensingData size = " << updatedSensingData.size() << "\n";
-    // if(this->GetRnti()=)
-    for(auto data: updatedSensingData)
-    {
-        std::cout << "SensingData {"
-        << "sfn normalize: " << data.sfn.Normalize()
-       << " sfn: " << data.sfn
-       << ", rsvp: " << (int)data.rsvp
-       << ", sbChLength: " << (int)data.sbChLength
-       << ", sbChStart: " << (int)data.sbChStart
-       << ", prio: " << (int)data.prio
-       << ", slRsrp: " << data.slRsrp
-       << ", gapReTx1: " << (int)data.gapReTx1
-       << ", sbChStartReTx1: " << (int)data.sbChStartReTx1
-       << ", gapReTx2: " << (int)data.gapReTx2
-       << ", sbChStartReTx2: " << (int)data.sbChStartReTx2
-       << " }\n";
-    }
     }
 
     // Perform a similar operation on the transmit history.
@@ -566,21 +558,6 @@ NrSlUeMac::GetCandidateResourcesPrivate(const SfnSf& sfn,
     }
 
     NS_LOG_DEBUG("Size of sensingDataProjections outer vector: " << sensingDataProjections.size());
-
-    // if((int)this->GetRnti() == 2)
-    {
-        std::cout << "Size of sensingDataProjections outer vector: " << sensingDataProjections.size()
-              << "\n";
-        std::cout << "[" << (double)Simulator::Now().GetSeconds() * 1000.0 << "]\n";
-        for(auto x : sensingDataProjections)
-        {
-            for(auto y : x)
-            {
-                std::cout << "future projection: sfn normalize=" << y.sfn.Normalize() << ", sfn=" << y.sfn << ", sbChStart=" << (int)y.sbChStart << ", sbChLength=" << (int)y.sbChLength << ", slRsrp=" <<  y.slRsrp << "\n";
-            }
-        }
-        std::cout << "\n";
-    }
 
     int rsrpThreshold = m_thresRsrp;
     report.m_initialRsrpThreshold = m_thresRsrp;
@@ -645,25 +622,6 @@ NrSlUeMac::GetCandidateResourcesPrivate(const SfnSf& sfn,
                                                  << "] erased. Its rsrp : "
                                                  << itReservedResourceProjection.slRsrp
                                                  << " Threshold : " << rsrpThreshold);
-
-                                    // if((int)this->GetRnti() == 2)
-                                    {
-                                        std::cout << "\n[" << (double)Simulator::Now().GetSeconds() * 1000.0 << "] ";
-                                        std::cout << "Overlapped resource "
-                                                    << itCandidate->sfn << ", "
-                                                    << itCandidate->sfn.Normalize() << " occupied "
-                                                    << +itReservedResourceProjection.sbChLength
-                                                    << " subchannels index "
-                                                    << +itReservedResourceProjection.sbChStart << "\n";
-                                        std::cout << "Resource "
-                                                    << itCandidate->sfn << ", "
-                                                    << itCandidate->sfn.Normalize() << ":["
-                                                    << (int)itCandidate->slSubchannelStart << ", length="
-                                                    << (int)(itCandidate->slSubchannelLength)
-                                                    << "] erased. Its rsrp : "
-                                                    << itReservedResourceProjection.slRsrp
-                                                    << " Threshold : " << rsrpThreshold << "\n";
-                                    }
                                     
                                     itCandidate = remainingCandidates.erase(itCandidate);
                                     erased = true; // Used to break out of outer for loop of sensed
@@ -709,11 +667,6 @@ NrSlUeMac::GetCandidateResourcesPrivate(const SfnSf& sfn,
     NS_LOG_DEBUG(remainingCandidates.size()
                  << " resources selected after sensing resource selection from " << mTotal
                  << " slots");
-    
-    // if((int)this->GetRnti() == 2)
-    {std::cout << remainingCandidates.size()
-              << " resources selected after sensing resource selection from " << mTotal
-              << " slots\n";}
 
     report.m_finalRsrpThreshold = (rsrpThreshold - 3); // undo the last increment
     m_tracedSensingAlgorithm(report, remainingCandidates, updatedSensingData, updatedHistory);
@@ -766,12 +719,6 @@ NrSlUeMac::ExcludeResourcesBasedOnHistory(
     NS_LOG_FUNCTION(this << sfn.Normalize() << transmitHistory.size() << candidateList.size()
                          << slResourceReservePeriodList.size());
 
-    if((int)this->GetRnti() == 2) 
-    {
-    std::cout << "\n[" << (double)Simulator::Now().GetSeconds() * 1000.0 << "]\n";
-    std::cout << "\nExcludeResourcesBasedOnHistory\n"; // exlog
-    }
-
     std::set<uint64_t> sfnToExclude; // SFN slot numbers (normalized) to exclude
     uint64_t firstSfnNorm =
         candidateList.front().sfn.Normalize(); // lowest candidate SFN slot number
@@ -816,15 +763,6 @@ NrSlUeMac::ExcludeResourcesBasedOnHistory(
             if ((*itCand).sfn.Normalize() == i)
             {
                 NS_LOG_DEBUG("Erasing candidate resource at " << i);
-
-                // if((int)this->GetRnti() == 2) 
-                {
-                std::cout << "Erasing candidate resource: {"
-                          << itCand->sfn 
-                          << ", slSubchannelStart=" << (int)itCand->slSubchannelStart
-                          << ", slSubchannelLength=" << (int)itCand->slSubchannelLength << "\n"; // exlog
-                }
-
                 itCand = candidateList.erase(itCand);
             }
             else
@@ -844,9 +782,6 @@ NrSlUeMac::ExcludeReservedResources(SensingData sensedData,
                                     uint16_t t2) const
 {
     NS_LOG_FUNCTION(this << sensedData.sfn.Normalize() << slotPeriod << resvPeriodSlots);
-
-    // std::cout << "\nExcludeReservedResources\n";
-
     std::list<ReservedResource> resourceList;
 
     double slotDurationMs = slotPeriod.GetSeconds() * 1000.0;
@@ -1257,17 +1192,8 @@ NrSlUeMac::DoNrSlSlotIndication(const SfnSf& sfn)
                 dataVarTtiInfo.symLength = currentSlot.slPsschSymLength;
                 dataVarTtiInfo.rbStart = currentSlot.slPsschSubChStart *
                                          m_slTxPool->GetNrSlSubChSize(GetBwpId(), m_poolId);
-
-                auto temp = m_slTxPool->GetNrSlSubChSize(GetBwpId(), m_poolId);
-
-                //std::cout << "rbStart: " << (int)dataVarTtiInfo.rbStart << " = " << (int)currentSlot.slPsschSubChStart << " * " << (int)temp << "\n";
-
                 dataVarTtiInfo.rbLength = currentSlot.slPsschSubChLength *
                                           m_slTxPool->GetNrSlSubChSize(GetBwpId(), m_poolId);
-                                          // total subchannels * rbs per subchannel
-                
-                //std::cout << "rbLength: " << (int)dataVarTtiInfo.rbLength << " = " << (int)currentSlot.slPsschSubChLength << " * " << (int)temp << "\n";
-
                 m_nrSlUePhySapProvider->SetNrSlVarTtiAllocInfo(sfn, dataVarTtiInfo);
 
                 // Collect statistics for NR SL PSCCH UE MAC scheduling trace
@@ -1314,8 +1240,23 @@ NrSlUeMac::DoNrSlSlotIndication(const SfnSf& sfn)
                     sciF1a.SetLengthSubChannel(currentSlot.slPsschSubChLength);
                     sciF1a.SetSlMaxNumPerReserve(currentSlot.maxNumPerReserve);
                     sciF1a.SetReselCounter(m_reselCounter);
-                    std::cout << "sciF1a.SetReselCounter(m_reselCounter); = " << (int)m_reselCounter
-                              << "\n";
+
+                    std::list<SlResourceInfo> nextList = m_nrSlUeMacScheduler->GetNextList();
+
+                    std::vector<std::vector<uint32_t>> preferenceList;
+                    for(auto res : nextList) {
+                        std::vector<uint32_t> v;
+                        v.push_back((uint32_t)res.sfn.GetFrame());
+                        v.push_back((uint32_t)res.sfn.GetSubframe());
+                        v.push_back((uint32_t)res.sfn.GetSlot());
+                        v.push_back((uint32_t)res.slSubchannelStart);
+                        v.push_back((uint32_t)res.slSubchannelLength);
+                        preferenceList.push_back(v);
+                    }
+                    
+                    if(preferenceList.size())
+                        sciF1a.SetPreferenceList(preferenceList);
+
                     if (currentSlot.slotNumInd > 1)
                     {
                         // itGrant->slotAllocations.cbegin () points to

@@ -2068,11 +2068,9 @@ NrUePhy::PhyPscchPduReceived(const Ptr<Packet>& p, const SpectrumValue& psd)
     uint16_t rbStart = sciF1a.GetIndexStartSubChannel() * sbChSize;
     uint16_t lastRbInPlusOne = (sciF1a.GetLengthSubChannel() * sbChSize) + rbStart;
 
-    if((int)this->GetRnti() % 2) {
-    std::cout << m_rnti << "-> "; 
-    std::cout << "tag rnti = " <<  (int)tag.GetRnti() << " " << (int)tag.GetDstL2Id() <<  ", rbStart = " << (int)rbStart << "  lastRbInPlusOne = " << (int)lastRbInPlusOne
-              << "\n";
-    }
+    uint8_t reselCounter = sciF1a.GetReselCounter();
+
+    std::vector<std::vector<uint32_t>> preferenceList = sciF1a.GetPreferenceList();
 
     std::vector<int> rbBitMap;
 
@@ -2100,6 +2098,9 @@ NrUePhy::PhyPscchPduReceived(const Ptr<Packet>& p, const SpectrumValue& psd)
                             sciF1a.GetIndexStartSbChReTx2());
 
     m_nrSlUePhySapUser->ReceiveSensingData(sensingData);
+
+    uint8_t dstNodeId = (uint8_t)tag.GetDstL2Id();
+    m_nrSlUePhySapUser->SetPreferenceList(dstNodeId, preferenceList);
 
     auto it = destinations.find(tag.GetDstL2Id());
     if (it != destinations.end())
@@ -2300,14 +2301,8 @@ NrUePhy::GetSidelinkRsrp(SpectrumValue psd)
     double sum = 0.0;
     uint16_t numRB = 0;
 
-    int c = 0;
-
     for (Values::const_iterator itPi = psd.ConstValuesBegin(); itPi != psd.ConstValuesEnd(); itPi++)
     {
-        if((int)this->GetRnti() % 2)
-        {std::cout << c <<"->" << *itPi << ", ";
-        c++;}
-
         if ((*itPi))
         {
             uint32_t scSpacing = 15000 * static_cast<uint32_t>(std::pow(2, GetNumerology()));
@@ -2325,7 +2320,6 @@ NrUePhy::GetSidelinkRsrp(SpectrumValue psd)
             numRB++;
         }
     }
-    std::cout << "\n";
 
     double avrgRsrpWatt = (sum / ((double)numRB * 3.0));
     double rsrpDbm = 10 * log10(1000 * (avrgRsrpWatt));

@@ -114,6 +114,10 @@ class NrSlUePhySapUser
      * \param sensingData The sensing data
      */
     virtual void ReceiveSensingData(SensingData sensingData) = 0;
+
+    virtual void SetPreferenceList(uint8_t nodeId,
+                                   std::vector<std::vector<uint32_t>> preferenceList) = 0;
+
     /**
      * \brief Receive the PSFCH from PHY to MAC
      * \param sendingNodeId The sending nodeId
@@ -226,6 +230,9 @@ class MemberNrSlUePhySapUser : public NrSlUePhySapUser
     std::unordered_set<uint32_t> GetSlRxDestinations() override;
     void ReceivePsschPhyPdu(Ptr<PacketBurst> pdu) override;
     void ReceiveSensingData(SensingData sensingData) override;
+    void SetPreferenceList(
+        uint8_t nodeId,
+        std::vector<std::vector<uint32_t>> preferenceList) override;
     void ReceivePsfch(uint32_t sendingNodeId, SlHarqInfo harqInfo) override;
 
   private:
@@ -271,6 +278,15 @@ void
 MemberNrSlUePhySapUser<C>::ReceiveSensingData(SensingData sensingData)
 {
     m_owner->DoReceiveSensingData(sensingData);
+}
+
+template <class C>
+void
+MemberNrSlUePhySapUser<C>::SetPreferenceList(
+    uint8_t nodeId,
+    std::vector<std::vector<uint32_t>> preferenceList)
+{
+    m_owner->DoSetPreferenceList(nodeId, preferenceList);
 }
 
 template <class C>

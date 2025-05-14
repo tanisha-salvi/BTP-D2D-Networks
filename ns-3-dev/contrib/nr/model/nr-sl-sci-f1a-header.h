@@ -67,6 +67,8 @@ class NrSlSciF1aHeader : public Header
 
     void SetReselCounter(uint8_t reselCounter);
 
+    void SetPreferenceList(std::vector<std::vector<uint32_t>> preferenceList);
+
     /**
      * \brief Set the priority
      *
@@ -154,6 +156,8 @@ class NrSlSciF1aHeader : public Header
     void SetIndexStartSbChReTx2(uint8_t sbChIndexReTx2);
 
     uint8_t GetReselCounter() const;
+
+    std::vector<std::vector<uint32_t>> GetPreferenceList() const;
 
     /**
      * \brief Get the priority
@@ -287,6 +291,8 @@ class NrSlSciF1aHeader : public Header
     // SCI fields end
 
     uint8_t m_reselCounter{0};  // reselection counter
+
+    std::vector<std::vector<uint32_t>> m_preferenceList{};  // preference list for next transmission
 
     // Optional fields
     uint8_t m_indexStartSbChReTx1{
